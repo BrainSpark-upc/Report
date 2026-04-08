@@ -166,7 +166,7 @@ Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer 
     <th colspan="2"> Adrian Matias Rios Cespedes </th>
   </tr>
   <tr>
-    <td> <img src="assets/assets/chapter-1/Adrian.jpg" width=300px> </td>
+    <td> <img src="assets/assets/chapter-1/adrian.jpg" width=300px> </td>
     <td>  </td>
   </tr>
 
@@ -174,6 +174,6 @@ Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer 
     <th colspan="2"> Anhelo Rodrigo Rocca Leon </th>
   </tr>
   <tr>
-    <td> <img src="assets/assets/chapter-1/CristhianHuanca.jpg" width=300px > </td>
+    <td> <img src="assets/assets/chapter-1/Anhelo.jpg" width=300px > </td>
     <td>  </td>
   </tr>
