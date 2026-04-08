@@ -4,8 +4,8 @@
 <h1>Facultad de Ingeniería</h1>
   <h2>Carrera de Ingeniería de Software</h2>
   <h2>Periodo 202610</h2>
-  <h2>1ASI0730 - Desarrollo de Aplicaciones Open Source </h2>
-  <h2>NRC- 0729</h2>
+  <h2>1ASI0729 - Desarrollo de Aplicaciones Open Source </h2>
+  <h2>NRC- 2610</h2>
   <br>
   <h2>Profesor - Angel Augusto Velasquez Nuñez </h2>
   <h2>Informe de Trabajo Final</h2>
