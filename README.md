@@ -8,7 +8,7 @@
   <h2>NRC- 2610</h2>
   <br>
   <h2>Profesor - Angel Augusto Velasquez Nuñez </h2>
-  <h2>Informe de Trabajo Final</h2>
+  <h2>Informe de Trabajo </h2>
   <br>
   <h2 >Startup - BrainSpark </h2>
   <h2 >Producto - ....</h2>
