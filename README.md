@@ -151,3 +151,29 @@ Nuestra misión es desarrollar una solución tecnológica que ayude a mejorar la
 
 Visión:</br>
 Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer soluciones tecnológicas útiles e innovadoras para el sector salud, aportando a la modernización de hospitales, clínicas y centros especializados. Aspiramos a que nuestra propuesta pueda crecer y adaptarse a las necesidades del mercado, generando un impacto positivo en la atención médica.
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th colspan="2"> Alexander Auden Aliaga Ocampo </th>
+  </tr>
+  <tr>
+    <td> <img src="assets/assets/chapter-1/Alex.jpg" width=300px> </td>
+    <td> Soy estudiante de ingeniería de software en la UPC, con conocimientos básicos en los lenguajes de programación como c++, python , css, html, javascript también conocimientos básicos en base de datos viendo Mongo DB y creando diagramas relaciones como no relacionales. Además poseo habilidades de empatía y buena comunicación con el equipo esto me permite ser productivo en el ámbito de grupos y en general. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Adrian Matias Rios Cespedes </th>
+  </tr>
+  <tr>
+    <td> <img src="assets/assets/chapter-1/Adrian.jpg" width=300px> </td>
+    <td>  </td>
+  </tr>
+
+<tr>
+    <th colspan="2"> Anhelo Rodrigo Rocca Leon </th>
+  </tr>
+  <tr>
+    <td> <img src="assets/assets/chapter-1/CristhianHuanca.jpg" width=300px > </td>
+    <td>  </td>
+  </tr>
