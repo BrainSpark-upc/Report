@@ -17,7 +17,7 @@
   <ul style="list-style: none; padding: 0;">
       <li><h3>U202417693 - Alexander Auden Aliaga Ocampo</h3></li>
       <li><h3>U202217893 - Adrian Matias Rios Cespedes </h3></li>
-      <li><h3>......... - Anhelo Rodrigo Rocca Leon </h3></li>
+      <li><h3>U20221c803 - Anhelo Rodrigo Rocca Leon </h3></li>
   </ul>
   <br>
   <h4>Abril del 2026</h4>
@@ -174,6 +174,9 @@ Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer 
     <th colspan="2"> Anhelo Rodrigo Rocca Leon </th>
   </tr>
   <tr>
-    <td> <img src="assets/assets/chapter-1/Anhelo.jpg" width=300px > </td>
-    <td>  </td>
+    <td> <img src="assets/assets/chapter-1/anhelo.jpg" width=300px > </td>
+    <td> Soy estudiante de ingeniería de software en la UPC, con conocimientos básicos en los lenguajes de programación como c++, python , css, html, javascript también conocimientos básicos en base de datos viendo Mongo DB y creando diagramas relaciones como no relacionales. Además poseo habilidades de empatía y buena comunicación con el equipo esto me permite ser productivo en el ámbito de grupos y en general </td>
   </tr>
+</table>
+
+  
