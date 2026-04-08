@@ -134,6 +134,7 @@ establecen objetivos, planifican tareas y cumplen objetivos.
     <th>Acciones realizadas</th>
     <th>Conclusiones</th>
   </tr>
+  </table>
 
 
 
