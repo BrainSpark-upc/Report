@@ -167,7 +167,9 @@ Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer 
   </tr>
   <tr>
     <td> <img src="assets/assets/chapter-1/adrian.jpg" width=300px> </td>
-    <td>  </td>
+    <td> Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con conocimientos en lenguajes de programación como C++, Python y JavaScript. Cuento con formación en bases de datos y fundamentos relacionados a su gestión.
+
+Además, poseo habilidades blandas orientadas al trabajo en equipo, comunicación efectiva y liderazgo, lo que me permite organizar y dirigir proyectos de manera eficiente, manteniendo un enfoque estructurado y orientado a resultados. </td>
   </tr>
 
 <tr>
