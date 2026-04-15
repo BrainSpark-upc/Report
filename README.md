@@ -10,8 +10,8 @@
   <h2>Profesor - Angel Augusto Velasquez Nuñez </h2>
   <h2>Informe de Trabajo </h2>
   <br>
-  <h2 >Startup - BrainSpark </h2>
-  <h2 >Producto - ....</h2>
+  <h2 >Startup - Care-Labs </h2>
+  <h2 >Producto - PulseReport </h2>
   <br>
   <h2 >Integrantes</h2>
   <ul style="list-style: none; padding: 0;">
