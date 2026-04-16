@@ -251,4 +251,33 @@ El impacto de esta problemática se refleja en:
 
 **Pregunta clave:** ¿Cómo implementar una plataforma digital que permita a las instituciones de salud centralizar información clínica, supervisar procesos críticos, mejorar la trazabilidad y fortalecer la calidad de atención en el área de enfermería cardiovascular?
 
-  
+
+##### 1.2.2.2. Lean UX Assumptions
+
+###### Supuestos sobre los usuarios de la aplicación:
+
+- El personal de enfermería cardiovascular necesita registrar y consultar información clínica de manera rápida, clara y segura durante su jornada diaria.
+- Los profesionales de salud requieren una herramienta que facilite la comunicación entre turnos y reduzca la pérdida de información importante en los traspasos.
+- Las clínicas, hospitales y centros especializados necesitan mejorar la organización y supervisión de procesos críticos relacionados con el cuidado del paciente.
+- Los usuarios prefieren interfaces simples e intuitivas que les permitan acceder fácilmente a signos vitales, tratamientos, historial clínico y eventos críticos.
+
+###### Supuestos sobre necesidades
+
+- El registro manual de información clínica y signos vitales es un proceso repetitivo y propenso a errores.
+- La falta de trazabilidad en eventos críticos y en los traspasos entre turnos puede afectar la continuidad del cuidado del paciente.
+- Los profesionales de salud necesitan contar con información actualizada en tiempo real para tomar decisiones oportunas.
+- Es importante disponer de un sistema que centralice la información clínica básica y permita un seguimiento más ordenado de pacientes y tratamientos.
+
+###### Supuestos sobre la solución
+
+- Una plataforma web permitirá centralizar la información clínica y facilitar su acceso desde distintos puntos dentro de la institución de salud.
+- El registro digital de traspasos SBAR mejorará la comunicación entre turnos y áreas asistenciales.
+- El monitoreo y almacenamiento de signos vitales dentro del sistema ayudará a mantener un mejor control del estado del paciente.
+- Un log de auditoría inalterable permitirá mantener la trazabilidad de eventos críticos y reforzar la confiabilidad de la información registrada.
+
+###### Supuestos sobre el impacto
+
+- La solución reducirá el tiempo invertido en tareas manuales de registro y seguimiento clínico.
+- Disminuirá la probabilidad de errores en la documentación de signos vitales, tratamientos y eventos críticos.
+- Mejorará la continuidad del cuidado del paciente al fortalecer la comunicación entre turnos.
+- Permitirá a las instituciones de salud tener una gestión más ordenada, trazable y eficiente de sus procesos clínicos en el área de enfermería cardiovascular.
