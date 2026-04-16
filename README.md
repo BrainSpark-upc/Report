@@ -313,3 +313,25 @@ Sabremos que esto es cierto cuando las instituciones muestren interés en amplia
 | **6. Resultados (Outcomes)** | **Resultados esperados:** Mejor comunicación entre turnos, mayor trazabilidad clínica, menos errores en registros y mejor organización del cuidado del paciente. <br> **KPIs:** Reducción de errores en documentación, tiempo de registro de información clínica, cantidad de eventos críticos correctamente trazados, frecuencia de uso de la plataforma y número de usuarios activos. |
 | **7. Experimentos** | Pruebas de usabilidad con usuarios simulados, validación del flujo de registro de signos vitales, simulación de traspasos SBAR, pruebas del registro de eventos críticos y evaluación del dashboard básico para comprobar que el MVP cubre las necesidades esenciales del personal de salud. |
 | **8. MVP (Producto Mínimo Viable)** | Registro básico de pacientes, registro de signos vitales, documentación de traspasos SBAR, seguimiento simple de tratamientos, registro de eventos críticos, log de auditoría básico y dashboard inicial con visualización resumida de la información. |
+
+### 1.3 Segmentos Objetivo
+
+### Segmento objetivo #1: Personal de enfermería cardiovascular  
+Este grupo está conformado por profesionales de salud que participan directamente en la atención y monitoreo de pacientes con enfermedades cardiovasculares dentro de hospitales, clínicas y centros especializados. Su labor incluye el registro de signos vitales, la documentación de tratamientos, la comunicación entre turnos y el seguimiento constante del estado del paciente para asegurar una atención continua y segura.
+
+**Características clave de este segmento:**  
+- Buscan optimizar el registro y consulta de información clínica para reducir errores y ahorrar tiempo.  
+- Valoran sistemas que faciliten la comunicación entre turnos y mejoren la continuidad del cuidado del paciente.  
+- Requieren herramientas que permitan registrar signos vitales, tratamientos y eventos críticos de forma rápida y ordenada.  
+- Se interesan por plataformas intuitivas que les ayuden a trabajar de manera más eficiente en entornos de alta demanda.  
+
+---
+
+### Segmento objetivo #2: Hospitales, clínicas privadas y centros especializados en cardiología  
+Este grupo está conformado por instituciones de salud que necesitan optimizar sus procesos clínicos y administrativos relacionados con la atención de pacientes en áreas cardiovasculares. Su interés principal es mejorar la organización, la trazabilidad de la información clínica y la calidad de atención, al mismo tiempo que reducen errores operativos y fortalecen la supervisión de procesos críticos.
+
+**Características clave de este segmento:**  
+- Buscan soluciones tecnológicas que centralicen la información clínica y faciliten su acceso en tiempo real.  
+- Valoran plataformas que mejoren la trazabilidad de eventos críticos y la supervisión de procesos asistenciales.  
+- Necesitan sistemas que contribuyan a una mejor organización del personal y de la atención brindada a los pacientes.  
+- Se interesan por herramientas escalables bajo modelo SaaS que puedan adaptarse a las necesidades de su institución.  
