@@ -187,6 +187,46 @@ Además, poseo habilidades blandas orientadas al trabajo en equipo, comunicació
 
 A. **Who**
 
+Los principales actores involucrados son los profesionales de salud del área de enfermería cardiovascular, médicos especialistas, personal asistencial, clínicas privadas, hospitales y centros especializados en cardiología. Todos ellos enfrentan dificultades en la gestión de procesos críticos debido al uso de registros manuales, información dispersa y poca trazabilidad clínica.
+
+B. **What**
+
+Actualmente, muchos procesos dentro del área de enfermería cardiovascular se realizan de manera manual o mediante sistemas poco integrados, lo que genera problemas en la comunicación entre turnos, retrasos en el acceso a la información, errores en el registro de signos vitales, dificultades en el seguimiento de tratamientos y poca trazabilidad de eventos críticos. Además, la falta de un sistema centralizado limita la organización de los historiales clínicos y el control adecuado de la atención brindada al paciente.
+
+C. **When**
+
+Estos problemas se presentan de manera continua durante la atención diaria de los pacientes, especialmente en momentos como el cambio de turno del personal, el monitoreo de signos vitales, el registro de incidencias, la actualización de historiales clínicos y el seguimiento de tratamientos. Los riesgos aumentan en situaciones críticas donde se necesita actuar rápidamente y contar con información precisa en tiempo real.
+
+D. **Where**
+
+La problemática ocurre en hospitales, clínicas privadas, centros de salud especializados en cardiología y otras áreas asistenciales donde se atienden pacientes con condiciones cardiovasculares. En estos entornos, la falta de digitalización y trazabilidad afecta tanto al personal de salud como a la calidad de atención brindada.
+
+E. **Why**
+
+Porque la ausencia de una plataforma digital centralizada genera:
+
+- Dificultades en la comunicación entre turnos y áreas asistenciales.
+- Pérdida de trazabilidad en eventos clínicos importantes.
+- Mayor probabilidad de errores en el registro de signos vitales y tratamientos.
+- Demora en el acceso a información relevante del paciente.
+- Menor eficiencia en la organización y seguimiento de los procesos clínicos.
+
+Esto impacta directamente en la continuidad del cuidado, la seguridad del paciente y la eficiencia del personal de salud.
+
+F. **How**
+
+Actualmente, muchos centros de salud utilizan historias en papel, hojas de cálculo o sistemas básicos que no están completamente integrados. Aunque algunas instituciones cuentan con herramientas digitales, estas no siempre permiten registrar traspasos SBAR, monitorear signos vitales en tiempo real, generar alertas de eventos críticos o mantener un log de auditoría inalterable. Como resultado, varios problemas siguen presentes en la gestión clínica diaria.
+
+G. **How much**
+
+El impacto de esta problemática se refleja en:
+
+- Pérdida de tiempo del personal de salud en tareas manuales y repetitivas.
+- Riesgo de errores en registros clínicos y en la comunicación entre turnos.
+- Dificultades para dar seguimiento oportuno a tratamientos y eventos críticos.
+- Menor capacidad de respuesta ante situaciones que requieren atención inmediata.
+- Reducción en la eficiencia operativa y en la calidad del servicio brindado al paciente.
+
 
 
   
