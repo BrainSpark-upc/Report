@@ -142,15 +142,15 @@ establecen objetivos, planifican tareas y cumplen objetivos.
   ## Capítulo 1: Introducción
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
-Somos BrainSpark, una startup creada por estudiantes con el objetivo de brindar una solución tecnológica innovadora para el sector salud. Nuestro proyecto nace a partir de la necesidad de mejorar la gestión de procesos médicos críticos en áreas especializadas, como cardiología y cirugía plástica, donde es fundamental contar con información precisa, segura y disponible en tiempo real.
+Somos Care-Labs, una startup creada por estudiantes con el propósito de desarrollar una solución tecnológica para el sector salud. Nuestro proyecto surge a partir de la necesidad de mejorar la gestión de procesos críticos en el área de enfermería cardiovascular, donde es muy importante contar con información clara, segura y disponible en tiempo real para brindar una atención más ordenada y eficiente.
 
-A través de nuestra propuesta, buscamos desarrollar una plataforma digital que permita centralizar y optimizar distintos procesos clínicos, como la gestión de citas médicas, el almacenamiento de historiales clínicos, el seguimiento de tratamientos, la telemedicina, el monitoreo de signos vitales y el registro de procedimientos quirúrgicos. Además, el sistema también considera funciones complementarias como el almacenamiento de videos de cirugías, la gestión de logs especializados y el control de facturación. Todo esto estará orientado a mejorar la organización, la eficiencia y la calidad de atención dentro de hospitales, clínicas y centros médicos especializados.
+A través de nuestra propuesta, buscamos desarrollar un sistema web que permita apoyar distintos procesos clínicos, como la gestión de citas médicas, la administración básica de pacientes, la digitalización del historial clínico, el registro de traspasos mediante el modelo SBAR, el seguimiento de tratamientos y el monitoreo de signos vitales, como la presión arterial y la frecuencia cardíaca. Además, el sistema también permitirá registrar eventos críticos, generar alertas y mantener un log de auditoría inalterable que ayude a conservar la trazabilidad de la información. De esta manera, se busca mejorar la comunicación entre turnos, la organización del personal de salud y la continuidad del cuidado del paciente.
 
-Misión:</br>
-Nuestra misión es desarrollar una solución tecnológica que ayude a mejorar la gestión de los procesos médicos, facilitando el acceso a información clínica importante de manera rápida, segura y ordenada. Buscamos contribuir a que los centros de salud brinden una atención más eficiente y confiable mediante el uso de herramientas digitales innovadoras.
+Misión:
+Nuestra misión es desarrollar una solución tecnológica que ayude a mejorar la gestión de procesos críticos en enfermería cardiovascular, facilitando el acceso a información clínica de manera rápida, segura y ordenada. Buscamos contribuir a que los centros de salud puedan brindar una atención más eficiente y confiable mediante el uso de herramientas digitales.
 
-Visión:</br>
-Nuestra visión es convertir a BrainSpark en una startup reconocida por ofrecer soluciones tecnológicas útiles e innovadoras para el sector salud, aportando a la modernización de hospitales, clínicas y centros especializados. Aspiramos a que nuestra propuesta pueda crecer y adaptarse a las necesidades del mercado, generando un impacto positivo en la atención médica.
+Visión:
+Nuestra visión es convertir a Care-Labs en una startup reconocida por ofrecer una solución tecnológica útil e innovadora para el sector salud, aportando a la modernización de hospitales, clínicas y centros especializados. Aspiramos a que nuestra propuesta pueda crecer, adaptarse a las necesidades del mercado y generar un impacto positivo en la atención médica.
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
