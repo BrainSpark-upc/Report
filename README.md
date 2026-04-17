@@ -496,3 +496,47 @@ La principal ventaja competitiva de PulseReport radica en su capacidad de ofrece
 **Consideración estratégica**
 
 PulseReport no busca competir directamente con sistemas EHR/HIS de gran escala, sino posicionarse como una herramienta especializada que mejora la eficiencia operativa en un área específica del proceso clínico, facilitando su adopción e implementación progresiva.
+
+### 2.2. Entrevistas
+
+Se realizaron entrevistas semiestructuradas con el objetivo de validar los supuestos del proyecto y comprender cómo se gestionan actualmente los procesos clínicos relacionados con el registro de información, comunicación entre turnos y seguimiento de pacientes.
+
+Las entrevistas se enfocaron en identificar problemas reales, necesidades operativas y percepción sobre el uso de herramientas digitales en entornos clínicos.
+
+#### 2.2.1. Diseño de entrevistas
+
+**Objetivo**
+
+**Recopilar información sobre:**
+
+- Registro de información clínica
+- Comunicación entre turnos
+- Seguimiento de pacientes
+- Problemas operativos actuales
+- Necesidades frente a una solución digital
+
+**Perfil de entrevistados**
+- Personal de enfermería
+- Profesionales del sector salud
+- Personal vinculado a procesos clínicos o administrativos
+
+**Guía de preguntas**
+1. ¿Cuál es tu rol en el entorno de salud?
+2. ¿Cómo registran actualmente la información de los pacientes?
+3. ¿Qué problemas tienes al registrar signos vitales o datos clínicos?
+4. ¿Cómo se comunican entre turnos?
+5. ¿Qué errores o dificultades ocurren en esa comunicación?
+6. ¿Pierdes tiempo buscando información del paciente?
+7. ¿Qué tan importante es la trazabilidad de eventos clínicos?
+8. ¿Qué limitaciones tienen las herramientas actuales?
+9. ¿Usarías una plataforma que centralice esta información?
+10. ¿Qué funcionalidades consideras más importantes?
+11. ¿Qué haría que una herramienta sea fácil de usar?
+12. ¿Qué preocupaciones tendrías al usar un sistema digital?
+
+**Supuestos a validar**
+- El registro actual es ineficiente y propenso a errores
+- La comunicación entre turnos es un punto crítico
+- Existe necesidad de centralizar la información
+- La trazabilidad es importante
+- Los usuarios prefieren soluciones simples e intuitivas
