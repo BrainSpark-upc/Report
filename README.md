@@ -540,3 +540,28 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
 - Existe necesidad de centralizar la información
 - La trazabilidad es importante
 - Los usuarios prefieren soluciones simples e intuitivas
+
+#### 2.2.2. Registro de entrevistas
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
+      <b>Edad: </b> XXXXXXX <br>
+      <b>Distrito:</b> XXXXXXXXXX <br>
+      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
+      <b>Timing:</b> XXXXXX <br>
+      <b>Duración:</b> XXXXXXX
+    </td>
+    <td align=center>
+      <img src="XXXXXXX" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <br>
+      <b>Resumen:</b> La entrevistada indicó que su trabajo implica el monitoreo constante de pacientes y el registro de signos vitales. Señaló que, en la práctica, la información se registra primero en papel y luego se transfiere al sistema digital, lo que genera retrasos y posibles omisiones. La comunicación entre turnos se realiza principalmente de forma verbal, lo que ocasiona pérdida de información relevante. Además, mencionó que suele perder tiempo buscando datos debido a que la información está dispersa. Considera fundamental la trazabilidad de eventos clínicos y estaría dispuesta a usar una herramienta digital siempre que sea rápida, simple y reduzca la carga operativa.
+    </td>
+  </tr>
+</table>
