@@ -567,58 +567,8 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
   </tr>
 </table>
 
-**Entrevista 2 – Enfermero en clínica privada**
 
-<table border=1>
-  <tr>
-    <td>
-      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
-      <b>Edad: </b> XXXXXXX <br>
-      <b>Distrito:</b> XXXXXXXXXX <br>
-      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
-      <b>Timing:</b> XXXXXX <br>
-      <b>Duración:</b> XXXXXXX
-    </td>
-    <td align=center>
-      <img src="XXXXXXX" alt="img"  width="80%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
-      <br>
-      <b>Resumen:</b> El entrevistado explicó que utiliza un sistema digital, pero lo considera complejo y poco eficiente, ya que requiere múltiples pasos para registrar información. Esto provoca que, en momentos de alta carga laboral, se opte por registrar datos de forma parcial o tardía. La comunicación entre turnos depende en gran medida de la interacción verbal, lo que genera omisiones. También señaló que la información está distribuida en distintas secciones del sistema, dificultando su acceso. Valora la trazabilidad y estaría dispuesto a adoptar una solución más simple que permita visualizar rápidamente el estado del paciente.
-    </td>
-  </tr>
-</table>
-
-**Entrevista 3 – Técnico de enfermería**
-
-<table border=1>
-  <tr>
-    <td>
-      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
-      <b>Edad: </b> XXXXXXX <br>
-      <b>Distrito:</b> XXXXXXXXXX <br>
-      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
-      <b>Timing:</b> XXXXXX <br>
-      <b>Duración:</b> XXXXXXX
-    </td>
-    <td align=center>
-      <img src="XXXXXXX" alt="img"  width="80%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
-      <br>
-      <b>Resumen:</b> El entrevistado mencionó que su labor es principalmente operativa y que el registro de información se realiza inicialmente en papel. Debido a la carga de trabajo, muchos registros no se transfieren al sistema digital, lo que genera información incompleta. La comunicación entre turnos es verbal y carece de estructura, lo que incrementa el riesgo de omitir datos importantes. También indicó que se pierde tiempo buscando información del paciente. Considera importante la trazabilidad y estaría dispuesto a utilizar una herramienta digital siempre que sea simple y no agregue complejidad al proceso.
-    </td>
-  </tr>
-</table>
-
-
-**Entrevista 4 – Médico general**
+**Entrevista 2 – Médico general**
 
 <table border=1>
   <tr>
@@ -643,7 +593,7 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
   </tr>
 </table>
 
-**Entrevista 5 – Administrador de clínica**
+**Entrevista 3 – Administrador de clínica**
 
 <table border=1>
   <tr>
