@@ -757,3 +757,98 @@ Con base en las entrevistas, se validan los siguientes supuestos planteados prev
 **Conclusión**
 
 El análisis de entrevistas confirma la existencia de una brecha significativa entre los procesos actuales y las necesidades reales del personal de salud. Los problemas identificados se centran en la ineficiencia del registro, la falta de trazabilidad y las limitaciones de las herramientas existentes. En este contexto, existe una oportunidad clara para el desarrollo de una solución como PulseReport, enfocada en simplificar el registro de información, mejorar la comunicación entre turnos y garantizar la trazabilidad de eventos clínicos mediante una interfaz rápida, intuitiva y adaptada al entorno operativo.
+
+### 2.3. Needfinding
+#### 2.3.1. User Personas
+#### 2.3.2. User Task Matrix
+
+La matriz de tareas del usuario se construye a partir de los User Personas definidos, permitiendo identificar las actividades clave que realiza cada tipo de usuario, su frecuencia, criticidad y las oportunidades de mejora que el sistema debe abordar.
+
+**User Task Matrix de María (Enfermera)**
+
+| Persona           | Tarea                          | Descripción                                                        | Frecuencia | Criticidad | Problemas actuales                     | Oportunidad de mejora               |
+| ----------------- | ------------------------------ | ------------------------------------------------------------------ | ---------- | ---------- | -------------------------------------- | ----------------------------------- |
+| María (Enfermera) | Registrar signos vitales       | Ingreso de presión, frecuencia cardíaca y otros datos del paciente | Alta       | Alta       | Registro tardío, uso de papel, errores | Registro rápido en tiempo real      |
+| María (Enfermera) | Actualizar estado del paciente | Registrar cambios o incidencias del paciente                       | Alta       | Alta       | Omisión de información                 | Registro estructurado y obligatorio |
+| María (Enfermera) | Comunicar turno                | Transferir información al siguiente turno                          | Alta       | Alta       | Comunicación verbal, pérdida de datos  | Estandarización digital (SBAR)      |
+| María (Enfermera) | Consultar paciente             | Revisar estado actual y evolución                                  | Alta       | Alta       | Información dispersa                   | Vista unificada del paciente        |
+| María (Enfermera) | Buscar información             | Acceder a datos previos del paciente                               | Media      | Media      | Tiempo perdido buscando                | Acceso rápido y centralizado        |
+
+**User Task Matrix de Luis (Médico)**
+
+| Persona       | Tarea                       | Descripción                            | Frecuencia | Criticidad | Problemas actuales                 | Oportunidad de mejora         |
+| ------------- | --------------------------- | -------------------------------------- | ---------- | ---------- | ---------------------------------- | ----------------------------- |
+| Luis (Médico) | Revisar historial clínico   | Analizar evolución del paciente        | Media      | Alta       | Información incompleta             | Historial claro y actualizado |
+| Luis (Médico) | Evaluar estado del paciente | Revisar signos vitales recientes       | Alta       | Alta       | Datos dispersos                    | Dashboard clínico             |
+| Luis (Médico) | Tomar decisiones clínicas   | Definir tratamiento basado en datos    | Media      | Alta       | Falta de confiabilidad             | Datos precisos y trazables    |
+| Luis (Médico) | Ver cambios recientes       | Identificar variaciones en el paciente | Alta       | Alta       | Información no visible rápidamente | Alertas y cambios destacados  |
+
+**User Task Matrix de Carlos (Administrador)**
+
+| Persona                | Tarea                | Descripción                        | Frecuencia | Criticidad | Problemas actuales    | Oportunidad de mejora        |
+| ---------------------- | -------------------- | ---------------------------------- | ---------- | ---------- | --------------------- | ---------------------------- |
+| Carlos (Administrador) | Supervisar procesos  | Revisar cumplimiento de protocolos | Baja       | Alta       | Falta de visibilidad  | Panel de control             |
+| Carlos (Administrador) | Auditar eventos      | Ver qué ocurrió en cada caso       | Baja       | Alta       | Registros incompletos | Log de auditoría             |
+| Carlos (Administrador) | Analizar información | Evaluar desempeño operativo        | Media      | Media      | Información dispersa  | Datos estructurados          |
+| Carlos (Administrador) | Ver trazabilidad     | Revisar historial de acciones      | Media      | Alta       | Falta de control      | Registro completo de eventos |
+
+**Análisis de la matriz**
+
+A partir de la matriz, se identifican los siguientes puntos clave:
+
+**1. Tareas críticas operativas**
+
+Las tareas más frecuentes y críticas pertenecen al perfil de enfermería:
+
+- Registro de signos vitales
+- Actualización del estado del paciente
+- Comunicación entre turnos
+
+Esto indica que el sistema debe priorizar velocidad y simplicidad.
+
+**2. Tareas críticas de decisión**
+
+El perfil médico depende de:
+
+- Información confiable
+- Acceso rápido a datos
+- Visibilidad clara del paciente
+
+Esto implica que el sistema debe priorizar claridad y precisión.
+
+**3. Tareas de control y supervisión**
+
+El perfil administrador requiere:
+
+- Trazabilidad
+- Auditoría
+- Control de procesos
+
+Esto implica que el sistema debe incluir mecanismos de registro y seguimiento.
+
+**4. Problema transversal**
+
+Todos los perfiles comparten problemas comunes:
+
+- Información dispersa
+- Registro incompleto
+- Pérdida de tiempo
+- Falta de trazabilidad
+
+Esto valida que el problema es sistémico, no aislado.
+
+**Conclusión**
+
+La User Task Matrix evidencia que el sistema debe centrarse en optimizar tres aspectos clave:
+
+- Registro rápido y eficiente de información
+- Acceso claro y centralizado a datos del paciente
+- Trazabilidad completa de eventos clínicos
+
+Esto permite alinear el desarrollo de PulseReport con las necesidades reales de los distintos tipos de usuario, asegurando que la solución impacte tanto en la operación diaria como en la toma de decisiones y el control institucional.
+
+
+#### 2.3.3. User Journey Mapping.
+#### 2.3.4. Empathy Mapping.
+### 2.4. Big Picture Storming.
+### 2.5. Ubiquitous Language.
