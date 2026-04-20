@@ -543,6 +543,7 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
 
 #### 2.2.2. Registro de entrevistas
 
+**Entrevista 1 – Enfermera clínica**
 <table border=1>
   <tr>
     <td>
@@ -565,3 +566,194 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
     </td>
   </tr>
 </table>
+
+**Entrevista 2 – Enfermero en clínica privada**
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
+      <b>Edad: </b> XXXXXXX <br>
+      <b>Distrito:</b> XXXXXXXXXX <br>
+      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
+      <b>Timing:</b> XXXXXX <br>
+      <b>Duración:</b> XXXXXXX
+    </td>
+    <td align=center>
+      <img src="XXXXXXX" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <br>
+      <b>Resumen:</b> El entrevistado explicó que utiliza un sistema digital, pero lo considera complejo y poco eficiente, ya que requiere múltiples pasos para registrar información. Esto provoca que, en momentos de alta carga laboral, se opte por registrar datos de forma parcial o tardía. La comunicación entre turnos depende en gran medida de la interacción verbal, lo que genera omisiones. También señaló que la información está distribuida en distintas secciones del sistema, dificultando su acceso. Valora la trazabilidad y estaría dispuesto a adoptar una solución más simple que permita visualizar rápidamente el estado del paciente.
+    </td>
+  </tr>
+</table>
+
+**Entrevista 3 – Técnico de enfermería**
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
+      <b>Edad: </b> XXXXXXX <br>
+      <b>Distrito:</b> XXXXXXXXXX <br>
+      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
+      <b>Timing:</b> XXXXXX <br>
+      <b>Duración:</b> XXXXXXX
+    </td>
+    <td align=center>
+      <img src="XXXXXXX" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <br>
+      <b>Resumen:</b> El entrevistado mencionó que su labor es principalmente operativa y que el registro de información se realiza inicialmente en papel. Debido a la carga de trabajo, muchos registros no se transfieren al sistema digital, lo que genera información incompleta. La comunicación entre turnos es verbal y carece de estructura, lo que incrementa el riesgo de omitir datos importantes. También indicó que se pierde tiempo buscando información del paciente. Considera importante la trazabilidad y estaría dispuesto a utilizar una herramienta digital siempre que sea simple y no agregue complejidad al proceso.
+    </td>
+  </tr>
+</table>
+
+
+**Entrevista 4 – Médico general**
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
+      <b>Edad: </b> XXXXXXX <br>
+      <b>Distrito:</b> XXXXXXXXXX <br>
+      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
+      <b>Timing:</b> XXXXXX <br>
+      <b>Duración:</b> XXXXXXX
+    </td>
+    <td align=center>
+      <img src="XXXXXXX" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <br>
+      <b>Resumen:</b> El entrevistado indicó que depende de la información registrada para la toma de decisiones clínicas. Sin embargo, señaló que dicha información suele estar incompleta o desactualizada, lo que representa un riesgo en la atención del paciente. La comunicación entre turnos no siempre es estructurada, lo que dificulta comprender el estado real del paciente. También mencionó que acceder a la información puede tomar tiempo. Considera crítica la trazabilidad de eventos clínicos y valora la existencia de una herramienta que permita acceder a información clara, confiable y actualizada.
+    </td>
+  </tr>
+</table>
+
+**Entrevista 5 – Administrador de clínica**
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
+      <b>Edad: </b> XXXXXXX <br>
+      <b>Distrito:</b> XXXXXXXXXX <br>
+      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
+      <b>Timing:</b> XXXXXX <br>
+      <b>Duración:</b> XXXXXXX
+    </td>
+    <td align=center>
+      <img src="XXXXXXX" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <br>
+      <b>Resumen:</b> El entrevistado explicó que su función está relacionada con la supervisión de procesos y control de calidad. Señaló que actualmente existe dificultad para auditar lo que ocurre en cada turno debido a registros incompletos o poco claros. La comunicación entre turnos no siempre está documentada adecuadamente, lo que limita la trazabilidad. También indicó que consolidar información para análisis operativo toma tiempo. Considera fundamental contar con una herramienta que permita registrar eventos de forma clara, auditable y estructurada.
+    </td>
+  </tr>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
+A partir de las cinco entrevistas realizadas, se identificaron patrones consistentes en relación con la gestión de información clínica, la comunicación entre turnos y el uso de herramientas digitales en entornos de salud. El análisis permitió validar los principales supuestos del proyecto y delimitar con mayor precisión las necesidades del usuario.
+
+**Hallazgos principales**
+**1. Ineficiencia en el registro de información clínica**
+
+Se evidenció que el proceso de registro actual es ineficiente debido al uso combinado de medios físicos y digitales. Los entrevistados indicaron que:
+
+- Se realiza un doble registro (papel y sistema)
+- El registro en el sistema suele hacerse de forma tardía
+- Existe alta probabilidad de omisión o error
+
+Este problema afecta directamente la calidad y confiabilidad de la información.
+
+**2. Dependencia de la comunicación verbal entre turnos**
+
+La transferencia de información entre turnos se basa principalmente en comunicación verbal, lo que genera:
+
+- Pérdida de información relevante
+- Falta de estandarización
+- Dependencia de la memoria del personal
+
+Esto impacta negativamente en la continuidad del cuidado del paciente.
+
+**3. Información dispersa y difícil de acceder**
+
+Se identificó que la información clínica se encuentra distribuida en múltiples fuentes, lo que provoca:
+
+- Tiempo elevado en la búsqueda de datos
+- Dificultad para obtener una visión completa del paciente
+- Retrasos en la toma de decisiones
+
+Este problema afecta tanto al personal operativo como al médico.
+
+**4. Falta de trazabilidad de eventos clínicos**
+
+Todos los perfiles coinciden en la importancia de contar con trazabilidad, pero actualmente existen limitaciones como:
+
+- Registros incompletos
+- Falta de claridad sobre quién realizó una acción
+- Dificultad para auditar eventos pasados
+
+Esto afecta la supervisión, el control de calidad y la toma de decisiones clínicas.
+
+**5. Limitaciones de las herramientas actuales**
+
+Las herramientas existentes presentan problemas comunes:
+
+- Son complejas y poco intuitivas
+- Requieren múltiples pasos para tareas simples
+- No están diseñadas para entornos de alta demanda
+
+Esto genera que, en la práctica, se evite su uso o se utilicen de forma incompleta.
+
+**Patrones identificados**
+
+A partir de los hallazgos, se identificaron los siguientes patrones recurrentes:
+
+- Uso frecuente de registros manuales o mixtos
+- Registro tardío o incompleto de información clínica
+- Comunicación no estructurada entre turnos
+- Dificultad para acceder rápidamente a información relevante
+- Necesidad de herramientas más simples y rápidas
+
+Estos patrones se repiten en todos los perfiles entrevistados, lo que refuerza la validez del problema identificado.
+
+**Insights clave**
+
+Del análisis se derivan los siguientes insights:
+
+- La rapidez en el registro y acceso a la información es un factor crítico en entornos clínicos.
+- La comunicación entre turnos requiere estructura y soporte digital, no solo interacción verbal.
+- Los sistemas actuales fallan no por falta de funcionalidad, sino por exceso de complejidad.
+- La trazabilidad no solo es importante para el control, sino también para la seguridad del paciente.
+- Una solución solo será adoptada si reduce fricción operativa, no si agrega procesos adicionales.
+- 
+**Validación de supuestos**
+
+Con base en las entrevistas, se validan los siguientes supuestos planteados previamente:
+
+- Existe un problema real en el registro y gestión de información clínica.
+- La comunicación entre turnos es un punto crítico del proceso asistencial.
+- Los usuarios perciben valor en una herramienta que centralice la información.
+- La trazabilidad de eventos clínicos es una necesidad clave.
+- La usabilidad y rapidez son factores determinantes para la adopción de una solución.
+**Conclusión**
+
+El análisis de entrevistas confirma la existencia de una brecha significativa entre los procesos actuales y las necesidades reales del personal de salud. Los problemas identificados se centran en la ineficiencia del registro, la falta de trazabilidad y las limitaciones de las herramientas existentes. En este contexto, existe una oportunidad clara para el desarrollo de una solución como PulseReport, enfocada en simplificar el registro de información, mejorar la comunicación entre turnos y garantizar la trazabilidad de eventos clínicos mediante una interfaz rápida, intuitiva y adaptada al entorno operativo.
