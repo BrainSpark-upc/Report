@@ -710,6 +710,12 @@ El análisis de entrevistas confirma la existencia de una brecha significativa e
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+<img src="assets/assets/chapter 4/style guidelines/userpersona1.png" alt="">
+
+<img src="assets/assets/chapter 4/style guidelines/userpersona2.png" alt="">
+
+<img src="assets/assets/chapter 4/style guidelines/userpersona3.png" alt="">
 #### 2.3.2. User Task Matrix
 
 La matriz de tareas del usuario se construye a partir de los User Personas definidos, permitiendo identificar las actividades clave que realiza cada tipo de usuario, su frecuencia, criticidad y las oportunidades de mejora que el sistema debe abordar.
