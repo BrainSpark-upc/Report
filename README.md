@@ -1128,6 +1128,49 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 
 #### 4.2.4. Searching Systems.
 
+**Requerimientos funcionales**
+
+- Búsqueda por texto en módulos clave como pacientes, tratamientos, traspasos SBAR y reportes.
+- Autocomplete / sugerencias para acelerar la localización de pacientes, registros o áreas asistenciales.
+- Filtros por estado, fecha, área, tipo de registro o nivel de prioridad.
+- Búsqueda por historial clínico o eventos asociados al paciente.
+- Ordenamiento de resultados por fecha, estado, prioridad o coincidencia.
+- Visualización clara de resultados para facilitar la identificación rápida de la información.
+- Posibilidad de combinar búsqueda + filtros en tablas y paneles del sistema.
+
+**Opciones de tecnología (comparativa rápida)**
+
+- **PostgreSQL Full-Text Search**
+  - Pros: integrado, práctico y suficiente para búsquedas básicas dentro del sistema.
+  - Contras: menor flexibilidad para búsquedas avanzadas o ranking complejo.
+
+- **Elasticsearch / OpenSearch**
+  - Pros: alto rendimiento, búsquedas avanzadas, filtros potentes y mejor relevancia.
+  - Contras: requiere infraestructura adicional y mayor mantenimiento.
+
+- **Algolia (SaaS)**
+  - Pros: búsqueda muy rápida, autocomplete eficiente y buena experiencia de usuario.
+  - Contras: dependencia de un servicio externo y costo adicional.
+
+**Esquema de índice (ejemplo para Elastic)**
+
+```json
+{
+  "mappings": {
+    "properties": {
+      "id": { "type": "keyword" },
+      "patient_name": { "type": "text", "analyzer": "standard" },
+      "clinical_area": { "type": "keyword" },
+      "sbar_status": { "type": "keyword" },
+      "treatment_status": { "type": "keyword" },
+      "record_type": { "type": "keyword" },
+      "created_at": { "type": "date" },
+      "priority": { "type": "keyword" }
+    }
+  }
+}
+```
+
 #### 4.2.5. Navigation Systems.
 
 #### 4.3 Landing Page UI Design.
