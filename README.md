@@ -807,8 +807,53 @@ Esto permite alinear el desarrollo de PulseReport con las necesidades reales de 
 #### 2.3.3. User Journey Mapping.
 #### 2.3.4. Empathy Mapping.
 ### 2.4. Big Picture Storming.
+
+El Big Picture EventStorming modela los eventos clave del sistema PulseReport, considerando el flujo principal definido en la landing: Registrar → Monitorear → Trazar, así como las funcionalidades de SBAR digital, gestión de pacientes, seguimiento clínico y auditoría.
+
+**Eventos del dominio**
+
+Eventos importantes que ocurren dentro del sistema:
+
+- Paciente registrado
+- Signos vitales registrados
+- Tratamiento registrado
+- Evento clínico registrado
+- Estado del paciente actualizado
+- Información clínica consultada
+- Traspaso de turno realizado (SBAR digital)
+- Alerta clínica generada
+- Evento auditado
+- Historial clínico actualizado
+
+**Comandos (acciones del usuario)**
+
+- Registrar paciente
+- Registrar signos vitales
+- Registrar tratamiento
+- Registrar evento clínico
+- Actualizar estado del paciente
+- Consultar información clínica
+- Realizar traspaso de turno (SBAR)
+- Generar alerta
+- Auditar eventos
+- 
 ### 2.5. Ubiquitous Language.
 
+El Ubiquitous Language define los términos comunes utilizados en PulseReport, alineados con los conceptos visibles en la landing y las funcionalidades del sistema.
+
+| Término             | Definición                                             |
+| ------------------- | ------------------------------------------------------ |
+| Paciente            | Persona que recibe atención clínica dentro del sistema |
+| Signos vitales      | Datos fisiológicos registrados en tiempo real          |
+| Estado del paciente | Condición actual basada en datos clínicos              |
+| Evento clínico      | Cambio relevante en la condición del paciente          |
+| Tratamiento         | Acción médica registrada en el sistema                 |
+| SBAR digital        | Formato estructurado para traspaso de turno            |
+| Traspaso de turno   | Transferencia de información entre personal            |
+| Historial clínico   | Registro completo de eventos del paciente              |
+| Alerta clínica      | Notificación automática ante condición crítica         |
+| Trazabilidad        | Seguimiento completo de eventos y acciones             |
+| Auditoría           | Registro inalterable de acciones en el sistema         |
 
 
 
