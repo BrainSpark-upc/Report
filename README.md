@@ -927,5 +927,5 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
   - “Generar reporte”
 
 <p align="center">
-<img src="/assets/assets/chapter-4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
+<img src="/assets/assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
 </p>
