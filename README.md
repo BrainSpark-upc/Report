@@ -177,7 +177,7 @@ Además, poseo habilidades blandas orientadas al trabajo en equipo, comunicació
   </tr>
   <tr>
     <td> <img src="assets/assets/chapter-1/anhelo.jpg" width=300px > </td>
-    <td> Soy estudiante de ingeniería de software en la UPC, con conocimientos básicos en los lenguajes de programación como c++, python , css, html, javascript también conocimientos básicos en base de datos viendo Mongo DB y creando diagramas relaciones como no relacionales. Además poseo habilidades de empatía y buena comunicación con el equipo esto me permite ser productivo en el ámbito de grupos y en general </td>
+    <td> Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. </td>
   </tr>
 </table>
 
