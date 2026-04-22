@@ -929,3 +929,68 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 <p align="center">
 <img src="/assets/assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
 </p>
+#### 4.2.2. Labeling Systems
+
+**Objetivos**
+
+- Facilitar la identificación rápida de módulos, secciones y funciones dentro de la Landing Page y la Web Application.
+- Mantener consistencia en los nombres utilizados en navegación, formularios, tablas y reportes.
+- Mejorar la comprensión del sistema por parte de los usuarios, empleando etiquetas claras, breves y fáciles de reconocer.
+- Favorecer una navegación intuitiva y una mejor organización del contenido, tanto en la parte informativa como en la operativa.
+
+**Estructura recomendada**
+
+- Estructura: **Módulo principal → Submódulo → Acción o estado**.
+  - Ejemplo: **Inventario > Registrar ítem > Guardar**
+  - Ejemplo: **Inspecciones > Pendientes > Revisar**
+  - Ejemplo: **Perfil > Documentos > Cargar archivo**
+
+- Tipos de etiquetas:
+  - **Módulos**: nombres principales de navegación, como `Inicio`, `Inventario`, `Inspecciones`, `Perfil`, `Reportes`, `Contacto`.
+  - **Submódulos**: categorías internas dentro de cada sección, como `Stock actual`, `Historial`, `Pendientes`, `Aprobados`, `Documentos`.
+  - **Acciones**: etiquetas orientadas a tareas, como `Registrar`, `Editar`, `Guardar`, `Enviar`, `Generar reporte`.
+  - **Estados**: etiquetas para representar la situación de un elemento, como `Pendiente`, `En revisión`, `Aprobado`, `Rechazado`, `Activo`.
+
+**Convenciones (formato)**
+
+- Uso de palabras claras y comprensibles para el usuario final.
+- Etiquetas breves, directas y consistentes en toda la interfaz.
+- En navegación y botones se priorizan etiquetas de **1 a 3 palabras**.
+- Para URLs y slugs se utiliza formato en minúsculas y con guiones.
+  - Ejemplo: `inventario/stock-actual`
+  - Ejemplo: `inspecciones/en-revision`
+- En la interfaz visible se emplean nombres legibles y amigables.
+  - Ejemplo: `Stock actual`
+  - Ejemplo: `Generar reporte`
+
+**Modelo de datos (ejemplo JSON)**
+
+```json
+{
+  "id": "lbl_001",
+  "type": "module",
+  "slug": "inventario",
+  "name": "Inventario",
+  "parent_id": null,
+  "created_at": "2026-04-21T10:00:00Z"
+}
+
+```
+
+#### Interfaz de gestión
+- Gestión centralizada de etiquetas para mantener uniformidad entre la Landing Page y la Web Application.
+- Posibilidad de reutilizar etiquetas en menús, tablas, formularios y botones.
+- Edición sencilla de nombres visibles sin afectar la lógica interna del sistema.
+- Vista previa del uso de cada etiqueta dentro de menús, breadcrumbs o secciones.
+
+#### Reglas y validaciones
+- No se permiten etiquetas duplicadas dentro de un mismo contexto.
+- Cada etiqueta debe tener un nombre visible y un identificador interno único.
+- Se valida que las etiquetas sean consistentes con la jerarquía del sistema.
+- Se recomienda reutilizar etiquetas existentes antes de crear nuevas.
+- Los nombres deben evitar tecnicismos innecesarios o abreviaturas confusas.
+
+#### Ejemplos de uso en URLs
+- `/inventario/stock-actual`
+- `/inventario/historial`
+- `/inspecciones/aprobados`
