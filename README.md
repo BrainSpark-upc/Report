@@ -1043,6 +1043,89 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+**Objetivos**
+
+- Mejorar la visibilidad de la **Landing Page** de **Care-Labs / PulseReport** en motores de búsqueda.
+- Aumentar el CTR en resultados de búsqueda mediante títulos y descripciones claras y atractivas.
+- Optimizar la vista previa al compartir enlaces en redes sociales usando **Open Graph** y **Twitter Cards**.
+- Controlar qué páginas deben indexarse y cuáles no, diferenciando entre la **Landing Page pública** y la **Web Application privada**.
+- Incorporar datos estructurados para describir el producto digital y la organización.
+
+**Meta tags clave (plantilla)**
+
+```html
+<title>{{page_title}} | Care-Labs</title>
+<meta name="description" content="{{page_description}}" />
+<link rel="canonical" href="{{canonical_url}}" />
+<meta name="robots" content="{{robots_value}}" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{page_title}} | Care-Labs" />
+<meta property="og:description" content="{{page_description}}" />
+<meta property="og:image" content="{{og_image}}" />
+<meta property="og:url" content="{{canonical_url}}" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Care-Labs" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{page_title}} | Care-Labs" />
+<meta name="twitter:description" content="{{page_description}}" />
+<meta name="twitter:image" content="{{twitter_image}}" />
+```
+**Reglas prácticas**
+
+- **Título**: entre 50 y 60 caracteres, incluyendo el nombre del producto o de la empresa.
+- **Meta description**: entre 120 y 160 caracteres, explicando de forma clara la propuesta de valor.
+- **Canonical**: obligatorio en páginas públicas para evitar contenido duplicado.
+- **Meta robots**:
+  - `index, follow` para la **Landing Page** y secciones públicas.
+  - `noindex, nofollow` para páginas privadas del sistema como dashboard, perfil o reportes internos.
+- Las palabras clave deben enfocarse en términos como:
+  - comunicación clínica,
+  - trazabilidad en tiempo real,
+  - continuidad asistencial,
+  - software de gestión clínica,
+  - plataforma de salud digital.
+
+**JSON-LD (ejemplo para el producto digital)**
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PulseReport",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Web",
+  "description": "Plataforma web de Care-Labs orientada a mejorar la comunicación clínica, la trazabilidad y el seguimiento en tiempo real.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Care-Labs"
+  },
+  "url": "https://care-labs.com/pulsereport"
+}
+</script>
+```
+**Renderizado (server vs client)**
+
+- Para la **Landing Page**, es recomendable utilizar **prerendering** o **SSR**, de modo que los meta tags estén disponibles desde la carga inicial y sean interpretados correctamente por los motores de búsqueda.
+- En el caso de Angular, esto puede implementarse mediante opciones de **Angular SSR** o **prerender** para mejorar el posicionamiento SEO.
+- Para la **Web Application interna**, el SEO no es prioritario, ya que su contenido es funcional y de acceso restringido.
+
+**Sitemaps y robots.txt**
+
+- `sitemap.xml`: incluir únicamente las rutas públicas relevantes, como:
+  - Inicio
+  - Características
+  - Beneficios
+  - Preguntas frecuentes
+  - Contacto
+- `robots.txt`: permitir el rastreo de la Landing Page y bloquear secciones privadas o internas del sistema.
+- Ejemplo:
+  - permitir indexación de `/`
+  - bloquear rutas como `/dashboard`, `/perfil`, `/reportes-internos` o cualquier módulo autenticado.
+
 #### 4.2.4. Searching Systems.
 
 #### 4.2.5. Navigation Systems.
