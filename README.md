@@ -18,6 +18,7 @@
       <li><h3>U202417693 - Alexander Auden Aliaga Ocampo</h3></li>
       <li><h3>U202217893 - Adrian Matias Rios Cespedes </h3></li>
       <li><h3>U20221c803 - Anhelo Rodrigo Rocca Leon </h3></li>
+      <li><h3>U202417448 - Johan Giovani Huamán Cuba </h3></li>
   </ul>
   <br>
   <h4>Abril del 2026</h4>
