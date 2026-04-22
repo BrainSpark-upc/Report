@@ -887,3 +887,45 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 <p align="center">
 <img src="/assets/assets/chapter 4/style guidelines/accesibilidad.png" alt="accesibilidad" style="height:300px;">
 </p>
+
+### 4.2. Information Architecture
+#### 4.2.1. Organization Systems
+
+1. Organization Scheme (Esquema de organización)
+- Temático/Funcional: la información se organiza según las funciones principales del sistema:
+  - Gestión de usuarios (registro, login, perfil, documentos).
+  - Gestión clínica (pacientes, tratamientos, signos vitales, historial clínico).
+  - Traspasos y comunicación asistencial (SBAR, seguimiento entre turnos y áreas).
+  - Landing Page (información y promoción del producto).
+  - Reportes y analítica.
+
+2. Organization Structure (Estructura de organización)
+
+- Jerárquica (Árbol): desde la Landing Page como entrada, se navega a los módulos principales del sistema.
+- Lineal: en procesos como registro de cuenta, ingreso de pacientes o traspaso SBAR, los pasos siguen una secuencia.
+- Matriz: en búsquedas y filtrados, por ejemplo en pacientes o reportes, donde la información puede organizarse por fecha, estado clínico, área asistencial o tipo de registro.
+
+3. Organization System (Sistema de organización aplicado)
+- Global navigation (menú principal en el header): acceso a
+  - Home (Landing Page)
+  - Pacientes
+  - Traspasos SBAR
+  - Tratamientos
+  - Reportes
+  - Contacto
+
+- Local navigation (submenús dentro de cada sección):
+  - Pacientes → Registrar, Historial, Signos vitales.
+  - Traspasos SBAR → Pendientes, En revisión, Aprobados.
+  - Tratamientos → Activos, Seguimiento, Finalizados.
+  - Reportes → Pacientes, Tratamientos, Eventos críticos.
+
+- Contextual navigation (botones de acción dentro de un flujo):
+  - “Registrar paciente”
+  - “Guardar SBAR”
+  - “Actualizar signos vitales”
+  - “Generar reporte”
+
+<p align="center">
+<img src="/assets/assets/chapter-4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
+</p>
