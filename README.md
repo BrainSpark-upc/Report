@@ -806,6 +806,16 @@ Esto permite alinear el desarrollo de PulseReport con las necesidades reales de 
 
 
 #### 2.3.3. User Journey Mapping.
+
+**María Torres (Enfermera – Operativo)**
+<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping1.png" alt="">
+
+**Luis Ramírez (Médico – Decisión)**
+<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping2.png" alt="">
+
+**Carlos Méndez (Administrador – Control)**
+<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping3.png" alt="">
+
 #### 2.3.4. Empathy Mapping.
 ### 2.4. Big Picture Storming.
 
@@ -837,7 +847,6 @@ Eventos importantes que ocurren dentro del sistema:
 - Realizar traspaso de turno (SBAR)
 - Generar alerta
 - Auditar eventos
-- 
 ### 2.5. Ubiquitous Language.
 
 El Ubiquitous Language define los términos comunes utilizados en PulseReport, alineados con los conceptos visibles en la landing y las funcionalidades del sistema.
