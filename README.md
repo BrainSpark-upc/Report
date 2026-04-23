@@ -1538,6 +1538,21 @@ la organización de archivos y la comprensión de la propuesta de solución.
 - Orientado al objetivo de invitar a clientes a suscribirse, es decir, mostrarse confiable y profesional.
 
 #### 5.1.4. Software Deployment Configuration.
+En esta sección se describirá el esquema inicial de despliegue de la Landing Page y de los artefactos asociados al proyecto. Para esta primera etapa, el objetivo es asegurar que la Landing Page pueda ser visualizada y validada correctamente, mientras el repositorio del informe mantiene la documentación actualizada.
+
+**Configuración inicial**
+
+- Despliegue del informe en formato Markdown dentro del repositorio.
+- Despliegue de la Landing Page en un entorno accesible para revisión.
+- Verificación del funcionamiento de navegación, secciones y responsividad.
+- Registro del enlace público o de prueba para la sustentación del avance.
+
+**Criterios de despliegue**
+
+- La página debe poder abrirse sin errores.
+- Los enlaces de navegación deben dirigir a las secciones correctas.
+- La experiencia debe conservar la identidad visual definida para Care-Labs.
+- El despliegue debe servir como evidencia del desarrikki del Sprint 1.
 #### 5.2. Landing Page, Services & Applications Implementation.
 #### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
