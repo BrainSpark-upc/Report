@@ -557,12 +557,12 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
-      <b>Edad: </b> XXXXXXX <br>
-      <b>Distrito:</b> XXXXXXXXXX <br>
-      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
-      <b>Timing:</b> XXXXXX <br>
-      <b>Duración:</b> XXXXXXX
+      <b>Nombres y apellidos:</b> Maria Torres <br>
+      <b>Edad: </b> 28 años <br>
+      <b>Distrito:</b> San Miguel <br>
+      <b>Ocupacion:</b> Enfermera clínica <br>
+      <b>Timing:</b> 0:00 <br>
+      <b>Duración:</b> 0:00
     </td>
     <td align=center>
       <img src="XXXXXXX" alt="img"  width="80%"/>
@@ -583,12 +583,12 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
-      <b>Edad: </b> XXXXXXX <br>
-      <b>Distrito:</b> XXXXXXXXXX <br>
-      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
-      <b>Timing:</b> XXXXXX <br>
-      <b>Duración:</b> XXXXXXX
+      <b>Nombres y apellidos:</b> Luis Ramirez <br>
+      <b>Edad: </b> 35 años <br>
+      <b>Distrito:</b> Lima <br>
+      <b>Ocupacion:</b> Médico General <br>
+      <b>Timing:</b> 0:00 <br>
+      <b>Duración:</b> 0:00
     </td>
     <td align=center>
       <img src="XXXXXXX" alt="img"  width="80%"/>
@@ -635,12 +635,12 @@ Mark muestra mucha disposición para probar un sistema tecnológico nuevo. Él c
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> XXXXXXXXX <br>
-      <b>Edad: </b> XXXXXXX <br>
-      <b>Distrito:</b> XXXXXXXXXX <br>
-      <b>Ocupacion:</b> XXXXXXXXXXXXX <br>
-      <b>Timing:</b> XXXXXX <br>
-      <b>Duración:</b> XXXXXXX
+      <b>Nombres y apellidos:</b> Carlos Mendez <br>
+      <b>Edad: </b> 45 años <br>
+      <b>Distrito:</b> Santiago de Surco <br>
+      <b>Ocupacion:</b> Administrador de Clínica <br>
+      <b>Timing:</b> 0:00 <br>
+      <b>Duración:</b> 0:00
     </td>
     <td align=center>
       <img src="XXXXXXX" alt="img"  width="80%"/>
