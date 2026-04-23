@@ -1748,4 +1748,6 @@ Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s
 Angular. (2026). Angular.dev. Retrieved from https://angular.dev/overview
 
 #### Anexos
-
+- Link de la organización de GitHub: https://github.com/BrainSpark-upc
+- Link del repositorio del reporte: https://github.com/BrainSpark-upc/Report
+- Link de la landing page desplegada: https://brainspark-upc.github.io/Landing-Page/#funciona
