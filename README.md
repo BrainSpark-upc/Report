@@ -1406,6 +1406,13 @@ Este diagrama presenta una vista general de la plataforma Care-Labs. En la image
 </p>
 
 #### 4.6.3 Software Architecture Container Diagram.
+
+Este diagrama de nivel C2 aplica un zoom al sistema para identificar sus contenedores internos. En esta estructura, la aplicación API funciona bajo una arquitectura de monolito.
+
+<p align="center">
+  <img src="assets/assets/chapter%204/software-architecture/Container-diagram.png" alt="Diagrama de Contenedores Care-Labs" width="600">
+</p>
+
 #### 4.6.4 Software Architecture Components Diagram.
 #### 4.7 Software Object-Oriented Design.
 #### 4.7.1 Class Diagrams.
