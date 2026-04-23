@@ -1717,6 +1717,13 @@ En esta sección se presentan evidencias de ejecución del producto desarrollado
 
 La Landing Page fue ejecutada correctamente en un navegador web, permitiendo visualizar todas sus secciones principales y validar la navegación interna.
 
+<p align="center">
+  <img src="assets/assets/chapter-5/commits-landing.png" alt="UML Class Diagram - Care-Labs" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/assets/chapter-5/responsive-landing.png" alt="UML Class Diagram - Care-Labs" width="100%">
+</p>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
