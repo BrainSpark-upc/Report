@@ -594,6 +594,33 @@ Las entrevistas se enfocaron en identificar problemas reales, necesidades operat
   </tr>
 </table>
 
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Mark Alex Esquivel Cabrera <br>
+      <b>Edad: </b> 27 años <br>
+      <b>Distrito:</b> Ate <br>
+      <b>Ocupacion:</b> Médico cirujano <br>
+      <b>Timing:</b> 1:06 minutos <br>
+      <b>Duración:</b> 14:07 minutos
+    </td>
+    <td align=center>
+      <img src="assets/assets/chapter-2/segmento2entrevista2.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="[Mark](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417448_upc_edu_pe/IQDEg1dERgrVRq-XGS40DedPAaxPeYnZt8jHwLrCX1XHmEw?e=8ncHUd)"> Link </a>
+      <br>
+      <b>Resumen:</b> Mark labora en un centro de salud rural con un sistema de registro doble. El personal primero anota los datos generales, los síntomas y los códigos de las enfermedades en una hoja de papel. Luego, alguien traslada esa información a un Excel muy básico para mantener un archivo de los pacientes.
+
+Este método actual genera un problema grave: la pérdida de trazabilidad. La letra de los doctores muchas veces resulta ilegible. Además, el personal suele olvidar detalles y deja espacios en blanco en las hojas. Estas fallas complican el seguimiento médico del paciente.
+
+Mark muestra mucha disposición para probar un sistema tecnológico nuevo. Él considera que la plataforma debe ser segura y sobre todo fácil de usar. Su mayor preocupación involucra a los doctores de la tercera edad. Si el sistema resulta complejo, estos médicos rechazarán la herramienta y el centro de salud volverá a usar los archivos de Excel por costumbre.
+    </td>
+  </tr>
+</table>
+
 **Entrevista 3 – Administrador de clínica**
 
 <table border=1>
