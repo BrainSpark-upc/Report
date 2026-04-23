@@ -1431,6 +1431,23 @@ La siguiente vista detalla los componentes internos de la aplicación web, donde
 
 ### Capitulo V: Product Implementation, Validation & Deployment
 #### 5.1. Software Configuration Management.
+En esta sección describiremos el entorno de desarrollo utilizado por el equipo para la construcción de Care-Labs
+considerando las herramientas necesarias para documentación, control de versiones, diseño e implementación del proyecto.
+Nuestro equipo trabajó de forma colaborativa mediante una organización de GitHub, con un repositorio para el informe y otro para la Landing Page,
+lo que nos permite mantener trazabilidad, orden y evidencia del avance del trabajo.
+
+**Herramientas que usamos:**
+
+- **GitHub Organization**: Centralización de repositorios del proyecto.
+- **Repositorio del informe**: Elaboración colaborativa del documento Project.md.
+- **Repositorio de Landing Page**: Implementación del sitio web estático.
+- **Editor de código (IDE)**: Jetbrains WebStorm 2026 Para el desarrollo y edición de archivos fuente.
+- **Herramienta de diseño / diagramación**: Para wireframes, mockups y diagramas del informe usamos Figma, Structurizr, Plantuml, UXPressia y Canva
+- **Navegador web**: Para pruebas de la Landing Page y validación visual.
+
+El uso de estos entornos nos permitio mantener una estructura de trabajo clara, con seguimiento de cambios y separación
+entre documentación e implementación. Asimismo, se facilita la revisión de avances por parte de los integrantes y se asegura
+coherencia entre la propuesta del informe y el producto ha desarrollar.
 #### 5.1.1. Software Development Environment Configuration.
 #### 5.1.2. Source Code Management.
 #### 5.1.3. Source Code Style Guide & Conventions.
