@@ -1414,6 +1414,16 @@ Este diagrama de nivel C2 aplica un zoom al sistema para identificar sus contene
 </p>
 
 #### 4.6.4 Software Architecture Components Diagram.
+
+El nivel C3 permite explorar a detalle cada uno de los contenedores del sistema. En esta sección, el análisis incluye la estructura de los bounded contexts para representar la arquitectura de forma clara y precisa.
+
+Frontend:
+La siguiente vista detalla los componentes internos de la aplicación web, donde se organiza la lógica de los servicios, los modelos de dominio y las interfaces de usuario.
+
+<p align="center">
+<img src="assets/assets/chapter 4/software-architecture/Components-diagrams.png" alt="Diagrama de Componentes Care-Labs" width="600">
+</p>
+
 #### 4.7 Software Object-Oriented Design.
 #### 4.7.1 Class Diagrams.
 #### 4.8 Database Design.
