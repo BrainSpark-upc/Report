@@ -1388,7 +1388,7 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 
 #### 4.3.2 Landing Page Mock-up.
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hero-mu.jpg" alt="hero mock up" width="600"> </p>
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
 
 <p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
 
