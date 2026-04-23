@@ -912,13 +912,62 @@ El Ubiquitous Language define los términos comunes utilizados en PulseReport, a
 | Auditoría           | Registro inalterable de acciones en el sistema         |
 
 
+## Capítulo III: Requirements Specification
+### 3.1. User Stories
+**EPICS**
 
+| Epic ID | Título                         | Descripción                                                                                                                                                     |
+| ------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP01    | Clinical Data Registration     | Como enfermera, quiero registrar signos vitales, eventos clínicos y tratamientos en tiempo real para asegurar información precisa y evitar errores u omisiones. |
+| EP02    | Patient Monitoring             | Como usuario, quiero consultar información clínica actualizada y centralizada para dar seguimiento oportuno al estado del paciente.                             |
+| EP03    | Clinical Traceability & SBAR   | Como usuario, quiero gestionar traspasos de turno y trazabilidad de eventos mediante SBAR digital para garantizar continuidad del cuidado.                      |
+| EP04    | Alerts & Patient Safety        | Como usuario, quiero recibir alertas automáticas ante condiciones críticas para actuar de forma inmediata.                                                      |
+| EP05    | Administrative Control & Audit | Como administrador, quiero supervisar registros y auditar eventos para garantizar control y calidad del proceso clínico.                                        |
 
+**USER STORIES**
 
+**EP01 — Clinical Data Registration**
 
+| User Story ID | Título                      | Descripción                                                                                | Criterios de aceptación                                                          | Épica |
+| ------------- | --------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ----- |
+| US-01         | Registrar signos vitales    | Como enfermera, quiero registrar signos vitales en tiempo real para evitar errores.        | Given estoy en paciente, when registro datos, then se guardan correctamente.     | EP01  |
+| US-02         | Registrar evento clínico    | Como enfermera, quiero registrar eventos clínicos para mantener trazabilidad.              | Given registro evento, when guardo, then queda en historial con fecha y usuario. | EP01  |
+| US-09         | Registrar tratamiento       | Como enfermera, quiero registrar tratamientos para tener control del cuidado del paciente. | Given ingreso tratamiento, when guardo, then se almacena correctamente.          | EP01  |
+| US-10         | Validar campos obligatorios | Como sistema, quiero validar datos obligatorios para evitar errores.                       | Given campos vacíos, when guardo, then muestra error.                            | EP01  |
 
+**EP02 — Patient Monitoring**
 
+| User Story ID | Título                         | Descripción                                                                 | Criterios de aceptación                                   | Épica |
+| ------------- | ------------------------------ | --------------------------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| US-03         | Visualizar estado del paciente | Como usuario, quiero ver el estado del paciente en una sola vista.          | Given accedo al paciente, then veo resumen claro.         | EP02  |
+| US-04         | Consultar historial clínico    | Como médico, quiero ver historial completo para tomar decisiones.           | Given historial existe, then se muestra ordenado.         | EP02  |
+| US-11         | Filtrar información clínica    | Como usuario, quiero filtrar información por fecha para analizar evolución. | Given aplico filtro, then se muestran datos correctos.    | EP02  |
+| US-12         | Ver evolución del paciente     | Como médico, quiero ver cambios en el tiempo para evaluar estado.           | Given datos históricos, then se visualizan comparaciones. | EP02  |
 
+**EP03 — Clinical Traceability & SBAR**
+
+| User Story ID | Título                        | Descripción                                                          | Criterios de aceptación                              | Épica |
+| ------------- | ----------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------- | ----- |
+| US-05         | Traspaso SBAR                 | Como enfermera, quiero usar SBAR para evitar pérdida de información. | Given completo SBAR, then se guarda correctamente.   | EP03  |
+| US-06         | Trazabilidad de eventos       | Como usuario, quiero que todo quede registrado para auditoría.       | Given acción realizada, then queda registrada.       | EP03  |
+| US-13         | Ver historial de acciones     | Como administrador, quiero ver historial completo para auditoría.    | Given accedo historial, then veo todas las acciones. | EP03  |
+| US-14         | Identificar usuario de acción | Como administrador, quiero saber quién hizo cada acción.             | Given evento registrado, then incluye usuario.       | EP03  |
+
+**EP04 — Alerts & Patient Safety**
+
+| User Story ID | Título                       | Descripción                                                           | Criterios de aceptación                                   | Épica |
+| ------------- | ---------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| US-07         | Generar alertas              | Como usuario, quiero alertas cuando valores estén fuera de rango.     | Given valor crítico, then alerta generada.                | EP04  |
+| US-15         | Visualizar alertas           | Como usuario, quiero ver alertas claramente para priorizar pacientes. | Given alerta existe, then se muestra destacada.           | EP04  |
+| US-16         | Priorizar pacientes críticos | Como enfermera, quiero identificar pacientes críticos rápidamente.    | Given múltiples pacientes, then sistema resalta críticos. | EP04  |
+
+**EP05 — Administrative Control & Audit**
+
+| User Story ID | Título                   | Descripción                                                   | Criterios de aceptación                               | Épica |
+| ------------- | ------------------------ | ------------------------------------------------------------- | ----------------------------------------------------- | ----- |
+| US-08         | Auditoría de eventos     | Como administrador, quiero auditar el sistema.                | Given accedo auditoría, then veo registros.           | EP05  |
+| US-17         | Dashboard administrativo | Como administrador, quiero ver el estado general del sistema. | Given accedo dashboard, then veo resumen global.      | EP05  |
+| US-18         | Detectar inconsistencias | Como administrador, quiero identificar errores en registros.  | Given datos inconsistentes, then sistema los muestra. | EP05  |
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
