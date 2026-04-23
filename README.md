@@ -1317,6 +1317,31 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 
 #### 4.2.5. Navigation Systems.
 
+A continuación, presentamos el sistema de navegación con el que contará **Care-Labs / PulseReport**, el cual permitirá al usuario desplazarse tanto en la **Landing Page** como en la **Web Application** de manera clara y ordenada.
+
+Se implementará un sistema de navegación que facilite el acceso rápido a las principales secciones del producto, manteniendo consistencia visual y funcional en toda la experiencia web. Esto permitirá que los usuarios identifiquen fácilmente dónde se encuentran y hacia dónde pueden dirigirse dentro de la plataforma.
+
+**Estructura del Sistema de Navegación**
+
+- **Navegación global**: ubicada en el header principal, permite acceder a las secciones principales de la Landing Page y a los módulos centrales del sistema, como inicio, pacientes, traspasos SBAR, tratamientos, reportes y contacto.
+
+- **Navegación local**: presente dentro de cada módulo de la Web Application, facilita el acceso a subsecciones específicas. Por ejemplo:
+  - Pacientes → Registrar, Historial clínico, Signos vitales.
+  - Traspasos SBAR → Pendientes, En revisión, Aprobados.
+  - Tratamientos → Activos, Seguimiento, Finalizados.
+
+- **Navegación contextual**: integrada mediante botones y acciones dentro de cada flujo, permitiendo ejecutar tareas específicas como:
+  - “Registrar paciente”
+  - “Guardar SBAR”
+  - “Actualizar signos vitales”
+  - “Generar reporte”
+
+- **Consistencia de navegación**: los menús, accesos y botones mantienen una ubicación y estilo uniforme, ayudando a que el usuario navegue de manera intuitiva y sin confusión entre las distintas secciones.
+
+<p align="center">
+  <img src="/assets/assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
+</p>
+
 #### 4.3 Landing Page UI Design.
 
 #### 4.3.1 Landing Page Wireframes.
