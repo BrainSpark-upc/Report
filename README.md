@@ -748,11 +748,11 @@ El análisis de entrevistas confirma la existencia de una brecha significativa e
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 
-<img src="assets/assets/chapter 4/style guidelines/userpersona1.png" alt="">
+<img src="assets/assets/chapter-2/userpersona1.png" alt="">
 
-<img src="assets/assets/chapter 4/style guidelines/userpersona2.png" alt="">
+<img src="assets/assets/chapter-2/userpersona2.png" alt="">
 
-<img src="assets/assets/chapter 4/style guidelines/userpersona3.png" alt="">
+<img src="assets/assets/chapter-2/userpersona3.png" alt="">
 #### 2.3.2. User Task Matrix
 
 La matriz de tareas del usuario se construye a partir de los User Personas definidos, permitiendo identificar las actividades clave que realiza cada tipo de usuario, su frecuencia, criticidad y las oportunidades de mejora que el sistema debe abordar.
@@ -844,24 +844,24 @@ Esto permite alinear el desarrollo de PulseReport con las necesidades reales de 
 #### 2.3.3. User Journey Mapping.
 
 **María Torres (Enfermera – Operativo)**
-<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping1.png" alt="">
+<img src="assets/assets/chapter-2/UserJourney Mapping1.png" alt="">
 
 **Luis Ramírez (Médico – Decisión)**
-<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping2.png" alt="">
+<img src="assets/assets/chapter-2/UserJourney Mapping2.png" alt="">
 
 **Carlos Méndez (Administrador – Control)**
-<img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping3.png" alt="">
+<img src="assets/assets/chapter-2/UserJourney Mapping3.png" alt="">
 
 #### 2.3.4. Empathy Mapping.
 
 **María Torres (Enfermera – Operativo)**
-<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping1.png" alt="">
+<img src="assets/assets/chapter-2/Empathy Mapping1.png" alt="">
 
 **Luis Ramírez (Médico – Decisión)**
-<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping2.png" alt="">
+<img src="assets/assets/chapter-2/Empathy Mapping2.png" alt="">
 
 **Carlos Méndez (Administrador – Control)**
-<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping3.png" alt="">
+<img src="assets/assets/chapter-2/Empathy Mapping3.png" alt="">
 
 ### 2.4. Big Picture Storming.
 
@@ -971,7 +971,7 @@ El Ubiquitous Language define los términos comunes utilizados en PulseReport, a
 
 ### 3.2. Impact Mapping
 
-<img src="assets/assets/chapter 4/style guidelines/ImpactMapping1.png" alt="">
+<img src="assets/assets/chapter-2/ImpactMapping1.png" alt="">
 
 ### 3.3. Product Backlog
 
