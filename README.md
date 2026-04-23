@@ -1388,6 +1388,19 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 
 #### 4.3.2 Landing Page Mock-up.
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hero-mu.jpg" alt="hero mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/features-mu.png" alt="features mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/benefits-mu.png" alt="benefits mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/faqs-mu.png" alt="faqs mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/contact-mu.png" alt="contact mock up" width="600"> </p>
+
+<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
 
 #### 4.4 Web Applications UX/UI Design.
 #### 4.4.1 Web Application Wireframes.
