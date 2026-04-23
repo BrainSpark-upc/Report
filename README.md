@@ -1736,5 +1736,9 @@ https://brainspark-upc.github.io/Landing-Page/
 
 #### Conclusiones
 #### Bibliografía
+
+Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill Education.
+Angular. (2026). Angular.dev. Retrieved from https://angular.dev/overview
+
 #### Anexos
 
