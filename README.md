@@ -1362,28 +1362,28 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 - **Características**: se presentan las funcionalidades principales de la plataforma, como traspasos SBAR, gestión de pacientes, seguimiento de tratamientos, monitoreo de signos vitales, historial clínico digital y log de auditoría. Estas características se muestran en bloques simples con descripciones breves para facilitar la comprensión del producto.
 
 <p align="center">
-  <img src="/assets/assets/chapter-4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
+  <img src="/assets/assets/chapter 4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
 </p>
 
 - **Beneficios y FAQs**: esta sección destaca el valor agregado de la solución, resaltando beneficios como una mejor comunicación entre turnos, mayor trazabilidad clínica, organización de la información y atención más confiable. Además, se incluye una sección de preguntas frecuentes para resolver dudas comunes y reforzar la claridad de la propuesta.
 
 <p align="center">
-  <img src="/assets/assets/chapter-4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
+  <img src="/assets/assets/chapter 4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="/assets/assets/chapter-4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
+  <img src="/assets/assets/chapter 4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
 </p>
 
 
 - **Contacto y Footer**: en la parte final se encuentra el formulario de contacto, que permite a los usuarios interesados enviar consultas o solicitar información adicional sobre la plataforma. Finalmente, el footer incluye información general de la marca y accesos complementarios a secciones relevantes de la landing page.
 
 <p align="center">
-  <img src="/assets/assets/chapter-4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
+  <img src="/assets/assets/chapter 4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="/assets/assets/chapter-4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
+  <img src="/assets/assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
 </p>
 
 
