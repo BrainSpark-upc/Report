@@ -853,6 +853,16 @@ Esto permite alinear el desarrollo de PulseReport con las necesidades reales de 
 <img src="assets/assets/chapter 4/style guidelines/UserJourney Mapping3.png" alt="">
 
 #### 2.3.4. Empathy Mapping.
+
+**María Torres (Enfermera – Operativo)**
+<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping1.png" alt="">
+
+**Luis Ramírez (Médico – Decisión)**
+<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping2.png" alt="">
+
+**Carlos Méndez (Administrador – Control)**
+<img src="assets/assets/chapter 4/style guidelines/Empathy Mapping3.png" alt="">
+
 ### 2.4. Big Picture Storming.
 
 El Big Picture EventStorming modela los eventos clave del sistema PulseReport, considerando el flujo principal definido en la landing: Registrar → Monitorear → Trazar, así como las funcionalidades de SBAR digital, gestión de pacientes, seguimiento clínico y auditoría.
