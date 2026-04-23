@@ -1453,6 +1453,9 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
 
 ### Capitulo V: Product Implementation, Validation & Deployment
 #### 5.1. Software Configuration Management.
+
+#### 5.1.1. Software Development Environment Configuration.
+
 En esta sección describiremos el entorno de desarrollo utilizado por el equipo para la construcción de Care-Labs
 considerando las herramientas necesarias para documentación, control de versiones, diseño e implementación del proyecto.
 Nuestro equipo trabajó de forma colaborativa mediante una organización de GitHub, con un repositorio para el informe y otro para la Landing Page,
@@ -1471,10 +1474,9 @@ El uso de estos entornos nos permitio mantener una estructura de trabajo clara, 
 entre documentación e implementación. Asimismo, se facilita la revisión de avances por parte de los integrantes y se asegura
 coherencia entre la propuesta del informe y el producto ha desarrollar.
 
-#### 5.1.1. Software Development Environment Configuration.
-
-En esta sección se describirá la estrategia de control de versiones aplicada al proyecto. Para el desarrollo se utiliza 
-GitHub como plataforma principal de control de código fuente, organizando el trabajo por repositorios separados para el informe 
+#### 5.1.2. Source Code Management.
+En esta sección se describirá la estrategia de control de versiones aplicada al proyecto. Para el desarrollo se utiliza
+GitHub como plataforma principal de control de código fuente, organizando el trabajo por repositorios separados para el informe
 y la Landing Page.
 
 **Manejo de repositorios dentro de la organización de GitHub:**
@@ -1495,11 +1497,16 @@ Se aplicó mensajes con estilo Conventional Commits (pluggin), por ejemplo:
 - fix: correct navigation link
 - chore: update project structure
 
+**Link del repositorio de la Landing Page:**
+https://github.com/BrainSpark-upc/Landing-Page
+**Link de la Landing Page desplegada correctamente:**
+https://brainspark-upc.github.io/Landing-Page/
+
 En general, esta estrategia nos enseña como primer avance a seguir mejorando la organización y buena documentación. También,
 nosfacilita el trabajo colaborativo, permite rastrear el aporte de cada integrante y ayuda a mantener la evolución del proyecto ordenada y verificable.
 
-#### 5.1.2. Source Code Management.
-Para mantener consistencia en el proyecto, el equipo adopta convenciones de nomenclatura y estilo que faciliten la escalabilidad y lectura del código, 
+#### 5.1.3. Source Code Style Guide & Conventions.
+Para mantener consistencia en el proyecto, el equipo adopta convenciones de nomenclatura y estilo que faciliten la escalabilidad y lectura del código,
 la organización de archivos y la comprensión de la propuesta de solución.
 
 **Convenciones generales**
@@ -1525,12 +1532,6 @@ la organización de archivos y la comprensión de la propuesta de solución.
 - Diseño responsive acorde a las pautas establecidas en el capítulo de diseño.
 - Orientado al objetivo de invitar a clientes a suscribirse, es decir, mostrarse confiable y profesional.
 
-**Link del repositorio de la Landing Page:**
-https://github.com/BrainSpark-upc/Landing-Page
-**Link de la Landing Page desplegada correctamente:**
-https://brainspark-upc.github.io/Landing-Page/
-
-#### 5.1.3. Source Code Style Guide & Conventions.
 #### 5.1.4. Software Deployment Configuration.
 #### 5.2. Landing Page, Services & Applications Implementation.
 #### 5.2.1. Sprint 1
