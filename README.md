@@ -1413,6 +1413,20 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 #### 4.4 Web Applications UX/UI Design.
 #### 4.4.1 Web Application Wireframes.
+<img src="assets/assets/chapter 4/Web Applications Wireframes/dashboardCarelabs-wf.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/monitereoCarelabs-wf.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/traspasoSBAR-wf.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/registro-wf.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management-1.png" alt="">
+
+<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management-2.png" alt="">
+
 #### 4.4.2 Web Application Wireflow Diagrams.
 #### 4.4.2 Web Application Mock-ups.
 #### 4.4.3 Web Applications User Flow Diagrams.
