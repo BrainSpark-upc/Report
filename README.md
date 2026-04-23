@@ -130,13 +130,64 @@ juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
 establecen objetivos, planifican tareas y cumplen objetivos.
 
 <table>
-  <tr>
-    <th>Criterio específico</th>
-    <th>Acciones realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  </table>
+<tr>
+<th style="width: 25%;">Criterio específico</th>
+<th style="width: 40%;">Acciones realizadas</th>
+<th style="width: 35%;">Conclusiones</th>
+</tr>
+<tr>
+<td>Proporciona liderazgo y crea un entorno colaborativo e inclusivo.</td>
+<td>
+<b>Huamán Cuba, Johan Giovani</b>
 
+
+
+<b>AV1</b>
+
+
+Lideró las sesiones de diseño de la arquitectura de la plataforma Care-Labs, guiando al equipo en la definición lógica de los diagramas de contexto, contenedores y componentes.
+
+
+Fomentó la participación activa de todos los integrantes al establecer estándares claros de documentación (uso de Structurizr y PlantUML), asegurando que el modelo técnico fuera comprensible para todo el grupo.
+
+
+
+<b>AV2</b>
+
+
+Consolidó y socializó los hallazgos obtenidos en las entrevistas con el personal de enfermería, integrando estas perspectivas para unificar la visión del equipo sobre los problemas de trazabilidad y comunicación clínica que el sistema debía resolver.
+</td>
+<td>
+Demostró una clara capacidad para alinear las perspectivas técnicas y de usuario dentro del grupo, consolidando un ambiente de trabajo inclusivo donde cada miembro pudo aportar al diseño. Su liderazgo técnico y empatía hacia los problemas del sector salud permitieron mantener al equipo enfocado y en constante comunicación durante las fases de investigación y diseño de arquitectura.
+</td>
+</tr>
+<tr>
+<td>Establece objetivos, planifica tareas y cumple metas.</td>
+<td>
+<b>Huamán Cuba, Johan Giovani</b>
+
+
+
+<b>AV1</b>
+
+
+Planificó y estructuró las entregas del diseño de software (Diagramas C4, Modelo Orientado a Objetos y Diagrama Físico de Base de Datos) mediante hitos de trabajo bien definidos.
+
+
+Estableció metas claras para la cobertura técnica de los Bounded Contexts (Clinical, Patient, Security), asignando prioridades según las necesidades de la rúbrica del curso.
+
+
+
+<b>AV2</b>
+
+
+Cumplió con la entrega técnica del esquema relacional en DBML y la arquitectura frontend en los plazos establecidos, asegurando que los artefactos sustentaran correctamente los requerimientos de la clínica y del personal médico.
+</td>
+<td>
+Logró cumplir cabalmente con los objetivos del proyecto a través de una planificación estructurada y un seguimiento riguroso de sus asignaciones. Su capacidad para dividir la complejidad de la plataforma Care-Labs en tareas ejecutables garantizó la entrega oportuna de diagramas técnicos de alta calidad, asegurando el éxito de la solución propuesta para el curso.
+</td>
+</tr>
+</table>
 
 
 
