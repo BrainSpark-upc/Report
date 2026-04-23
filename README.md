@@ -1398,6 +1398,11 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 #### 4.6 Domain-Driven Software Architecture.
 #### 4.6.1 Design-Level Event Storming.
 #### 4.6.2 Software Architecture Context Diagram.
+
+Este diagrama presenta una vista general de la plataforma Care-Labs. En la imagen se identifican sus actores principales y los sistemas externos con los que se comunica directamente:
+
+![Diagrama de Contexto](chapter%204/Context-diagram.png)
+
 #### 4.6.3 Software Architecture Container Diagram.
 #### 4.6.4 Software Architecture Components Diagram.
 #### 4.7 Software Object-Oriented Design.
