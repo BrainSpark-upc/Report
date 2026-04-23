@@ -1728,6 +1728,10 @@ La aplicación fue desplegada utilizando GitHub Pages, permitiendo su acceso pú
 URL de despliegue:
 https://brainspark-upc.github.io/Landing-Page/
 
+<p align="center">
+  <img src="assets/assets/chapter-5/landing-page.png" alt="UML Class Diagram - Care-Labs" width="100%">
+</p>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 #### Conclusiones
