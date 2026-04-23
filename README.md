@@ -971,6 +971,8 @@ El Ubiquitous Language define los términos comunes utilizados en PulseReport, a
 
 ### 3.2. Impact Mapping
 
+<img src="assets/assets/chapter 4/style guidelines/ImpactMapping1.png" alt="">
+
 ### 3.3. Product Backlog
 
 **ALTA PRIORIDAD (MVP)**
