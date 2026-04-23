@@ -1712,8 +1712,22 @@ signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan evidencias de ejecución del producto desarrollado durante el Sprint 1.
+
+La Landing Page fue ejecutada correctamente en un navegador web, permitiendo visualizar todas sus secciones principales y validar la navegación interna.
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se presenta la evidencia del despliegue de la Landing Page correspondiente al Sprint 1.
+
+La aplicación fue desplegada utilizando GitHub Pages, permitiendo su acceso público para validación.
+
+URL de despliegue:
+https://brainspark-upc.github.io/Landing-Page/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 #### Conclusiones
