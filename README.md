@@ -1577,9 +1577,125 @@ En esta sección se describirá el esquema inicial de despliegue de la Landing P
 - El despliegue debe servir como evidencia del desarrikki del Sprint 1.
 #### 5.2. Landing Page, Services & Applications Implementation.
 #### 5.2.1. Sprint 1
+Para el Sprint 1, el equipo prioriza la construcción de la base visible del producto, enfocándose en la Landing Page y en las primeras decisiones de implementación del sistema. 
+Dado que nuestro grupo ya definió los pilares de Care-Labs, el Sprint 1 se concentro en las funcionalidades de mayor valor inicial: 
+presentación del producto, navegación básica y primeros elementos del flujo clínico.
 #### 5.2.1.1. Sprint Planning 1.
+**Objetivo del Sprint 1**
+Construir la primera versión funcional de la Landing Page y empezar a delimitar el alcance del proyecto para el avance de implementación.
+
+**Alcance del Sprint 1**
+
+- Landing Page inicial.
+- Secciones principales de presentación.
+- Botón de acción o contacto.
+- Base de estructura para el producto.
+- Inicio de documentación del repositorio.
+- Organización inicial de Sprint backlog y responsables.
+
+
+Dado que Care-Labs está enfocado en procesos críticos de enfermería cardiovascular, la primera entrega debe mostrar la propuesta 
+de valor del producto y dejar clara la dirección del sistema. Esto coincide con el MVP ya definido: registro básico de pacientes, 
+signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Aliaga Ocampo, Alexander Auden</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AlexanderAliaga19</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rios Cespedes, Adrian Matias</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AdrianR16-C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Huamán Cuba, Johan Giovani</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">johancuba</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rocca Leon, Anhelo Rodrigo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+    </tbody>
+  </table>
+</div>
+
 #### 5.2.1.3. Sprint Backlog 1.
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">User Story</th>
+        <th colspan="6" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Description</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-26</td>
+        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px;">Visualizar landing page</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T01</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Maquetación HTML/CSS</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Crear la estructura base y estilos de la landing page.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T04</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Endpoint POST</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar API para la persistencia de productos.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: orange; font-weight: bold;">To-Review</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T05</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de registro</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Crear formulario frontend para ingreso.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">To-do</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
