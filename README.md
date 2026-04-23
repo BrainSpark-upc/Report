@@ -1448,6 +1448,7 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
 <p align="center">
   <img src="assets/assets/chapter 4/software-architecture/Diagram-class.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
+
 #### 4.8 Database Design.
 #### 4.8.1 Database Diagrams.
 
