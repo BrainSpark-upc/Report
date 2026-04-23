@@ -1495,16 +1495,41 @@ Se aplicó mensajes con estilo Conventional Commits (pluggin), por ejemplo:
 - fix: correct navigation link
 - chore: update project structure
 
+En general, esta estrategia nos enseña como primer avance a seguir mejorando la organización y buena documentación. También,
+nosfacilita el trabajo colaborativo, permite rastrear el aporte de cada integrante y ayuda a mantener la evolución del proyecto ordenada y verificable.
+
+#### 5.1.2. Source Code Management.
+Para mantener consistencia en el proyecto, el equipo adopta convenciones de nomenclatura y estilo que faciliten la escalabilidad y lectura del código, 
+la organización de archivos y la comprensión de la propuesta de solución.
+
+**Convenciones generales**
+
+- Nombres de archivos en kebab-case cuando corresponda.
+- Identificadores en inglés.
+- Mensajes de commit claros y descriptivos.
+- Estructura de carpetas consistente y predecible.
+- Separación entre componentes, estilos, recursos y documentación.
+
+**Convenciones para el informe**
+
+- Redacción formal y clara.
+- Títulos jerárquicos bien definidos.
+- Uso de tablas para evidencias, backlog y planificación.
+- Inclusión de capturas de pantalla para ilustrar avances y resultados.
+
+**Convenciones para la Landing Page**
+
+- Componentes con nombres descriptivos.
+- Secciones ordenadas según el flujo del usuario.
+- Textos breves, claros y orientados al sector salud.
+- Diseño responsive acorde a las pautas establecidas en el capítulo de diseño.
+- Orientado al objetivo de invitar a clientes a suscribirse, es decir, mostrarse confiable y profesional.
+
 **Link del repositorio de la Landing Page:**
 https://github.com/BrainSpark-upc/Landing-Page
 **Link de la Landing Page desplegada correctamente:**
 https://brainspark-upc.github.io/Landing-Page/
 
-
-En general, esta estrategia nos enseña como primer avance a seguir mejorando la organización y buena documentación. También,
-nosfacilita el trabajo colaborativo, permite rastrear el aporte de cada integrante y ayuda a mantener la evolución del proyecto ordenada y verificable.
-
-#### 5.1.2. Source Code Management.
 #### 5.1.3. Source Code Style Guide & Conventions.
 #### 5.1.4. Software Deployment Configuration.
 #### 5.2. Landing Page, Services & Applications Implementation.
