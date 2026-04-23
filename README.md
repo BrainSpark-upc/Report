@@ -1448,7 +1448,40 @@ lo que nos permite mantener trazabilidad, orden y evidencia del avance del traba
 El uso de estos entornos nos permitio mantener una estructura de trabajo clara, con seguimiento de cambios y separación
 entre documentación e implementación. Asimismo, se facilita la revisión de avances por parte de los integrantes y se asegura
 coherencia entre la propuesta del informe y el producto ha desarrollar.
+
 #### 5.1.1. Software Development Environment Configuration.
+
+En esta sección se describirá la estrategia de control de versiones aplicada al proyecto. Para el desarrollo se utiliza 
+GitHub como plataforma principal de control de código fuente, organizando el trabajo por repositorios separados para el informe 
+y la Landing Page.
+
+**Manejo de repositorios dentro de la organización de GitHub:**
+
+- Repositorio 1: informe del proyecto.
+- Repositorio 2: Landing Page.
+
+**Distribución de ramas para Avance 1:**
+
+- main: versión estable y lista para entrega.
+
+
+**Convención de commits:**
+Se aplicó mensajes con estilo Conventional Commits (pluggin), por ejemplo:
+
+- feat: add landing page hero section
+- docs: update sprint planning
+- fix: correct navigation link
+- chore: update project structure
+
+**Link del repositorio de la Landing Page:**
+https://github.com/BrainSpark-upc/Landing-Page
+**Link de la Landing Page desplegada correctamente:**
+https://brainspark-upc.github.io/Landing-Page/
+
+
+En general, esta estrategia nos enseña como primer avance a seguir mejorando la organización y buena documentación. También,
+nosfacilita el trabajo colaborativo, permite rastrear el aporte de cada integrante y ayuda a mantener la evolución del proyecto ordenada y verificable.
+
 #### 5.1.2. Source Code Management.
 #### 5.1.3. Source Code Style Guide & Conventions.
 #### 5.1.4. Software Deployment Configuration.
