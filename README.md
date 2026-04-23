@@ -1401,7 +1401,9 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 Este diagrama presenta una vista general de la plataforma Care-Labs. En la imagen se identifican sus actores principales y los sistemas externos con los que se comunica directamente:
 
-![Diagrama de Contexto](assets/assets/chapter%204/Context-diagram.png)
+<p align="center">
+  <img src="assets/assets/chapter%204/Context-diagram.png" alt="Diagrama de Contexto Care-Labs" width="600">
+</p>
 
 #### 4.6.3 Software Architecture Container Diagram.
 #### 4.6.4 Software Architecture Components Diagram.
