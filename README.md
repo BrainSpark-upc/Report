@@ -1343,8 +1343,49 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
 </p>
 
 #### 4.3 Landing Page UI Design.
-
 #### 4.3.1 Landing Page Wireframes.
+
+El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estructura clara y ordenada, diseñada para comunicar la propuesta de valor del producto de forma directa. La página incluye secciones estratégicas como hero section, funcionamiento, características, beneficios, preguntas frecuentes, contacto y llamados a la acción que orientan al usuario durante la navegación.
+
+- **Inicio**: en la parte superior se ubica el logo principal de **Care-Labs / PulseReport** junto con la barra de navegación, que permite acceder a las principales secciones de la landing page. Además, se incluye un botón de **“Solicitar demo”** como llamado a la acción destacado, con el objetivo de captar rápidamente el interés del usuario.
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/hero-wf.jpg" alt="hero wireframe" width="600">
+</p>
+
+- **¿Cómo funciona?**: en esta sección se explica de forma breve y visual cómo funciona la solución, mostrando el flujo general del producto en pasos simples. Esto permite que el usuario comprenda rápidamente la lógica de uso de **PulseReport** dentro del entorno clínico.
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/hdiw-wf.png" alt="hdiw wireframe" width="600">
+</p>
+
+- **Características**: se presentan las funcionalidades principales de la plataforma, como traspasos SBAR, gestión de pacientes, seguimiento de tratamientos, monitoreo de signos vitales, historial clínico digital y log de auditoría. Estas características se muestran en bloques simples con descripciones breves para facilitar la comprensión del producto.
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
+</p>
+
+- **Beneficios y FAQs**: esta sección destaca el valor agregado de la solución, resaltando beneficios como una mejor comunicación entre turnos, mayor trazabilidad clínica, organización de la información y atención más confiable. Además, se incluye una sección de preguntas frecuentes para resolver dudas comunes y reforzar la claridad de la propuesta.
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
+</p>
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
+</p>
+
+
+- **Contacto y Footer**: en la parte final se encuentra el formulario de contacto, que permite a los usuarios interesados enviar consultas o solicitar información adicional sobre la plataforma. Finalmente, el footer incluye información general de la marca y accesos complementarios a secciones relevantes de la landing page.
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
+</p>
+
+<p align="center">
+  <img src="/assets/assets/chapter-4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
+</p>
+
 
 #### 4.3.2 Landing Page Mock-up.
 
