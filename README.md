@@ -1451,6 +1451,10 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
 #### 4.8 Database Design.
 #### 4.8.1 Database Diagrams.
 
+<p align="center">
+  <img src="assets/assets/chapter 4/software-architecture/database.png" alt="UML Class Diagram - Care-Labs" width="100%">
+</p>
+
 ### Capitulo V: Product Implementation, Validation & Deployment
 #### 5.1. Software Configuration Management.
 En esta sección describiremos el entorno de desarrollo utilizado por el equipo para la construcción de Care-Labs
