@@ -969,6 +969,43 @@ El Ubiquitous Language define los términos comunes utilizados en PulseReport, a
 | US-17         | Dashboard administrativo | Como administrador, quiero ver el estado general del sistema. | Given accedo dashboard, then veo resumen global.      | EP05  |
 | US-18         | Detectar inconsistencias | Como administrador, quiero identificar errores en registros.  | Given datos inconsistentes, then sistema los muestra. | EP05  |
 
+### 3.2. Impact Mapping
+
+### 3.3. Product Backlog
+
+**ALTA PRIORIDAD (MVP)**
+
+| ID    | User Story                     | Prioridad | Story Points | Justificación                    |
+| ----- | ------------------------------ | --------- | ------------ | -------------------------------- |
+| US-01 | Registrar signos vitales       | Alta      | 5            | Funcionalidad core del sistema   |
+| US-02 | Registrar evento clínico       | Alta      | 5            | Base de trazabilidad             |
+| US-03 | Visualizar estado del paciente | Alta      | 5            | Necesario para uso diario        |
+| US-04 | Consultar historial clínico    | Alta      | 5            | Soporte a decisiones médicas     |
+| US-05 | Traspaso SBAR                  | Alta      | 8            | Diferenciador clave del producto |
+| US-06 | Trazabilidad de eventos        | Alta      | 5            | Necesario para auditoría         |
+| US-07 | Generar alertas                | Alta      | 5            | Seguridad del paciente           |
+| US-15 | Visualizar alertas             | Alta      | 3            | Complemento directo de alertas   |
+| US-10 | Validar campos obligatorios    | Alta      | 2            | Evita errores críticos           |
+
+**PRIORIDAD MEDIA**
+
+| ID    | User Story                   | Prioridad | Story Points | Justificación                      |
+| ----- | ---------------------------- | --------- | ------------ | ---------------------------------- |
+| US-09 | Registrar tratamiento        | Media     | 3            | Importante pero no crítico inicial |
+| US-11 | Filtrar información clínica  | Media     | 3            | Mejora análisis                    |
+| US-12 | Ver evolución del paciente   | Media     | 5            | Apoya decisiones médicas           |
+| US-16 | Priorizar pacientes críticos | Media     | 5            | Mejora eficiencia operativa        |
+| US-08 | Auditoría de eventos         | Media     | 5            | Necesario pero no inmediato MVP    |
+| US-13 | Ver historial de acciones    | Media     | 3            | Complemento de auditoría           |
+
+**PRIORIDAD BAJA**
+
+| ID    | User Story                    | Prioridad | Story Points | Justificación                  |
+| ----- | ----------------------------- | --------- | ------------ | ------------------------------ |
+| US-14 | Identificar usuario de acción | Baja      | 2            | Parte avanzada de trazabilidad |
+| US-17 | Dashboard administrativo      | Baja      | 5            | No crítico para inicio         |
+| US-18 | Detectar inconsistencias      | Baja      | 5            | Funcionalidad avanzada         |
+
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
