@@ -119,6 +119,10 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
+## Registro de Version de Informe
+
+
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -358,83 +362,58 @@ Este grupo está conformado por instituciones de salud que necesitan optimizar s
 ### 2.1. Competidores
 #### 2.1.1. Análisis competitivo
 
-En el sector de soluciones tecnológicas para la gestión clínica, especialmente en entornos hospitalarios, existen diversas plataformas que abordan problemáticas similares a las planteadas por PulseReport. Estas soluciones pueden clasificarse en tres categorías principales: sistemas hospitalarios integrales (HIS/EHR), sistemas de monitoreo clínico y herramientas tradicionales de gestión.
+En el sector de soluciones tecnológicas aplicadas al entorno hospitalario y la gestión clínica, existen diversas plataformas y herramientas que buscan optimizar el monitoreo de pacientes, la administración de información médica y la comunicación entre profesionales de la salud. Estas soluciones representan competencia directa e indirecta para PulseReport debido a que abordar parcialmente las necesidades del personal médico y de enfermería.
 
-**Competidor 1: Sistemas EHR/HIS (Ej: Epic, Cerner)**
+Los principales competidores identificados se clasifican en tres categorías: sistemas hospitalarios integrales (EHR/HIS), sistemas de monitoreo clínico y métodos tradicionales de gestión clínica.
 
-**Descripción:**
-Son plataformas integrales utilizadas en hospitales y clínicas para la gestión de historiales clínicos electrónicos, citas médicas, tratamientos, facturación y otros procesos hospitalarios.
+**Competidor 1: Sistemas EHR/HIS (Electronic Health Record / Hospital Information System)**
 
-**Fortalezas:**
+Ejemplos:
+-Epic Systems
+-Cerner
+-Allscripts
 
-- Alta integración de procesos clínicos y administrativos.
-- Escalabilidad a nivel institucional.
-- Cumplimiento de estándares de seguridad y normativas.
-- Alta confiabilidad y respaldo empresarial.
+Descripción
+Los sistemas EHR/HIS son plataformas integrales utilizadas por hospitales y clínicas para gestionar historiales médicos electrónicos, citas, tratamientos, diagnósticos, facturación y otros procesos administrativos y clínicos.
 
-**Debilidades:**
+Estas soluciones centralizan gran parte de la información hospitalaria y permiten la interoperabilidad entre distintas áreas médicas dentro de una institución de salud.
 
-- Interfaces complejas y poco intuitivas para el personal de enfermería.
-- Alto costo de implementación y mantenimiento.
-- Baja flexibilidad para adaptaciones rápidas.
-- Procesos de registro poco eficientes en entornos críticos.
+**Competidor 2: Sistemas de monitoreo clínico**
 
-**Competidor 2: Sistemas de monitoreo clínico (Ej: Philips IntelliVue, GE Healthcare)**
+Ejemplos:
+-Philips IntelliVue
+-GE Healthcare Patient Monitoring
+-Mindray Monitoring Systems
 
-**Descripción:**
-Soluciones enfocadas en el monitoreo de signos vitales en tiempo real mediante dispositivos médicos conectados.
+Descripción
+Son soluciones enfocadas principalmente en el monitoreo continuo de signos vitales y variables biomédicas mediante dispositivos médicos especializados conectados en tiempo real. 
 
-**Fortalezas:**
+Estas plataformas son utilizadas principalmente en áreas críticas como UCI, emergencias y unidades cardiovasculares, permitiendo supervisar constantemente el estado fisiológico del paciente.
 
-- Alta precisión en la captura de datos biomédicos.
-- Monitoreo continuo en tiempo real.
-- Integración con hardware especializado.
+**Competidor 3: Métodos tradicionales de gestión clínica**
 
-**Debilidades:**
+Ejemplos:
+-Registros físicos en papel
+-Hojas de control manual
+-Archivos Excel
+-Reportes escritos entre turnos
 
-- No gestionan procesos clínicos completos.
-- No incluyen trazabilidad de eventos clínicos.
-- Limitada funcionalidad en gestión de pacientes y tratamientos.
-- Dependencia de infraestructura médica especializada.
+Descripción
+A pesar del avance tecnológico en el sector salud, muchos centros médicos continúan utilizando métodos tradicionales para registrar información clínica y coordinar actividades del personal de salud.
 
-**Competidor 3: Métodos tradicionales (Excel y registros en papel)**
+Estos métodos suelen depender de documentación manual, registros físicos y archivos digitales no especializados, especialmente en instituciones con limitada digitalización o recursos tecnológicos reducidos.
 
-**Descripción:**
-Métodos aún utilizados en diversos centros de salud, especialmente donde la digitalización es limitada.
+**Competidor 4: Aplicaciones de gestión clínica especializada**
 
-**Fortalezas:**
+Ejemplos:
+-Medscape
+-NurseGrid
+-CareCloud
 
-- Bajo costo.
-- Fácil implementación.
-- No requiere capacitación técnica avanzada.
+Descripción
+Son aplicaciones enfocadas en optimizar determinadas actividades del entorno clínico, como la coordinación de personal médico, comunicación entre equipos de salud, seguimiento de pacientes o gestión parcial de información clínica. 
 
-**Debilidades:**
-
-- Alta probabilidad de errores humanos.
-- Falta de trazabilidad.
-- Información dispersa y difícil de consultar.
-- No permite acceso en tiempo real.
-- Nula automatización.
-
-| Criterio                 | EHR/HIS  | Monitoreo clínico | Métodos tradicionales | PulseReport |
-| ------------------------ | -------- | ----------------- | --------------------- | ----------- |
-| Facilidad de uso         | Baja     | Media             | Alta                  | Alta        |
-| Integración de procesos  | Alta     | Baja              | Nula                  | Media       |
-| Monitoreo en tiempo real | Sí       | Sí                | No                    | Parcial     |
-| Trazabilidad clínica     | Alta     | Baja              | Nula                  | Alta        |
-| Costo                    | Muy alto | Alto              | Bajo                  | Medio       |
-| Enfoque en enfermería    | Bajo     | Bajo              | Medio                 | Alto        |
-
-**Posicionamiento de PulseReport**
-
-PulseReport se posiciona como una solución intermedia entre los sistemas hospitalarios complejos y las herramientas tradicionales, enfocándose específicamente en las necesidades del personal de enfermería cardiovascular.
-
-Su propuesta se centra en:
-
-- Simplificar el registro de información clínica.
-- Centralizar datos relevantes del paciente.
-- Mejorar la comunicación entre turnos mediante el modelo SBAR.
-- Garantizar trazabilidad en eventos clínicos.
+Aunque no funcionan como sistemas hospitalarios completos, estas plataformas buscan mejorar la eficiencia operativa del personal sanitario mediante herramientas digitales especializadas.
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
