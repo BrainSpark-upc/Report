@@ -416,7 +416,7 @@ Aunque no funcionan como sistemas hospitalarios completos, estas plataformas bus
 
 #### 2.1.1. Análisis competitivo
 
-(INSERTAR IMAGEN FALTANTE DEL "COMPETITIVE ANALYSIS LANDSCAPE")
+<img src="assets/assets/chapter-2/2.1.1 Analisis Competidores-Competitive analysis landscape.png" alt="">
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
