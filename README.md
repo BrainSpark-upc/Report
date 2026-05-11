@@ -1489,10 +1489,9 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
   <img src="assets/assets/chapter 4/software-architecture/database.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
 
-### Capitulo V: Product Implementation, Validation & Deployment
-#### 5.1. Software Configuration Management.
+### Capítulo V: Product Implementation, Validation & Deployment
 
-#### 5.1.1. Software Development Environment Configuration.
+#### 5.1. Software Configuration Management.
 
 En esta sección se describe la gestión de la configuración del software utilizado en el proyecto de PulseReport, la cual tiene como objetivo garantizar la trazabilidad y digitalización de procesos vitales durante la estadía de un paciente en un hospital cardiovascular.
 Desde registro de pacientes hasta generación de alertas y traspasos SBAR. Esta gestión permite mantener la integridad, trazabilidad y consistencia del código fuente, así como coordinar de manera eficiente el trabajo colaborativo del equipo.
