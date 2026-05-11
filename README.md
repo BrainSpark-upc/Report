@@ -1497,23 +1497,52 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
 
 #### 5.1.1. Software Development Environment Configuration.
 
-En esta sección describiremos el entorno de desarrollo utilizado por el equipo para la construcción de Care-Labs
-considerando las herramientas necesarias para documentación, control de versiones, diseño e implementación del proyecto.
-Nuestro equipo trabajó de forma colaborativa mediante una organización de GitHub, con un repositorio para el informe y otro para la Landing Page,
-lo que nos permite mantener trazabilidad, orden y evidencia del avance del trabajo.
+En esta sección se describe la gestión de la configuración del software utilizado en el proyecto de PulseReport, la cual tiene como objetivo garantizar la trazabilidad y digitalización de procesos vitales durante la estadía de un paciente en un hospital cardiovascular.
+Desde registro de pacientes hasta generación de alertas y traspasos SBAR. Esta gestión permite mantener la integridad, trazabilidad y consistencia del código fuente, así como coordinar de manera eficiente el trabajo colaborativo del equipo.
 
-**Herramientas que usamos:**
+El Software Configuration Management en PulseReport se basa en el uso de herramientas de control de versiones y buenas prácticas profesionales de desarrollo que permiten administrar
+las distintas versiones del sistema a lo largo del tiempo. Esto incluye la organización de los repositorios del proyecto, la definición de estrategias de ramificación, la gestión
+de cambios mediante commits bien documentados y la integración del trabajo realizado por los diferentes miembros del equipo.
 
-- **GitHub Organization**: Centralización de repositorios del proyecto.
-- **Repositorio del informe**: Elaboración colaborativa del documento Project.md.
-- **Repositorio de Landing Page**: Implementación del sitio web estático.
-- **Editor de código (IDE)**: Jetbrains WebStorm 2026 Para el desarrollo y edición de archivos fuente.
-- **Herramienta de diseño / diagramación**: Para wireframes, mockups y diagramas del informe usamos Figma, Structurizr, Plantuml, UXPressia y Canva
-- **Navegador web**: Para pruebas de la Landing Page y validación visual.
+#### 5.1.1. Software Development Environment Configuration.
 
-El uso de estos entornos nos permitio mantener una estructura de trabajo clara, con seguimiento de cambios y separación
+En esta sección se describen las herramientas utilizadas por el equipo encargado de desarrollar PulseReport para colaborar de manera efectiva durante todo el ciclo de vida del producto digital. Estas herramientas han sido seleccionadas estratégicamente con el objetivo de optimizar la comunicación, organización, diseño, desarrollo, despliegue y documentación del sistema, permitiendo un trabajo colaborativo eficiente y escalable.
+
+Las herramientas se organizan según las principales actividades del ciclo de vida del software: gestión del proyecto y requisitos, diseño UX/UI, desarrollo de software, despliegue y documentación técnica.
+
+### Project Management y Requirements Management
+
+- [**Jira**](https://www.atlassian.com/es/software/jira): Es la herramienta principal utilizada para la gestión del proyecto bajo un enfoque ágil. Permite organizar tareas en tableros, listas y tarjetas, facilitando el seguimiento del avance del Sprint, la asignación de actividades y el control del backlog del producto PulseReport. Gracias a su interfaz visual, el equipo puede mantener una visión clara del progreso del proyecto.
+
+- [**Google Docs**](https://docs.google.com/document/u/0/): Google Drive y Google Docs se utilizan como plataforma de almacenamiento y colaboración en la nube. Estas herramientas permiten al equipo crear, editar y compartir documentos en tiempo real, facilitando la elaboración de historias de usuario, informes, entregables y documentación general del proyecto.
+
+### Product UX/UI Design
+
+- [**Figma**](https://www.figma.com/files/team/1542201510350230976/recents-and-sharing?fuid=1227966816494785121): Es la herramienta principal utilizada para el diseño de la interfaz de usuario de PulseReport. Se emplea para crear wireframes, prototipos y diseños finales de la Landing Page. Su funcionalidad colaborativa permite que todo el equipo partícipe en el proceso de diseño de forma simultánea, asegurando coherencia visual y funcional.
+
+- [**UXPressia**](https://uxpressia.com/): Se utiliza para la etapa de Needfinding y análisis centrado en el usuario. Permitió desarrollar los User Personas, así como elaborar el User Journey Mapping, Empathy Mapping e Impact Mapping, facilitando la identificación de necesidades, comportamientos, puntos de dolor y objetivos de los usuarios para estructurar de manera más precisa el diseño y enfoque del sistema.
+
+- [**dbdiagram**](https://dbdiagram.io/): Se utiliza como herramienta de apoyo para la creación de diagramas de base de datos. Permite visualizar y diseñar la estructura de la base de datos de forma colaborativa.
+
+
+### Software Development
+
+- [**Webstorm**](https://code.visualstudio.com/) Es el editor de código utilizado para el desarrollo de la Landing Page de PulseReport. Permite trabajar de manera eficiente con tecnologías como HTML, CSS y JavaScript, ofreciendo soporte para extensiones, terminal integrada y herramientas de depuración.
+
+- [**Git**](https://git-scm.com/): Es el sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Permite llevar un registro de los cambios realizados, trabajar de forma colaborativa y mantener un historial organizado del desarrollo del sistema.
+
+- [**GitHub**](https://github.com/): Es la plataforma utilizada para alojar el repositorio del proyecto PulseReport. Facilita la colaboración entre los miembros del equipo, la revisión de código y la integración continua del desarrollo.
+
+
+### Software Deployment
+
+- [**GitHub Pages**](https://pages.github.com/):  Es el servicio utilizado para desplegar la Landing Page de PulseReport. Permite publicar el sitio web directamente desde el repositorio de GitHub, haciendo que esté disponible de forma pública y accesible desde internet.
+
+- [**Firebase**](https://firebase.google.com/):  Es una plataforma en la nube utilizada para el despliegue de aplicaciones web. En futuras etapas del proyecto, se utilizará para publicar tanto el frontend como el backend del sistema, permitiendo su acceso desde cualquier dispositivo conectado a internet.
+
+El uso de estos entornos nos permitió mantener una estructura de trabajo clara, con seguimiento de cambios y separación
 entre documentación e implementación. Asimismo, se facilita la revisión de avances por parte de los integrantes y se asegura
-coherencia entre la propuesta del informe y el producto ha desarrollar.
+coherencia entre la propuesta del informe y el producto a desarrollar.
 
 #### 5.1.2. Source Code Management.
 En esta sección se describirá la estrategia de control de versiones aplicada al proyecto. Para el desarrollo se utiliza
