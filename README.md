@@ -119,6 +119,10 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
+## Registro de Version de Informe
+
+
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -356,165 +360,158 @@ Este grupo está conformado por instituciones de salud que necesitan optimizar s
 - Se interesan por herramientas escalables bajo modelo SaaS que puedan adaptarse a las necesidades de su institución.
 
 ### 2.1. Competidores
+
+En el sector de soluciones tecnológicas aplicadas al entorno hospitalario y la gestión clínica, existen diversas plataformas y herramientas que buscan optimizar el monitoreo de pacientes, la administración de información médica y la comunicación entre profesionales de la salud. Estas soluciones representan competencia directa e indirecta para PulseReport debido a que abordar parcialmente las necesidades del personal médico y de enfermería.
+
+Los principales competidores identificados se clasifican en tres categorías: sistemas hospitalarios integrales (EHR/HIS), sistemas de monitoreo clínico y métodos tradicionales de gestión clínica.
+
+**Competidor 1: Sistemas EHR/HIS (Electronic Health Record / Hospital Information System)**
+
+Ejemplos:
+-Epic Systems
+-Cerner
+-Allscripts
+
+Descripción
+Los sistemas EHR/HIS son plataformas integrales utilizadas por hospitales y clínicas para gestionar historiales médicos electrónicos, citas, tratamientos, diagnósticos, facturación y otros procesos administrativos y clínicos.
+
+Estas soluciones centralizan gran parte de la información hospitalaria y permiten la interoperabilidad entre distintas áreas médicas dentro de una institución de salud.
+
+**Competidor 2: Sistemas de monitoreo clínico**
+
+Ejemplos:
+-Philips IntelliVue
+-GE Healthcare Patient Monitoring
+-Mindray Monitoring Systems
+
+Descripción
+Son soluciones enfocadas principalmente en el monitoreo continuo de signos vitales y variables biomédicas mediante dispositivos médicos especializados conectados en tiempo real. 
+
+Estas plataformas son utilizadas principalmente en áreas críticas como UCI, emergencias y unidades cardiovasculares, permitiendo supervisar constantemente el estado fisiológico del paciente.
+
+**Competidor 3: Métodos tradicionales de gestión clínica**
+
+Ejemplos:
+-Registros físicos en papel
+-Hojas de control manual
+-Archivos Excel
+-Reportes escritos entre turnos
+
+Descripción
+A pesar del avance tecnológico en el sector salud, muchos centros médicos continúan utilizando métodos tradicionales para registrar información clínica y coordinar actividades del personal de salud.
+
+Estos métodos suelen depender de documentación manual, registros físicos y archivos digitales no especializados, especialmente en instituciones con limitada digitalización o recursos tecnológicos reducidos.
+
+**Competidor 4: Aplicaciones de gestión clínica especializada**
+
+Ejemplos:
+-Medscape
+-NurseGrid
+-CareCloud
+
+Descripción
+Son aplicaciones enfocadas en optimizar determinadas actividades del entorno clínico, como la coordinación de personal médico, comunicación entre equipos de salud, seguimiento de pacientes o gestión parcial de información clínica. 
+
+Aunque no funcionan como sistemas hospitalarios completos, estas plataformas buscan mejorar la eficiencia operativa del personal sanitario mediante herramientas digitales especializadas.
+
 #### 2.1.1. Análisis competitivo
 
-En el sector de soluciones tecnológicas para la gestión clínica, especialmente en entornos hospitalarios, existen diversas plataformas que abordan problemáticas similares a las planteadas por PulseReport. Estas soluciones pueden clasificarse en tres categorías principales: sistemas hospitalarios integrales (HIS/EHR), sistemas de monitoreo clínico y herramientas tradicionales de gestión.
-
-**Competidor 1: Sistemas EHR/HIS (Ej: Epic, Cerner)**
-
-**Descripción:**
-Son plataformas integrales utilizadas en hospitales y clínicas para la gestión de historiales clínicos electrónicos, citas médicas, tratamientos, facturación y otros procesos hospitalarios.
-
-**Fortalezas:**
-
-- Alta integración de procesos clínicos y administrativos.
-- Escalabilidad a nivel institucional.
-- Cumplimiento de estándares de seguridad y normativas.
-- Alta confiabilidad y respaldo empresarial.
-
-**Debilidades:**
-
-- Interfaces complejas y poco intuitivas para el personal de enfermería.
-- Alto costo de implementación y mantenimiento.
-- Baja flexibilidad para adaptaciones rápidas.
-- Procesos de registro poco eficientes en entornos críticos.
-
-**Competidor 2: Sistemas de monitoreo clínico (Ej: Philips IntelliVue, GE Healthcare)**
-
-**Descripción:**
-Soluciones enfocadas en el monitoreo de signos vitales en tiempo real mediante dispositivos médicos conectados.
-
-**Fortalezas:**
-
-- Alta precisión en la captura de datos biomédicos.
-- Monitoreo continuo en tiempo real.
-- Integración con hardware especializado.
-
-**Debilidades:**
-
-- No gestionan procesos clínicos completos.
-- No incluyen trazabilidad de eventos clínicos.
-- Limitada funcionalidad en gestión de pacientes y tratamientos.
-- Dependencia de infraestructura médica especializada.
-
-**Competidor 3: Métodos tradicionales (Excel y registros en papel)**
-
-**Descripción:**
-Métodos aún utilizados en diversos centros de salud, especialmente donde la digitalización es limitada.
-
-**Fortalezas:**
-
-- Bajo costo.
-- Fácil implementación.
-- No requiere capacitación técnica avanzada.
-
-**Debilidades:**
-
-- Alta probabilidad de errores humanos.
-- Falta de trazabilidad.
-- Información dispersa y difícil de consultar.
-- No permite acceso en tiempo real.
-- Nula automatización.
-
-| Criterio                 | EHR/HIS  | Monitoreo clínico | Métodos tradicionales | PulseReport |
-| ------------------------ | -------- | ----------------- | --------------------- | ----------- |
-| Facilidad de uso         | Baja     | Media             | Alta                  | Alta        |
-| Integración de procesos  | Alta     | Baja              | Nula                  | Media       |
-| Monitoreo en tiempo real | Sí       | Sí                | No                    | Parcial     |
-| Trazabilidad clínica     | Alta     | Baja              | Nula                  | Alta        |
-| Costo                    | Muy alto | Alto              | Bajo                  | Medio       |
-| Enfoque en enfermería    | Bajo     | Bajo              | Medio                 | Alto        |
-
-**Posicionamiento de PulseReport**
-
-PulseReport se posiciona como una solución intermedia entre los sistemas hospitalarios complejos y las herramientas tradicionales, enfocándose específicamente en las necesidades del personal de enfermería cardiovascular.
-
-Su propuesta se centra en:
-
-- Simplificar el registro de información clínica.
-- Centralizar datos relevantes del paciente.
-- Mejorar la comunicación entre turnos mediante el modelo SBAR.
-- Garantizar trazabilidad en eventos clínicos.
+(INSERTAR IMAGEN FALTANTE DEL "COMPETITIVE ANALYSIS LANDSCAPE")
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
-Para competir en este mercado, PulseReport adopta un conjunto de estrategias orientadas a la diferenciación, la especialización y la implementación progresiva.
+Con base en el análisis competitivo realizado, PulseReport plantea estrategias orientadas a aprovechar las debilidades identificadas en las soluciones actuales y diferenciarse mediante una propuesta especializada, accesible y centrada en el personal de enfermería cardiovascular.
 
-**Estrategia 1: Enfoque en un nicho específico**
 
-**Descripción:**
-PulseReport se enfoca en el área de enfermería cardiovascular en lugar de intentar abarcar todo el sistema hospitalario.
+**Estrategia 1: Especialización en enfermería cardiovascular**
 
-**Tácticas:**
+Descripción
 
-- Diseñar funcionalidades específicas para enfermería.
-- Priorizar procesos críticos como registro de signos vitales y traspasos SBAR.
-- Adaptar la solución a flujos reales del personal de salud.
+A diferencia de los sistemas EHR/HIS tradicionales, que están orientados a procesos hospitalarios generales, PulseReport busca especializarse en las necesidades operativas del personal de enfermería cardiovascular.
 
-**Estrategia 2: Simplicidad y usabilidad**
+Tácticas
 
-**Descripción:**
-Se prioriza una interfaz intuitiva que permita realizar tareas en el menor tiempo posible.
+Diseñar funcionalidades enfocadas en procesos críticos de enfermería.
+Priorizar registros clínicos rápidos y comunicación SBAR.
+Adaptar el sistema al flujo operativo real del personal médico.
 
-**Tácticas:**
 
-- Formularios simplificados para registro rápido.
-- Reducción de pasos en procesos críticos.
-- Diseño centrado en el usuario.
+**Estrategia 2: Diferenciación mediante simplicidad y usabilidad**
 
-**Estrategia 3: Desarrollo basado en MVP**
+Descripción
 
-**Descripción:**
-El desarrollo del sistema se realiza de manera incremental, comenzando con un producto mínimo viable.
+Frente a la complejidad operativa de los sistemas hospitalarios tradicionales, PulseReport busca diferenciarse mediante una interfaz intuitiva y procesos simplificados.
 
-**Tácticas:**
+Tácticas
 
-- Implementar inicialmente:
-  - Registro de signos vitales.
-  - Traspasos SBAR.
-- Validar funcionalidades con usuarios reales.
-- Iterar en base a feedback.
+Reducir pasos en tareas críticas.
+Implementar formularios rápidos e intuitivos.
+Aplicar principios de diseño centrado en el usuario.
 
-**Estrategia 4: Integración como sistema complementario**
 
-**Descripción:**
-PulseReport no busca reemplazar sistemas existentes, sino integrarse como una herramienta complementaria.
+**Estrategia 3: Implementación progresiva mediante MVP**
 
-**Tácticas:**
+Descripción
 
-- Exportación de datos en formatos estándar.
-- Diseño modular para futuras integraciones.
-- Compatibilidad con flujos de trabajo existentes.
+Con el objetivo de reducir barreras de adopción y validar rápidamente la solución, PulseReport utilizará una estrategia de desarrollo incremental basada en un Producto Mínimo Viable (MVP).
 
-**Estrategia 5: Modelo SaaS accesible**
+Tácticas
 
-**Descripción:**
-La solución se ofrece bajo un modelo de suscripción accesible para facilitar su adopción.
+Implementar inicialmente funcionalidades esenciales.
+Validar el sistema con usuarios reales.
+Iterar continuamente mediante feedback clínico.
 
-**Tácticas:**
 
-- Planes escalables según número de usuarios.
-- Bajo costo inicial.
-- Implementación rápida sin infraestructura compleja.
+**Estrategia 4: Integración complementaria con sistemas existentes**
 
-**Estrategia 6: Trazabilidad y control de información**
+Descripción
 
-**Descripción:**
-Se prioriza la capacidad de auditar y rastrear eventos clínicos.
+En lugar de competir directamente con plataformas EHR/HIS consolidadas, PulseReport busca posicionarse como una herramienta complementaria especializada.
 
-**Tácticas:**
+Tácticas
 
-- Registro de eventos con historial de cambios.
-- Control de accesos por roles.
-- Almacenamiento estructurado de información clínica.
-  
-**Ventaja competitiva**
+Permitir exportación de información clínica.
+Diseñar arquitectura modular escalable.
+Mantener compatibilidad con flujos hospitalarios existentes.
 
-La principal ventaja competitiva de PulseReport radica en su capacidad de ofrecer una solución enfocada, simple y eficiente para la gestión de procesos críticos de enfermería, evitando la complejidad de los sistemas hospitalarios tradicionales.
 
-**Consideración estratégica**
+**Estrategia 5: Accesibilidad y reducción de costos operativos**
 
-PulseReport no busca competir directamente con sistemas EHR/HIS de gran escala, sino posicionarse como una herramienta especializada que mejora la eficiencia operativa en un área específica del proceso clínico, facilitando su adopción e implementación progresiva.
+Descripción
+
+PulseReport busca aprovechar la oportunidad existente en instituciones que no pueden implementar sistemas hospitalarios complejos debido a sus altos costos.
+
+Tácticas
+
+Ofrecer un modelo SaaS accesible.
+Reducir costos de implementación.
+Minimizar dependencia de infraestructura especializada.
+
+
+**Estrategia 6: Fortalecimiento de trazabilidad clínica y comunicación**
+
+Descripción
+
+PulseReport busca resolver las limitaciones identificadas en métodos tradicionales y plataformas de monitoreo clínico respecto a trazabilidad y transferencia de información.
+
+Tácticas
+
+Registrar historial de eventos clínicos.
+Implementar control de accesos por roles.
+Centralizar información relevante del paciente.
+
+
+Ventaja competitiva
+
+La principal ventaja competitiva de PulseReport radica en ofrecer una solución especializada, accesible y enfocada específicamente en optimizar la comunicación y trazabilidad clínica del personal de enfermería cardiovascular, evitando la complejidad presente en los sistemas hospitalarios tradicionales.
+
+
+
+Posicionamiento estratégico
+
+PulseReport no busca reemplazar plataformas hospitalarias integrales, sino complementar los procesos clínicos existentes mediante una herramienta especializada orientada a mejorar la eficiencia operativa y la continuidad de atención del paciente.
+
+
 
 ### 2.2. Entrevistas
 
