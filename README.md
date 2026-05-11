@@ -1541,36 +1541,81 @@ El uso de estos entornos nos permitió mantener una estructura de trabajo clara,
 entre documentación e implementación. Asimismo, se facilita la revisión de avances por parte de los integrantes y se asegura
 coherencia entre la propuesta del informe y el producto a desarrollar.
 
-#### 5.1.2. Source Code Management.
-En esta sección se describirá la estrategia de control de versiones aplicada al proyecto. Para el desarrollo se utiliza
-GitHub como plataforma principal de control de código fuente, organizando el trabajo por repositorios separados para el informe
-y la Landing Page.
+### 5.1.2. Source Code Management
 
-**Manejo de repositorios dentro de la organización de GitHub:**
+En esta sección se describe la gestión del código fuente del proyecto PulseReport, el cual se ha implementado utilizando GitHub como plataforma principal de control de versiones. 
+Este sistema permite al equipo trabajar de forma colaborativa, mantener un historial completo de cambios y asegurar la correcta integración de las funcionalidades desarrolladas durante el proyecto.
 
-- Repositorio 1: informe del proyecto.
-- Repositorio 2: Landing Page.
+El repositorio principal del proyecto es el siguiente:
 
-**Distribución de ramas para Avance 1:**
+- **PulseReport Website**:  [https://github.com/BrainSpark-upc/Landing-Page](https://github.com/BrainSpark-upc/Landing-Page)
 
-- main: versión estable y lista para entrega.
+- **PulseReport-webapp**: [https://github.com/BrainSpark-upc/FrontPulseReport](https://github.com/BrainSpark-upc/FrontPulseReport)
 
 
-**Convención de commits:**
-Se aplicó mensajes con estilo Conventional Commits (pluggin), por ejemplo:
+### GitFlow Workflow implementado
 
-- feat: add landing page hero section
-- docs: update sprint planning
-- fix: correct navigation link
-- chore: update project structure
+El equipo ha adoptado la metodología GitFlow como modelo de control de versiones, lo cual permite separar el desarrollo de nuevas funcionalidades, la integración de cambios y la preparación de versiones estables.
 
-**Link del repositorio de la Landing Page:**
-https://github.com/BrainSpark-upc/Landing-Page
-**Link de la Landing Page desplegada correctamente:**
-https://brainspark-upc.github.io/Landing-Page/
+Las ramas principales utilizadas son:
 
-En general, esta estrategia nos enseña como primer avance a seguir mejorando la organización y buena documentación. También,
-nosfacilita el trabajo colaborativo, permite rastrear el aporte de cada integrante y ayuda a mantener la evolución del proyecto ordenada y verificable.
+- **main**: rama principal que contiene la versión estable del proyecto.
+- **develop**: rama de integración donde se consolidan todas las funcionalidades completadas antes de ser llevadas a producción.
+- **feature/**: ramas utilizadas para el desarrollo de funcionalidades específicas del sistema.
+
+### Feature Branches utilizados en el proyecto
+
+El desarrollo de la Landing Page de PulseReport se ha organizado mediante ramas feature específicas por componente funcional:
+
+- feature/hero → sección principal de presentación
+- feature/benefits → sección de beneficios del sistema
+- feature/call-to-action → botones y acciones de conversión
+- feature/characteristic → características del producto
+- feature/footer → pie de página del sistema
+- feature/how-it-works → explicación del funcionamiento de PulseReport
+- feature/pricing → sección de planes o precios
+- feature/team → sección de equipo desarrollador
+
+Esta organización permite un desarrollo modular, donde cada funcionalidad se implementa de forma independiente antes de integrarse a la rama develop.
+
+
+### Convención de ramas
+
+El proyecto sigue la siguiente convención de nomenclatura:
+
+- feature/nombre-descriptivo → nuevas funcionalidades
+- develop → integración de funcionalidades
+- main → versión estable del sistema
+
+### Semantic Versioning
+
+Aunque en esta primera etapa se ha trabajado principalmente en la Landing Page, el proyecto adopta el estándar de versionado semántico:
+
+MAJOR.MINOR.PATCH
+
+- MAJOR: cambios estructurales grandes
+- MINOR: nuevas funcionalidades
+- PATCH: corrección de errores
+
+Versión actual del proyecto: v1.0.0 (Landing Page inicial)
+
+### Conventional Commits
+
+Para mantener un historial claro de cambios, el equipo utiliza Conventional Commits en todos los commits del repositorio.
+
+##### Tipos de commits utilizados:
+
+- `feat`: Nueva funcionalidad
+- `fix`: Corrección de errores
+- `docs`: Cambios en documentación
+- `style`: Cambios en formato/estilo sin afectar la lógica
+- `refactor`: Reestructuración del código sin cambio funcional
+- `test`: Cambios en tests
+- `build`: Cambios que afectan al sistema de compilación o dependencias
+- `ci`: Configuraciones de integración continua
+- `chore`: Tareas menores de mantenimiento
+- `perf`: Mejoras de rendimiento
+- `revert`: Reversión de un commit anterior
 
 #### 5.1.3. Source Code Style Guide & Conventions.
 Para mantener consistencia en el proyecto, el equipo adopta convenciones de nomenclatura y estilo que faciliten la escalabilidad y lectura del código,
