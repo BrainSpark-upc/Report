@@ -515,47 +515,192 @@ PulseReport no busca reemplazar plataformas hospitalarias integrales, sino compl
 
 ### 2.2. Entrevistas
 
-Se realizaron entrevistas semiestructuradas con el objetivo de validar los supuestos del proyecto y comprender cómo se gestionan actualmente los procesos clínicos relacionados con el registro de información, comunicación entre turnos y seguimiento de pacientes.
+La presente sección desarrolla el diseño de entrevistas aplicado a los segmentos objetivos identificados durante la etapa de análisis del problema y análisis competitivo.
 
-Las entrevistas se enfocaron en identificar problemas reales, necesidades operativas y percepción sobre el uso de herramientas digitales en entornos clínicos.
+El objetivo principal de las entrevistas es comprender las necesidades, frustraciones, comportamientos y dificultades presentes dentro de los procesos clínicos relacionados con el registro de información médica, monitoreo de pacientes y comunicación entre turnos en el área cardiovascular.
+
+Asimismo, la información recopilada permitirá construir User Personas realistas, identificar pain points y definir requerimientos funcionales centrados en las necesidades reales de los usuarios.
+
+Para el diseño de entrevistas se aplicaron buenas prácticas de investigación UX, utilizando preguntas abiertas, lenguaje claro y preguntas orientadas a experiencias reales dentro del entorno hospitalario.
 
 #### 2.2.1. Diseño de entrevistas
 
-**Objetivo**
+# Segmento objetivo 1: Personal de enfermería cardiovascular
 
-**Recopilar información sobre:**
+## Descripción del segmento
 
-- Registro de información clínica
-- Comunicación entre turnos
-- Seguimiento de pacientes
-- Problemas operativos actuales
-- Necesidades frente a una solución digital
+Este segmento está conformado por enfermeros y enfermeras que trabajan en áreas cardiovasculares dentro de hospitales y clínicas.
 
-**Perfil de entrevistados**
-- Personal de enfermería
-- Profesionales del sector salud
-- Personal vinculado a procesos clínicos o administrativos
+Son responsables del monitoreo constante de pacientes, administración de medicamentos, registro clínico y comunicación entre turnos médicos.
 
-**Guía de preguntas**
-1. ¿Cuál es tu rol en el entorno de salud?
-2. ¿Cómo registran actualmente la información de los pacientes?
-3. ¿Qué problemas tienes al registrar signos vitales o datos clínicos?
-4. ¿Cómo se comunican entre turnos?
-5. ¿Qué errores o dificultades ocurren en esa comunicación?
-6. ¿Pierdes tiempo buscando información del paciente?
-7. ¿Qué tan importante es la trazabilidad de eventos clínicos?
-8. ¿Qué limitaciones tienen las herramientas actuales?
-9. ¿Usarías una plataforma que centralice esta información?
-10. ¿Qué funcionalidades consideras más importantes?
-11. ¿Qué haría que una herramienta sea fácil de usar?
-12. ¿Qué preocupaciones tendrías al usar un sistema digital?
+Debido a la naturaleza crítica de sus actividades, requieren herramientas rápidas, intuitivas y accesibles que reduzcan la carga operativa y minimicen errores clínicos.
 
-**Supuestos a validar**
-- El registro actual es ineficiente y propenso a errores
-- La comunicación entre turnos es un punto crítico
-- Existe necesidad de centralizar la información
-- La trazabilidad es importante
-- Los usuarios prefieren soluciones simples e intuitivas
+---
+
+## Información principal a recolectar
+
+* Métodos actuales de registro clínico.
+* Problemas frecuentes durante los turnos.
+* Dificultades en comunicación entre turnos.
+* Tiempo invertido en documentación.
+* Uso actual de herramientas digitales.
+* Necesidades operativas no cubiertas.
+* Nivel de satisfacción con sistemas hospitalarios actuales.
+* Problemas relacionados con trazabilidad clínica.
+
+---
+
+## Información complementaria para arquetipos
+
+| Característica               | Información a recolectar                      |
+| ---------------------------- | --------------------------------------------- |
+| Edad                         | Rango de edad                                 |
+| Género                       | Masculino / Femenino                          |
+| Experiencia laboral          | Años de experiencia                           |
+| Área de trabajo              | UCI, hospitalización, emergencia              |
+| Nivel tecnológico            | Básico, intermedio o avanzado                 |
+| Dispositivos utilizados      | PC, tablet o smartphone                       |
+| Objetivos                    | Optimizar tiempos y reducir errores           |
+| Frustraciones                | Sistemas complejos y procesos lentos          |
+| Canales digitales utilizados | Sistemas hospitalarios y aplicaciones móviles |
+
+---
+
+## Preguntas principales
+
+1. ¿Cómo realiza actualmente el registro de información clínica durante su turno?
+
+2. ¿Qué herramientas utiliza para registrar o consultar información médica?
+
+3. ¿Qué problemas enfrenta con los sistemas utilizados actualmente?
+
+4. ¿Cómo se realiza la comunicación entre turnos?
+
+5. ¿Ha ocurrido pérdida de información o errores durante cambios de turno?
+
+6. ¿Cuánto tiempo considera que dedica al registro clínico?
+
+7. ¿Qué tan intuitivos considera los sistemas hospitalarios actuales?
+
+8. ¿Qué funcionalidades considera importantes en una herramienta digital para enfermería?
+
+9. ¿Considera útil una solución que centralice información clínica y facilite comunicación entre turnos?
+
+10. ¿Qué mejoraría de los sistemas actuales utilizados en su centro de salud?
+
+---
+
+## Preguntas complementarias
+
+1. ¿Qué situaciones generan mayor estrés durante el turno?
+
+2. ¿Con qué frecuencia utiliza dispositivos móviles durante su trabajo?
+
+3. ¿Qué tan cómodo se siente utilizando nuevas tecnologías?
+
+4. ¿Prefiere registrar información desde computadora o desde un dispositivo móvil?
+
+5. ¿Qué tipo de información considera más importante durante el cambio de turno?
+
+6. ¿Considera que la digitalización mejora la calidad de atención al paciente?
+
+---
+
+# Segmento objetivo 2: Médicos especialistas cardiovasculares
+
+## Descripción del segmento
+
+Este segmento está conformado por médicos especialistas cardiovasculares encargados del monitoreo y toma de decisiones clínicas en pacientes críticos.
+
+Requieren acceso rápido y preciso a información clínica relevante para optimizar diagnósticos, seguimiento de pacientes y coordinación con el personal de enfermería.
+
+---
+
+## Información principal a recolectar
+
+* Acceso actual a información clínica.
+* Problemas relacionados con trazabilidad.
+* Dificultades en comunicación clínica.
+* Limitaciones de sistemas hospitalarios.
+* Necesidades relacionadas con monitoreo y seguimiento.
+* Percepción sobre digitalización hospitalaria.
+
+---
+
+## Información complementaria para arquetipos
+
+| Característica          | Información a recolectar                                 |
+| ----------------------- | -------------------------------------------------------- |
+| Edad                    | Rango de edad                                            |
+| Especialidad            | Cardiología, cirugía cardiovascular o medicina intensiva |
+| Experiencia laboral     | Años de experiencia                                      |
+| Área de trabajo         | UCI, hospitalización o emergencia                        |
+| Nivel tecnológico       | Básico, intermedio o avanzado                            |
+| Objetivos               | Acceso rápido a información clínica                      |
+| Frustraciones           | Información fragmentada y sistemas lentos                |
+| Dispositivos utilizados | Laptop, tablet o smartphone                              |
+
+---
+
+## Preguntas principales
+
+1. ¿Cómo accede actualmente a la información clínica de los pacientes?
+
+2. ¿Qué problemas identifica en la comunicación entre médicos y enfermería?
+
+3. ¿Ha experimentado retrasos o errores debido a información incompleta?
+
+4. ¿Qué tan eficientes considera los sistemas hospitalarios actuales?
+
+5. ¿Qué información considera crítica durante la atención de un paciente cardiovascular?
+
+6. ¿Qué funcionalidades considera importantes en una plataforma clínica digital?
+
+7. ¿Considera importante mejorar la trazabilidad clínica dentro del hospital?
+
+8. ¿Qué limitaciones identifica en los sistemas hospitalarios actuales?
+
+---
+
+## Preguntas complementarias
+
+1. ¿Qué tan frecuentemente utiliza plataformas digitales en su trabajo?
+
+2. ¿Qué tipo de reportes clínicos consulta con mayor frecuencia?
+
+3. ¿Considera importante el acceso móvil a información clínica?
+
+4. ¿Qué tan importante es la rapidez de acceso a datos clínicos?
+
+5. ¿Qué situaciones generan mayores riesgos por falta de información?
+
+---
+
+# Buenas prácticas aplicadas en el diseño de entrevistas
+
+* Uso de preguntas abiertas para obtener respuestas más detalladas.
+* Uso de lenguaje claro y comprensible.
+* Evitar preguntas que induzcan respuestas.
+* Enfoque en experiencias reales de los usuarios.
+* Combinación de preguntas principales y complementarias.
+* Recolección de información funcional y emocional.
+* Identificación de necesidades, motivaciones y frustraciones.
+* Obtención de información útil para construcción de User Personas.
+
+---
+
+# Resultados esperados
+
+Las entrevistas permitirán:
+
+* Identificar pain points dentro del entorno clínico.
+* Detectar limitaciones de los sistemas hospitalarios actuales.
+* Comprender necesidades reales del personal médico.
+* Construir User Personas realistas.
+* Definir requerimientos funcionales y no funcionales.
+* Validar la propuesta de valor de PulseReport.
+* Identificar oportunidades de mejora en procesos clínicos y comunicación hospitalaria.
+
 
 #### 2.2.2. Registro de entrevistas
 
@@ -663,102 +808,183 @@ Mark muestra mucha disposición para probar un sistema tecnológico nuevo. Él c
 
 ### 2.2.3. Análisis de entrevistas
 
-A partir de las cinco entrevistas realizadas, se identificaron patrones consistentes en relación con la gestión de información clínica, la comunicación entre turnos y el uso de herramientas digitales en entornos de salud. El análisis permitió validar los principales supuestos del proyecto y delimitar con mayor precisión las necesidades del usuario.
+# 2.2.3 Análisis de entrevistas
 
-**Hallazgos principales**
-**1. Ineficiencia en el registro de información clínica**
+## Introducción
 
-Se evidenció que el proceso de registro actual es ineficiente debido al uso combinado de medios físicos y digitales. Los entrevistados indicaron que:
+La presente sección desarrolla el análisis de las entrevistas realizadas a los segmentos objetivo identificados durante la etapa de Requirements Elicitation & Analysis.
 
-- Se realiza un doble registro (papel y sistema)
-- El registro en el sistema suele hacerse de forma tardía
-- Existe alta probabilidad de omisión o error
+El objetivo del análisis es identificar patrones recurrentes, necesidades operativas, comportamientos, frustraciones y oportunidades de mejora dentro del entorno cardiovascular hospitalario, utilizando como fuente de información las entrevistas y resúmenes previamente desarrollados.
 
-Este problema afecta directamente la calidad y confiabilidad de la información.
+Asimismo, el análisis busca identificar características objetivas y subjetivas necesarias para la construcción de los User Personas y para la definición de requerimientos funcionales y no funcionales del sistema PulseReport.
 
-**2. Dependencia de la comunicación verbal entre turnos**
+Los resultados obtenidos permiten validar problemáticas reales dentro del flujo clínico actual y evidenciar oportunidades para el desarrollo de una solución especializada orientada a mejorar la trazabilidad clínica, comunicación estructurada y eficiencia operativa.
 
-La transferencia de información entre turnos se basa principalmente en comunicación verbal, lo que genera:
+---
 
-- Pérdida de información relevante
-- Falta de estandarización
-- Dependencia de la memoria del personal
+# Segmento objetivo 1: Personal de enfermería cardiovascular
 
-Esto impacta negativamente en la continuidad del cuidado del paciente.
+## Entrevistas analizadas
 
-**3. Información dispersa y difícil de acceder**
+* Andrea Salazar
+* Carla Villanueva
+* María Fernanda León
 
-Se identificó que la información clínica se encuentra distribuida en múltiples fuentes, lo que provoca:
+Total de entrevistas analizadas: 3
 
-- Tiempo elevado en la búsqueda de datos
-- Dificultad para obtener una visión completa del paciente
-- Retrasos en la toma de decisiones
+---
 
-Este problema afecta tanto al personal operativo como al médico.
+# Análisis de características objetivas
 
-**4. Falta de trazabilidad de eventos clínicos**
+| Característica objetiva                                           | Evidencia identificada        | Porcentaje |
+| ----------------------------------------------------------------- | ----------------------------- | ---------- |
+| Uso diario de sistemas hospitalarios                              | Evidente en las 3 entrevistas | 100%       |
+| Uso complementario de registros físicos                           | Evidente en las 3 entrevistas | 100%       |
+| Dependencia de computadoras fijas                                 | Evidente en las 3 entrevistas | 100%       |
+| Uso frecuente de smartphones y herramientas digitales             | Evidente en las 3 entrevistas | 100%       |
+| Experiencia laboral mayor a 5 años                                | Presente en 2 entrevistas     | 67%        |
+| Nivel tecnológico intermedio o alto                               | Evidente en las 3 entrevistas | 100%       |
+| Participación constante en procesos críticos de monitoreo clínico | Evidente en las 3 entrevistas | 100%       |
 
-Todos los perfiles coinciden en la importancia de contar con trazabilidad, pero actualmente existen limitaciones como:
+---
 
-- Registros incompletos
-- Falta de claridad sobre quién realizó una acción
-- Dificultad para auditar eventos pasados
+# Análisis de características subjetivas
 
-Esto afecta la supervisión, el control de calidad y la toma de decisiones clínicas.
+| Característica subjetiva                            | Evidencia identificada        | Porcentaje |
+| --------------------------------------------------- | ----------------------------- | ---------- |
+| Estrés operativo elevado durante turnos críticos    | Presente en las 3 entrevistas | 100%       |
+| Frustración por lentitud y complejidad de sistemas  | Presente en las 3 entrevistas | 100%       |
+| Necesidad de rapidez operativa en registro clínico  | Presente en las 3 entrevistas | 100%       |
+| Temor a omisiones o pérdida de información          | Presente en 2 entrevistas     | 67%        |
+| Necesidad de comunicación estructurada entre turnos | Presente en las 3 entrevistas | 100%       |
+| Preferencia por interfaces simples e intuitivas     | Presente en las 3 entrevistas | 100%       |
+| Interés por soluciones móviles y accesibles         | Presente en 2 entrevistas     | 67%        |
 
-**5. Limitaciones de las herramientas actuales**
+---
 
-Las herramientas existentes presentan problemas comunes:
+# Análisis e interpretación del segmento
 
-- Son complejas y poco intuitivas
-- Requieren múltiples pasos para tareas simples
-- No están diseñadas para entornos de alta demanda
+El análisis realizado permitió identificar un patrón recurrente relacionado con la sobrecarga operativa generada por los sistemas hospitalarios actuales dentro del entorno de enfermería cardiovascular.
 
-Esto genera que, en la práctica, se evite su uso o se utilicen de forma incompleta.
+El 100% de las entrevistadas manifestó utilizar sistemas digitales diariamente; sin embargo, también se evidenció que dichos sistemas no responden adecuadamente a las necesidades de rapidez y simplicidad requeridas dentro de áreas clínicas críticas. Como consecuencia, las entrevistadas indicaron recurrir frecuentemente a registros físicos temporales para mantener continuidad operativa durante momentos de alta presión asistencial.
 
-**Patrones identificados**
+Este hallazgo evidencia una brecha importante entre el diseño actual de las herramientas hospitalarias y el flujo real de trabajo del personal de enfermería, especialmente en situaciones donde el tiempo de respuesta tiene impacto directo sobre la atención clínica.
 
-A partir de los hallazgos, se identificaron los siguientes patrones recurrentes:
+Asimismo, se identificó que la complejidad de interfaces y la excesiva cantidad de pasos requeridos para registrar información generan frustración operativa, acumulación de tareas y mayor carga cognitiva durante los turnos.
 
-- Uso frecuente de registros manuales o mixtos
-- Registro tardío o incompleto de información clínica
-- Comunicación no estructurada entre turnos
-- Dificultad para acceder rápidamente a información relevante
-- Necesidad de herramientas más simples y rápidas
+Otro patrón crítico identificado corresponde a los cambios de turno. El 100% de las entrevistadas señaló dificultades relacionadas con comunicación desestructurada, omisión parcial de información y necesidad de validación manual de datos clínicos. Este hallazgo evidencia la necesidad de implementar mecanismos estandarizados de comunicación clínica, como el modelo SBAR, dentro del flujo operativo del sistema.
 
-Estos patrones se repiten en todos los perfiles entrevistados, lo que refuerza la validez del problema identificado.
+Desde la perspectiva tecnológica, las entrevistadas demostraron una alta adaptación al uso de herramientas digitales y dispositivos móviles, evidenciando oportunidad para implementar funcionalidades móviles que reduzcan dependencia de estaciones fijas y mejoren accesibilidad a información clínica relevante.
 
-**Insights clave**
+A partir de los hallazgos identificados, se evidencia la necesidad de que PulseReport priorice:
 
-Del análisis se derivan los siguientes insights:
+* reducción de pasos operativos,
+* rapidez en registro clínico,
+* comunicación estructurada,
+* trazabilidad de información,
+* y visualización resumida del estado del paciente.
 
-- La rapidez en el registro y acceso a la información es un factor crítico en entornos clínicos.
-- La comunicación entre turnos requiere estructura y soporte digital, no solo interacción verbal.
-- Los sistemas actuales fallan no por falta de funcionalidad, sino por exceso de complejidad.
-- La trazabilidad no solo es importante para el control, sino también para la seguridad del paciente.
-- Una solución solo será adoptada si reduce fricción operativa, no si agrega procesos adicionales.
-- 
-**Validación de supuestos**
+---
 
-Con base en las entrevistas, se validan los siguientes supuestos planteados previamente:
+# Segmento objetivo 2: Médicos especialistas cardiovasculares
 
-- Existe un problema real en el registro y gestión de información clínica.
-- La comunicación entre turnos es un punto crítico del proceso asistencial.
-- Los usuarios perciben valor en una herramienta que centralice la información.
-- La trazabilidad de eventos clínicos es una necesidad clave.
-- La usabilidad y rapidez son factores determinantes para la adopción de una solución.
-**Conclusión**
+## Entrevistas analizadas
 
-El análisis de entrevistas confirma la existencia de una brecha significativa entre los procesos actuales y las necesidades reales del personal de salud. Los problemas identificados se centran en la ineficiencia del registro, la falta de trazabilidad y las limitaciones de las herramientas existentes. En este contexto, existe una oportunidad clara para el desarrollo de una solución como PulseReport, enfocada en simplificar el registro de información, mejorar la comunicación entre turnos y garantizar la trazabilidad de eventos clínicos mediante una interfaz rápida, intuitiva y adaptada al entorno operativo.
+* Luis Mendoza
+* Jorge Ramírez
+* Renato Paredes
+
+Total de entrevistas analizadas: 3
+
+---
+
+# Análisis de características objetivas
+
+| Característica objetiva                                       | Evidencia identificada        | Porcentaje |
+| ------------------------------------------------------------- | ----------------------------- | ---------- |
+| Uso diario de sistemas hospitalarios                          | Evidente en las 3 entrevistas | 100%       |
+| Uso frecuente de herramientas digitales clínicas              | Evidente en las 3 entrevistas | 100%       |
+| Experiencia laboral mayor a 10 años                           | Evidente en las 3 entrevistas | 100%       |
+| Uso de dispositivos móviles en entorno clínico                | Presente en 2 entrevistas     | 67%        |
+| Nivel tecnológico intermedio o alto                           | Evidente en las 3 entrevistas | 100%       |
+| Participación directa en procesos críticos de decisión médica | Evidente en las 3 entrevistas | 100%       |
+
+---
+
+# Análisis de características subjetivas
+
+| Característica subjetiva                             | Evidencia identificada        | Porcentaje |
+| ---------------------------------------------------- | ----------------------------- | ---------- |
+| Frustración por fragmentación de información clínica | Presente en las 3 entrevistas | 100%       |
+| Necesidad de acceso rápido a información crítica     | Presente en las 3 entrevistas | 100%       |
+| Importancia de trazabilidad médica                   | Presente en las 3 entrevistas | 100%       |
+| Necesidad de comunicación estructurada entre equipos | Presente en 2 entrevistas     | 67%        |
+| Preferencia por dashboards clínicos resumidos        | Presente en 2 entrevistas     | 67%        |
+| Interés por integración tecnológica                  | Presente en las 3 entrevistas | 100%       |
+| Rechazo a herramientas excesivamente complejas       | Presente en 2 entrevistas     | 67%        |
+
+---
+
+# Análisis e interpretación del segmento
+
+El análisis realizado permitió identificar que uno de los principales problemas dentro del entorno médico cardiovascular es la fragmentación de información clínica entre múltiples sistemas, registros físicos y mecanismos de comunicación verbal.
+
+El 100% de los entrevistados manifestó dificultades para acceder rápidamente a información relevante durante procesos de toma de decisiones clínicas, especialmente dentro de áreas críticas como UCI cardiovascular y cirugía cardiovascular. Este hallazgo evidencia limitaciones importantes en los sistemas hospitalarios actuales respecto a visualización rápida y centralización de información médica.
+
+Asimismo, se identificó que los sistemas existentes poseen una orientación predominantemente administrativa, obligando al personal médico a navegar entre múltiples módulos y registros para reconstruir el estado clínico del paciente. Esta situación incrementa tiempos operativos y genera carga innecesaria durante contextos de alta presión clínica.
+
+Otro hallazgo relevante corresponde a la necesidad de trazabilidad médica. Los entrevistados resaltaron la importancia de identificar claramente quién registró determinada información, cuándo fue actualizada y qué cambios ocurrieron durante la evolución clínica del paciente. Este aspecto no solo representa una necesidad operativa, sino también clínica y legal.
+
+Adicionalmente, se identificó interés recurrente por soluciones que permitan integración automática de información proveniente de distintos sistemas y equipos biomédicos, reduciendo trabajo manual y duplicidad de registros clínicos.
+
+Desde la perspectiva tecnológica, los entrevistados demostraron apertura hacia herramientas digitales rápidas, intuitivas y accesibles desde dispositivos móviles, siempre que estas no incrementen complejidad operativa ni carga administrativa adicional.
+
+A partir de los hallazgos identificados, se evidencia la necesidad de que PulseReport priorice:
+
+* centralización de información clínica,
+* dashboards resumidos,
+* integración tecnológica,
+* trazabilidad médica,
+* acceso rápido a datos críticos,
+* y comunicación estructurada entre profesionales de salud.
+
+---
+
+# Conclusiones generales del análisis
+
+El análisis realizado permitió identificar patrones recurrentes compartidos entre ambos segmentos objetivo relacionados con:
+
+* complejidad de sistemas hospitalarios,
+* exceso de carga administrativa,
+* fragmentación de información clínica,
+* necesidad de rapidez operativa,
+* problemas de comunicación durante cambios de turno,
+* necesidad de trazabilidad,
+* y preferencia por herramientas intuitivas y de acceso rápido.
+
+Asimismo, se evidenció que los sistemas hospitalarios actuales no se encuentran completamente alineados con el flujo operativo real del entorno cardiovascular clínico, generando procesos manuales adicionales, duplicidad de registros y pérdida de eficiencia operativa.
+
+Los hallazgos obtenidos validan la necesidad de una solución especializada como PulseReport, enfocada en:
+
+* simplificar procesos clínicos,
+* reducir carga operativa,
+* mejorar comunicación estructurada mediante SBAR,
+* optimizar trazabilidad médica,
+* y facilitar acceso rápido a información crítica dentro del entorno cardiovascular hospitalario.
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 
-<img src="assets/assets/chapter-2/userpersona1.png" alt="">
+La presente sección desarrolla los User Personas del proyecto PulseReport, elaborados a partir de los hallazgos obtenidos en el análisis de entrevistas y el análisis competitivo. Estos artefactos permiten representar de forma estructurada a los principales usuarios del sistema, considerando sus necesidades, objetivos, frustraciones, comportamientos, nivel tecnológico y contexto de uso dentro del entorno cardiovascular hospitalario.
 
-<img src="assets/assets/chapter-2/userpersona2.png" alt="">
+La construcción de los User Personas se relaciona directamente con los artefactos desarrollados previamente. Las entrevistas permitieron identificar problemas recurrentes como la complejidad de los sistemas hospitalarios, la duplicidad de registros, la falta de trazabilidad, la fragmentación de información clínica y las dificultades de comunicación durante cambios de turno. Por otro lado, el análisis competitivo permitió reconocer oportunidades de diferenciación frente a soluciones existentes, especialmente mediante una propuesta más especializada, intuitiva y adaptada al flujo operativo real del personal clínico cardiovascular.
 
-<img src="assets/assets/chapter-2/userpersona3.png" alt="">
+Para la elaboración de estos arquetipos se tomaron en cuenta características objetivas, como edad, ocupación, experiencia laboral, área de trabajo, dispositivos utilizados y canales digitales; y características subjetivas, como motivaciones, frustraciones, personalidad, objetivos, comportamiento operativo y necesidades UX. Estos elementos permiten que cada User Persona represente un segmento objetivo específico y sirva como base para la definición de requerimientos funcionales, requerimientos no funcionales y decisiones de diseño centradas en el usuario.
+
+En este proyecto se elaboran dos User Personas, uno por cada segmento objetivo identificado: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Ambos perfiles permiten comprender cómo PulseReport puede responder a necesidades reales del entorno clínico, priorizando rapidez operativa, comunicación estructurada, trazabilidad médica y acceso eficiente a información crítica.
+
+(SUBIR IMAGEN DE USERPERSONA 1)
+(SUBIR IMAGEN DE USERPERSONA 2)
 #### 2.3.2. User Task Matrix
 
 La matriz de tareas del usuario se construye a partir de los User Personas definidos, permitiendo identificar las actividades clave que realiza cada tipo de usuario, su frecuencia, criticidad y las oportunidades de mejora que el sistema debe abordar.
