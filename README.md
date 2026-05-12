@@ -2028,22 +2028,126 @@ Then it is logged in the audit log with full details
 ````
 
 
-#### 5.1.4. Software Deployment Configuration.
-En esta sección se describirá el esquema inicial de despliegue de la Landing Page y de los artefactos asociados al proyecto. Para esta primera etapa, el objetivo es asegurar que la Landing Page pueda ser visualizada y validada correctamente, mientras el repositorio del informe mantiene la documentación actualizada.
+### 5.1.4. Software Deployment Configuration
 
-**Configuración inicial**
 
-- Despliegue del informe en formato Markdown dentro del repositorio.
-- Despliegue de la Landing Page en un entorno accesible para revisión.
-- Verificación del funcionamiento de navegación, secciones y responsividad.
-- Registro del enlace público o de prueba para la sustentación del avance.
+En esta sección el equipo especifica la configuración del despliegue de la solución **PulseReport**, incluyendo los procedimientos necesarios para que,
+a partir de los repositorios de código fuente, se pueda realizar la publicación exitosa de los productos digitales que componen el sistema: Landing Page, Frontend Web Application y Web Services (Backend).
 
-**Criterios de despliegue**
+La solución se encuentra estructurada bajo una arquitectura desacoplada, donde cada componente es desplegado de manera 
+independiente utilizando plataformas especializadas en la nube, lo que permite mejorar la escalabilidad, disponibilidad y mantenimiento del sistema.
 
-- La página debe poder abrirse sin errores.
-- Los enlaces de navegación deben dirigir a las secciones correctas.
-- La experiencia debe conservar la identidad visual definida para Care-Labs.
-- El despliegue debe servir como evidencia del desarrikki del Sprint 1.
+
+### Componentes de Despliegue
+
+- **Landing Page**: desplegada en GitHub Pages
+- **Frontend Web Application (AngularJS)**: desplegada en Firebase Hosting
+
+### 1. Control de Versiones
+
+El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma para la gestión de repositorios.
+
+### Estrategia de ramas
+
+- `main`: contiene la versión estable lista para producción
+- `development`: integra las funcionalidades en desarrollo
+- `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades
+
+
+### 2. Despliegue de Landing Page (GitHub Pages)
+
+La Landing Page es una aplicación estática desarrollada con HTML, CSS y JavaScript.
+
+### Pasos de despliegue
+
+#### 1. Inicializar y preparar el repositorio
+
+- git init
+- git add .
+- git commit -m "deploy landing page"
+
+
+#### 2. Conectar el repositorio con GitHub
+
+- git branch -M main
+- git remote add origin <repo-url>
+- git push -u origin main
+
+
+#### 3. Configurar GitHub Pages
+
+- Ir a **Settings** del repositorio
+- Acceder a la sección **Pages**
+- Seleccionar:
+    - **Source**: Deploy from branch
+    - **Branch**: main
+    - **Folder**: / (root)
+
+#### Resultado (ejemplo): https://username.github.io/repository-name/
+
+
+### 3. Despliegue del Frontend Web Application (AngularJS en Firebase Hosting)
+
+El frontend está desarrollado con AngularJS y se despliega utilizando Firebase Hosting.
+
+### Pasos de despliegue
+
+#### 1. Subir el proyecto al repositorio
+
+- git add .
+- git commit -m "deploy frontend"
+- git push origin main
+
+
+#### 2. Configurar en Firebase
+
+- Acceder a: https://firebase.google.com/
+- Iniciar Sesión y dirigirse a 'Ir a Consola'
+- Seleccionar **Crear un proyecto de Firebase nuevo → Escribir el nombre del proyecto → Crear Proyecto**
+- Instalar Firebase CLI: npm install -g firebase-tools
+- Iniciar sesión en Firebase CLI: firebase login
+- Inicializar el proyecto: firebase init
+    - Seleccionar **Hosting**
+    - Seleccionar el proyecto creado en Firebase
+    - Configurar el directorio público: dist/browser
+    - Configurar como SPA: Sí
+    - Por el momento decimos que no se configure GitHub Action para despliegue automático
+
+#### 3. Configurar el build
+
+- **Build command**:
+
+- ng build
+
+- **Publish directory**:
+
+- dist/browser
+
+#### 4. Configurar variables de entorno
+
+- apiBaseUrl: https://<backend-url>
+
+#### 5. Despliegue
+
+- Ejecutamos el comando: firebase deploy
+- Firebase genera una URL pública accesible
+
+### 6. Integración de Componentes
+
+El sistema funciona de la siguiente manera:
+
+- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.
+- El **Frontend** consume los servicios del backend.
+
+
+### 7. Consideraciones de Despliegue
+
+- Uso obligatorio de variables de entorno para configuración sensible.
+- Separación de entornos (desarrollo y producción).
+- Evitar credenciales dentro del código fuente.
+- Verificación de URLs públicas después del despliegue.
+- Mantener compatibilidad entre versiones de frontend y backend.
+
 
 #### 5.2. Landing Page, Services & Applications Implementation.
 
