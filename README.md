@@ -799,28 +799,28 @@ Finalmente, indicó que una solución con dashboards resumidos, alertas visuales
   </tr>
 </table>
 
-**Entrevista 4 – Enfermera cardiovascular**
+**Entrevista 4 – Médico intensivista**
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Andrea Salazar <br>
-      <b>Edad: </b> 30 años <br>
+      <b>Nombres y apellidos:</b> Renato Paredes <br>
+      <b>Edad: </b> 33 años <br>
       <b>Distrito:</b> San Miguel <br>
-      <b>Ocupacion:</b> Enfermera cardiovascular <br>
-      <b>Timing:</b> 0:00 - 17:35 <br>
-      <b>Duración:</b> 17:35
+      <b>Ocupacion:</b> Médico intensivista <br>
+      <b>Timing:</b> 34:05 - 44:05 <br>
+      <b>Duración:</b> 11:00
     </td>
     <td align=center>
-      <img src="assets/assets/chapter-2/ENTREVISTA1.png" alt="UPC" alt="img"  width="80%"/>
+      <img src="assets/assets/chapter-2/ENTREVISTA 4.png" alt="UPC" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Link </a>
       <br>
-      <b>Resumen:</b> Andrea Salazar, enfermera cardiovascular con 8 años de experiencia en UCI cardiovascular, comentó que uno de los principales problemas dentro de su entorno laboral es el exceso de tiempo invertido en documentación clínica y la complejidad de los sistemas hospitalarios actuales. Indicó que, durante situaciones críticas, el personal frecuentemente recurre a anotaciones físicas rápidas debido a que el sistema digital requiere demasiados pasos para registrar información.
-Asimismo, señaló que los cambios de turno representan uno de los momentos más vulnerables del proceso clínico, ya que la información puede transmitirse de forma desordenada o incompleta. También destacó la necesidad de herramientas más rápidas, intuitivas y adaptadas al flujo real de enfermería cardiovascular.
-Finalmente, mencionó que una solución móvil con registro rápido, visualización resumida del paciente y comunicación estructurada mediante SBAR podría ayudar a reducir errores, optimizar tiempos y mejorar la continuidad de atención.
+      <b>Resumen:</b> Renato Paredes, médico intensivista con 14 años de experiencia en UCI cardiovascular, comentó que uno de los principales problemas dentro del entorno hospitalario es la falta de integración entre sistemas clínicos y equipos biomédicos, lo que obliga al personal a realizar múltiples registros manuales y genera mayor carga operativa.
+Asimismo, señaló que los sistemas actuales presentan lentitud, interfaces poco intuitivas y dificultades para visualizar rápidamente información crítica. También destacó la importancia de la trazabilidad clínica, la comunicación estructurada durante cambios de turno y el acceso móvil dentro de UCI cardiovascular.
+Finalmente, indicó que una solución rápida, intuitiva y enfocada en integración automática de información podría mejorar significativamente la eficiencia operativa y reducir errores dentro del entorno clínico.
 
     </td>
   </tr>
@@ -828,7 +828,7 @@ Finalmente, mencionó que una solución móvil con registro rápido, visualizaci
 
 
 
-
+**Entrevista 5 – Médico cirujano**
 
 <table border=1>
   <tr>
@@ -853,31 +853,6 @@ Finalmente, mencionó que una solución móvil con registro rápido, visualizaci
 Este método actual genera un problema grave: la pérdida de trazabilidad. La letra de los doctores muchas veces resulta ilegible. Además, el personal suele olvidar detalles y deja espacios en blanco en las hojas. Estas fallas complican el seguimiento médico del paciente.
 
 Mark muestra mucha disposición para probar un sistema tecnológico nuevo. Él considera que la plataforma debe ser segura y sobre todo fácil de usar. Su mayor preocupación involucra a los doctores de la tercera edad. Si el sistema resulta complejo, estos médicos rechazarán la herramienta y el centro de salud volverá a usar los archivos de Excel por costumbre.
-    </td>
-  </tr>
-</table>
-
-**Entrevista 3 – Administrador de clínica**
-
-<table border=1>
-  <tr>
-    <td>
-      <b>Nombres y apellidos:</b> Carlos Mendez <br>
-      <b>Edad: </b> 45 años <br>
-      <b>Distrito:</b> Santiago de Surco <br>
-      <b>Ocupacion:</b> Administrador de Clínica <br>
-      <b>Timing:</b> 0:00 <br>
-      <b>Duración:</b> 0:00
-    </td>
-    <td align=center>
-      <img src="XXXXXXX" alt="img"  width="80%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
-      <br>
-      <b>Resumen:</b> El entrevistado explicó que su función está relacionada con la supervisión de procesos y control de calidad. Señaló que actualmente existe dificultad para auditar lo que ocurre en cada turno debido a registros incompletos o poco claros. La comunicación entre turnos no siempre está documentada adecuadamente, lo que limita la trazabilidad. También indicó que consolidar información para análisis operativo toma tiempo. Considera fundamental contar con una herramienta que permita registrar eventos de forma clara, auditable y estructurada.
     </td>
   </tr>
 </table>
