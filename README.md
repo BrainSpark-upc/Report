@@ -2070,6 +2070,12 @@ Panel de control principal que ofrece una visión panorámica y resumida del ent
 </p>
 
 #### 4.4.3 Web Applications User Flow Diagrams.
+En esta sección se presentan los diagramas de flujo de usuario que detallan la lógica de navegación y los puntos de decisión dentro de Care-Labs. Estos flujos han sido diseñados para garantizar que el personal de enfermería y los administradores cumplan sus objetivos de manera eficiente, integrando rutas principales y alternativas para el manejo de datos críticos.  Los diagramas reflejan la interacción completa del sistema, asegurando la consistencia con los wireflows previos y validando cada paso del proceso clínico, desde el registro de signos vitales hasta la supervisión de alertas en el dashboard.  
+
+<p align="center">
+  <img src="assets/assets/chapter 4/software-architecture/user-flow.png" alt="Dashboard">
+</p>
+
 #### 4.5 Web Application Prototyping.
 
 En esta sección se presentan los prototipos de interfaz web de Care-Labs, desarrollados para simular los principales flujos de interacción de la plataforma en navegador web. Los prototipos fueron diseñados considerando una arquitectura de información organizada por perfiles de usuario: personal de enfermería cardiovascular y administración o supervisión clínica.
