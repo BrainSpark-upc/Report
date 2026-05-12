@@ -1263,6 +1263,34 @@ y trazabilidad de eventos, responsables y horarios.
 
 ### 2.3.4. Empathy Mapping
 
+La presente sección desarrolla los Empathy Maps correspondientes a los User Personas definidos para el proyecto PulseReport. Este artefacto permite comprender de manera más profunda el contexto, necesidades, emociones, frustraciones, comportamientos y expectativas de los usuarios dentro del entorno cardiovascular hospitalario.
+
+El proceso de elaboración consistió en colocar a cada User Persona en el centro del análisis y organizar la información obtenida en las entrevistas, el análisis de entrevistas, el User Task Matrix y los User Journey Maps As-Is. A partir de estos insumos, se identificó qué piensa y siente cada usuario, qué observa en su entorno, qué escucha de otros actores, qué dice y hace durante su trabajo, cuáles son sus principales pains y qué gains podrían ayudarlo a resolver sus problemas.
+
+Los Empathy Maps desarrollados corresponden a los dos User Personas del proyecto:
+
+| User Persona         | Segmento objetivo                     | Propósito del Empathy Map                                                                                                      |
+| -------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Daniela Ríos         | Personal de enfermería cardiovascular | Comprender sus necesidades durante el registro clínico, monitoreo de pacientes y cambio de turno.                              |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    | Comprender sus necesidades durante la consulta, validación e interpretación de información clínica para la toma de decisiones. |
+
+Empathy Map 1 — Daniela Ríos
+¿Con quién estamos empatizando?
+| Campo              | Información                                                                               |
+| ------------------ | ----------------------------------------------------------------------------------------- |
+| User Persona       | Daniela Ríos                                                                              |
+| Segmento objetivo  | Personal de enfermería cardiovascular                                                     |
+| Rol                | Enfermera cardiovascular                                                                  |
+| Área               | UCI cardiovascular                                                                        |
+| Nivel tecnológico  | Intermedio – Alto                                                                         |
+| Contexto principal | Registro clínico, monitoreo de pacientes críticos y comunicación durante cambios de turno |
+
+Daniela representa al personal de enfermería cardiovascular que trabaja bajo presión operativa constante. Debe monitorear pacientes críticos, administrar medicamentos, registrar información clínica y transferir datos relevantes al siguiente turno sin omitir información importante.
+
+¿Qué necesita hacer?
+
+Daniela necesita registrar información clínica de manera rápida y precisa, monitorear pacientes críticos, coordinar con médicos y otros enfermeros, comunicar información relevante durante cambios de turno y mantener trazabilidad sobre medicamentos, signos vitales y eventos clínicos. Además, necesita reducir la duplicidad entre registros físicos y digitales para poder dedicar más tiempo a la atención directa del paciente.
+
 
 
 ### 2.4. Big Picture Storming.
