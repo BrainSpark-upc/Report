@@ -1505,31 +1505,31 @@ El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesi
 - **Colores**: la paleta seleccionada combina azul (#0F3D91), azul intenso (#0F4DB8), turquesa (#14B8A6), blanco (#FFFFFF) y tonos grises suaves (#E5E7EB y #1F2937). El azul transmite confianza, estabilidad y profesionalismo, cualidades importantes en plataformas relacionadas con procesos clínicos. El turquesa refuerza la idea de innovación, accesibilidad y tecnología en salud. Los tonos neutros equilibran la interfaz, mejoran el contraste y favorecen la lectura del contenido.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/style guidelines/colores.png" alt="colores" style="height:200px;">
+  <img src="assets/assets/chapter 4/style guidelines/colores.png" alt="colores" style="height:200px;">
 </p>
 
 - **Tipografía**: se utiliza una tipografía sans serif como base visual por su claridad, legibilidad y apariencia profesional en entornos web. La elección de fuentes como Arial y Helvetica responde a la necesidad de mantener una lectura fluida en títulos, botones, menús y descripciones, además de proyectar una imagen moderna, limpia y confiable para el usuario.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/style guidelines/TIPOGRAFIA.png" alt="tipografia" style="height:300px;">
+  <img src="assets/assets/chapter 4/style guidelines/TIPOGRAFIA.png" alt="tipografia" style="height:300px;">
 </p>
 
 - **Distribución y espaciado**: se adopta una estructura visual ordenada, con bloques bien definidos, espaciado consistente y una jerarquía clara entre secciones. La landing page organiza su contenido de manera progresiva, permitiendo que el usuario identifique fácilmente el propósito del producto, sus características, beneficios y medios de contacto. Esta distribución mejora la navegación y facilita una experiencia visual limpia y comprensible.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/distribucion.png" alt="distribucion" style="height:300px;">
+<img src="assets/assets/chapter 4/style guidelines/distribucion.png" alt="distribucion" style="height:300px;">
 </p>
 
 - **Lenguaje y tono**: la comunicación es directa, clara y profesional, evitando tecnicismos innecesarios. Los textos de la interfaz emplean un tono formal y accesible para transmitir confianza y facilitar la comprensión de la propuesta de valor tanto a instituciones de salud como a usuarios interesados en la solución. Expresiones como “Solicitar demo”, “Ver cómo funciona” y “Contáctanos” refuerzan un lenguaje orientado a la acción y a la claridad informativa.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/lenguaje.png" alt="lenguaje" style="height:300px;">
+<img src="assets/assets/chapter 4/style guidelines/lenguaje.png" alt="lenguaje" style="height:300px;">
 </p>
 
 - **Iconografía**: se emplean símbolos visuales vinculados al entorno médico y a la comunicación asistencial, como íconos relacionados con salud, registro clínico, monitoreo y comunicación entre usuarios. Esto permite reforzar visualmente el enfoque del producto, reducir la complejidad de interpretación y mejorar la usabilidad general de la landing page.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/iconografia.png" alt="iconografia" style="height:300px;">
+<img src="assets/assets/chapter 4/style guidelines/iconografia.png" alt="iconografia" style="height:300px;">
 </p>
 
 #### 4.1.2. Web Style Guidelines
@@ -1539,31 +1539,31 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 - **Diseño adaptable**: la interfaz se ajusta a distintos dispositivos (desktop, tablet y móvil), manteniendo consistencia visual entre la Landing Page y la Web Application. Esto permite que los usuarios puedan acceder al sistema desde diferentes contextos, facilitando la consulta de información y el uso de la plataforma en distintos entornos de trabajo.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/diseño.png" alt="diseño-adaptable" style="height:200px;">
+<img src="assets/assets/chapter 4/style guidelines/diseño.png" alt="diseño-adaptable" style="height:200px;">
 </p>
 
 - **Componentes de interfaz**: los botones principales se presentan con colores más intensos para resaltar acciones relevantes como solicitar una demo, registrar información o confirmar procesos, mientras que los elementos secundarios mantienen un estilo más neutral. Esto establece jerarquía visual y permite que el usuario identifique con rapidez las acciones prioritarias dentro de la interfaz.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/componentes.png" alt="componentes" style="height:200px;">
+<img src="assets/assets/chapter 4/style guidelines/componentes.png" alt="componentes" style="height:200px;">
 </p>
 
 - **Notificaciones y estados**: los mensajes del sistema utilizan convenciones visuales claras para comunicar el estado de una acción o proceso. Los estados positivos se muestran en verde para indicar confirmación o guardado exitoso, las advertencias en amarillo para señalar elementos pendientes o en revisión, y los errores en rojo para representar fallos o problemas de sincronización. Esta diferenciación mejora la comprensión y reduce la posibilidad de confusión por parte del usuario.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/notificaciones.png" alt="notificaciones" style="height:200px;">
+<img src="assets/assets/chapter 4/style guidelines/notificaciones.png" alt="notificaciones" style="height:200px;">
 </p>
 
 - **Tablas y dashboards**: se prioriza una presentación clara y ordenada de la información dentro de tablas y paneles de control, facilitando la consulta y el análisis de datos relevantes. La organización visual de registros, métricas y estados permite que el usuario interprete rápidamente la información y pueda dar seguimiento a los procesos del sistema de manera más eficiente.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/tablas.png" alt="tablas" style="height:300px;">
+<img src="assets/assets/chapter 4/style guidelines/tablas.png" alt="tablas" style="height:300px;">
 </p>
 
 - **Accesibilidad**: se consideran contrastes adecuados, una disposición clara del contenido y elementos visuales comprensibles para favorecer la interacción de distintos tipos de usuarios. Además, se busca mantener una navegación sencilla y una lectura legible en toda la interfaz, fortaleciendo la usabilidad general de la plataforma.
 
 <p align="center">
-<img src="/assets/assets/chapter 4/style guidelines/accesibilidad.png" alt="accesibilidad" style="height:300px;">
+<img src="assets/assets/chapter 4/style guidelines/accesibilidad.png" alt="accesibilidad" style="height:300px;">
 </p>
 
 ### 4.2. Information Architecture
@@ -1605,7 +1605,7 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
   - “Generar reporte”
 
 <p align="center">
-<img src="/assets/assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
+<img src="assets/assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
 </p>
 
 #### 4.2.2. Labeling Systems
@@ -1828,7 +1828,7 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
 - **Consistencia de navegación**: los menús, accesos y botones mantienen una ubicación y estilo uniforme, ayudando a que el usuario navegue de manera intuitiva y sin confusión entre las distintas secciones.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
+  <img src="assets/assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
 </p>
 
 #### 4.3 Landing Page UI Design.
@@ -1839,57 +1839,57 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 - **Inicio**: en la parte superior se ubica el logo principal de **Care-Labs / PulseReport** junto con la barra de navegación, que permite acceder a las principales secciones de la landing page. Además, se incluye un botón de **“Solicitar demo”** como llamado a la acción destacado, con el objetivo de captar rápidamente el interés del usuario.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/hero-wf.png" alt="hero wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/hero-wf.png" alt="hero wireframe" width="600">
 </p>
 
 - **¿Cómo funciona?**: en esta sección se explica de forma breve y visual cómo funciona la solución, mostrando el flujo general del producto en pasos simples. Esto permite que el usuario comprenda rápidamente la lógica de uso de **PulseReport** dentro del entorno clínico.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/hdiw-wf.png" alt="hdiw wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/hdiw-wf.png" alt="hdiw wireframe" width="600">
 </p>
 
 - **Características**: se presentan las funcionalidades principales de la plataforma, como traspasos SBAR, gestión de pacientes, seguimiento de tratamientos, monitoreo de signos vitales, historial clínico digital y log de auditoría. Estas características se muestran en bloques simples con descripciones breves para facilitar la comprensión del producto.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
 </p>
 
 - **Beneficios y FAQs**: esta sección destaca el valor agregado de la solución, resaltando beneficios como una mejor comunicación entre turnos, mayor trazabilidad clínica, organización de la información y atención más confiable. Además, se incluye una sección de preguntas frecuentes para resolver dudas comunes y reforzar la claridad de la propuesta.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
 </p>
 
 
 - **Contacto y Footer**: en la parte final se encuentra el formulario de contacto, que permite a los usuarios interesados enviar consultas o solicitar información adicional sobre la plataforma. Finalmente, el footer incluye información general de la marca y accesos complementarios a secciones relevantes de la landing page.
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="/assets/assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
+  <img src="assets/assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
 </p>
 
 
 #### 4.3.2 Landing Page Mock-up.
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/features-mu.png" alt="features mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/features-mu.png" alt="features mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/benefits-mu.png" alt="benefits mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/benefits-mu.png" alt="benefits mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/faqs-mu.png" alt="faqs mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/faqs-mu.png" alt="faqs mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/contact-mu.png" alt="contact mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/contact-mu.png" alt="contact mock up" width="600"> </p>
 
-<p align="center"> <img src="/assets/assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
+<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
 
 #### 4.4 Web Applications UX/UI Design.
 #### 4.4.1 Web Application Wireframes.
