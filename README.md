@@ -1937,32 +1937,96 @@ Para mantener un historial claro de cambios, el equipo utiliza Conventional Comm
 - `perf`: Mejoras de rendimiento
 - `revert`: Reversión de un commit anterior
 
-#### 5.1.3. Source Code Style Guide & Conventions.
-Para mantener consistencia en el proyecto, el equipo adopta convenciones de nomenclatura y estilo que faciliten la escalabilidad y lectura del código,
-la organización de archivos y la comprensión de la propuesta de solución.
+### 5.1.3. Source Code Style Guide & Conventions
 
-**Convenciones generales**
+Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, el proyecto **PulseReport** adopta un conjunto de guías de estilo y convenciones estándar para todos los lenguajes utilizados en la solución. 
+Estas buenas prácticas permiten asegurar consistencia entre los miembros del equipo, mejorar la calidad del código y facilitar su escalabilidad en futuras iteraciones.
 
-- Nombres de archivos en kebab-case cuando corresponda.
-- Identificadores en inglés.
-- Mensajes de commit claros y descriptivos.
-- Estructura de carpetas consistente y predecible.
-- Separación entre componentes, estilos, recursos y documentación.
+Todas las variables, funciones, clases, componentes y archivos se nombran en inglés, siguiendo estándares internacionales de la industria del software.
 
-**Convenciones para el informe**
 
-- Redacción formal y clara.
-- Títulos jerárquicos bien definidos.
-- Uso de tablas para evidencias, backlog y planificación.
-- Inclusión de capturas de pantalla para ilustrar avances y resultados.
+### HTML / CSS
 
-**Convenciones para la Landing Page**
+**Guía adoptada:** Google HTML/CSS Style Guide y W3C Standards
 
-- Componentes con nombres descriptivos.
-- Secciones ordenadas según el flujo del usuario.
-- Textos breves, claros y orientados al sector salud.
-- Diseño responsive acorde a las pautas establecidas en el capítulo de diseño.
-- Orientado al objetivo de invitar a clientes a suscribirse, es decir, mostrarse confiable y profesional.
+### HTML
+- Se utiliza una estructura semántica clara usando etiquetas como `header`, `main`, `section`, `article` y `footer`.
+- El código HTML se escribe con indentación de 2 espacios.
+- Todas las etiquetas deben cerrarse correctamente.
+- Se utilizan comillas dobles para atributos HTML.
+- Se evita el uso de estilos inline para mantener separación entre estructura y diseño.
+
+### CSS
+- Se utiliza la metodología BEM (Block Element Modifier) para la nomenclatura de clases:
+    - Ejemplo: `btn--primary`
+- Se prioriza el uso de clases reutilizables.
+- Se evita la duplicación de estilos.
+- Se aplican variables CSS para colores, espaciados y medidas globales.
+- Se organiza el CSS de forma modular por componentes o secciones.
+
+
+### AngularJS (Frontend)
+
+**Guías adoptadas:** Angular Style Guide
+
+### Nomenclatura
+- `camelCase` para variables, funciones, métodos y propiedades.
+- `PascalCase` para clases, interfaces, componentes y enums.
+- `UPPER_SNAKE_CASE` para constantes globales.
+- `kebab-case` para nombres de archivos y carpetas.
+- Prefijo _ para propiedades privadas y signals privados.
+
+### Buenas prácticas
+- Clean Architecture junto con Domain-Driven Design: Separación en capas application, domain, infrastructure y presentation.
+- Inyección de dependencias: Uso de @Injectable() y inject() para gestión de dependencias.
+- Patrón Assembler: Conversión de DTOs a entidades de dominio.
+- Uso de Signals para estado reactivo
+- Uso de `computed` signals para lógica derivada.
+- Guards de rutas para protección de acceso.
+
+
+### Estilo de código
+- Uso de `const` y `let` (no `var`).
+- Código modular y reutilizable.
+- Manejo de errores estructurado: `try/catch` o catchError con mensajes descriptivos.
+- Ternario y optional chaining para lógica simple.
+- Typescript Strict Mode: Máxima seguridad en compilación.
+
+
+### Convenciones generales del proyecto PulseReport
+
+- Todo el código está escrito en inglés.
+- Se aplica el principio SOLID.
+- Se sigue el principio DRY.
+- Se prioriza la legibilidad sobre la complejidad.
+
+### Gherkin (Especificaciones)
+
+Para la definición de criterios de aceptación en historias de usuario se utiliza Gherkin:
+
+- Given / When / Then
+- Lenguaje claro y entendible por el negocio
+
+### Ejemplos:
+
+```gherkin
+Given a patient is registered in the system
+When vital signs are recorded outside the normal range
+Then the system generates an automatic alert
+
+Given I am on the patient view
+When I record vital signs data
+Then it is saved correctly in the medical record
+
+Given I complete the SBAR form
+When I save the shift handover
+Then it is stored with the date, time, and responsible user
+
+Given a critical clinical event occurs
+When the system records it
+Then it is logged in the audit log with full details
+````
+
 
 #### 5.1.4. Software Deployment Configuration.
 En esta sección se describirá el esquema inicial de despliegue de la Landing Page y de los artefactos asociados al proyecto. Para esta primera etapa, el objetivo es asegurar que la Landing Page pueda ser visualizada y validada correctamente, mientras el repositorio del informe mantiene la documentación actualizada.
@@ -1980,10 +2044,12 @@ En esta sección se describirá el esquema inicial de despliegue de la Landing P
 - Los enlaces de navegación deben dirigir a las secciones correctas.
 - La experiencia debe conservar la identidad visual definida para Care-Labs.
 - El despliegue debe servir como evidencia del desarrikki del Sprint 1.
+
 #### 5.2. Landing Page, Services & Applications Implementation.
+
 #### 5.2.1. Sprint 1
-Para el Sprint 1, el equipo prioriza la construcción de la base visible del producto, enfocándose en la Landing Page y en las primeras decisiones de implementación del sistema. 
-Dado que nuestro grupo ya definió los pilares de Care-Labs, el Sprint 1 se concentro en las funcionalidades de mayor valor inicial: 
+Para el Sprint 1, el equipo prioriza la construcción de la base visible del producto, enfocándose en la Landing Page y en las primeras decisiones de implementación del sistema.
+Dado que nuestro grupo ya definió los pilares de Care-Labs, el Sprint 1 se concentro en las funcionalidades de mayor valor inicial:
 presentación del producto, navegación básica y primeros elementos del flujo clínico.
 #### 5.2.1.1. Sprint Planning 1.
 **Objetivo del Sprint 1**
@@ -1999,8 +2065,8 @@ Construir la primera versión funcional de la Landing Page y empezar a delimitar
 - Organización inicial de Sprint backlog y responsables.
 
 
-Dado que Care-Labs está enfocado en procesos críticos de enfermería cardiovascular, la primera entrega debe mostrar la propuesta 
-de valor del producto y dejar clara la dirección del sistema. Esto coincide con el MVP ya definido: registro básico de pacientes, 
+Dado que Care-Labs está enfocado en procesos críticos de enfermería cardiovascular, la primera entrega debe mostrar la propuesta
+de valor del producto y dejar clara la dirección del sistema. Esto coincide con el MVP ya definido: registro básico de pacientes,
 signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 <div align="center">
