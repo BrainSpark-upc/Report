@@ -985,8 +985,12 @@ Para la elaboración de estos arquetipos se tomaron en cuenta características o
 
 En este proyecto se elaboran dos User Personas, uno por cada segmento objetivo identificado: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Ambos perfiles permiten comprender cómo PulseReport puede responder a necesidades reales del entorno clínico, priorizando rapidez operativa, comunicación estructurada, trazabilidad médica y acceso eficiente a información crítica.
 
-(SUBIR IMAGEN DE USERPERSONA 1)
-(SUBIR IMAGEN DE USERPERSONA 2)
+<p align="center">
+  <img src="assets/assets/chapter-2/DANIELA RIOS - USERPSONA.png" alt="UPC">
+</p>
+<p align="center">
+  <img src="assets/assets/chapter-2/Alejandro Torres - UserPersona.png" alt="UPC">
+</p>
 #### 2.3.2. User Task Matrix
 
 La presente sección desarrolla el **User Task Matrix** del proyecto PulseReport. Este artefacto permite organizar y comparar las principales tareas que realizan los User Personas dentro del entorno cardiovascular hospitalario para cumplir sus objetivos profesionales.
