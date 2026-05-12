@@ -1630,6 +1630,16 @@ Distribución por bloques funcionales
 | Soporte a decisiones clínicas | US-24, US-25        | Identificar cambios críticos y validar información relevante con enfermería.                             |
 | RESTful API                   | TS-01 a TS-06       | Habilitar recursos técnicos para pacientes, registros, traspasos, trazabilidad, autenticación y errores. |
 
+Captura y URL del Product Backlog
+
+En el documento final se debe incluir una captura del Product Backlog elaborado en la herramienta indicada.
+
+IMAGENN
+
+También debe agregarse el enlace público al tablero:
+
+URL del Product Backlog:
+https://docs.google.com/spreadsheets/d/1JWzVr2lEd1AoSZBmGx0D0B3Pd09Je_w_lRHvN-_5y40/edit?usp=sharing 
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
