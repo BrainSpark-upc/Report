@@ -1382,27 +1382,99 @@ En esta etapa se identificaron los principales problemas y oportunidades asociad
 
 IMAGENNN
 
-Step 5: Storytelling del dominio
-
 
 ### 2.5. Ubiquitous Language.
 
-El Ubiquitous Language define los términos comunes utilizados en PulseReport, alineados con los conceptos visibles en la landing y las funcionalidades del sistema.
+La presente sección desarrolla el Ubiquitous Language del proyecto PulseReport. Este artefacto consiste en un glosario de términos propios del dominio clínico cardiovascular hospitalario, utilizados de manera consistente por todos los miembros del equipo y stakeholders del proyecto.
 
-| Término             | Definición                                             |
-| ------------------- | ------------------------------------------------------ |
-| Paciente            | Persona que recibe atención clínica dentro del sistema |
-| Signos vitales      | Datos fisiológicos registrados en tiempo real          |
-| Estado del paciente | Condición actual basada en datos clínicos              |
-| Evento clínico      | Cambio relevante en la condición del paciente          |
-| Tratamiento         | Acción médica registrada en el sistema                 |
-| SBAR digital        | Formato estructurado para traspaso de turno            |
-| Traspaso de turno   | Transferencia de información entre personal            |
-| Historial clínico   | Registro completo de eventos del paciente              |
-| Alerta clínica      | Notificación automática ante condición crítica         |
-| Trazabilidad        | Seguimiento completo de eventos y acciones             |
-| Auditoría           | Registro inalterable de acciones en el sistema         |
+El objetivo del Ubiquitous Language es reducir ambigüedades durante el análisis, diseño y desarrollo de la solución, asegurando que conceptos como eventos clínicos, indicaciones médicas, trazabilidad, cambio de turno y monitoreo cardiovascular tengan un significado común dentro del equipo.
 
+Los términos incluidos corresponden al dominio del negocio, no a conceptos técnicos de ingeniería de software. Por ello, se priorizan términos utilizados por personal de enfermería cardiovascular, médicos especialistas y actores clínicos involucrados en el proceso actual.
+
+Ubiquitous Language — PulseReport
+| Term                            | Equivalent in Spanish               | Definition                                                                                                                                                |
+| ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cardiovascular Patient**      | Paciente cardiovascular             | Paciente que presenta una condición relacionada con el sistema cardiovascular y que requiere monitoreo, seguimiento clínico o intervención especializada. |
+| **Cardiovascular Care Unit**    | Unidad de cuidado cardiovascular    | Área hospitalaria especializada en la atención, monitoreo y seguimiento de pacientes con condiciones cardiovasculares.                                    |
+| **Clinical Shift**              | Turno clínico                       | Periodo de trabajo asignado al personal de salud durante el cual se realiza atención, monitoreo, registro y seguimiento de pacientes.                     |
+| **Shift Handover**              | Traspaso de turno                   | Proceso mediante el cual el equipo saliente comunica al equipo entrante la información clínica relevante del paciente.                                    |
+| **Incoming Shift**              | Turno entrante                      | Equipo de profesionales que inicia su periodo de atención y recibe información clínica del turno anterior.                                                |
+| **Outgoing Shift**              | Turno saliente                      | Equipo de profesionales que finaliza su periodo de atención y entrega información clínica al siguiente equipo.                                            |
+| **Clinical Information**        | Información clínica                 | Conjunto de datos relevantes sobre el estado del paciente, evolución, signos vitales, medicamentos, indicaciones, eventos y observaciones.                |
+| **Patient Status**              | Estado del paciente                 | Condición clínica actual del paciente, considerando signos vitales, evolución, síntomas, riesgos y respuesta al tratamiento.                              |
+| **Vital Signs**                 | Signos vitales                      | Indicadores fisiológicos básicos del paciente, como frecuencia cardíaca, presión arterial, frecuencia respiratoria, temperatura y saturación de oxígeno.  |
+| **Cardiac Monitoring**          | Monitoreo cardíaco                  | Observación continua o periódica de parámetros cardiovasculares para detectar cambios relevantes en el estado del paciente.                               |
+| **Clinical Evolution**          | Evolución clínica                   | Secuencia de cambios observados en el estado del paciente durante un periodo determinado.                                                                 |
+| **Recent Evolution**            | Evolución reciente                  | Cambios clínicos ocurridos en un periodo cercano al momento de consulta o evaluación médica.                                                              |
+| **Clinical Event**              | Evento clínico                      | Situación relevante ocurrida durante la atención del paciente que debe ser registrada, comunicada o evaluada.                                             |
+| **Relevant Clinical Event**     | Evento clínico relevante            | Evento que puede afectar la evolución del paciente o requerir una acción clínica, comunicación inmediata o seguimiento posterior.                         |
+| **Critical Change**             | Cambio crítico                      | Variación significativa en el estado del paciente que puede requerir atención inmediata o decisión médica urgente.                                        |
+| **Clinical Deterioration**      | Deterioro clínico                   | Empeoramiento del estado del paciente evidenciado por signos vitales, síntomas, evolución o respuesta al tratamiento.                                     |
+| **Medical Indication**          | Indicación médica                   | Orden emitida por el médico para realizar una acción clínica, administrar un medicamento, solicitar seguimiento o modificar un tratamiento.               |
+| **Updated Indication**          | Indicación actualizada              | Indicación médica modificada o añadida luego de una nueva evaluación clínica.                                                                             |
+| **Pending Indication**          | Indicación pendiente                | Indicación médica que aún no ha sido ejecutada o cuyo cumplimiento no ha sido confirmado.                                                                 |
+| **Indication Compliance**       | Cumplimiento de indicación          | Confirmación de que una indicación médica fue ejecutada correctamente.                                                                                    |
+| **Medication Administration**   | Administración de medicamento       | Acción de suministrar un medicamento al paciente según la indicación médica correspondiente.                                                              |
+| **Medication Record**           | Registro de medicación              | Constancia del medicamento administrado, incluyendo horario, dosis, responsable y observaciones relevantes.                                               |
+| **Clinical Record**             | Registro clínico                    | Documentación formal de información relevante del paciente durante la atención médica o de enfermería.                                                    |
+| **Nursing Record**              | Registro de enfermería              | Registro elaborado por el personal de enfermería sobre cuidados, signos vitales, medicamentos, eventos y observaciones del paciente.                      |
+| **Physical Record**             | Registro físico                     | Documento en papel utilizado para anotar información clínica, usualmente como respaldo o apoyo temporal.                                                  |
+| **Digital Record**              | Registro digital                    | Información clínica registrada en un sistema informático hospitalario.                                                                                    |
+| **Pending Documentation**       | Documentación pendiente             | Información clínica que aún no ha sido registrada formalmente en el sistema correspondiente.                                                              |
+| **Information Regularization**  | Regularización de información       | Proceso de completar o actualizar registros clínicos que quedaron pendientes durante el turno.                                                            |
+| **Clinical Traceability**       | Trazabilidad clínica                | Capacidad de identificar qué ocurrió, cuándo ocurrió, quién registró la información y qué cambios se realizaron.                                          |
+| **Event Traceability**          | Trazabilidad de eventos             | Seguimiento de los eventos clínicos relevantes ocurridos durante la atención del paciente.                                                                |
+| **Responsible Staff**           | Responsable clínico                 | Profesional de salud que ejecuta, registra o valida una acción clínica.                                                                                   |
+| **Clinical Validation**         | Validación clínica                  | Confirmación de que la información registrada o comunicada es correcta y útil para la toma de decisiones.                                                 |
+| **Clinical Decision**           | Decisión clínica                    | Determinación tomada por un profesional de salud respecto al diagnóstico, tratamiento, seguimiento o intervención del paciente.                           |
+| **Clinical Follow-up**          | Seguimiento clínico                 | Observación y evaluación continua del paciente después de una indicación, evento o intervención médica.                                                   |
+| **Patient Monitoring**          | Monitoreo del paciente              | Observación sistemática del estado del paciente para detectar cambios o riesgos clínicos.                                                                 |
+| **Nursing Observation**         | Observación de enfermería           | Información identificada por el personal de enfermería durante el monitoreo y atención directa del paciente.                                              |
+| **Clinical Communication**      | Comunicación clínica                | Intercambio de información relevante entre profesionales de salud para coordinar la atención del paciente.                                                |
+| **Verbal Communication**        | Comunicación verbal                 | Transmisión oral de información clínica entre profesionales de salud.                                                                                     |
+| **Structured Communication**    | Comunicación estructurada           | Comunicación organizada bajo un formato definido para reducir ambigüedad y omisiones.                                                                     |
+| **SBAR Report**                 | Reporte SBAR                        | Formato estructurado de comunicación clínica basado en Situación, Antecedentes, Evaluación y Recomendación.                                               |
+| **Situation**                   | Situación                           | Primer componente del SBAR que describe el problema actual o motivo principal de comunicación.                                                            |
+| **Background**                  | Antecedentes                        | Segundo componente del SBAR que resume información previa relevante del paciente.                                                                         |
+| **Assessment**                  | Evaluación                          | Tercer componente del SBAR que describe la valoración actual del paciente.                                                                                |
+| **Recommendation**              | Recomendación                       | Cuarto componente del SBAR que indica la acción sugerida o siguiente paso clínico.                                                                        |
+| **Clinical Summary**            | Resumen clínico                     | Síntesis de información relevante del paciente para facilitar comprensión rápida del caso.                                                                |
+| **Patient Handover Summary**    | Resumen de traspaso del paciente    | Información organizada que se entrega al siguiente turno para asegurar continuidad de atención.                                                           |
+| **Continuity of Care**          | Continuidad de atención             | Mantenimiento coherente y seguro del cuidado del paciente entre turnos, profesionales y etapas clínicas.                                                  |
+| **Care Coordination**           | Coordinación de atención            | Organización de acciones clínicas entre médicos, enfermería y otros profesionales de salud.                                                               |
+| **Clinical Workload**           | Carga clínica                       | Cantidad de tareas asistenciales, administrativas y de registro que debe realizar el personal de salud.                                                   |
+| **Operational Burden**          | Carga operativa                     | Esfuerzo adicional generado por procesos manuales, duplicidad de registros o sistemas complejos.                                                          |
+| **Clinical Risk**               | Riesgo clínico                      | Posibilidad de que una omisión, retraso, error o falta de información afecte la seguridad del paciente.                                                   |
+| **Omission**                    | Omisión                             | Información o acción clínica que no fue registrada, comunicada o ejecutada oportunamente.                                                                 |
+| **Delayed Record**              | Registro tardío                     | Registro realizado después del momento en que ocurrió la acción o evento clínico.                                                                         |
+| **Information Fragmentation**   | Fragmentación de información        | Situación en la que la información clínica se encuentra distribuida en múltiples fuentes, dificultando su consulta completa.                              |
+| **Duplicate Record**            | Registro duplicado                  | Información registrada en más de un medio, como papel y sistema digital, generando doble trabajo o riesgo de inconsistencia.                              |
+| **Biomedical Monitor**          | Monitor biomédico                   | Equipo médico que mide y muestra variables fisiológicas del paciente, como signos vitales o parámetros cardiovasculares.                                  |
+| **Hospital Information System** | Sistema de información hospitalaria | Plataforma utilizada por la institución para registrar, consultar y administrar información clínica y hospitalaria.                                       |
+| **Clinical Dashboard**          | Panel clínico                       | Vista organizada de información clínica relevante para facilitar interpretación rápida del estado del paciente.                                           |
+| **Clinical Alert**              | Alerta clínica                      | Aviso relacionado con un cambio, riesgo o evento relevante en el estado del paciente.                                                                     |
+
+
+Términos priorizados del dominio
+Aunque el glosario incluye diversos conceptos del entorno clínico cardiovascular, los términos más relevantes para PulseReport son:
+
+| Term                          | Reason for prioritization                                                          |
+| ----------------------------- | ---------------------------------------------------------------------------------- |
+| **Shift Handover**            | Es uno de los momentos críticos donde puede perderse información clínica.          |
+| **Clinical Traceability**     | Es clave para conocer qué ocurrió, cuándo ocurrió y quién registró la información. |
+| **SBAR Report**               | Representa la estructura principal para mejorar la comunicación entre turnos.      |
+| **Relevant Clinical Event**   | Permite identificar situaciones que deben registrarse y comunicarse oportunamente. |
+| **Medical Indication**        | Conecta la decisión médica con la ejecución de enfermería.                         |
+| **Indication Compliance**     | Permite verificar si una orden clínica fue ejecutada correctamente.                |
+| **Clinical Evolution**        | Es esencial para comprender el estado actual y reciente del paciente.              |
+| **Information Fragmentation** | Representa uno de los principales problemas detectados en entrevistas.             |
+| **Continuity of Care**        | Es el resultado esperado de una mejor comunicación y trazabilidad.                 |
+
+Conclusión
+
+El Ubiquitous Language permite establecer un vocabulario común para el equipo del proyecto PulseReport, reduciendo ambigüedades entre conceptos clínicos y facilitando la comunicación entre los miembros del equipo y stakeholders.
+
+Los términos definidos están relacionados directamente con el dominio cardiovascular hospitalario y con los problemas identificados durante las entrevistas, el análisis de usuarios, los User Journey Maps y el Big Picture Event Storming. Este glosario servirá como base para mantener consistencia conceptual durante la definición de requerimientos, diseño de funcionalidades y construcción futura de la solución.
 
 ## Capítulo III: Requirements Specification
 ### 3.1. User Stories
