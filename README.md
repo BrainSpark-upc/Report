@@ -1167,28 +1167,77 @@ A partir de este análisis, PulseReport debe priorizar funcionalidades orientada
 
 Estas prioridades se derivan directamente de tareas reales identificadas en los User Personas, por lo que permiten orientar el desarrollo del sistema hacia necesidades concretas del entorno cardiovascular hospitalario.
 
-
 #### 2.3.3. User Journey Mapping.
 
-**María Torres (Enfermera – Operativo)**
-<img src="assets/assets/chapter-2/UserJourney Mapping1.png" alt="">
+La presente sección desarrolla los User Journey Maps As-Is del proyecto PulseReport. Estos artefactos representan el recorrido actual que realizan los User Personas dentro del entorno cardiovascular hospitalario, antes de la implementación de la solución propuesta.
 
-**Luis Ramírez (Médico – Decisión)**
-<img src="assets/assets/chapter-2/UserJourney Mapping2.png" alt="">
+Los Journey Maps se elaboran a partir de los hallazgos obtenidos en las entrevistas, el análisis de entrevistas, los User Personas y el User Task Matrix. Su propósito es comprender cómo los usuarios realizan actualmente sus actividades, qué puntos de contacto utilizan, qué emociones experimentan, qué dificultades enfrentan y qué oportunidades de mejora pueden ser consideradas posteriormente en el diseño del sistema.
 
-**Carlos Méndez (Administrador – Control)**
-<img src="assets/assets/chapter-2/UserJourney Mapping3.png" alt="">
+Cada mapa representa un recorrido end-to-end, es decir, desde el inicio hasta el cierre de una actividad clínica relevante. En este caso, se desarrollan dos User Journey Maps As-Is:
 
-#### 2.3.4. Empathy Mapping.
+| User Persona         | Segmento objetivo                     | Journey Map As-Is                                                                                  |
+| -------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Daniela Ríos         | Personal de enfermería cardiovascular | Desde la recepción del turno hasta la entrega de información al siguiente equipo                   |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica |
 
-**María Torres (Enfermera – Operativo)**
-<img src="assets/assets/chapter-2/Empathy Mapping1.png" alt="">
+Estos mapas no describen el funcionamiento de PulseReport, sino el proceso actual del usuario sin la solución, permitiendo identificar pain points, emociones y oportunidades de mejora del contexto real.
 
-**Luis Ramírez (Médico – Decisión)**
-<img src="assets/assets/chapter-2/Empathy Mapping2.png" alt="">
+User Journey Map 1 — Daniela Ríos
 
-**Carlos Méndez (Administrador – Control)**
-<img src="assets/assets/chapter-2/Empathy Mapping3.png" alt="">
+| Campo             | Información                                                                      |
+| ----------------- | -------------------------------------------------------------------------------- |
+| User Persona      | Daniela Ríos                                                                     |
+| Segmento objetivo | Personal de enfermería cardiovascular                                            |
+| Rol               | Enfermera cardiovascular                                                         |
+| Área              | UCI cardiovascular                                                               |
+| Journey As-Is     | Desde la recepción del turno hasta la entrega de información al siguiente equipo |
+
+
+Escenario As-Is
+
+Daniela inicia su turno en UCI cardiovascular. Debe recibir información del equipo anterior, revisar el estado de sus pacientes, monitorear signos vitales, administrar medicamentos, registrar eventos clínicos y finalmente entregar información clara y completa al siguiente turno.
+
+Actualmente, estas actividades se realizan mediante sistemas hospitalarios complejos, computadoras fijas, registros físicos complementarios y comunicación verbal. El proceso presenta dificultades relacionadas con dispersión de información, duplicidad de registros, exceso de pasos operativos y falta de comunicación estructurada.
+
+Objetivo del Journey
+
+Identificar las dificultades actuales que enfrenta el personal de enfermería cardiovascular durante el monitoreo, registro clínico y transferencia de información entre turnos, con la finalidad de detectar oportunidades de mejora relacionadas con rapidez operativa, comunicación estructurada y trazabilidad.
+
+(INSERTAR IMAGEN DE USER JOURNEY MAP AS IS DE DANIELA)
+
+Resumen del Journey — Daniela Ríos
+
+El recorrido de Daniela evidencia que el personal de enfermería cardiovascular enfrenta una alta carga operativa al combinar atención directa al paciente con monitoreo y documentación clínica. Los principales puntos de fricción aparecen durante el registro de información, la atención de eventos críticos, la regularización posterior de datos y la entrega de turno.
+
+Asimismo, se observa que los registros físicos complementarios surgen como una solución informal frente a la lentitud del sistema, pero generan duplicidad, riesgo de error y mayor carga cognitiva. El cambio de turno también representa un momento vulnerable por la falta de una estructura uniforme en la comunicación.
+
+User Journey Map 2 — Dr. Alejandro Torres
+
+| Campo             | Información                                                                                        |
+| ----------------- | -------------------------------------------------------------------------------------------------- |
+| User Persona      | Dr. Alejandro Torres                                                                               |
+| Segmento objetivo | Médico especialista cardiovascular                                                                 |
+| Rol               | Cardiólogo intensivista                                                                            |
+| Área              | UCI cardiovascular                                                                                 |
+| Journey As-Is     | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica |
+
+Escenario As-Is
+
+El Dr. Alejandro Torres debe identificar pacientes críticos, consultar su evolución reciente, revisar signos vitales, validar medicamentos administrados, confirmar indicaciones, coordinar con enfermería y tomar decisiones clínicas oportunas.
+
+Actualmente, la información del paciente se encuentra distribuida entre sistemas hospitalarios, reportes físicos, monitores biomédicos y comunicación verbal, lo que dificulta el acceso rápido a información crítica y retrasa la toma de decisiones.
+
+Objetivo del Journey
+
+Identificar las dificultades actuales que enfrenta el médico especialista cardiovascular al consultar, validar e interpretar información clínica para tomar decisiones médicas oportunas y seguras.
+
+(INSERTAR IMAGEN DE USER JOURNEY MAP AS IS DE ALEJANDRO)
+
+Resumen del Journey — Dr. Alejandro Torres
+
+El recorrido del Dr. Alejandro evidencia que los médicos especialistas cardiovasculares enfrentan principalmente dificultades relacionadas con la fragmentación de información, la lentitud para consultar datos clínicos y la falta de visualización rápida de la evolución del paciente.
+
+A diferencia del personal de enfermería, su recorrido se concentra menos en registrar información y más en consultarla, interpretarla y validarla para tomar decisiones clínicas. Sin embargo, la dispersión de datos entre sistemas, reportes físicos, monitores y comunicación verbal incrementa el tiempo de análisis y el riesgo de decidir con información incompleta.
 
 ### 2.4. Big Picture Storming.
 
