@@ -706,26 +706,29 @@ Las entrevistas permitirán:
 
 #### 2.2.2. Registro de entrevistas
 
-**Entrevista 1 – Enfermera clínica**
+**Entrevista 1 – Enfermera cardiovascular**
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Maria Torres <br>
-      <b>Edad: </b> 28 años <br>
+      <b>Nombres y apellidos:</b> Andrea Salazar <br>
+      <b>Edad: </b> 30 años <br>
       <b>Distrito:</b> San Miguel <br>
-      <b>Ocupacion:</b> Enfermera clínica <br>
-      <b>Timing:</b> 0:00 <br>
-      <b>Duración:</b> 0:00
+      <b>Ocupacion:</b> Enfermera cardiovascular <br>
+      <b>Timing:</b> 0:00 - 17:35 <br>
+      <b>Duración:</b> 17:35
     </td>
     <td align=center>
-      <img src="XXXXXXX" alt="img"  width="80%"/>
+      <img src="assets/assets/chapter-2/ENTREVISTA1.png" alt="UPC" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Link </a>
       <br>
-      <b>Resumen:</b> La entrevistada indicó que su trabajo implica el monitoreo constante de pacientes y el registro de signos vitales. Señaló que, en la práctica, la información se registra primero en papel y luego se transfiere al sistema digital, lo que genera retrasos y posibles omisiones. La comunicación entre turnos se realiza principalmente de forma verbal, lo que ocasiona pérdida de información relevante. Además, mencionó que suele perder tiempo buscando datos debido a que la información está dispersa. Considera fundamental la trazabilidad de eventos clínicos y estaría dispuesta a usar una herramienta digital siempre que sea rápida, simple y reduzca la carga operativa.
+      <b>Resumen:</b> Andrea Salazar, enfermera cardiovascular con 8 años de experiencia en UCI cardiovascular, comentó que uno de los principales problemas dentro de su entorno laboral es el exceso de tiempo invertido en documentación clínica y la complejidad de los sistemas hospitalarios actuales. Indicó que, durante situaciones críticas, el personal frecuentemente recurre a anotaciones físicas rápidas debido a que el sistema digital requiere demasiados pasos para registrar información.
+Asimismo, señaló que los cambios de turno representan uno de los momentos más vulnerables del proceso clínico, ya que la información puede transmitirse de forma desordenada o incompleta. También destacó la necesidad de herramientas más rápidas, intuitivas y adaptadas al flujo real de enfermería cardiovascular.
+Finalmente, mencionó que una solución móvil con registro rápido, visualización resumida del paciente y comunicación estructurada mediante SBAR podría ayudar a reducir errores, optimizar tiempos y mejorar la continuidad de atención.
+
     </td>
   </tr>
 </table>
