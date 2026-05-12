@@ -2787,6 +2787,7 @@ El frontend está desarrollado con AngularJS y se despliega utilizando Firebase 
 
 #### 5. Despliegue
 
+- Nos fijamos si el servidor db.json ha sido levantado.
 - Ejecutamos el comando: firebase deploy
 - Firebase genera una URL pública accesible
 
@@ -3190,6 +3191,11 @@ Durante el Sprint 2, el equipo desarrolló los componentes principales de la apl
 
 ## Screenshots de las Principales Vistas
 
+### Vista General y url del Frontend desplegado
+URL del frontend desplegado en Firebase Hosting: [PulseReport Web App](https://pulsereport-frontend.web.app)
+![Deployed Frontend](assets/assets/chapter-5/deployed-frontend.png)
+*Vista general del frontend desplegado - Muestra la interfaz principal de PulseReport con navegación y acceso a funcionalidades clínicas.*
+
 ### A. Autenticación y Acceso
 
 ![Login Screen](assets/assets/chapter-5/login.png)
@@ -3238,14 +3244,31 @@ Endpoints:
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2, la aplicación frontend se mantuvo en ambiente de desarrollo local para pruebas funcionales y validación del equipo. Se desarrolló en máquinas locales utilizando Angular CLI con el servidor de desarrollo.
+Durante el Sprint 2, se realizó el despliegue de la aplicación web frontend de PulseReport en Firebase Hosting, permitiendo acceso público para pruebas funcionales y validación por parte del equipo y stakeholders. Se configuró el proyecto en Firebase Console, se integró un servidor mock con db.json para simular datos clínicos, y se automatizó el proceso de despliegue. Este despliegue abarca la Web Application desarrollada en Angular, complementando el despliegue previo de la Landing Page en GitHub Pages.
 
-**Configuración de desarrollo:**
+**Pasos realizados en el despliegue:**
 
-1. Se utilizó Angular 17+ como framework principal con TypeScript.
+1. **Creación y configuración del proyecto en Firebase:**
+    - Se creó una cuenta en Firebase y se configuró un nuevo proyecto llamado "pulsereport-frontend".
+    - Se habilitó Firebase Hosting y se conectó el repositorio de GitHub para integración continua.
 
-2. Git se empleó como versión control con rama `development` para cambios en progreso:
+2. **Configuración del entorno de desarrollo y mock data:**
+    - Se utilizó json-server para simular el backend con db.json, ejecutándose en un puerto local durante desarrollo.
+    - La aplicación Angular se configuró para consumir datos del mock server en desarrollo y prepararse para integración con APIs reales.
 
+3. **Despliegue en Firebase Hosting:**
+    - Se ejecutó el comando `firebase deploy` para subir la aplicación compilada.
+    - Se verificó la funcionalidad en el entorno de producción, incluyendo navegación, formularios y dashboard.
+
+<p align="center">
+  <img src="assets/assets/chapter-5/firebase-console.png" alt="Firebase Console Project" width="1000">
+</p>
+*Consola de Firebase mostrando el proyecto "pulsereport-frontend" configurado con Hosting habilitado.*
+
+<p align="center">
+  <img src="assets/assets/chapter-5/deployed-frontend.png" alt="Deployed Frontend Screenshot" width="1000">
+</p>
+**Capturas de pantalla del despliegue:**
 <p align="center">
   <img src="assets/assets/chapter-5/frontend-branch.png" alt="development-branch" width="1000">
 </p>
@@ -3276,3 +3299,4 @@ Angular. (2026). Angular.dev. Retrieved from https://angular.dev/overview
 - Link de la organización de GitHub: https://github.com/BrainSpark-upc
 - Link del repositorio del reporte: https://github.com/BrainSpark-upc/Report
 - Link de la landing page desplegada: https://brainspark-upc.github.io/Landing-Page/#funciona
+
