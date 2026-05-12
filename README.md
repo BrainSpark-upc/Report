@@ -1209,7 +1209,9 @@ Objetivo del Journey
 
 Identificar las dificultades actuales que enfrenta el personal de enfermería cardiovascular durante el monitoreo, registro clínico y transferencia de información entre turnos, con la finalidad de detectar oportunidades de mejora relacionadas con rapidez operativa, comunicación estructurada y trazabilidad.
 
-(INSERTAR IMAGEN DE USER JOURNEY MAP AS IS DE DANIELA)
+<p align="center">
+  <img src="assets/assets/chapter-2/User Journey Map As-Is — Daniela Ríos (1).png" alt="UPC">
+</p>
 
 Resumen del Journey — Daniela Ríos
 
@@ -1237,7 +1239,9 @@ Objetivo del Journey
 
 Identificar las dificultades actuales que enfrenta el médico especialista cardiovascular al consultar, validar e interpretar información clínica para tomar decisiones médicas oportunas y seguras.
 
-(INSERTAR IMAGEN DE USER JOURNEY MAP AS IS DE ALEJANDRO)
+<p align="center">
+  <img src="assets/assets/chapter-2/User Journey Map As-Is — Dr. Alejandro Torres.png" alt="UPC">
+</p>
 
 Resumen del Journey — Dr. Alejandro Torres
 
@@ -1302,7 +1306,9 @@ Daniela representa al personal de enfermería cardiovascular que trabaja bajo pr
 -Necesito mantener trazabilidad sobre signos vitales, medicamentos y eventos clínicos.
 -Necesito cumplir mis responsabilidades clínicas sin aumentar mi carga administrativa.
 
-(INSERTAR IMAGEN DE EMPATHY MAP DE DANIELA)
+<p align="center">
+  <img src="assets/assets/chapter-2/Empathy Map — Daniela Ríos.png" alt="UPC">
+</p>
 
 ¿Qué puede convencerme de que PulseReport es la alternativa correcta?
 Que me permita registrar información clínica más rápido.
@@ -1335,7 +1341,9 @@ Necesito tomar decisiones clínicas con información completa y confiable.
 Necesito revisar trazabilidad de eventos, responsables y horarios.
 Necesito coordinar indicaciones con el equipo clínico.
 
-(INSERTAR IMAGEN EMPATHY MAP ALEJANDRO)
+<p align="center">
+  <img src="assets/assets/chapter-2/Empathy map --- Alejandro.png" alt="UPC">
+</p>
 
 ¿Qué puede convencerme de que PulseReport es la alternativa correcta?
 Que centralice la información clínica relevante.
