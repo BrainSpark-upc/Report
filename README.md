@@ -235,48 +235,55 @@ Además, poseo habilidades blandas orientadas al trabajo en equipo, comunicació
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 
-A. **Who**
+## A. **Quiénes están involucrados (Who)**
 
-Los principales actores involucrados son los profesionales de salud del área de enfermería cardiovascular, médicos especialistas, personal asistencial, clínicas privadas, hospitales y centros especializados en cardiología. Todos ellos enfrentan dificultades en la gestión de procesos críticos debido al uso de registros manuales, información dispersa y poca trazabilidad clínica.
+Los actores clave en este proceso son los **profesionales de la salud** que trabajan en el área de **enfermería cardiovascular**, incluidos médicos especialistas, enfermeras, personal asistencial, y administrativos de **clínicas privadas**, **hospitales** y **centros especializados** en cardiología. Todos ellos enfrentan **dificultades en la gestión de la información clínica**, debido a la **falta de digitalización**, la **información dispersa** y la **limitada trazabilidad clínica**.
 
-B. **What**
+## B. **Qué problema resuelve la solución (What)**
 
-Actualmente, muchos procesos dentro del área de enfermería cardiovascular se realizan de manera manual o mediante sistemas poco integrados, lo que genera problemas en la comunicación entre turnos, retrasos en el acceso a la información, errores en el registro de signos vitales, dificultades en el seguimiento de tratamientos y poca trazabilidad de eventos críticos. Además, la falta de un sistema centralizado limita la organización de los historiales clínicos y el control adecuado de la atención brindada al paciente.
+Actualmente, muchos de los procesos dentro del área de **enfermería cardiovascular** se realizan de manera **manual** o a través de **sistemas poco integrados**. Esto genera una serie de problemas en áreas críticas, como:
+- **Comunicación deficiente** entre turnos, lo que afecta la continuidad del cuidado.
+- **Retrasos** en el acceso a información clave del paciente, como **signos vitales** y **tratamientos previos**.
+- **Errores en el registro de datos clínicos**, como los **signos vitales** y **trazabilidad de eventos críticos**.
+- Dificultades para dar un **seguimiento adecuado a los tratamientos** y **falta de trazabilidad** en los eventos médicos.
 
-C. **When**
+La falta de un sistema **digital centralizado** y accesible en **tiempo real** limita la eficiencia del personal y afecta la calidad de la atención.
 
-Estos problemas se presentan de manera continua durante la atención diaria de los pacientes, especialmente en momentos como el cambio de turno del personal, el monitoreo de signos vitales, el registro de incidencias, la actualización de historiales clínicos y el seguimiento de tratamientos. Los riesgos aumentan en situaciones críticas donde se necesita actuar rápidamente y contar con información precisa en tiempo real.
+## C. **Cuándo ocurre el problema (When)**
 
-D. **Where**
+Este tipo de problemas se presentan constantemente, pero son particularmente críticos en momentos clave, como:
+- **Cambio de turnos**, cuando la información debe ser transmitida rápidamente y sin pérdida.
+- **Monitoreo de signos vitales** en tiempo real.
+- **Registro de incidencias**, como eventos críticos o cambios en el tratamiento.
+- **Actualización de historiales clínicos** y seguimiento de los tratamientos. En situaciones de urgencia, la rapidez en el acceso a la información es crucial.
 
-La problemática ocurre en hospitales, clínicas privadas, centros de salud especializados en cardiología y otras áreas asistenciales donde se atienden pacientes con condiciones cardiovasculares. En estos entornos, la falta de digitalización y trazabilidad afecta tanto al personal de salud como a la calidad de atención brindada.
+## D. **Dónde ocurre el problema (Where)**
 
-E. **Why**
+La problemática se presenta en **hospitales**, **clínicas privadas**, **centros especializados** en cardiología y en otras **áreas asistenciales** donde se brindan cuidados a pacientes con condiciones cardiovasculares. En estos entornos, la **falta de digitalización** de los procesos de cuidado y la **ausencia de un sistema centralizado** para gestionar la información crítica afecta tanto a los **profesionales de la salud** como a la **calidad de la atención al paciente**.
 
-Porque la ausencia de una plataforma digital centralizada genera:
+## E. **Por qué es relevante este problema (Why)**
 
-- Dificultades en la comunicación entre turnos y áreas asistenciales.
-- Pérdida de trazabilidad en eventos clínicos importantes.
-- Mayor probabilidad de errores en el registro de signos vitales y tratamientos.
-- Demora en el acceso a información relevante del paciente.
-- Menor eficiencia en la organización y seguimiento de los procesos clínicos.
+La ausencia de una **plataforma digital centralizada** genera los siguientes problemas:
+- **Dificultades en la comunicación** entre turnos y áreas asistenciales, lo que compromete la continuidad del cuidado.
+- **Pérdida de trazabilidad** en eventos clínicos clave, lo que puede poner en riesgo la seguridad del paciente.
+- **Mayor probabilidad de errores** en el registro de signos vitales y en la administración de tratamientos, afectando la atención médica.
+- **Demora en el acceso** a información relevante del paciente, lo que incrementa el riesgo de toma de decisiones incorrectas.
+- **Menor eficiencia** en la organización y seguimiento de los procesos clínicos, lo que repercute en la efectividad del personal de salud.
 
-Esto impacta directamente en la continuidad del cuidado, la seguridad del paciente y la eficiencia del personal de salud.
+Estos problemas impactan directamente en la **seguridad del paciente**, la **calidad de la atención** y la **eficiencia operativa** en el entorno hospitalario.
 
-F. **How**
+## F. **Cómo se gestiona el problema actualmente (How)**
 
-Actualmente, muchos centros de salud utilizan historias en papel, hojas de cálculo o sistemas básicos que no están completamente integrados. Aunque algunas instituciones cuentan con herramientas digitales, estas no siempre permiten registrar traspasos SBAR, monitorear signos vitales en tiempo real, generar alertas de eventos críticos o mantener un log de auditoría inalterable. Como resultado, varios problemas siguen presentes en la gestión clínica diaria.
+En la actualidad, muchos centros de salud continúan utilizando **historias clínicas en papel**, hojas de cálculo o sistemas **fragmentados** que no permiten una integración adecuada de la información. Aunque algunas instituciones cuentan con herramientas digitales, **estas no permiten registrar traspasos usando el modelo SBAR**, ni **monitorear signos vitales en tiempo real** o **generar alertas de eventos críticos**. La falta de un sistema centralizado y de trazabilidad limita el **seguimiento efectivo** de los pacientes y no asegura la continuidad del cuidado, lo que sigue generando **ineficiencias** en la atención médica.
 
-G. **How much**
+## G. **Cuánto impacta el problema (How much)**
 
-El impacto de esta problemática se refleja en:
-
-- Pérdida de tiempo del personal de salud en tareas manuales y repetitivas.
-- Riesgo de errores en registros clínicos y en la comunicación entre turnos.
-- Dificultades para dar seguimiento oportuno a tratamientos y eventos críticos.
-- Menor capacidad de respuesta ante situaciones que requieren atención inmediata.
-- Reducción en la eficiencia operativa y en la calidad del servicio brindado al paciente.
-
+El impacto de estos problemas se refleja en:
+- **Pérdida de tiempo** del personal de salud en **tareas manuales** y repetitivas, lo que reduce la eficiencia operativa.
+- **Riesgo elevado de errores** en los registros clínicos y en la comunicación entre turnos, lo que puede comprometer la seguridad del paciente.
+- **Dificultades para dar seguimiento oportuno** a tratamientos y eventos críticos, especialmente en situaciones de emergencia.
+- **Menor capacidad de respuesta** ante situaciones que requieren **atención inmediata** y precisa.
+- **Reducción en la eficiencia operativa** y en la **calidad del servicio** brindado al paciente, lo que impacta directamente en la experiencia del usuario.
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
 
