@@ -1368,18 +1368,27 @@ Estos hallazgos refuerzan que PulseReport debe enfocarse en simplicidad operativ
 Step 1: Collect Domain Events — PulseReport
 En esta primera etapa se realizó la recolección inicial de eventos de dominio relacionados con el flujo clínico cardiovascular. Los eventos fueron redactados en pasado, siguiendo la lógica de Event Storming, ya que representan hechos significativos que ocurren actualmente dentro del proceso hospitalario, independientemente de la existencia de PulseReport.
 
-IMAGENNN
+<p align="center">
+  <img src="assets/assets/chapter-2/STEP1 COLLECT DOMAIN EVENTS.png" alt="UPC">
+</p>
 
 Step 2: Sort Domain Events — PulseReport
 En esta segunda etapa, los eventos de dominio recolectados fueron ordenados cronológicamente para representar el flujo actual del proceso clínico cardiovascular. Esta organización permite comprender cómo se desarrolla el proceso desde la recepción del turno hasta la entrega de información al siguiente equipo, identificando la secuencia natural de eventos dentro del dominio hospitalario.
 
-IMAGENNNN
+<p align="center">
+  <img src="assets/assets/chapter-2/Step 2 Sort Domain Events.png" alt="UPC">
+</p>
 
 Step 3: Add Actors and External Systems — PulseReport
 En esta tercera etapa, se agregaron los actores y sistemas externos relacionados con los eventos de dominio previamente ordenados. Esto permite identificar quién participa en cada parte del proceso clínico cardiovascular y qué herramientas o canales intervienen actualmente en el flujo As-Is.
 
-IMAGENNNN
+<p align="center">
+  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="UPC">
+</p>
 
+<p align="center">
+  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport2.png" alt="UPC">
+</p>
 
 Step 4: Add Problems and Opportunities — PulseReport
 En esta etapa se identificaron los principales problemas y oportunidades asociados al flujo clínico cardiovascular actual. Los problemas representan fricciones, riesgos o limitaciones detectadas durante el proceso As-Is, mientras que las oportunidades permiten reconocer posibles mejoras que podrían orientar futuros requerimientos de PulseReport.
@@ -1392,7 +1401,9 @@ En esta etapa se identificaron los principales problemas y oportunidades asociad
 | Problemas / Pain Points | Rojo o rosado     | “Duplicidad de registros”      |
 | Oportunidades           | Verde             | “Reducir registro manual”      |
 
-IMAGENNN
+<p align="center">
+  <img src="assets/assets/chapter-2/Step 4 Add Problems and Opportunities.png" alt="UPC">
+</p>
 
 
 ### 2.5. Ubiquitous Language.
