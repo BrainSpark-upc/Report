@@ -1911,7 +1911,7 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 #### 4.4.2 Web Application Mock-ups.
 #### Perfil
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
 </p>
 
 #### Detalle Clínico
