@@ -1353,34 +1353,35 @@ Estos hallazgos refuerzan que PulseReport debe enfocarse en simplicidad operativ
 
 ### 2.4. Big Picture Storming.
 
-El Big Picture EventStorming modela los eventos clave del sistema PulseReport, considerando el flujo principal definido en la landing: Registrar → Monitorear → Trazar, así como las funcionalidades de SBAR digital, gestión de pacientes, seguimiento clínico y auditoría.
+Step 1: Collect Domain Events — PulseReport
+En esta primera etapa se realizó la recolección inicial de eventos de dominio relacionados con el flujo clínico cardiovascular. Los eventos fueron redactados en pasado, siguiendo la lógica de Event Storming, ya que representan hechos significativos que ocurren actualmente dentro del proceso hospitalario, independientemente de la existencia de PulseReport.
 
-**Eventos del dominio**
+IMAGENNN
 
-Eventos importantes que ocurren dentro del sistema:
+Step 2: Sort Domain Events — PulseReport
+En esta segunda etapa, los eventos de dominio recolectados fueron ordenados cronológicamente para representar el flujo actual del proceso clínico cardiovascular. Esta organización permite comprender cómo se desarrolla el proceso desde la recepción del turno hasta la entrega de información al siguiente equipo, identificando la secuencia natural de eventos dentro del dominio hospitalario.
 
-- Paciente registrado
-- Signos vitales registrados
-- Tratamiento registrado
-- Evento clínico registrado
-- Estado del paciente actualizado
-- Información clínica consultada
-- Traspaso de turno realizado (SBAR digital)
-- Alerta clínica generada
-- Evento auditado
-- Historial clínico actualizado
+IMAGENNNN
 
-**Comandos (acciones del usuario)**
+Step 3: Add Actors and External Systems — PulseReport
+En esta tercera etapa, se agregaron los actores y sistemas externos relacionados con los eventos de dominio previamente ordenados. Esto permite identificar quién participa en cada parte del proceso clínico cardiovascular y qué herramientas o canales intervienen actualmente en el flujo As-Is.
 
-- Registrar paciente
-- Registrar signos vitales
-- Registrar tratamiento
-- Registrar evento clínico
-- Actualizar estado del paciente
-- Consultar información clínica
-- Realizar traspaso de turno (SBAR)
-- Generar alerta
-- Auditar eventos
+IMAGENNNN
+
+
+Step 4: Add Problems and Opportunities — PulseReport
+En esta etapa se identificaron los principales problemas y oportunidades asociados al flujo clínico cardiovascular actual. Los problemas representan fricciones, riesgos o limitaciones detectadas durante el proceso As-Is, mientras que las oportunidades permiten reconocer posibles mejoras que podrían orientar futuros requerimientos de PulseReport.
+
+| Elemento                | Color recomendado | Ejemplo                        |
+| ----------------------- | ----------------- | ------------------------------ |
+| Eventos de dominio      | Naranja           | “Signos vitales registrados”   |
+| Actores                 | Amarillo          | “Enfermera cardiovascular”     |
+| Sistemas externos       | Azul              | “Sistema hospitalario EHR/HIS” |
+| Problemas / Pain Points | Rojo o rosado     | “Duplicidad de registros”      |
+| Oportunidades           | Verde             | “Reducir registro manual”      |
+
+IMAGENNN
+
 
 ### 2.5. Ubiquitous Language.
 
