@@ -1382,6 +1382,8 @@ En esta etapa se identificaron los principales problemas y oportunidades asociad
 
 IMAGENNN
 
+Step 5: Storytelling del dominio
+
 
 ### 2.5. Ubiquitous Language.
 
