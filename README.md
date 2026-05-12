@@ -734,30 +734,92 @@ Finalmente, mencionó que una solución móvil con registro rápido, visualizaci
 </table>
 
 
-**Entrevista 2 – Médico general**
-
+**Entrevista 2 – Cardiólogo intensivista**
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Luis Ramirez <br>
-      <b>Edad: </b> 35 años <br>
-      <b>Distrito:</b> Lima <br>
-      <b>Ocupacion:</b> Médico General <br>
-      <b>Timing:</b> 0:00 <br>
-      <b>Duración:</b> 0:00
+      <b>Nombres y apellidos:</b> Luis Mendoza <br>
+      <b>Edad: </b> 31 años <br>
+      <b>Distrito:</b> San Anita <br>
+      <b>Ocupacion:</b> Cardiólogo intensivista <br>
+      <b>Timing:</b> 17:35 - 25:35 <br>
+      <b>Duración:</b> 8:00
     </td>
     <td align=center>
-      <img src="XXXXXXX" alt="img"  width="80%"/>
+      <img src="assets/assets/chapter-2/ENTREVISTA2.png" alt="UPC" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="XXXXXXXXXXXXXXXXXXXXX"> Link </a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Link </a>
       <br>
-      <b>Resumen:</b> El entrevistado indicó que depende de la información registrada para la toma de decisiones clínicas. Sin embargo, señaló que dicha información suele estar incompleta o desactualizada, lo que representa un riesgo en la atención del paciente. La comunicación entre turnos no siempre es estructurada, lo que dificulta comprender el estado real del paciente. También mencionó que acceder a la información puede tomar tiempo. Considera crítica la trazabilidad de eventos clínicos y valora la existencia de una herramienta que permita acceder a información clara, confiable y actualizada.
+      <b>Resumen:</b> Luis Mendoza, cardiólogo intensivista con 6 años de experiencia en UCI cardiovascular, indicó que uno de los principales problemas dentro del entorno hospitalario es la fragmentación de la información clínica entre distintos sistemas, registros físicos y comunicación verbal. Señaló que esta situación dificulta el acceso rápido a información crítica y puede generar retrasos durante la toma de decisiones médicas.
+Asimismo, comentó que los sistemas hospitalarios actuales poseen demasiados módulos y pasos operativos, lo que afecta la rapidez del trabajo clínico. También resaltó que los cambios de turno representan un punto vulnerable debido a la falta de estandarización en la comunicación entre profesionales de salud. En ese sentido, considera que herramientas basadas en modelos estructurados como SBAR podrían mejorar significativamente la continuidad de atención.
+Finalmente, destacó la importancia de contar con soluciones rápidas, intuitivas y con trazabilidad clínica clara. Desde su perspectiva, una herramienta especializada como PulseReport tendría valor si logra integrarse al flujo hospitalario real, reducir tiempos operativos y facilitar el acceso rápido a información relevante del paciente.
+
+
     </td>
   </tr>
 </table>
+
+**Entrevista 3 – Cirujano cardiovascular**
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Jorge Ramírez <br>
+      <b>Edad: </b> 33 años <br>
+      <b>Distrito:</b> Santiago de Surco <br>
+      <b>Ocupacion:</b> Cirujano cardiovascular <br>
+      <b>Timing:</b> 25:35 - 34:05 <br>
+      <b>Duración:</b> 8:30
+    </td>
+    <td align=center>
+      <img src="assets/assets/chapter-2/ENTREVISTA3.png" alt="UPC" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Link </a>
+      <br>
+      <b>Resumen:</b> Jorge Ramírez, cirujano cardiovascular con 7 años de experiencia, comentó que uno de los principales problemas dentro del entorno hospitalario es la dificultad para acceder rápidamente a información clínica relevante debido a que esta se encuentra distribuida entre múltiples sistemas y registros.
+Asimismo, señaló que los sistemas actuales poseen demasiada orientación administrativa y no están optimizados para la rapidez operativa requerida en cirugía cardiovascular. También destacó la importancia de mejorar la comunicación entre equipos médicos y garantizar trazabilidad clara de la información clínica.
+Finalmente, indicó que una solución con dashboards resumidos, alertas visuales y acceso rápido a datos críticos podría mejorar significativamente la eficiencia operativa dentro del área cardiovascular.
+
+
+    </td>
+  </tr>
+</table>
+
+**Entrevista 4 – Enfermera cardiovascular**
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Andrea Salazar <br>
+      <b>Edad: </b> 30 años <br>
+      <b>Distrito:</b> San Miguel <br>
+      <b>Ocupacion:</b> Enfermera cardiovascular <br>
+      <b>Timing:</b> 0:00 - 17:35 <br>
+      <b>Duración:</b> 17:35
+    </td>
+    <td align=center>
+      <img src="assets/assets/chapter-2/ENTREVISTA1.png" alt="UPC" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Link </a>
+      <br>
+      <b>Resumen:</b> Andrea Salazar, enfermera cardiovascular con 8 años de experiencia en UCI cardiovascular, comentó que uno de los principales problemas dentro de su entorno laboral es el exceso de tiempo invertido en documentación clínica y la complejidad de los sistemas hospitalarios actuales. Indicó que, durante situaciones críticas, el personal frecuentemente recurre a anotaciones físicas rápidas debido a que el sistema digital requiere demasiados pasos para registrar información.
+Asimismo, señaló que los cambios de turno representan uno de los momentos más vulnerables del proceso clínico, ya que la información puede transmitirse de forma desordenada o incompleta. También destacó la necesidad de herramientas más rápidas, intuitivas y adaptadas al flujo real de enfermería cardiovascular.
+Finalmente, mencionó que una solución móvil con registro rápido, visualización resumida del paciente y comunicación estructurada mediante SBAR podría ayudar a reducir errores, optimizar tiempos y mejorar la continuidad de atención.
+
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 <table border=1>
   <tr>
