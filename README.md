@@ -1909,6 +1909,40 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 #### 4.4.2 Web Application Wireflow Diagrams.
 #### 4.4.2 Web Application Mock-ups.
+#### Perfil
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
+</p>
+
+#### Detalle Clínico
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/detalle-clinico.png" alt="Detalle Clínico">
+</p>
+
+#### Alertas
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/alertas.png" alt="Alertas">
+</p>
+
+#### Eventos Clínicos
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/eventos-clinicos.png" alt="Eventos Clínicos">
+</p>
+
+#### Signos Vitales
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/signos-vitales.png" alt="Signos Vitales">
+</p>
+
+#### Paciente
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/paciente.png" alt="Paciente">
+</p>
+
+#### Dashboard
+<p align="center">
+  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
+</p>
 #### 4.4.3 Web Applications User Flow Diagrams.
 #### 4.5 Web Application Prototyping.
 #### 4.6 Domain-Driven Software Architecture.
