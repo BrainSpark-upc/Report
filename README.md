@@ -2151,7 +2151,7 @@ Centraliza la información base de los pacientes, alineado con el subdominio de 
 
 
 
-##### BC-03: Clinical Monitoring Context — ⭐ CORE DOMAIN
+##### BC-03: Clinical Monitoring Context — CORE DOMAIN
 
 Este es el corazón de MonIToRio y donde reside la mayor ventaja competitiva del sistema. Se alinea con el subdominio Service Execution and Monitoring. Concentra la lógica clínica crítica de monitoreo en tiempo real.
 
