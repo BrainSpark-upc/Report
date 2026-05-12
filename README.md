@@ -2016,7 +2016,7 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 
 ### AngularJS (Frontend)
 
-**Guías adoptadas:** Angular Style Guide
+**Guías adoptadas:** Angular Coding Style Guide
 
 ### Nomenclatura
 - `camelCase` para variables, funciones, métodos y propiedades.
@@ -2188,7 +2188,6 @@ El sistema funciona de la siguiente manera:
 - La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.
 - El **Frontend** consume los servicios del backend.
 
-
 ### 7. Consideraciones de Despliegue
 
 - Uso obligatorio de variables de entorno para configuración sensible.
@@ -2200,38 +2199,35 @@ El sistema funciona de la siguiente manera:
 
 #### 5.2. Landing Page, Services & Applications Implementation.
 
-#### 5.2.1. Sprint 1
-Para el Sprint 1, el equipo prioriza la construcción de la base visible del producto, enfocándose en la Landing Page y en las primeras decisiones de implementación del sistema.
-Dado que nuestro grupo ya definió los pilares de Care-Labs, el Sprint 1 se concentro en las funcionalidades de mayor valor inicial:
-presentación del producto, navegación básica y primeros elementos del flujo clínico.
-#### 5.2.1.1. Sprint Planning 1.
-**Objetivo del Sprint 1**
-Construir la primera versión funcional de la Landing Page y empezar a delimitar el alcance del proyecto para el avance de implementación.
+### 5.2.1 Sprint 1
 
-**Alcance del Sprint 1**
+El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de PulseReport, la cual representa el primer punto de contacto entre la solución y los usuarios potenciales.
+Este sprint tuvo como objetivo establecer una presencia digital sólida que comunique de manera clara la propuesta de valor del producto.
 
-- Landing Page inicial.
-- Secciones principales de presentación.
-- Botón de acción o contacto.
-- Base de estructura para el producto.
-- Inicio de documentación del repositorio.
-- Organización inicial de Sprint backlog y responsables.
+Durante este sprint, se desarrollaron e integraron las secciones principales de la Landing Page, incluyendo presentación del producto, funcionalidades clave, llamadas a la acción, equipo desarrollador, sectores beneficiados, 
+preguntas frecuentes, sección de contacto y testimonios, siguiendo los lineamientos de diseño y los wireframes definidos previamente en el Capítulo IV. Asimismo, se priorizó la usabilidad, accesibilidad y coherencia visual, con el fin de ofrecer una experiencia atractiva y profesional.
+
+#### 5.2.1.1. Sprint Planning 1
+
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">15-04-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">9:30 AM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion presencial en el campus de la universidad</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Adrian Rios Cespedes</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Anhelo Rodrigo	Rocca
+, Johan Huaman Cuba, Alex Aliaga Ocampo</td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page for PulseReport, 
+accompanied by complete and well-structured documentation. We believe this will provide an engaging first impression and clearly 
+communicate the value proposition of our solution for enhancing clinical processes in cardiovascular nursing. This will 
+be validated when the Landing Page is successfully deployed and accessible online, with all core sections (hero, how it works, 
+features, benefits, FAQs, and contact) working correctly, and all corresponding documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">6</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">8 story points</td> </tr> </table>
 
 
-Dado que Care-Labs está enfocado en procesos críticos de enfermería cardiovascular, la primera entrega debe mostrar la propuesta
-de valor del producto y dejar clara la dirección del sistema. Esto coincide con el MVP ya definido: registro básico de pacientes,
-signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
-#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
     <thead>
       <tr style="background-color: #f2f2f2;">
         <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
         <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Diseño del Layout Principal (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Navegacion (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Llamada a la Accion ( CTA ) (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Despliegue de la Landing (L/C)</th>
       </tr>
     </thead>
     <tbody>
@@ -2239,9 +2235,9 @@ signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
         <td style="border: 1px solid #dddddd; padding: 8px;">Aliaga Ocampo, Alexander Auden</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">AlexanderAliaga19</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Rios Cespedes, Adrian Matias</td>
@@ -2249,26 +2245,28 @@ signos vitales, SBAR, eventos críticos, auditoría básica y dashboard inicial.
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Huamán Cuba, Johan Giovani</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">johancuba</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Johancuba</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Rocca Leon, Anhelo Rodrigo</td>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
     </tbody>
   </table>
 </div>
+
 
 #### 5.2.1.3. Sprint Backlog 1.
 <div align="center">
