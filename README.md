@@ -2430,57 +2430,37 @@ features, benefits, FAQs, and contact) working correctly, and all corresponding 
 </div>
 
 
-#### 5.2.1.3. Sprint Backlog 1.
-<div align="center">
-  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
-    <thead>
-      <tr style="background-color: #f2f2f2;">
-        <th colspan="2" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">User Story</th>
-        <th colspan="6" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Work-Item / Task</th>
-      </tr>
-      <tr style="background-color: #f9f9f9;">
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Description</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 8%;">Estimation (Hours)</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 12%;">Assigned To</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-26</td>
-        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px;">Visualizar landing page</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T01</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Maquetación HTML/CSS</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Crear la estructura base y estilos de la landing page.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T04</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Endpoint POST</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar API para la persistencia de productos.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: orange; font-weight: bold;">To-Review</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T05</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de registro</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Crear formulario frontend para ingreso.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">To-do</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+#### 5.2.1.3. Sprint Backlog 1
+
+
+El objetivo principal del Sprint 1 es implementar las funcionalidades base del sistema SafeFlow, enfocadas en la gestión de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
+
+**Board del Sprint (Trello):**
+
+![Jira Board](assets/assets/chapter-5/jira-board.png)
+
+
+###  Sprint Backlog
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To      | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|------------------|--------|
+| Sprint 1 | US-26 | Visualizar landing page | T-01 | Crear estructura HTML/CSS | Maquetar layout principal | 4 | Alexander Aliaga | Done   |
+| Sprint 1 | US-27 | Ver propuesta de valor | T-02 | Sección Hero | Diseñar sección principal con CTA | 3 | Alexander Aliaga | Done   |
+| Sprint 1 | US-29 | Visualizar características | T-03 | Sección features | Mostrar funcionalidades del sistema | 3 | Anhelo Rocca     | Done   |
+| Sprint 1 | US-28 | Navegar por secciones | T-04 | Implementar navbar | Navegación entre secciones | 2 | Johan Cuba       | Done   |
+| Sprint 1 | US-32 | Contactar a la empresa | T-05 | Formulario de contacto | Crear formulario funcional | 3 | Johan Cuba       | Done   |
+| Sprint 1 | US-33 | Visualizar testimonios | T-06 | Sección testimonios | Mostrar opiniones de usuarios | 2 | Anhelo Rocca     | Done   |
+| Sprint 1 | US-35 | Ver CTA | T-07 | Botones CTA | Implementar botones de acción | 2 | Alexander Aliaga | Done   |
+| Sprint 1 | US-34 | Acceder desde dispositivos móviles | T-08 | Responsive design | Adaptar a mobile | 4 | Alexander Aliaga | Done   |
+
+###  Estados de las tareas
+- **To-do**: Pendiente
+- **InProcess**: En desarrollo
+- **ToReview**: En revisión
+- **Done**: Finalizado
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En esta sección se presentan evidencias de ejecución del producto desarrollado durante el Sprint 1.
