@@ -1983,6 +1983,42 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 <img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management-2.png" alt="">
 
 #### 4.4.2 Web Application Wireflow Diagrams.
+
+#### User Goal 1
+Segmento: Personal de enfermería cardiovascular
+User Goal: Registrar signos vitales y evaluar la evolución clínica del paciente.
+Explicación: El usuario ingresa al perfil del paciente y selecciona registrar signos vitales. En la ruta esperada (happy path), ingresa los valores, el sistema los valida, guarda el registro y actualiza la gráfica en tiempo real. Como flujos alternativos (unhappy paths), si el usuario ingresa valores incompletos o fuera de los rangos biológicos lógicos, el sistema detiene el flujo y muestra advertencias de validación para evitar errores médicos.
+
+<p align="center">
+  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow01-wf.png" alt="Perfil">
+</p>
+
+#### User Goal 2
+Segmento: Personal de enfermería cardiovascular
+User Goal: Realizar el traspaso de información clínica entre turnos utilizando el modelo SBAR.
+Explicación: El enfermero inicia un nuevo reporte SBAR. El flujo principal lo guía obligatoriamente por las 4 secciones (Situación, Antecedentes, Evaluación, Recomendación) hasta su publicación exitosa. En rutas alternativas, si el usuario intenta cancelar el proceso o cerrar la ventana, el sistema interrumpe la acción con un modal de confirmación para evitar la pérdida de documentación crítica.
+
+<p align="center">
+  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow03-wf.png" alt="Perfil">
+</p>
+
+<p align="center">
+  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow02-wf.png" alt="Perfil">
+</p>
+
+#### User Goal 3
+Segmento: Hospitales, clínicas privadas y centros especializados en cardiología
+User Goal: Monitorear procesos críticos y revisar la trazabilidad del área cardiovascular.
+Explicación: El supervisor ingresa al Dashboard para revisar el estado general. El flujo ideal permite hacer clic en una métrica o alerta activa para ser redirigido al log de auditoría detallado del paciente involucrado. En un flujo alternativo, si el supervisor aplica filtros de búsqueda para fechas sin actividad registrada, el sistema le indica claramente que no existen eventos, permitiéndole reajustar su búsqueda rápidamente.
+
+<p align="center">
+  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow05-wf.png" alt="Perfil">
+</p>
+
+<p align="center">
+  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow04-wf.png" alt="Perfil">
+</p>
+
 #### 4.4.2 Web Application Mock-ups.
 #### Perfil
 Esta interfaz está dedicada a la gestión de la información personal y profesional del usuario, ya sea personal de enfermería o administrador. Permite la configuración de la cuenta, visualización de roles y administración de credenciales de acceso.
