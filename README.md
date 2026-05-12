@@ -1261,6 +1261,10 @@ centralización de información clínica,
 visualización resumida de evolución del paciente,
 y trazabilidad de eventos, responsables y horarios.
 
+### 2.3.4. Empathy Mapping
+
+
+
 ### 2.4. Big Picture Storming.
 
 El Big Picture EventStorming modela los eventos clave del sistema PulseReport, considerando el flujo principal definido en la landing: Registrar → Monitorear → Trazar, así como las funcionalidades de SBAR digital, gestión de pacientes, seguimiento clínico y auditoría.
@@ -1291,6 +1295,7 @@ Eventos importantes que ocurren dentro del sistema:
 - Realizar traspaso de turno (SBAR)
 - Generar alerta
 - Auditar eventos
+
 ### 2.5. Ubiquitous Language.
 
 El Ubiquitous Language define los términos comunes utilizados en PulseReport, alineados con los conceptos visibles en la landing y las funcionalidades del sistema.
