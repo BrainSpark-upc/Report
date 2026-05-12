@@ -1910,39 +1910,54 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 #### 4.4.2 Web Application Wireflow Diagrams.
 #### 4.4.2 Web Application Mock-ups.
 #### Perfil
+Esta interfaz está dedicada a la gestión de la información personal y profesional del usuario, ya sea personal de enfermería o administrador. Permite la configuración de la cuenta, visualización de roles y administración de credenciales de acceso.
+
 <p align="center">
   <img src="assets/assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
 </p>
 
 #### Detalle Clínico
+Vista especializada que expone la información médica detallada de un paciente específico. Centraliza diagnósticos cardiovasculares, tratamientos activos, medicación y notas clínicas relevantes para asegurar la continuidad del cuidado.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/detalle-clinico.png" alt="Detalle Clínico">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/detalle-clinico.png" alt="Detalle Clínico">
 </p>
 
 #### Alertas
+Panel de notificaciones y advertencias críticas del sistema. Está diseñado para informar al personal de salud de manera inmediata sobre anomalías en los parámetros de los pacientes, garantizando un tiempo de respuesta rápido ante emergencias.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/alertas.png" alt="Alertas">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/alertas.png" alt="Alertas">
 </p>
 
 #### Eventos Clínicos
+Interfaz orientada al registro y visualización de sucesos médicos importantes ocurridos durante el turno. Facilita la trazabilidad de las intervenciones y apoya directamente la comunicación estructurada mediante el modelo SBAR.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/eventos-clinicos.png" alt="Eventos Clínicos">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/eventos-clinicos.png" alt="Eventos Clínicos">
 </p>
 
 #### Signos Vitales
+Módulo enfocado en el monitoreo y registro de los parámetros fisiológicos del paciente. Permite un seguimiento preciso de métricas clave en cardiología, como la presión arterial y la frecuencia cardíaca, mostrando su evolución temporal.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/signos-vitales.png" alt="Signos Vitales">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/signos-vitales.png" alt="Signos Vitales">
 </p>
 
 #### Paciente
+Sección general para la administración de los datos demográficos, información de contacto y estado de admisión de los pacientes dentro del centro de salud, sirviendo como punto de partida para acceder a su historial completo.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/paciente.png" alt="Paciente">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/paciente.png" alt="Paciente">
 </p>
 
 #### Dashboard
+Panel de control principal que ofrece una visión panorámica y resumida del entorno clínico. Muestra indicadores clave de rendimiento, el estado general del área cardiovascular y un resumen de las tareas y pacientes de mayor prioridad.
+
 <p align="center">
-  <img src="Report/assets/assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
+  <img src="assets/assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
 </p>
+
 #### 4.4.3 Web Applications User Flow Diagrams.
 #### 4.5 Web Application Prototyping.
 #### 4.6 Domain-Driven Software Architecture.
