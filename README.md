@@ -2551,7 +2551,9 @@ features, benefits, FAQs, and contact) working correctly, and all corresponding 
 #### 5.2.1.3. Sprint Backlog 1
 
 
-El objetivo principal del Sprint 1 es implementar las funcionalidades base del sistema SafeFlow, enfocadas en la gestión de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
+El objetivo principal del Sprint 1 es implementar las funcionalidades base del sistema PulseReport, enfocadas en la gestión 
+de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, 
+incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
 
 **Board del Sprint (Trello):**
 
@@ -2618,21 +2620,61 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 | AlexanderAliaga19/Landing-Page | Development | fac634067aca0bc95ad4471ecca765aa5a3338c0  | Add files via upload                                                         | -                                                                                                                                                  | 11/05/2026           | 
 
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
-En esta sección se presentan evidencias de ejecución del producto desarrollado durante el Sprint 1.
 
-La Landing Page fue ejecutada correctamente en un navegador web, permitiendo visualizar todas sus secciones principales y validar la navegación interna.
+## 1. Resumen de Logros del Sprint
+En este Sprint, el equipo se ha enfocado en el diseño, maquetación y despliegue de la interfaz principal de **PulseReport**. 
+Se ha logrado consolidar la identidad visual de la marca y la arquitectura de información necesaria para comunicar una solución técnica compleja de manera sencilla y efectiva.
 
-<p align="center">
-  <img src="assets/assets/chapter-5/commits-landing.png" alt="UML Class Diagram - Care-Labs" width="100%">
-</p>
+**Hitos alcanzados:**
+* **Desarrollo de Interfaz:** Implementación completa de la Landing Page utilizando estándares modernos de diseño UI/UX.
+* **Optimización de Activos:** Organización y renombrado semántico de recursos visuales para mejorar la mantenibilidad del proyecto.
+* **Propuesta de Valor:** Estructuración de las secciones de monetización (Planes) y validación social (Testimonios).
+* **Navegación:** Configuración de una experiencia de usuario fluida y orientada a la conversión (CTAs).
 
-<p align="center">
-  <img src="assets/assets/chapter-5/responsive-landing.png" alt="UML Class Diagram - Care-Labs" width="100%">
-</p>
+## 2. Screenshots de las Principales Vistas
+A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
+
+### A. Portada y Propuesta de Valor
+![Hero Section](assets/assets/chapter-5/image_hero.png)
+
+
+![Proposal & Sectors Benefiting](assets/assets/chapter-5/proposal-sectors-benefited.png)
+
+### B. Funcionalidades, Operatividad y Beneficios
+
+![How it works](assets/assets/chapter-5/how-it-works.png)
+
+![Features](assets/assets/chapter-5/main-features.png)
+
+![Benefits](assets/assets/chapter-5/main-benefits.png)
+
+### C. Preguntas Mas Frecuentes y Confianza
+
+![FAQ](assets/assets/chapter-5/faq.png)
+
+![Testimonials](assets/assets/chapter-5/testimonials.png)
+
+### D. Equipo y Contacto con Care-Labs
+
+![Team](assets/assets/chapter-5/dev-team.png)
+
+![Contact](assets/assets/chapter-5/contact.png)
+
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación relacionada con los servicios que serán ofrecidos a través de la plataforma web de PulseReport. 
+Estos servicios incluirán funcionalidades como el registro de pacientes y citas, traspasos SBAR, generación de alertas ante fluctuaciones cardiovasculares inusuales del paciente y registro de los signos vitales del paciente.
+
+Durante el presente Sprint 1, el enfoque del equipo estuvo centrado exclusivamente en el diseño y desarrollo de la Landing Page del producto, 
+con el objetivo de definir la propuesta de valor, los segmentos de usuarios y la experiencia inicial del sistema. Debido a este alcance, 
+no se implementaron ni desplegaron servicios web funcionales, por lo que no se cuenta aún con endpoints operativos ni documentación técnica asociada 
+a su consumo.
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 En esta sección se presenta la evidencia del despliegue de la Landing Page correspondiente al Sprint 1.
