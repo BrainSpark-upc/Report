@@ -987,90 +987,185 @@ En este proyecto se elaboran dos User Personas, uno por cada segmento objetivo i
 (SUBIR IMAGEN DE USERPERSONA 2)
 #### 2.3.2. User Task Matrix
 
-La matriz de tareas del usuario se construye a partir de los User Personas definidos, permitiendo identificar las actividades clave que realiza cada tipo de usuario, su frecuencia, criticidad y las oportunidades de mejora que el sistema debe abordar.
+La presente sección desarrolla el **User Task Matrix** del proyecto PulseReport. Este artefacto permite organizar y comparar las principales tareas que realizan los User Personas dentro del entorno cardiovascular hospitalario para cumplir sus objetivos profesionales.
 
-**User Task Matrix de María (Enfermera)**
+El análisis se basa en los hallazgos obtenidos en las entrevistas, el análisis de entrevistas y los User Personas definidos previamente. Su finalidad es identificar cuáles son las tareas más frecuentes e importantes para cada segmento objetivo, con el propósito de orientar posteriormente la priorización de requerimientos del sistema.
 
-| Persona           | Tarea                          | Descripción                                                        | Frecuencia | Criticidad | Problemas actuales                     | Oportunidad de mejora               |
-| ----------------- | ------------------------------ | ------------------------------------------------------------------ | ---------- | ---------- | -------------------------------------- | ----------------------------------- |
-| María (Enfermera) | Registrar signos vitales       | Ingreso de presión, frecuencia cardíaca y otros datos del paciente | Alta       | Alta       | Registro tardío, uso de papel, errores | Registro rápido en tiempo real      |
-| María (Enfermera) | Actualizar estado del paciente | Registrar cambios o incidencias del paciente                       | Alta       | Alta       | Omisión de información                 | Registro estructurado y obligatorio |
-| María (Enfermera) | Comunicar turno                | Transferir información al siguiente turno                          | Alta       | Alta       | Comunicación verbal, pérdida de datos  | Estandarización digital (SBAR)      |
-| María (Enfermera) | Consultar paciente             | Revisar estado actual y evolución                                  | Alta       | Alta       | Información dispersa                   | Vista unificada del paciente        |
-| María (Enfermera) | Buscar información             | Acceder a datos previos del paciente                               | Media      | Media      | Tiempo perdido buscando                | Acceso rápido y centralizado        |
+Es importante precisar que las tareas incluidas en esta matriz **no representan funcionalidades, botones, módulos ni características de PulseReport**. Las tareas corresponden a actividades reales que los usuarios ya realizan actualmente dentro de su flujo laboral, independientemente de la existencia de una solución tecnológica. Por ello, se formulan como acciones propias del usuario y no como opciones del software.
 
-**User Task Matrix de Luis (Médico)**
+Los User Personas considerados son:
 
-| Persona       | Tarea                       | Descripción                            | Frecuencia | Criticidad | Problemas actuales                 | Oportunidad de mejora         |
-| ------------- | --------------------------- | -------------------------------------- | ---------- | ---------- | ---------------------------------- | ----------------------------- |
-| Luis (Médico) | Revisar historial clínico   | Analizar evolución del paciente        | Media      | Alta       | Información incompleta             | Historial claro y actualizado |
-| Luis (Médico) | Evaluar estado del paciente | Revisar signos vitales recientes       | Alta       | Alta       | Datos dispersos                    | Dashboard clínico             |
-| Luis (Médico) | Tomar decisiones clínicas   | Definir tratamiento basado en datos    | Media      | Alta       | Falta de confiabilidad             | Datos precisos y trazables    |
-| Luis (Médico) | Ver cambios recientes       | Identificar variaciones en el paciente | Alta       | Alta       | Información no visible rápidamente | Alertas y cambios destacados  |
+| User Persona         | Segmento objetivo                     |
+| -------------------- | ------------------------------------- |
+| Daniela Ríos         | Personal de enfermería cardiovascular |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    |
 
-**User Task Matrix de Carlos (Administrador)**
+Para cada tarea se evalúan dos criterios:
 
-| Persona                | Tarea                | Descripción                        | Frecuencia | Criticidad | Problemas actuales    | Oportunidad de mejora        |
-| ---------------------- | -------------------- | ---------------------------------- | ---------- | ---------- | --------------------- | ---------------------------- |
-| Carlos (Administrador) | Supervisar procesos  | Revisar cumplimiento de protocolos | Baja       | Alta       | Falta de visibilidad  | Panel de control             |
-| Carlos (Administrador) | Auditar eventos      | Ver qué ocurrió en cada caso       | Baja       | Alta       | Registros incompletos | Log de auditoría             |
-| Carlos (Administrador) | Analizar información | Evaluar desempeño operativo        | Media      | Media      | Información dispersa  | Datos estructurados          |
-| Carlos (Administrador) | Ver trazabilidad     | Revisar historial de acciones      | Media      | Alta       | Falta de control      | Registro completo de eventos |
+| Criterio    | Descripción                                                                                                                   |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Frecuencia  | Qué tan seguido realiza el User Persona dicha tarea dentro de su jornada laboral.                                             |
+| Importancia | Nivel de impacto que tiene la tarea en la continuidad clínica, seguridad del paciente y cumplimiento del trabajo profesional. |
 
-**Análisis de la matriz**
+---
 
-A partir de la matriz, se identifican los siguientes puntos clave:
+# User Task Matrix
 
-**1. Tareas críticas operativas**
+| Tarea identificada                                           | Daniela Ríos — Frecuencia | Daniela Ríos — Importancia | Dr. Alejandro Torres — Frecuencia | Dr. Alejandro Torres — Importancia |
+| ------------------------------------------------------------ | ------------------------: | -------------------------: | --------------------------------: | ---------------------------------: |
+| Registrar signos vitales del paciente                        |                  Muy alta |                    Crítica |                             Media |                               Alta |
+| Registrar administración de medicamentos                     |                  Muy alta |                    Crítica |                              Baja |                               Alta |
+| Consultar evolución clínica reciente del paciente            |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Comunicar información relevante durante cambio de turno      |                  Muy alta |                    Crítica |                              Alta |                            Crítica |
+| Revisar indicaciones médicas actualizadas                    |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Reportar eventos clínicos relevantes del paciente            |                      Alta |                    Crítica |                              Alta |                            Crítica |
+| Confirmar evolución y registros previos del paciente         |                     Media |                       Alta |                              Alta |                            Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud |                      Alta |                       Alta |                              Alta |                            Crítica |
+| Priorizar pacientes según su estado clínico                  |                      Alta |                    Crítica |                              Alta |                            Crítica |
+| Reunir información clínica desde diferentes fuentes          |                      Alta |                       Alta |                          Muy alta |                            Crítica |
+| Validar información registrada por otros miembros del equipo |                     Media |                       Alta |                              Alta |                               Alta |
+| Identificar cambios críticos en el estado del paciente       |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Preparar información para rondas o evaluación médica         |                     Media |                       Alta |                              Alta |                               Alta |
+| Actualizar información clínica luego de una intervención     |                      Alta |                    Crítica |                             Media |                               Alta |
+| Consultar reportes físicos o registros complementarios       |                      Alta |                      Media |                             Media |                              Media |
+| Completar información pendiente después de una emergencia    |                      Alta |                       Alta |                              Baja |                              Media |
+| Revisar balance general del paciente                         |                     Media |                       Alta |                              Alta |                            Crítica |
+| Confirmar cumplimiento de indicaciones clínicas              |                      Alta |                    Crítica |                              Alta |                            Crítica |
 
-Las tareas más frecuentes y críticas pertenecen al perfil de enfermería:
+---
 
-- Registro de signos vitales
-- Actualización del estado del paciente
-- Comunicación entre turnos
+# Análisis de tareas con mayor frecuencia e importancia
 
-Esto indica que el sistema debe priorizar velocidad y simplicidad.
+A partir del User Task Matrix se identifican tareas que presentan alta frecuencia e importancia crítica para ambos segmentos objetivo. Estas tareas representan actividades esenciales dentro del flujo clínico cardiovascular, debido a que tienen impacto directo en la seguridad del paciente, la continuidad de atención y la coordinación entre profesionales de salud.
 
-**2. Tareas críticas de decisión**
+Las tareas más relevantes para ambos User Personas son:
 
-El perfil médico depende de:
+| Tarea crítica                                           | Justificación                                                                              |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Consultar evolución clínica reciente del paciente       | Permite comprender rápidamente el estado actual del paciente y tomar decisiones adecuadas. |
+| Comunicar información relevante durante cambio de turno | Reduce el riesgo de pérdida de información entre equipos clínicos.                         |
+| Revisar indicaciones médicas actualizadas               | Permite ejecutar tratamientos correctamente y evitar acciones desactualizadas.             |
+| Reportar eventos clínicos relevantes del paciente       | Facilita el seguimiento de situaciones críticas y mejora la trazabilidad del caso.         |
+| Identificar cambios críticos en el estado del paciente  | Permite responder oportunamente ante deterioros clínicos.                                  |
+| Confirmar cumplimiento de indicaciones clínicas         | Reduce riesgos asociados a omisiones, duplicidad de acciones o errores de coordinación.    |
 
-- Información confiable
-- Acceso rápido a datos
-- Visibilidad clara del paciente
+Estas tareas deben ser consideradas prioritarias porque evidencian necesidades comunes entre ambos perfiles: acceso rápido a información, comunicación estructurada, trazabilidad clínica y reducción de errores operativos.
 
-Esto implica que el sistema debe priorizar claridad y precisión.
+---
 
-**3. Tareas de control y supervisión**
+# Tareas más relevantes para Daniela Ríos
 
-El perfil administrador requiere:
+Daniela Ríos representa al personal de enfermería cardiovascular. Sus tareas se concentran principalmente en el registro, monitoreo, ejecución de indicaciones y comunicación operativa durante el turno.
 
-- Trazabilidad
-- Auditoría
-- Control de procesos
+| Tarea                                                     | Frecuencia | Importancia |
+| --------------------------------------------------------- | ---------: | ----------: |
+| Registrar signos vitales del paciente                     |   Muy alta |     Crítica |
+| Registrar administración de medicamentos                  |   Muy alta |     Crítica |
+| Comunicar información relevante durante cambio de turno   |   Muy alta |     Crítica |
+| Actualizar información clínica luego de una intervención  |       Alta |     Crítica |
+| Confirmar cumplimiento de indicaciones clínicas           |       Alta |     Crítica |
+| Completar información pendiente después de una emergencia |       Alta |        Alta |
+| Consultar reportes físicos o registros complementarios    |       Alta |       Media |
 
-Esto implica que el sistema debe incluir mecanismos de registro y seguimiento.
+## Interpretación
 
-**4. Problema transversal**
+El perfil de Daniela evidencia que el personal de enfermería cardiovascular realiza tareas operativas de alta frecuencia y alta precisión. El registro de signos vitales, administración de medicamentos y actualización de información clínica son actividades recurrentes que deben ejecutarse con rapidez para mantener continuidad en la atención del paciente.
 
-Todos los perfiles comparten problemas comunes:
+También se identifica que la comunicación durante cambios de turno es una tarea crítica, ya que representa un punto vulnerable donde puede perderse información relevante. Esta situación confirma la necesidad de estructurar mejor la transferencia de información clínica entre equipos.
 
-- Información dispersa
-- Registro incompleto
-- Pérdida de tiempo
-- Falta de trazabilidad
+Además, la tarea de completar información pendiente después de una emergencia evidencia una brecha operativa importante: los sistemas actuales no siempre acompañan la velocidad del entorno clínico, lo que obliga al personal a regularizar datos posteriormente. Esto puede generar carga adicional, estrés operativo y riesgo de omisiones.
 
-Esto valida que el problema es sistémico, no aislado.
+Desde la perspectiva de requerimientos, este análisis sugiere que PulseReport debe priorizar flujos que permitan registrar información de forma rápida, estructurada y con mínima carga cognitiva para el personal de enfermería.
 
-**Conclusión**
+---
 
-La User Task Matrix evidencia que el sistema debe centrarse en optimizar tres aspectos clave:
+# Tareas más relevantes para Dr. Alejandro Torres
 
-- Registro rápido y eficiente de información
-- Acceso claro y centralizado a datos del paciente
-- Trazabilidad completa de eventos clínicos
+El Dr. Alejandro Torres representa a los médicos especialistas cardiovasculares. Sus tareas se enfocan principalmente en consultar, interpretar, validar y utilizar información clínica para la toma de decisiones médicas.
 
-Esto permite alinear el desarrollo de PulseReport con las necesidades reales de los distintos tipos de usuario, asegurando que la solución impacte tanto en la operación diaria como en la toma de decisiones y el control institucional.
+| Tarea                                                        | Frecuencia | Importancia |
+| ------------------------------------------------------------ | ---------: | ----------: |
+| Consultar evolución clínica reciente del paciente            |   Muy alta |     Crítica |
+| Revisar indicaciones médicas actualizadas                    |   Muy alta |     Crítica |
+| Reunir información clínica desde diferentes fuentes          |   Muy alta |     Crítica |
+| Identificar cambios críticos en el estado del paciente       |   Muy alta |     Crítica |
+| Confirmar evolución y registros previos del paciente         |       Alta |     Crítica |
+| Revisar balance general del paciente                         |       Alta |     Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud |       Alta |     Crítica |
+
+## Interpretación
+
+El perfil del Dr. Alejandro evidencia que los médicos especialistas cardiovasculares requieren información centralizada, precisa y disponible de forma inmediata. A diferencia del personal de enfermería, sus tareas no se concentran principalmente en registrar información, sino en revisarla, interpretarla y tomar decisiones clínicas a partir de ella.
+
+La tarea de reunir información clínica desde diferentes fuentes aparece como una de las más frecuentes e importantes. Esto evidencia un problema relevante identificado en las entrevistas: la información del paciente suele encontrarse dispersa entre sistemas hospitalarios, reportes físicos, comunicación verbal y registros complementarios.
+
+Asimismo, la identificación de cambios críticos y la revisión de evolución clínica son tareas indispensables para el trabajo médico cardiovascular, debido a que afectan directamente la toma de decisiones en contextos de alta presión.
+
+Desde la perspectiva de requerimientos, este análisis sugiere que PulseReport debe priorizar vistas clínicas resumidas, acceso rápido a información relevante y mecanismos de trazabilidad que permitan validar la evolución del paciente de manera eficiente.
+
+---
+
+# Coincidencias entre ambos User Personas
+
+| Coincidencia identificada                                 | Explicación                                                                                    | Implicancia para PulseReport                                               |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Ambos necesitan acceder rápidamente a información clínica | Tanto enfermería como médicos dependen de información actualizada para cumplir sus tareas.     | El sistema debe priorizar navegación simple y visualización resumida.      |
+| Ambos participan en continuidad de atención               | Ambos perfiles intervienen en procesos de cambio de turno, seguimiento y coordinación clínica. | Debe incorporarse comunicación estructurada mediante SBAR.                 |
+| Ambos requieren trazabilidad de información               | Necesitan conocer qué ocurrió, cuándo ocurrió y quién registró determinada información.        | El sistema debe registrar responsables, horarios y cambios relevantes.     |
+| Ambos enfrentan información dispersa                      | Las entrevistas evidencian uso de sistemas, registros físicos y comunicación verbal.           | PulseReport debe centralizar datos relevantes del paciente.                |
+| Ambos rechazan procesos complejos                         | Los usuarios priorizan rapidez y simplicidad en contextos clínicos.                            | La interfaz debe reducir pasos operativos y carga cognitiva.               |
+| Ambos trabajan bajo presión clínica                       | Las tareas se realizan en contextos donde el tiempo tiene impacto directo en la atención.      | El sistema debe estar optimizado para rapidez, claridad y mínima fricción. |
+
+---
+
+# Diferencias entre ambos User Personas
+
+| Diferencia                      | Daniela Ríos                                   | Dr. Alejandro Torres                      | Implicancia para PulseReport                                                |
+| ------------------------------- | ---------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- |
+| Tipo de tarea principal         | Registro, ejecución y comunicación operativa   | Consulta, análisis y decisión clínica     | Se requieren flujos diferenciados según rol.                                |
+| Frecuencia de registro          | Muy alta                                       | Media o baja                              | El flujo de enfermería debe minimizar pasos para ingresar datos.            |
+| Uso principal de la información | Registrar y comunicar información clínica      | Interpretar y validar información clínica | El sistema debe incluir tanto registro rápido como visualización analítica. |
+| Riesgo principal                | Omisión o retraso en registro clínico          | Decisión con información incompleta       | Se requieren alertas, trazabilidad y centralización de información.         |
+| Momento crítico                 | Cambio de turno y atención directa al paciente | Evaluación clínica y toma de decisiones   | El sistema debe soportar escenarios de continuidad y análisis clínico.      |
+| Necesidad dominante             | Agilidad operativa                             | Acceso rápido a información consolidada   | Deben existir vistas y prioridades adaptadas a cada perfil.                 |
+
+---
+
+# Priorización preliminar de tareas
+
+A partir de la frecuencia e importancia observadas, se identifican tareas que deben ser consideradas de mayor prioridad para el diseño de PulseReport.
+
+| Prioridad | Tarea                                                   | Justificación                                                                 |
+| --------- | ------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Crítica   | Comunicar información relevante durante cambio de turno | Impacta directamente en continuidad de atención y reducción de omisiones.     |
+| Crítica   | Consultar evolución clínica reciente del paciente       | Es esencial para la toma de decisiones médicas y seguimiento clínico.         |
+| Crítica   | Registrar signos vitales del paciente                   | Es una tarea de alta frecuencia para enfermería y base del monitoreo clínico. |
+| Crítica   | Revisar indicaciones médicas actualizadas               | Reduce riesgos asociados a tratamientos desactualizados o incompletos.        |
+| Crítica   | Identificar cambios críticos en el estado del paciente  | Permite actuar oportunamente ante deterioro clínico.                          |
+| Alta      | Confirmar evolución y registros previos del paciente    | Refuerza trazabilidad y validación de información clínica.                    |
+| Alta      | Reunir información clínica desde diferentes fuentes     | Evidencia necesidad de centralización y reducción de búsqueda manual.         |
+
+---
+
+# Conclusión del User Task Matrix
+
+El User Task Matrix evidencia que las tareas más importantes dentro del entorno cardiovascular hospitalario están relacionadas con el registro clínico, consulta rápida de información, comunicación entre turnos, trazabilidad médica y seguimiento de eventos críticos.
+
+Para el personal de enfermería cardiovascular, las tareas prioritarias se concentran en registrar, actualizar y comunicar información clínica de forma rápida y precisa. Para los médicos especialistas cardiovasculares, las tareas prioritarias se enfocan en acceder, interpretar y validar información crítica para la toma de decisiones.
+
+Las principales coincidencias entre ambos perfiles muestran la necesidad de una solución que mejore la continuidad clínica, reduzca la dispersión de información y facilite la trazabilidad. Las principales diferencias indican que PulseReport debe considerar flujos diferenciados: uno orientado al registro rápido para enfermería y otro orientado a visualización clínica resumida para médicos.
+
+A partir de este análisis, PulseReport debe priorizar funcionalidades orientadas a:
+
+* registro clínico rápido,
+* comunicación estructurada mediante SBAR,
+* visualización resumida de evolución clínica,
+* centralización de información del paciente,
+* trazabilidad de eventos clínicos,
+* reducción de pasos operativos,
+* y soporte a la toma de decisiones clínicas.
+
+Estas prioridades se derivan directamente de tareas reales identificadas en los User Personas, por lo que permiten orientar el desarrollo del sistema hacia necesidades concretas del entorno cardiovascular hospitalario.
 
 
 #### 2.3.3. User Journey Mapping.
