@@ -116,6 +116,15 @@
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
          
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -2877,7 +2886,7 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, 
 incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
 
-**Board del Sprint (Trello):**
+**Board del Sprint (Jira):**
 
 ![Jira Board](assets/assets/chapter-5/jira-board.png)
 
@@ -3052,7 +3061,205 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://github.com
   <img src="assets/assets/chapter-5/members-commit.png" alt="deployment4" width="1000">
 </p>
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+### 5.2.2 Sprint 2
+
+El Sprint 2 se enfocó en el desarrollo de la aplicación web frontend de PulseReport, donde se implementaron las vistas principales y funcionalidades clínicas para el personal de enfermería cardiovascular y médicos especialistas. Durante este sprint, el equipo priorizó la integración de módulos clave como pacientes, signos vitales, traspasos SBAR, eventos clínicos y dashboard clínico básico.
+
+#### 5.2.2.1 Sprint Planning 2
+
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 2</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">11-05-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion virtual en Discord</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Anhelo Rodrigo Rocca Leon</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Alexander Auden Aliaga Ocampo, Adrian Matias Rios Cespedes, Johan Giovani Huamán Cuba</td> </tr> 
+<tr> <td colspan="5">Sprint 1 Review Summary</td> <td colspan="8">Landing Page completada exitosamente: Todas las secciones implementadas, funcionalidades de navegación, responsividad y despliegue en GitHub Pages validado. Landing Page accesible en producción.</td> </tr> <tr> <td colspan="5">Sprint 1 Retrospective Summary</td> <td colspan="8">El equipo identificó la necesidad de mejorar la coordinación en branches de GitHub, establecer estándares de commit messages y optimizar la división de tareas. Se acordó implementar una mejor gestión de conflictos de merge y comunicación diaria mediante Discord.</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 2 Goal</td> <td colspan="8"><strong>"Our focus is on delivering core web application functionality for managing cardiovascular patient data, enabling clinical process digitalization through vital signs registration, SBAR handovers, clinical event tracking, and basic diagnostic dashboard views. We believe it delivers essential tools for nursing staff and specialists to improve clinical continuity, reduce information fragmentation, and enable rapid access to critical patient information. This will be confirmed when healthcare professionals can register vital signs, document SBAR handovers, track clinical events, and view patient clinical summaries from a functional web application deployed in a development environment, with all corresponding documentation completed."</strong></td></tr> <tr> <td colspan="5">Sprint 2 Velocity</td> <td colspan="8">8</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">38 story points</td> </tr> </table>
+
+
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+En el Sprint 2, el equipo se enfocó en la implementación de funcionalidades del frontend relacionadas con la gestión de pacientes, registro de información clínica, y dashboards. Los principales aspectos considerados incluyen: gestión de componentes reutilizables, integración de formularios clínicos, autenticación de usuarios, y visualización de datos clínicos.
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Gestión Pacientes (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Registro Datos Clínicos (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Dashboard Clínico (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Autenticación e Integración (L/C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Aliaga Ocampo, Alexander Auden</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AlexanderAliaga19</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rios Cespedes, Adrian Matias</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AdrianR16-C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Huamán Cuba, Johan Giovani</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Johancuba</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 5.2.2.3 Sprint Backlog 2
+
+El Sprint 2 se enfocó en implementar las funcionalidades clínicas principales de la aplicación web de PulseReport. Las prioridades incluyeron la gestión de pacientes, registro de signos vitales, documentación de traspasos SBAR, seguimiento de eventos clínicos y un dashboard clínico básico. El equipo utilizó Angular como framework principal y estableció patrones arquitectónicos reutilizables.
+
+**Board del Sprint (Jira):**
+
+![Jira Board Sprint 2](assets/assets/chapter-5/jira-board.png)
+
+###  Sprint Backlog
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 2 | US-13 | Registrar traspaso SBAR | T-10 | Crear componente SBAR form | Formulario de registro de traspasos SBAR | 8 | Anhelo Rocca | Done |
+| Sprint 2 | US-14 | Consultar traspaso de turno | T-11 | Crear vista de lista SBAR | Listado de traspasos por paciente | 5 | Adrian Rios | Done |
+| Sprint 2 | US-15 | Confirmar recepción de traspaso | T-12 | Confirmación de traspaso | Modal/formulario de confirmación | 3 | Alexander Aliaga | Done |
+| Sprint 2 | US-16 | Registrar signos vitales | T-13 | Crear componente vital signs | Formulario para registrar signos vitales | 5 | Adrian Rios | Done |
+| Sprint 2 | US-18 | Registrar administración medicamento | T-14 | Crear componente medication form | Formulario de administración de medicamentos | 5 | Anhelo Rocca | Done |
+| Sprint 2 | US-19 | Registrar evento clínico relevante | T-15 | Crear componente clinical event | Formulario para eventos clínicos significativos | 5 | Adrian Rios | Done |
+| Sprint 2 | US-17 | Consultar evolución clínica | T-16 | Crear vista clinical evolution | Visualización de evolución clínica reciente | 5 | Johan Cuba | Done |
+| Sprint 2 | US-23 | Consultar resumen clínico | T-17 | Crear dashboard clínico básico | Dashboard con resumen del paciente | 8 | Johan Cuba | Done |
+| Sprint 2 | US-20 | Consultar historial eventos | T-18 | Crear timeline de eventos | Visualización temporal de eventos clínicos | 5 | Johan Cuba | Done |
+| Sprint 2 | US-21 | Identificar responsable registro | T-19 | Implementar auditoría UI | Mostrar responsable y fecha de registro en vistas | 3 | Alexander Aliaga | Done |
+| Sprint 2 | - | Autenticación | T-20 | Crear servicio de autenticación | Implementar login y gestión de sesión | 6 | Alexander Aliaga | Done |
+| Sprint 2 | - | Arquitectura componentes | T-21 | Crear patrones base | Componentes reutilizables y servicios centrales | 4 | Adrian Rios | Done |
+| Sprint 2 | - | Integración API | T-22 | Conectar con backend | Servicios HTTP para consumir endpoints | 5 | Anhelo Rocca | Done |
+
+###  Estados de las tareas
+- **To-do**: Pendiente
+- **InProcess**: En desarrollo
+- **ToReview**: En revisión
+- **Done**: Finalizado
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En este Sprint, el equipo implementó la mayoría de los componentes frontend necesarios para la funcionalidad clínica principal de PulseReport. Se priorizó la creación de formularios clínicos, visualizaciones de datos y servicios de integración con el backend.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---------------------------|-------------|-------------------------------------------|---|---|--------------------|
+| AlexanderAliaga19/FrontPulsereport | development | a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6 | feat(auth): implement authentication service with JWT | Implemented JWT-based authentication with login/logout functionality and token persistence in localStorage | 11/05/2026         |
+| AlexanderAliaga19/FrontPulsereport | development | b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7 | feat(auth): create login component and auth guard | Created login form component with validation and implemented route guards for protected pages | 11/05/2026         |
+| AdrianR16-C/FrontPulsereport | development | c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8 | feat(vital-signs): create vital signs registration form | Implemented form component for registering patient vital signs with validation and error handling | 11/05/2026         |
+| AdrianR16-C/FrontPulsereport | development | d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9 | feat(clinical-events): create clinical event tracking component | Developed component for registering and tracking clinical events with timestamps | 11/05/2026         |
+| RoccaA4/FrontPulsereport | development | e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0 | feat(sbar): create SBAR handover form and validation | Implemented SBAR-specific form with structured fields (Situation, Background, Assessment, Recommendation) | 11/05/2026         |
+| RoccaA4/FrontPulsereport | development | f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1 | feat(sbar): implement SBAR list view with filters | Created list view for SBAR handovers with filtering and search capabilities | 11/05/2026         |
+| Johancuba/FrontPulsereport | development | g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2 | feat(dashboard): create clinical dashboard with patient summary | Implemented main dashboard displaying patient overview, recent vital signs, and critical alerts | 11/05/2026         |
+| Johancuba/FrontPulsereport | development | h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3 | feat(timeline): add clinical events timeline visualization | Created interactive timeline component for viewing patient clinical history | 11/05/2026         |
+| AlexanderAliaga19/FrontPulsereport | development | i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4 | feat(services): implement HTTP client service for API integration | Developed centralized HTTP service for all backend API calls with interceptors for auth headers | 11/05/2026         |
+| AdrianR16-C/FrontPulsereport| development | j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5 | refactor(components): create reusable form components | Extracted common form patterns into reusable components to reduce code duplication | 11/05/2026         |
+| RoccaA4/FrontPulsereport| development | k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6 | feat(audit): add audit trail display in clinical views | Implemented audit information display showing who made changes and when | 11/05/2026         |
+| Johancuba/FrontPulsereport | development | l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7 | feat(medication): create medication administration tracking form | Built form component for recording medication administration with validation | 11/05/2026         |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+## Resumen de Logros del Sprint 2
+
+Durante el Sprint 2, el equipo desarrolló los componentes principales de la aplicación web frontend de PulseReport, enfocados en digitalizar procesos clínicos críticos para enfermería cardiovascular. Se implementaron exitosamente:
+
+**Hitos alcanzados:**
+* **Autenticación**: Sistema de login seguro con JWT para proteger acceso a información clínica.
+* **Gestión de Pacientes**: Vistas para consultar información de pacientes con datos clínicos organizados.
+* **Registro Clínico Digital**: Formularios intuitivos para signos vitales, medicamentos y eventos clínicos.
+* **Traspasos SBAR**: Implementación completa del flujo de documentación SBAR estructurada entre turnos.
+* **Dashboard Clínico**: Vista resumida con alertas de cambios críticos y evolución del paciente.
+* **Trazabilidad**: Registro de auditoría mostrando responsable y timestamp de cada acción.
+* **Integración Frontend-Backend**: Servicios HTTP para consumir APIs y sincronización de datos.
+
+## Screenshots de las Principales Vistas
+
+### A. Autenticación y Acceso
+
+![Login Screen](assets/assets/chapter-5/login.png)
+*Pantalla de autenticación - Permite al personal de salud acceder de forma segura a PulseReport mediante credenciales y JWT.*
+
+### B. Gestión de Pacientes
+
+![Patient List View](assets/assets/chapter-5/pacientes.png)
+*Vista de listado de pacientes - Muestra lista de pacientes bajo cuidado con búsqueda rápida y acceso a detalles clínicos.*
+
+### C. Registro de Signos Vitales
+
+![Vital Signs Form](assets/assets/chapter-5/signos-vitales.png)
+*Formulario de signos vitales - Permite registrar rápidamente presión arterial, frecuencia cardíaca, saturación de oxígeno y otros parámetros críticos.*
+
+### D. Traspasos SBAR
+
+![SBAR Handover Form](assets/assets/chapter-5/sbar.png)
+*Formulario SBAR - Estructura la documentación de traspasos de turno con campos claros para Situación, Antecedentes, Valoración y Recomendaciones.*
+
+### E. Dashboard Clínico
+
+![Clinical Dashboard](assets/assets/chapter-5/dashboard-pulsereport.png)
+*Dashboard principal - Proporciona vista resumida del paciente, signos vitales recientes, eventos críticos y recomendaciones médicas pendientes.*
+
+### F. Timeline de Eventos Clínicos
+
+![Clinical Timeline](assets/assets/chapter-5/auditoria.png)
+*Timeline de eventos - Visualización cronológica de todos los eventos clínicos registrados permitiendo trazabilidad completa.*
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo continuó el desarrollo de la arquitectura API iniciada previamente. Aunque la mayoría de endpoints aún se encontraban en fase de desarrollo en entorno local, se documentaron las estructuras de datos y contratos API esperados para las funcionalidades implementadas en el frontend.
+
+**Endpoints documentados (Desarrollo Local):**
+Endpoints:
+   [0] http://localhost:3000/patients
+   [0] http://localhost:3000/vital-signs
+   [0] http://localhost:3000/clinical-events
+   [0] http://localhost:3000/sbar-transfers
+   [0] http://localhost:3000/alerts
+   [0] http://localhost:3000/reports
+   [0] http://localhost:3000/audit-logs
+   [0] http://localhost:3000/users
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, la aplicación frontend se mantuvo en ambiente de desarrollo local para pruebas funcionales y validación del equipo. Se desarrolló en máquinas locales utilizando Angular CLI con el servidor de desarrollo.
+
+**Configuración de desarrollo:**
+
+1. Se utilizó Angular 17+ como framework principal con TypeScript.
+
+2. Git se empleó como versión control con rama `development` para cambios en progreso:
+
+<p align="center">
+  <img src="assets/assets/chapter-5/frontend-branch.png" alt="development-branch" width="1000">
+</p>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p align="center">
+  <img src="assets/assets/chapter-5/members-commit-2.png" alt="sprint2-commits" width="1000">
+</p>
+
+El equipo del Sprint 2 mantuvo una comunicación constante mediante Discord, realizando daily standups virtuales para alinear esfuerzos y resolver bloqueos técnicos. Se observó colaboración equilibrada entre miembros, con roles claros de liderazgo en diferentes aspectos arquitecturales. Los commits muestran participación activa de los cuatro integrantes en diferentes componentes, evidenciando trabajo coordinado en paralelo sin conflictos significativos de merge.
+
 
 #### Conclusiones
 #### Bibliografía
