@@ -1287,11 +1287,67 @@ Empathy Map 1 — Daniela Ríos
 
 Daniela representa al personal de enfermería cardiovascular que trabaja bajo presión operativa constante. Debe monitorear pacientes críticos, administrar medicamentos, registrar información clínica y transferir datos relevantes al siguiente turno sin omitir información importante.
 
-¿Qué necesita hacer?
+¿Qué necesito hacer?
+-Necesito registrar información clínica de manera rápida y precisa.
+-Necesito monitorear constantemente a pacientes cardiovasculares críticos.
+-Necesito administrar medicamentos y dejar constancia clara de horarios e indicaciones.
+-Necesito comunicar información importante al siguiente turno sin omitir detalles.
+-Necesito reducir la duplicidad entre registros físicos y digitales.
+-Necesito mantener trazabilidad sobre signos vitales, medicamentos y eventos clínicos.
+-Necesito cumplir mis responsabilidades clínicas sin aumentar mi carga administrativa.
 
-Daniela necesita registrar información clínica de manera rápida y precisa, monitorear pacientes críticos, coordinar con médicos y otros enfermeros, comunicar información relevante durante cambios de turno y mantener trazabilidad sobre medicamentos, signos vitales y eventos clínicos. Además, necesita reducir la duplicidad entre registros físicos y digitales para poder dedicar más tiempo a la atención directa del paciente.
+(INSERTAR IMAGEN DE EMPATHY MAP DE DANIELA)
 
+¿Qué puede convencerme de que PulseReport es la alternativa correcta?
+Que me permita registrar información clínica más rápido.
+Que reduzca la duplicidad entre papel y sistema digital.
+Que facilite el cambio de turno mediante una estructura clara como SBAR.
+Que no me agregue más carga operativa.
+Que sea simple de usar durante situaciones críticas.
+Que me ayude a evitar omisiones de información importante.
+Que me permita acceder a información relevante sin depender siempre de una computadora fija.
 
+Empathy Map 2 — Dr. Alejandro Torres
+¿Con quién estamos empatizando?
+
+| Campo              | Información                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------ |
+| User Persona       | Dr. Alejandro Torres                                                                 |
+| Segmento objetivo  | Médico especialista cardiovascular                                                   |
+| Rol                | Cardiólogo intensivista                                                              |
+| Área               | UCI cardiovascular                                                                   |
+| Nivel tecnológico  | Alto                                                                                 |
+| Contexto principal | Consulta, validación e interpretación de información clínica para toma de decisiones |
+
+¿Qué necesito hacer?
+Necesito acceder rápidamente a información clínica crítica.
+Necesito revisar la evolución reciente del paciente.
+Necesito validar signos vitales, medicamentos e indicaciones.
+Necesito confirmar información relevante con enfermería.
+Necesito identificar cambios críticos en el estado del paciente.
+Necesito tomar decisiones clínicas con información completa y confiable.
+Necesito revisar trazabilidad de eventos, responsables y horarios.
+Necesito coordinar indicaciones con el equipo clínico.
+
+(INSERTAR IMAGEN EMPATHY MAP ALEJANDRO)
+
+¿Qué puede convencerme de que PulseReport es la alternativa correcta?
+Que centralice la información clínica relevante.
+Que reduzca el tiempo de búsqueda entre sistemas y reportes.
+Que muestre rápidamente la evolución reciente del paciente.
+Que permita validar trazabilidad de eventos, responsables y horarios.
+Que facilite comunicación estructurada con enfermería.
+Que no incremente la carga administrativa.
+Que reduzca el riesgo de tomar decisiones con información incompleta.
+Que sea rápido, seguro e intuitivo.
+
+Conclusión del Empathy Mapping
+
+Los Empathy Maps evidencian que ambos User Personas enfrentan problemas relacionados con información dispersa, sistemas complejos, comunicación poco estructurada y necesidad de trazabilidad clínica.
+
+Daniela Ríos necesita reducir carga operativa, registrar información con rapidez y comunicar datos de forma clara durante cambios de turno. En cambio, el Dr. Alejandro Torres necesita acceder a información consolidada, validar datos críticos y tomar decisiones clínicas con menor incertidumbre.
+
+Estos hallazgos refuerzan que PulseReport debe enfocarse en simplicidad operativa, centralización de información, comunicación estructurada mediante SBAR, trazabilidad y visualización rápida de datos clínicos relevantes.
 
 ### 2.4. Big Picture Storming.
 
