@@ -2080,6 +2080,165 @@ Los prototipos incluyen interacciones como botones de acción rápida, formulari
 
 #### 4.6 Domain-Driven Software Architecture.
 #### 4.6.1 Design-Level Event Storming.
+
+
+El Design-Level Event Storming constituye una técnica colaborativa proveniente del marco Lean UX y Domain-Driven Design (DDD) que permite modelar el comportamiento interno de un sistema a nivel de diseño de software. A diferencia del Big Picture Event Storming —orientado a explorar el dominio de negocio de forma amplia—, el nivel de diseño desciende a la granularidad de los comandos, políticas, modelos de lectura y bounded contexts que estructuran la solución técnica.
+
+En el contexto del sistema MonIToRio para la UCI Cardiovascular, este ejercicio permitió identificar los flujos de eventos más críticos del proceso de atención, mapear los actores involucrados en cada contexto delimitado y detectar los puntos de fricción que generan riesgos clínicos o ineficiencias operativas.
+
+
+#### Objetivo del Design-Level Event Storming
+
+El propósito de esta sesión fue descomponer el flujo clínico de la UCI Cardiovascular en eventos de dominio concretos, identificar los bounded contexts que agrupan responsabilidades cohesivas, y derivar los comandos e invariantes que debe respetar el diseño del sistema MonIToRio.
+
+
+#### Paso 1: Recolección de Domain Events
+
+El primer paso consistió en identificar todos los eventos de dominio relevantes del proceso clínico, es decir, hechos concretos que ocurren en el sistema y que son significativos para el negocio. Siguiendo la convención de Event Storming, cada evento se expresa en pasado y se representa con una tarjeta de color naranja.
+
+Los domain events identificados para el sistema MonIToRio en la UCI Cardiovascular fueron:
+
+- Información clínica entregada al nuevo turno
+- Turno anterior finalizado
+- Pacientes asignados revisados
+- Estado inicial del paciente verificado
+- Signos vitales registrados
+- Signos vitales monitoreados
+- Medicamento administrado
+- Indicación médica revisada
+- Evolución reciente del paciente revisada
+- Evolución posterior monitoreada
+- Evento clínico relevante detectado
+- Cambio crítico identificado
+- Médico informado sobre cambio clínico
+- Cumplimiento de indicación registrado
+- Medicación e indicaciones validadas
+- Información clínica consultada por el médico
+- Nueva indicación médica registrada
+- Indicación ejecutada por enfermería
+
+Estos eventos representan el ciclo completo de atención en la UCI, desde el cambio de turno hasta la ejecución de nuevas indicaciones médicas, pasando por el monitoreo continuo del paciente y la detección de eventos críticos.
+
+
+
+#### Paso 2: Identificación de Bounded Contexts
+
+Una vez identificados los eventos, el segundo paso consistió en agruparlos en bounded contexts: subdominios con una lógica cohesiva y una responsabilidad bien delimitada. La definición de estos contextos se basa en el análisis de los requerimientos del proyecto Care-Labs, las recomendaciones del enunciado para plataformas SaaS y los principios de Domain-Driven Design.
+
+##### BC-01: Identity and Access Management (IAM) Context — Subdominio Genérico
+
+Subdominio genérico responsable de garantizar que solo el personal autorizado pueda acceder a la información sensible de los pacientes en la UCI Cardiovascular.
+
+- **Domain Events clave:** Usuario autenticado, Rol asignado (RBAC), Sesión iniciada, Permiso denegado
+- **Responsabilidades:** Autenticación de usuarios, gestión de roles basada en atributos (RBAC) y control de sesiones activas
+- **Alineación arquitectónica:** Actúa como proveedor de identidad para todos los demás bounded contexts del sistema
+
+
+
+##### BC-02: Patient Administration Context — Profiles and Preferences Management
+
+Centraliza la información base de los pacientes, alineado con el subdominio de Profiles and Preferences Management. Actúa como el directorio maestro de identidad clínica dentro del sistema.
+
+- **Domain Events clave:** Paciente admitido, Datos demográficos registrados, Estado de admisión actualizado, Paciente dado de alta
+- **Responsabilidades:** Registro de datos demográficos, gestión del estado de admisión y mantenimiento del directorio general de pacientes
+- **Alineación arquitectónica:** Proporciona el contexto de identidad del paciente al Clinical Monitoring y Clinical Documentation contexts
+
+
+
+##### BC-03: Clinical Monitoring Context — ⭐ CORE DOMAIN
+
+Este es el corazón de MonIToRio y donde reside la mayor ventaja competitiva del sistema. Se alinea con el subdominio Service Execution and Monitoring. Concentra la lógica clínica crítica de monitoreo en tiempo real.
+
+- **Domain Events clave:** Signos vitales registrados, Alerta crítica generada, Tratamiento actualizado, Medicamento administrado, Cumplimiento de indicación registrado
+- **Responsabilidades:** Registro y monitoreo de signos vitales (presión arterial, frecuencia cardíaca), seguimiento de tratamientos y gestión de alertas críticas en tiempo real
+- **Pain Point identificado:** Registro tardío de eventos críticos y duplicidad entre papel y sistema EHR
+- **Solución MonIToRio:** Dashboard de monitoreo en tiempo real con alertas automáticas y flujo de registro simplificado
+
+
+
+##### BC-04: Clinical Documentation Context — Trazabilidad Clínica
+
+Específico para la trazabilidad y comunicación clínica entre turnos. Garantiza que todo evento clínico relevante quede registrado de forma inmutable y auditable.
+
+- **Domain Events clave:** Entrega SBAR registrada, Turno finalizado, Log de auditoría creado, Cambio crítico documentado
+- **Responsabilidades:** Implementación del modelo SBAR para el traspaso de turnos y mantenimiento del log de auditoría inalterable
+- **Pain Point identificado:** Comunicación verbal no trazable durante cambios de turno y pérdida de información clínica
+- **Solución MonIToRio:** Protocolo SBAR estandarizado con resumen estructurado y registro inmutable de cada entrega de turno
+
+
+##### BC-05: Appointments & Scheduling Context — Service Design and Planning
+
+Alineado con el subdominio de Service Design and Planning. Gestiona la programación y coordinación de citas médicas para los pacientes del área cardiovascular.
+
+- **Domain Events clave:** Cita programada, Cita cancelada, Agenda actualizada, Recordatorio enviado
+- **Responsabilidades:** Gestión y programación de citas médicas para los pacientes del área cardiovascular
+- **Alineación con el flujo clínico:** Conecta con Patient Administration para verificar disponibilidad y con Clinical Monitoring para priorizar citas según estado clínico
+
+
+#### BC-06: Health Analytics & Dashboard Context — Dashboard and Analytics
+
+Alineado con el subdominio de Dashboard and Analytics. Proporciona inteligencia clínica operacional a supervisores y jefaturas, consolidando datos de todos los contextos para la toma de decisiones estratégicas.
+
+- **Domain Events clave:** Métrica generada, Tendencia de salud calculada, Panel de control actualizado, Reporte exportado
+- **Responsabilidades:** Generación de métricas de rendimiento, visualización de tendencias de salud y paneles de control para supervisores y jefaturas clínicas
+- **Fuentes de datos:** Consume eventos del Clinical Monitoring, Clinical Documentation, Patient Administration y Appointments contexts
+
+
+### Tabla Resumen de Bounded Contexts
+
+| Bounded Context | Tipo | Actor Principal | Domain Events Clave | Dominio |
+|---|---|---|---|---|
+| IAM Context | Genérico | Enfermeros / Administradores | Usuario autenticado, Rol asignado, Sesión iniciada | Seguridad y acceso |
+| Patient Administration | Soporte | Personal administrativo / Enfermeros | Paciente admitido, Datos demográficos registrados, Estado actualizado | Gestión de pacientes |
+| Clinical Monitoring | **Core Domain** | Enfermero cardiovascular / Médico | Signos vitales registrados, Alerta crítica generada, Tratamiento actualizado | Monitoreo en tiempo real |
+| Clinical Documentation | Soporte | Enfermera saliente / entrante | Entrega SBAR registrada, Log de auditoría creado, Turno finalizado | Trazabilidad clínica |
+| Appointments & Scheduling | Soporte | Médico / Coordinador | Cita programada, Cita cancelada, Agenda actualizada | Gestión de citas |
+| Health Analytics & Dashboard | Soporte | Supervisor / Jefatura clínica | Métrica generada, Tendencia calculada, Panel actualizado | Analítica y reportes |
+
+
+#### Paso 3: Identificación de Comandos y Políticas
+
+El tercer paso consistió en derivar los comandos que desencadenan los eventos y las políticas que conectan eventos con acciones subsecuentes. Los comandos representan la intención del usuario o del sistema de ejecutar una acción, mientras que las políticas definen las reglas automáticas del negocio que se activan ante determinados eventos.
+
+**Comandos identificados:**
+
+- Registrar signos vitales del paciente
+- Iniciar entrega de turno
+- Reportar evento clínico crítico
+- Emitir nueva indicación médica
+- Marcar indicación como ejecutada
+- Consultar evolución del paciente
+
+**Políticas de dominio identificadas:**
+
+- Cuando se registra un cambio crítico → notificar al médico de guardia de forma inmediata
+- Cuando se emite una nueva indicación médica → habilitar el flujo de ejecución para enfermería
+- Cuando se inicia el cambio de turno → generar un resumen estructurado SBAR de los pacientes asignados
+- Cuando un signo vital supera el umbral configurado → generar alerta en el dashboard
+
+
+#### Paso 4: Modelos de Lectura y Vistas del Sistema
+
+En este paso se identificaron los read models: las vistas que necesitan los actores para tomar decisiones y ejecutar comandos. Cada modelo de lectura representa información consolidada que el sistema debe presentar de forma eficiente al usuario correcto en el momento correcto.
+
+- **Vista de entrega de turno:** Resumen SBAR de cada paciente con eventos pendientes del turno anterior
+- **Dashboard de monitoreo:** Signos vitales en tiempo real, alertas activas y tendencias de evolución
+- **Panel de indicaciones:** Lista priorizada de indicaciones médicas activas con estado de cumplimiento
+- **Historial de eventos críticos:** Registro trazable de eventos clínicos con timestamp, actor y acción tomada
+- **Vista de decisión médica:** Información consolidada del paciente para el médico: signos, indicaciones, evolución
+
+
+#### Síntesis y Derivaciones de Diseño
+
+El Design-Level Event Storming del sistema MonIToRio reveló que el flujo clínico de la UCI Cardiovascular puede modelarse en seis bounded contexts con responsabilidades claramente delimitadas: IAM, Patient Administration, Clinical Monitoring (Core Domain), Clinical Documentation, Appointments & Scheduling y Health Analytics. Esta descomposición permite:
+
+- Diseñar módulos de software independientes y desacoplados para cada contexto
+- Priorizar el desarrollo iterativo según el impacto clínico de cada contexto
+- Establecer contratos claros entre contextos para garantizar la integridad del flujo de información
+- Validar el diseño directamente con los usuarios clave (enfermeras y médicos) usando el lenguaje del dominio
+
+Esta metodología, alineada con los principios de Lean UX de reducir el desperdicio y validar rápidamente con usuarios reales, garantiza que el diseño de MonIToRio responde a necesidades clínicas concretas y no a supuestos técnicos desconectados de la realidad del servicio.
+
 #### 4.6.2 Software Architecture Context Diagram.
 
 Este diagrama presenta una vista general de la plataforma Care-Labs. En la imagen se identifican sus actores principales y los sistemas externos con los que se comunica directamente:
@@ -2107,10 +2266,10 @@ La siguiente vista detalla los componentes internos de la aplicación web, donde
 <img src="assets/assets/chapter 4/software-architecture/Components-diagrams.png" alt="Diagrama de Componentes Care-Labs" width="600">
 </p>
 
-#### 4.7 Software Object-Oriented Design.
-#### 4.7.1 Class Diagrams.
+### 4.7 Software Object-Oriented Design.
 
-### 4.7.1. Class Diagrams
+
+#### 4.7.1. Class Diagrams
 
 En esta sección, el equipo presenta el Diagrama de Clases UML enfocado en el diseño orientado a objetos de la plataforma Care-Labs. Este diseño se estructura en base a los *Bounded Contexts* (Contextos Delimitados) identificados en la arquitectura, asegurando una alta cohesión y un bajo acoplamiento entre los módulos del sistema.
 
