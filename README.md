@@ -186,16 +186,13 @@ establecen objetivos, planifican tareas y cumplen objetivos.
   ## Capítulo 1: Introducción
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
-Somos Care-Labs, una startup creada por estudiantes con el propósito de desarrollar una solución tecnológica para el sector salud. Nuestro proyecto surge a partir de la necesidad de mejorar la gestión de procesos críticos en el área de enfermería cardiovascular, donde es muy importante contar con información clara, segura y disponible en tiempo real para brindar una atención más ordenada y eficiente.
+Care-Labs es una startup tecnológica enfocada en la innovación en el sector salud, creada por estudiantes con el objetivo de ofrecer una solución digital integral para mejorar la gestión de procesos clínicos críticos, particularmente en el área de enfermería cardiovascular. La idea surgió de la necesidad de contar con información clara, segura y disponible en tiempo real para mejorar la eficiencia, organización y trazabilidad de los datos médicos, contribuyendo directamente a una atención más ordenada, eficiente y confiable.
 
-A través de nuestra propuesta, buscamos desarrollar un sistema web que permita apoyar distintos procesos clínicos, como la gestión de citas médicas, la administración básica de pacientes, la digitalización del historial clínico, el registro de traspasos mediante el modelo SBAR, el seguimiento de tratamientos y el monitoreo de signos vitales, como la presión arterial y la frecuencia cardíaca. Además, el sistema también permitirá registrar eventos críticos, generar alertas y mantener un log de auditoría inalterable que ayude a conservar la trazabilidad de la información. De esta manera, se busca mejorar la comunicación entre turnos, la organización del personal de salud y la continuidad del cuidado del paciente.
+Nuestro sistema, PulseReport, está diseñado para resolver problemas claves que enfrentan los profesionales de la salud en su día a día, como el manejo disperso de los registros de los pacientes, la falta de continuidad entre turnos, y la necesidad urgente de información crítica en tiempo real. Con esta propuesta, buscamos transformar cómo se gestionan los signos vitales, el seguimiento de tratamientos, la digitalización de historiales clínicos, y los traspasos de pacientes mediante el modelo SBAR (Situation, Background, Assessment, Recommendation), integrando alertas para eventos críticos y manteniendo un log de auditoría inalterable.
 
-Misión:
-Nuestra misión es desarrollar una solución tecnológica que ayude a mejorar la gestión de procesos críticos en enfermería cardiovascular, facilitando el acceso a información clínica de manera rápida, segura y ordenada. Buscamos contribuir a que los centros de salud puedan brindar una atención más eficiente y confiable mediante el uso de herramientas digitales.
+La misión de Care-Labs es ofrecer una plataforma web escalable que pueda ser utilizada por hospitales, clínicas y centros especializados, con el fin de mejorar la continuidad del cuidado del paciente y optimizar las comunicaciones entre los profesionales de la salud, eliminando así errores comunes derivados de la información dispersa o mal gestionada.
 
-Visión:
-Nuestra visión es convertir a Care-Labs en una startup reconocida por ofrecer una solución tecnológica útil e innovadora para el sector salud, aportando a la modernización de hospitales, clínicas y centros especializados. Aspiramos a que nuestra propuesta pueda crecer, adaptarse a las necesidades del mercado y generar un impacto positivo en la atención médica.
-
+Visión: Convertirnos en una startup líder en soluciones digitales para la gestión de procesos críticos en el sector salud, transformando la atención clínica y mejorando la calidad del cuidado del paciente a través de la innovación y el uso de tecnología avanzada.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 <table>
