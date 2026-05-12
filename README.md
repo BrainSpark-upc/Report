@@ -1,5 +1,7 @@
+<p align="center">
+  <img src="assets/assets/chapter-1/UPC_logo_transparente.png" alt="UPC">
+</p>
 <div align = "center">
-  <img style="height: 150px" src=/assets/assets/chapter-1/UPC_logo_transparente.png alt="">
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
 <h1>Facultad de Ingeniería</h1>
   <h2>Carrera de Ingeniería de Software</h2>
