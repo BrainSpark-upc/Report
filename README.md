@@ -2803,30 +2803,52 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 
 ### A. Portada y Propuesta de Valor
 ![Hero Section](assets/assets/chapter-5/image_hero.png)
-
+*Esta sección presenta la propuesta de valor central de la plataforma: una solución digital diseñada específicamente para 
+mejorar los procesos de enfermería cardiovascular mediante la centralización de información clínica, facilitación de comunicación 
+entre turnos y garantía de trazabilidad en eventos críticos.*
 
 ![Proposal & Sectors Benefiting](assets/assets/chapter-5/proposal-sectors-benefited.png)
+*En esta sección, se visualiza cómo PulseReport impacta directamente en instituciones de salud como hospitales, clínicas 
+privadas y centros especializados en cardiología, proporcionando soluciones concretas para optimizar la gestión de procesos críticos en 
+enfermería cardiovascular.*
 
 ### B. Funcionalidades, Operatividad y Beneficios
 
 ![How it works](assets/assets/chapter-5/how-it-works.png)
+*Se describe el flujo integral de la plataforma, mostrando cómo el personal de enfermería cardiovascular puede registrar 
+signos vitales, documentar traspasos SBAR (Situación, Antecedentes, Baremo, Recomendaciones), consultar historiales clínicos 
+y mantener trazabilidad de eventos para mejorar la comunicación entre turnos.*
 
 ![Features](assets/assets/chapter-5/main-features.png)
 
+*Detalla las funcionalidades clave como registro de pacientes y citas, monitoreo de signos vitales, gestión de traspasos 
+SBAR, seguimiento de tratamientos, registro de eventos críticos, alertas automáticas ante fluctuaciones cardiovasculares anormales 
+y sistema de auditoría inalterable*
+
 ![Benefits](assets/assets/chapter-5/main-benefits.png)
+*Ilustra cómo PulseReport reduce errores en documentación clínica, optimiza el tiempo del personal de salud en tareas de 
+registro, mejora la continuidad del cuidado del paciente y fortalece la eficiencia operativa mediante digitalización y 
+trazabilidad de procesos críticos.*
 
 ### C. Preguntas Mas Frecuentes y Confianza
 
 ![FAQ](assets/assets/chapter-5/faq.png)
+*Aborda las consultas comunes del personal de enfermería cardiovascular y administradores de instituciones de salud sobre 
+seguridad de datos, facilidad de acceso, integración con sistemas existentes, escalabilidad de la plataforma y soporte técnico disponible.*
 
 ![Testimonials](assets/assets/chapter-5/testimonials.png)
+*Presenta experiencias y perspectivas del personal de salud e instituciones que han validado PulseReport, destacando 
+mejoras en eficiencia operativa, reducción de errores, mejor comunicación entre turnos y fortalecimiento de la continuidad clínica.*
 
 ### D. Equipo y Contacto con Care-Labs
 
 ![Team](assets/assets/chapter-5/dev-team.png)
+*Presenta los integrantes del equipo responsable del diseño, desarrollo e implementación de PulseReport, 
+demostrando el compromiso académico y profesional en la creación de soluciones innovadoras para la salud cardiovascular.*
 
 ![Contact](assets/assets/chapter-5/contact.png)
-
+*Proporciona los canales de comunicación disponibles para hospitales, clínicas, centros especializados y profesionales de salud 
+interesados en conocer más sobre PulseReport, solicitar demostraciones, consultar precios o gestionar suscripciones a la plataforma.*
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -2842,15 +2864,35 @@ a su consumo.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-En esta sección se presenta la evidencia del despliegue de la Landing Page correspondiente al Sprint 1.
+En esta sección se describe el proceso de implementación de la plataforma en un entorno de producción. Además, se 
+presentarán los hitos más importantes que marcarán el despliegue del proyecto y garantizarán su disponibilidad para los usuarios finales.
 
-La aplicación fue desplegada utilizando GitHub Pages, permitiendo su acceso público para validación.
+URL de despliegue del Landing Page: [Landing Page Desplegado](https://github.com/BrainSpark-upc/Landing-Page)
 
-URL de despliegue:
-https://brainspark-upc.github.io/Landing-Page/
-
+1. Para la Landing Page, nuestro equipo creó una rama denominada “develop” dentro del repositorio, en la cual se organizaron y almacenaron todos los archivos correspondientes al desarrollo de la Landing Page.
 <p align="center">
-  <img src="assets/assets/chapter-5/landing-page.png" alt="UML Class Diagram - Care-Labs" width="100%">
+  <img src="assets/assets/chapter-5/deployment-landing-page-1.png" alt="deployment1" width="1000">
+</p>
+
+2. Posteriormente, nos dirigimos a configuración y empleamos GitHub Pages, el servicio de alojamiento para sitios estáticos de GitHub, para publicar y poner en línea nuestra Landing Page.
+<p align="center">
+  <img src="assets/assets/chapter-5/deployment-landing-page2.png" alt="deployment2" width="1000">
+</p>
+
+3. Se seleccionó la rama previamente configurada y se procedió con el despliegue de la página.
+<p align="center">
+  <img src="assets/assets/chapter-5/deployment-landing-page-3.png" alt="deployment3" width="1000">
+</p>
+
+
+4. Finalmente, obtuvimos el enlace de publicación, que nos permite acceder y visualizar la Landing Page en línea.
+<p align="center">
+  <img src="assets/assets/chapter-5/deployment-landing-page-4.png" alt="deployment4" width="1000">
+</p>
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+<p align="center">
+  <img src="assets/assets/chapter-5/members-commit.png" alt="deployment4" width="1000">
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
