@@ -1539,7 +1539,39 @@ Cuadro de Epics, User Stories y Technical Stories
 
 ### 3.2. Impact Mapping
 
-<img src="assets/assets/chapter-2/ImpactMapping1.png" alt="">
+La presente sección desarrolla el Impact Mapping del proyecto PulseReport, elaborado para el modelo de negocio digital a partir de los User Personas, User Stories, User Journey Maps, Empathy Maps, Big Picture Event Storming y Ubiquitous Language.
+
+El Impact Mapping permite conectar los Business Goals con los actores que pueden contribuir a lograrlos, los cambios de comportamiento esperados, los entregables digitales necesarios y las User Stories que permitirán implementar dichos entregables.
+
+La estructura utilizada responde a las siguientes preguntas:
+
+| Elemento            | Pregunta que responde                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| **Business Goal**   | ¿Qué objetivo de negocio se quiere alcanzar?                                               |
+| **Actor / Persona** | ¿Quién puede ayudar a lograr la meta?                                                      |
+| **Impact**          | ¿Qué tendría que hacer el actor para contribuir al objetivo?                               |
+| **Deliverable**     | ¿Qué puede construir el negocio digital para provocar ese impacto?                         |
+| **User Stories**    | ¿Qué historias permiten desarrollar los features necesarios para producir los entregables? |
+
+En este caso, el Impact Mapping considera varios Business Goals definidos bajo criterios SMART, los User Personas previamente identificados y las User Stories del backlog del proyecto PulseReport.
+
+Business Goals SMART
+
+| Business Goal ID | Business Goal SMART                                                                                                                                                                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **BG-01**        | Lograr que al menos **60 visitantes interesados** soliciten información o una demostración de PulseReport mediante la Landing Page durante los primeros **4 meses** posteriores a su publicación.                                           |
+| **BG-02**        | Conseguir que al menos **3 instituciones de salud o áreas clínicas cardiovasculares** validen el flujo de traspaso SBAR digital durante los primeros **6 meses** del proyecto.                                                              |
+| **BG-03**        | Reducir en un **30% el tiempo estimado de búsqueda y revisión de información clínica relevante** durante escenarios simulados de UCI cardiovascular en un periodo de **6 meses**.                                                           |
+| **BG-04**        | Lograr que al menos el **80% de usuarios clínicos participantes en pruebas piloto** registre eventos clínicos, signos vitales o traspasos usando PulseReport sin recurrir a registros físicos complementarios en un periodo de **8 meses**. |
+| **BG-05**        | Alcanzar un nivel mínimo de **85% de trazabilidad completa** en eventos clínicos registrados durante pruebas piloto, considerando responsable, fecha, hora y tipo de acción, en un periodo de **8 meses**.                                  |
+
+Impact Mapping detallado
+
+Debido a la extensión de las User Stories, la captura visual del Impact Mapping presenta los identificadores principales. La siguiente tabla detalla las User Stories completas en formato “Como… deseo… para…”, vinculadas a cada Business Goal, Impact y Deliverable.
+
+imagen
+imagen
+imagen
 
 ### 3.3. Product Backlog
 
