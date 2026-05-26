@@ -21,6 +21,7 @@
       <li><h3>U202217893 - Adrian Matias Rios Cespedes </h3></li>
       <li><h3>U20221c803 - Anhelo Rodrigo Rocca Leon </h3></li>
       <li><h3>U202417448 - Johan Giovani Huamán Cuba </h3></li>
+      <li><h3>U202414510 - Carlos Marcelo Mansilla Rivero</h3></li>
   </ul>
   <br>
   <h4>Abril del 2026</h4>
@@ -228,6 +229,11 @@ Además, poseo habilidades blandas orientadas al trabajo en equipo, comunicació
     <td> Ahora, soy estudiante, luego, seré ingeniero. Cuento con conocimientos suficientes para crear cualquier sistema con ayuda de la inteligente artificial.
     Me dediqué mucho más a desarrollar mis habilidades en bases de datos, arquitectura de software y manejo de equipo IT. En este equipo no demuestro lo 
     último pues considero que cuento con un buen líder. </td>
+  </tr>
+  <tr>
+    <td> <img src="assets/assets/chapter-1/carlos.png" width=300px> </td>
+    <td> Estudiante de la carrera de Ingeniería de Software con conocimientos previos en programación utilizando lenguajes como C + +, HTML,CSS, JavaScript y Python. 
+      Me apasiona el desarrollo de software, no solo en la parte de codificación, sino también en el análisis y diseño de soluciones. </td>
   </tr>
 </table>
 
