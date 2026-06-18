@@ -3287,14 +3287,766 @@ Durante el Sprint 2, se realizó el despliegue de la aplicación web frontend de
 
 El equipo del Sprint 2 mantuvo una comunicación constante mediante Discord, realizando daily standups virtuales para alinear esfuerzos y resolver bloqueos técnicos. Se observó colaboración equilibrada entre miembros, con roles claros de liderazgo en diferentes aspectos arquitecturales. Los commits muestran participación activa de los cuatro integrantes en diferentes componentes, evidenciando trabajo coordinado en paralelo sin conflictos significativos de merge.
 
+### 5.2.3 Sprint 3
 
+Durante el Sprint 3, el equipo se enfocó en la finalización del sistema backend, la validación con usuarios y la documentación del producto. Se implementaron y probaron los endpoints necesarios para gestionar signos vitales, logrando un flujo funcional completo.
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table>
+<tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 3</th> </tr>
+
+<tr> <td colspan="13">Sprint Planning Background</td> </tr>
+
+<tr> <td colspan="5">Date</td> <td colspan="8">10-06-2026</td> </tr>
+<tr> <td colspan="5">Time</td> <td colspan="8">10:00 AM</td> </tr>
+<tr> <td colspan="5">Location</td> <td colspan="8">Reunión virtual (Google Meet)</td> </tr>
+
+<tr> <td colspan="5">Prepared By</td> <td colspan="8">Carlos Marcelo Mansilla Rivero</td> </tr>
+
+<tr> <td colspan="5">Attendees (to planning meeting)</td> 
+<td colspan="8">
+Aliaga Ocampo, Alexander Auden<br>
+Rios Cespedes, Adrian Matias<br>
+Huamán Cuba, Johan Giovani<br>
+Rodrigo Rocca, Anhelo<br>
+Mansilla Rivero, Carlos Marcelo
+</td> </tr>
+
+<tr> <td colspan="5">Sprint n-1 Review Summary</td> 
+<td colspan="8">
+Durante el Sprint 2 se logró implementar el backend inicial del sistema, incluyendo el bounded context de vital signs, así como la integración con la base de datos y la validación de endpoints mediante Swagger.
+</td> </tr>
+
+<tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> 
+<td colspan="8">
+Se identificó la necesidad de mejorar la coordinación en el uso de ramas y pruebas tempranas del sistema. Se decidió priorizar la validación continua y la integración progresiva de funcionalidades.
+</td> </tr>
+
+<tr> <td colspan="13">Sprint Goal & User Stories</td> </tr>
+
+<tr> <td colspan="5">Sprint 3 Goal</td> 
+<td colspan="8">
+<strong>
+"Our focus is on completing the core backend functionality of PulseReport and validating the system with real users. 
+We believe this will deliver value by enabling healthcare professionals to efficiently register and consult patient vital signs. 
+This will be validated when all endpoints are fully operational, the system is tested through Swagger, and user validation interviews confirm usability and usefulness."
+</strong>
+</td> </tr>
+
+<tr> <td colspan="5">Sprint 3 Velocity</td> <td colspan="8">8</td> </tr>
+<tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">10 story points</td> </tr>
+
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Vital Signs Endpoints (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Database Integration (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Swagger Testing & Validation (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Deployment & Configuration (L/C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">c3sv.19@gmail.com</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Aliaga Ocampo, Alexander Auden</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AlexanderAliaga19</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rios Cespedes, Adrian Matias</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AdrianR16-C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Huamán Cuba, Johan Giovani</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Johancuba</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 5.2.3.3. Sprint Backlog 3
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">User Story</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Task</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Responsible</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Story Points</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">US-07</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Como enfermero, quiero registrar signos vitales de un paciente para mantener su información actualizada.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Implementar endpoint POST /vital-sign-records
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">US-08</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Como médico, quiero consultar los signos vitales de un paciente para evaluar su estado de salud.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Implementar endpoint GET por patientId
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">US-09</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Como usuario, quiero obtener el último registro de signos vitales para acceder rápidamente a la información más reciente.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Implementar endpoint GET latest/{patientId}
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">US-10</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Como equipo, queremos validar el sistema con usuarios reales para obtener retroalimentación.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Realizar entrevistas de validación
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">US-11</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Como equipo, queremos documentar el sistema para su correcta presentación y evaluación.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">
+          Elaborar documentación del Sprint 3
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 5.2.3.3 Sprint Backlog 3
+
+El Sprint 3 se enfocó en el desarrollo e integración del backend de PulseReport, implementando los principales bounded contexts del sistema. Durante este sprint se desarrollaron funcionalidades relacionadas a la gestión de signos vitales, pacientes, auditoría, handover clínico y eventos críticos. 
+
+El equipo utilizó Spring Boot como framework principal, aplicando una arquitectura basada en capas y principios de Domain-Driven Design (DDD). Asimismo, se trabajó con Git y GitHub mediante el uso de ramas por feature, pull requests y procesos de release para asegurar la integración continua del sistema.
+
+**Board del Sprint (Jira):**
+
+![Jira Board Sprint 3](assets/assets/chapter-5/jira-board-sprint3.png)
+
+### Sprint Backlog
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 3 | US-07 | Registrar signos vitales | T-23 | Crear endpoint POST vital signs | Endpoint para registrar signos vitales de pacientes | 5 | Carlos Marcelo Mansilla | Done |
+| Sprint 3 | US-08 | Consultar signos vitales | T-24 | Crear endpoint GET por paciente | Listado de signos vitales por paciente | 4 | Equipo | Done |
+| Sprint 3 | US-09 | Obtener último registro vital | T-25 | Crear endpoint latest vital signs | Obtener último registro de signos vitales por paciente | 3 | Carlos Marcelo Mansilla | Done |
+| Sprint 3 | US-10 | Registrar auditoría | T-26 | Crear endpoint audit logs | Registro de acciones del sistema para trazabilidad | 3 | Johan Cuba | Done |
+| Sprint 3 | US-11 | Gestionar pacientes | T-27 | Implementar endpoints patients | CRUD parcial de pacientes (listar, obtener, actualizar) | 5 | Alexander Aliaga | Done |
+| Sprint 3 | US-12 | Gestionar handover clínico | T-28 | Crear endpoints handover | Registro, consulta y confirmación de handover | 6 | Anhelo Rocca | Done |
+| Sprint 3 | US-13 | Gestionar eventos críticos | T-29 | Crear endpoints critical events | Listar, atender y cerrar alertas clínicas | 5 | Adrian Rios | Done |
+| Sprint 3 | - | Integración del sistema | T-30 | Merge y releases | Integración de features en develop y generación de versiones | 3 | Equipo | Done |
+| Sprint 3 | - | Pruebas de endpoints | T-31 | Validación con Swagger | Pruebas funcionales de endpoints desarrollados | 3 | Equipo | Done |
+| Sprint 3 | - | Documentación Sprint 3 | T-32 | Elaborar documentación | Redacción del informe y evidencias del sprint | 2 | Equipo | Done |
+
+### Estados de las tareas
+- **To-do**: Pendiente  
+- **InProcess**: En desarrollo  
+- **ToReview**: En revisión  
+- **Done**: Finalizado
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+En este Sprint, el equipo desarrolló e integró los principales bounded contexts del backend de PulseReport, incluyendo la gestión de signos vitales, pacientes, auditoría, handover clínico y eventos críticos. Se implementaron endpoints REST siguiendo una arquitectura por capas basada en Domain-Driven Design (DDD), utilizando Spring Boot como framework principal y MySQL como base de datos.
+
+Durante el desarrollo se trabajó con ramas por funcionalidad (feature branches), pull requests y releases, lo que permitió mantener una integración continua organizada en el repositorio.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------------------------|-------------------------------|------------------|------------------------------|---------------------------------------------|--------------------|
+| BrainSpark-upc/BackPulseReport | feature/create-vital-sign-record | a1b2c3d | feat(vitalsigns): expose latest vital sign record by patient endpoint | Implemented endpoint to retrieve the most recent vital sign record for a patient using recordedAt ordering | 10/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/create-vital-sign-record | b2c3d4e | feat(vitalsigns): add list vital sign records endpoint | Added endpoint to retrieve all vital sign records associated with a patient | 10/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/create-audit-log-entry | c3d4e5f | feat(auditlogs): add audit logs endpoint | Implemented endpoint for creating audit logs to ensure system traceability | 12/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/create-patient | d4e5f6g | feat(patients): expose create patient endpoint | Added REST endpoint for patient creation with validation | 12/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/create-patient | e5f6g7h | feat(patients): expose get all patients endpoint | Implemented endpoint to list all registered patients | 12/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/create-patient | f6g7h8i | feat(patients): handle update patient command | Added update functionality for patient information using command pattern | 12/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/handover-create-post | g7h8i9j | feat(handover): add get handover details by id | Implemented endpoint to retrieve handover details by identifier | 13/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/handover-create-post | h8i9j0k | feat(handover): add acknowledge handover functionality | Added functionality to confirm handover reception between healthcare staff | 13/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/critical-events | i9j0k1l | feat(criticalevents): add attend alert endpoint | Implemented endpoint to mark critical alerts as attended | 13/06/2026 |
+| BrainSpark-upc/BackPulseReport | feature/critical-events | j0k1l2m | feat(criticalevents): add close alert endpoint | Added endpoint to close critical alerts after resolution | 13/06/2026 |
+| BrainSpark-upc/BackPulseReport | develop | k1l2m3n | chore(release): v0.17.0 | Release version including integration of all bounded contexts | 13/06/2026 |
+| BrainSpark-upc/BackPulseReport | develop | l2m3n4o | chore: merge release/0.17.0 into develop | Integrated release branch into develop ensuring system stability | 13/06/2026 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+## Resumen de Logros del Sprint 3
+
+Durante el Sprint 3, el equipo desarrolló e integró exitosamente el backend de PulseReport, implementando los principales servicios REST necesarios para la gestión de información clínica. Se logró construir una arquitectura robusta basada en Spring Boot, aplicando buenas prácticas de diseño por capas y principios de Domain-Driven Design (DDD).
+
+El sistema permite registrar, consultar y gestionar información crítica del paciente en tiempo real, asegurando trazabilidad, consistencia y escalabilidad del backend.
+
+**Hitos alcanzados:**
+* **Gestión de Signos Vitales**: Registro, consulta por paciente y obtención del último registro clínico.
+* **Gestión de Pacientes**: Creación, consulta y actualización de información de pacientes.
+* **Auditoría del Sistema**: Registro de acciones realizadas para garantizar trazabilidad.
+* **Handover Clínico**: Registro, consulta y confirmación de traspasos entre personal de salud.
+* **Eventos Críticos**: Gestión de alertas clínicas (listar, atender y cerrar eventos).
+* **Arquitectura Backend**: Implementación de patrón por capas (Controller, Service, Repository).
+* **Pruebas de API**: Validación completa de endpoints mediante Swagger UI.
+
+---
+
+  ## Evidencia de ejecución de endpoints
+  
+  ### A. Swagger UI Backend
+  
+  ![Swagger UI](assets/assets/chapter-5/swagger-backend.png)
+  
+  *Interfaz Swagger UI mostrando todos los endpoints disponibles del backend de PulseReport para pruebas y validación.*
+  
+  ---
+  
+  ### B. Registro de signos vitales (POST)
+  
+  ![POST Vital Signs](assets/assets/chapter-5/post-vital-signs.png)
+  
+  *Ejecución del endpoint POST /vital-sign-records permitiendo registrar signos vitales de un paciente.*
+  
+  ---
+  
+  ### C. Consulta de signos vitales por paciente (GET)
+  
+  ![GET Vital Signs](assets/assets/chapter-5/get-vital-signs.png)
+  
+  *Consulta de registros de signos vitales asociados a un paciente específico mediante su ID.*
+  
+  ---
+  
+  ### D. Obtención del último registro clínico
+  
+  ![Latest Vital Sign](assets/assets/chapter-5/latest-vital.png)
+  
+  *Endpoint que permite obtener el último registro de signos vitales basado en la fecha más reciente.*
+  
+  ---
+  
+  ### E. Registro de auditoría
+  
+  ![Audit Logs](assets/assets/chapter-5/audit-log.png)
+  
+  *Ejecución del endpoint POST /audit-logs para registrar acciones dentro del sistema.*
+  
+  ---
+  
+  ### F. Gestión de pacientes
+  
+  ![Patients Endpoint](assets/assets/chapter-5/patients.png)
+  
+  *Endpoints de pacientes permitiendo crear, consultar y actualizar información clínica.*
+  
+  ---
+  
+  ### G. Gestión de handover
+  
+  ![Handover](assets/assets/chapter-5/handover.png)
+  
+  *Endpoints de handover clínico que permiten registrar y confirmar traspasos entre turnos.*
+  
+  ---
+  
+  ### H. Eventos críticos
+  
+  ![Critical Events](assets/assets/chapter-5/critical-events.png)
+  
+  *Endpoints para gestionar alertas clínicas, incluyendo listar, atender y cerrar eventos críticos.*
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo completó la implementación de los servicios backend de PulseReport, exponiendo múltiples endpoints REST para la gestión de información clínica. A diferencia del Sprint anterior, en este caso los servicios fueron completamente funcionales y documentados utilizando Swagger UI, permitiendo su validación en tiempo real.
+
+La documentación de servicios incluyó la definición de rutas, métodos HTTP, estructuras de request/response y pruebas directas desde la interfaz Swagger, facilitando la comprensión y uso de la API por parte de los integrantes del equipo.
+
+**Documentación de endpoints (Swagger UI):**
+
+Acceso local: http://localhost:8080/swagger-ui.html
+
+
+---
+
+### Endpoints implementados
+
+**Pacientes (Patients)**
+
+GET /patients
+GET /patients/{id}
+POST /patients
+PUT /patients/{id}
+
+**Signos Vitales (Vital Signs)**
+POST /vital-sign-records
+GET /vital-sign-records/{patientId}
+GET /vital-sign-records/latest/{patientId}
+
+**Auditoría (Audit Logs)**
+POST /audit-logs
+
+**Handover Clínico**
+POST /handovers
+GET /handovers/{id}
+GET /handovers/patient/{patientId}
+PUT /handovers/{id}/acknowledge
+
+**Eventos Críticos (Critical Events)**
+GET /critical-events/patient/{patientId}
+PUT /critical-events/{id}/attend
+PUT /critical-events/{id}/close
+
+
+---
+
+### Evidencia de documentación en Swagger
+
+![Swagger Endpoints](assets/assets/chapter-5/swagger-endpoints.png)
+
+*Documentación de endpoints en Swagger UI mostrando los servicios organizados por bounded context.*
+
+---
+
+### Características de la documentación
+
+* **Exploración interactiva**: Permite ejecutar endpoints directamente desde la interfaz.
+* **Visualización de contratos API**: Muestra request bodies, parámetros y respuestas esperadas.
+* **Separación por módulos**: Endpoints organizados según bounded contexts del sistema.
+* **Validación en tiempo real**: Pruebas funcionales sin necesidad de herramientas externas.
+
+---
+
+### Beneficios obtenidos
+
+* Facilita la integración frontend-backend.
+* Permite detectar errores rápidamente durante el desarrollo.
+* Mejora la comprensión del sistema por parte del equipo.
+* Proporciona evidencia clara del funcionamiento del backend.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo realizó el despliegue del backend de PulseReport en entorno local, permitiendo la ejecución y validación de todos los servicios REST desarrollados. Se utilizó Spring Boot como framework principal y MySQL como base de datos, asegurando la persistencia de la información clínica.
+
+El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que permitió validar todos los endpoints implementados en tiempo real.
+
+---
+
+### Pasos realizados para el despliegue
+
+1. **Configuración del entorno backend:**
+   - Se utilizó Java (JDK 17+) y Maven Wrapper (`mvnw`) para la ejecución del proyecto.
+   - Se configuraron perfiles de entorno (`application-dev.properties`) para manejar credenciales locales de base de datos.
+   - Se estableció conexión con MySQL en entorno local.
+
+2. **Ejecución del backend:**
+   - Se ejecutó el comando:
+     ```
+     ./mvnw spring-boot:run
+     ```
+   - El servidor se levantó en el puerto 8080 utilizando Tomcat embebido.
+
+3. **Configuración de base de datos:**
+   - Se utilizó MySQL con una base de datos local (`pulsereport_platform`).
+   - Hibernate se encargó de la generación automática de tablas.
+   - Se validó la persistencia de datos mediante pruebas de endpoints.
+
+4. **Validación mediante Swagger:**
+   - Se accedió a la documentación en:
+     ```
+     http://localhost:8080/swagger-ui.html
+     ```
+   - Se ejecutaron pruebas de endpoints como:
+     - Registro de signos vitales
+     - Consulta de pacientes
+     - Auditoría de acciones
+     - Gestión de eventos críticos
+
+---
+
+### Evidencia del despliegue
+
+![Backend Running](assets/assets/chapter-5/backend-running.png)
+
+*Aplicación backend ejecutándose correctamente en entorno local mostrando logs de Spring Boot.*
+
+---
+
+![Swagger Deployment](assets/assets/chapter-5/swagger-deployment.png)
+
+*Swagger UI mostrando los endpoints disponibles tras el despliegue del backend.*
+
+---
+
+### Resultados del despliegue
+
+* El backend se ejecutó correctamente sin errores críticos.
+* Todos los endpoints fueron accesibles desde Swagger.
+* Se logró persistencia real de datos en MySQL.
+* Se validó la integración entre múltiples bounded contexts.
+* El sistema quedó listo para integración con frontend en futuros sprints.
+
+---
+
+### Conclusión
+
+El despliegue del backend en entorno local permitió validar el correcto funcionamiento de todos los servicios desarrollados durante el Sprint 3. Esta etapa fue clave para asegurar la estabilidad del sistema y preparar la base para futuras integraciones y despliegues en entornos productivos.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p align="center">
+  <img src="assets/assets/chapter-5/backend-commits.png" alt="sprint3-commits" width="1000">
+</p>
+
+Durante el Sprint 3, el equipo mantuvo una colaboración activa y organizada enfocada en el desarrollo del backend de PulseReport. Se trabajó utilizando ramas por funcionalidad (feature branches), lo que permitió a cada integrante desarrollar su bounded context de manera independiente sin afectar el trabajo de los demás.
+
+La comunicación se realizó principalmente a través de Discord, donde se coordinaron tareas, se resolvieron bloqueos técnicos y se realizaron revisiones rápidas de avances. Asimismo, se utilizaron pull requests para integrar los cambios al branch principal, asegurando control de calidad y evitando conflictos en el código.
+
+Se evidenció una distribución clara de responsabilidades:
+- Un integrante enfocado en **signos vitales**
+- Otro en **pacientes**
+- Otro en **handover clínico**
+- Otro en **eventos críticos y auditoría**
+
+Esto permitió avanzar en paralelo y cubrir múltiples funcionalidades en el mismo sprint.
+
+Los commits reflejan participación activa de todos los integrantes, con múltiples integraciones y releases progresivos (v0.15.0, v0.16.0, v0.17.0), lo que demuestra un flujo de trabajo continuo y bien estructurado.
+
+---
+
+### Principales aprendizajes del equipo
+
+* **Trabajo en paralelo**: Uso efectivo de ramas para evitar bloqueos entre integrantes.
+* **Integración continua**: Uso de merge y releases frecuentes para mantener estabilidad.
+* **Comunicación efectiva**: Resolución rápida de problemas mediante coordinación constante.
+* **Buenas prácticas de desarrollo**: Uso de commits descriptivos, separación de responsabilidades y estructura clara del proyecto.
+
+---
+
+### Conclusión
+
+El Sprint 3 evidenció una mejora significativa en la organización y colaboración del equipo, logrando integrar múltiples módulos del backend de manera eficiente. La adopción de buenas prácticas de desarrollo y comunicación permitió cumplir con los objetivos del sprint y entregar un sistema funcional, estable y bien estructurado.
+
+## 5.3. Validation Interviews
+
+En esta sección se describen las entrevistas de validación realizadas con usuarios pertenecientes a los segmentos objetivo de PulseReport. Estas entrevistas tuvieron como propósito evaluar la interacción de los usuarios con el Landing Page y con las funcionalidades del sistema, obteniendo retroalimentación sobre usabilidad, comprensión y valor percibido.
+
+Las entrevistas fueron registradas en video como evidencia y se analizaron en base a tareas asignadas durante la sesión.
+
+---
+
+### 5.3.1. Diseño de Entrevistas
+
+Se definieron los siguientes segmentos objetivo:
+
+- Segmento 1: Personal de salud (médicos/enfermeros)
+- Segmento 2: Usuarios con interés en soluciones digitales clínicas
+
+---
+
+#### Elementos evaluados
+
+Durante la sesión de validación, los usuarios interactuaron con:
+
+- Landing Page de PulseReport
+- Documentación de endpoints mediante Swagger UI
+- Flujo de registro y consulta de signos vitales
+
+---
+
+#### User Flows evaluados
+
+1. Navegación del Landing Page
+2. Comprensión de la propuesta de valor
+3. Interpretación de funcionalidades del sistema
+4. Simulación de uso del sistema (explicación de endpoints)
+5. Percepción de utilidad en contexto real
+
+---
+
+#### Estructura de la entrevista
+
+1. Introducción al proyecto
+2. Exploración del Landing Page
+3. Explicación del sistema (backend)
+4. Tareas guiadas
+5. Preguntas de validación
+
+---
+#### Guion de preguntas por segmento objetivo
+
+Para asegurar una validación adecuada, se diseñaron guiones de preguntas específicos para cada segmento objetivo, considerando su contexto de uso y relación con el sistema.
+
+---
+
+### Segmento 1: Personal de salud (Enfermeros)
+
+**Objetivo:**  
+Evaluar la utilidad del sistema en el registro y consulta de información clínica, así como la claridad de las funcionalidades relacionadas a signos vitales.
+
+**Preguntas – Landing Page:**
+- ¿Qué entiendes que hace esta plataforma?
+- ¿Te queda claro el problema que busca resolver?
+- ¿Consideras que la información presentada es relevante para tu trabajo?
+- ¿Qué sección te parece más útil o importante?
+
+**Preguntas – Sistema (flujo funcional):**
+- ¿Crees que este sistema facilitaría el registro de signos vitales?
+- ¿Te parece claro cómo se registra la información del paciente?
+- ¿Consideras útil poder consultar el último registro de signos vitales?
+- ¿Qué tan fácil crees que sería usar este sistema en tu rutina diaria?
+
+**Preguntas – Experiencia de usuario:**
+- ¿Te resulta intuitiva la forma en que se presenta la información?
+- ¿Qué mejorarías en el sistema?
+- ¿Usarías esta herramienta en tu entorno laboral?
+
+---
+
+### Segmento 2: Personal de salud (Médicos)
+
+**Objetivo:**  
+Evaluar la utilidad del sistema en la toma de decisiones clínicas y consulta rápida de información del paciente.
+
+**Preguntas – Landing Page:**
+- ¿El landing page transmite claramente el propósito del sistema?
+- ¿Te parece relevante la solución presentada para el entorno clínico?
+- ¿Qué mejorarías en la forma en que se presenta la información?
+
+**Preguntas – Sistema (flujo funcional):**
+- ¿Te resulta útil poder consultar rápidamente los signos vitales de un paciente?
+- ¿Consideras importante acceder al último registro clínico?
+- ¿La información presentada te parece suficiente para apoyar decisiones médicas?
+- ¿Qué otras funcionalidades agregarías?
+
+**Preguntas – Experiencia de usuario:**
+- ¿La interfaz te parece clara y comprensible?
+- ¿Qué tan útil consideras el sistema en tu práctica médica?
+- ¿Qué mejorarías para hacerlo más eficiente?
+
+---
+
+### Segmento 3: Usuarios generales / interesados en tecnología
+
+**Objetivo:**  
+Evaluar la comprensión general del sistema y la claridad de la propuesta de valor.
+
+**Preguntas – Landing Page:**
+- ¿Qué entiendes que hace este sistema?
+- ¿Te parece clara la propuesta de valor?
+- ¿El diseño te parece atractivo?
+
+**Preguntas – Sistema:**
+- ¿Te resulta fácil entender cómo funciona el sistema?
+- ¿Consideras que la solución tiene valor en el sector salud?
+
+**Preguntas – Experiencia de usuario:**
+- ¿Te parece fácil de usar?
+- ¿Qué mejorarías del sistema?
+- ¿Recomendarías esta solución?
+
+
+### 5.3.2. Registro de Entrevistas
+
+#### Segmento: Usuarios generales / Personal de salud
+
+---
+
+### Entrevista 1
+- Nombre: Milagros Mendoza
+- Edad: 22
+- Distrito: Lima
+- Video: https://youtu.be/RMx0DzfhOL0
+- Inicio: 00:00
+- Duración: 11:55 min
+- Screenshot: 
+
+**Resumen:**
+El usuario logró identificar correctamente el propósito del sistema. Consideró que el landing page es claro y bien estructurado. Sin embargo, mencionó que algunas funcionalidades técnicas podrían explicarse mejor para usuarios no especializados.
+
+---
+
+### Entrevista 2
+- Nombre: Miguel Zevallos
+- Edad: 24
+- Distrito: Lima
+- Video: https://youtu.be/ERz3jkvERR8
+- Inicio: 00:00
+- Duración: 9:00 min
+- Screenshot: 
+
+**Resumen:**
+El usuario destacó la organización visual del landing page y la claridad de la información. Indicó que el sistema tiene potencial en entornos clínicos reales. Sugirió mejorar la interfaz para hacerla más intuitiva.
+
+---
+
+### Entrevista 3
+- Nombre: Karen Mio
+- Edad: 23
+- Distrito: Lima
+- Video: https://youtu.be/ypqKHHFEOTU
+- Inicio: 00:00
+- Duración: 8:32 min
+- Screenshot: 
+
+**Resumen:**
+El usuario comprendió las funcionalidades principales del sistema. Consideró que la solución es innovadora. Recomendó incluir ejemplos prácticos para mejorar la comprensión del sistema.
+
+---
+
+### Entrevista 4
+- Nombre: Olenka Rios
+- Edad: 25
+- Distrito: Lima
+- Video: https://youtu.be/Pu3OU6O2b9I
+- Inicio: 00:00
+- Duración: 9:36 min
+- Screenshot:
+
+
+**Resumen:**
+El usuario tuvo una experiencia positiva con el sistema. Destacó la propuesta de valor, pero sugirió optimizar la navegación y simplificar algunos textos.
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+Se realizó la evaluación basada en heurísticas de usabilidad, arquitectura de información e inclusive design.
+
+---
+
+#### Evaluación heurística (basado en Anexo D)
+
+| # | Heurística | Descripción | Evaluación | Problema identificado | Severidad |
+|---|-----------|------------|------------|----------------------|----------|
+| 1 | Visibilidad del sistema | El sistema debe comunicar su estado claramente | Alta | No se identificaron problemas graves | Baja |
+| 2 | Relación con el mundo real | Uso de lenguaje comprensible | Media | Algunos términos técnicos no claros | Media |
+| 3 | Control del usuario | Facilidad de navegación | Media | Navegación puede mejorar | Media |
+| 4 | Consistencia | Uniformidad en diseño | Alta | Diseño consistente | Baja |
+| 5 | Prevención de errores | Evitar errores del usuario | Media | Falta feedback visual en acciones | Media |
+| 6 | Reconocimiento vs memoria | Fácil comprensión visual | Alta | Información clara | Baja |
+| 7 | Flexibilidad | Adaptabilidad del sistema | Media | Limitada personalización | Media |
+| 8 | Diseño estético | Interfaz atractiva | Alta | Diseño moderno | Baja |
+
+---
+
+### Conclusión de validación
+
+Las entrevistas permitieron validar que PulseReport cumple con comunicar su propuesta de valor y presentar una solución útil para el entorno clínico. No obstante, se identificaron mejoras necesarias en la claridad de algunas funcionalidades, navegación y experiencia de usuario.
+
+El sistema demuestra potencial de aplicación real, especialmente en la gestión de información clínica estructurada.
+
+## 5.4. Video About-the-Product
+
+En esta sección se presenta el video "About the Product", en el cual el equipo muestra el funcionamiento general del sistema PulseReport, explicando su propósito, principales funcionalidades y valor dentro del contexto clínico.
+
+El objetivo del video es evidenciar de manera práctica cómo la solución desarrollada permite mejorar la gestión de información clínica, específicamente en el registro y consulta de signos vitales, facilitando el acceso a datos relevantes para el personal de salud.
+
+---
+
+### Descripción del contenido del video
+
+El video desarrollado incluye los siguientes elementos:
+
+- **Introducción del problema:**  
+  Se explica la problemática relacionada a la gestión manual o poco estructurada de la información clínica, especialmente en el registro de signos vitales.
+
+- **Presentación de la solución:**  
+  Se introduce PulseReport como una herramienta que busca digitalizar y estructurar la información clínica, mejorando la accesibilidad y organización de los datos.
+
+- **Demostración del Landing Page:**  
+  Se muestra la interfaz del landing page, destacando la propuesta de valor, funcionalidades principales y secciones informativas del producto.
+
+- **Demostración del sistema (backend):**  
+  Se realiza una demostración utilizando Swagger UI, donde se evidencian los principales endpoints implementados:
+  - Registro de signos vitales
+  - Consulta de registros por paciente
+  - Obtención del último registro clínico
+
+- **Explicación de funcionalidades clave:**  
+  Se explica cómo cada endpoint contribuye a resolver el problema identificado, facilitando el trabajo del personal de salud.
+
+- **Conclusión del equipo:**  
+  Se resume el impacto de la solución y su potencial aplicación en entornos reales.
+
+---
+
+### Enlace del video
+
+El video "About the Product" se encuentra disponible en el siguiente enlace:
+
+[https://youtu.be/3A5RHi0I9Y0
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQAYdJDORBeKRLUWSeZyVdoNAbQq78Aig73g8Ok6sZhPcbA?e=5Ar5CS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
+
+---
+
+### Conclusión
+
+El video permite validar el funcionamiento del sistema desarrollado, mostrando evidencia real de las funcionalidades implementadas durante el proyecto. Asimismo, refuerza la propuesta de valor de PulseReport, evidenciando su utilidad en la gestión de información clínica y su potencial uso en escenarios reales.
 #### Conclusiones
 
 1. **Concluimos, que el desarrollo de PulseReport ha demostrado el potencial transformador de las tecnologías web en la mejora de los procesos de enfermería cardiovascular, facilitando la digitalización de registros de signos vitales, traspasos SBAR y eventos clínicos, lo que contribuye a reducir errores médicos y mejorar la continuidad del cuidado paciente.**
 
-2. **También concluimos que la aplicación de Scrum en el proyecto ha permitido una entrega iterativa y colaborativa, adaptándose a los requerimientos cambiantes del dominio clínico y asegurando que el producto final se alinee con las necesidades reales de los usuarios finales, como enfermeras y médicos especialistas.**
+2. **También concluimos que la
+3. aplicación de Scrum en el proyecto ha permitido una entrega iterativa y colaborativa, adaptándose a los requerimientos cambiantes del dominio clínico y asegurando que el producto final se alinee con las necesidades reales de los usuarios finales, como enfermeras y médicos especialistas.**
 
-3. **Por último, a través del proyecto, el equipo ha fortalecido sus habilidades en desarrollo frontend con Angular, gestión de proyectos open-source y colaboración en entornos distribuidos, sentando las bases para futuras contribuciones en el ámbito de la salud digital y el software libre.**
+4. **Por último, a través del proyecto, el equipo ha fortalecido sus habilidades en desarrollo frontend con Angular, gestión de proyectos open-source y colaboración en entornos distribuidos, sentando las bases para futuras contribuciones en el ámbito de la salud digital y el software libre.**
 
 #### Bibliografía
 
