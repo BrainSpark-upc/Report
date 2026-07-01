@@ -67,6 +67,17 @@
   </tr>
 </table>
 
+<div style="display: flex; justify-content: center;">
+
+| Código | Apellidos y Nombres |
+|:------:| :----: |
+| u202417693 | Aliaga Ocampo, Alexander Auden |
+| u202217893 | Rios Cespedes, Adrian Matias |
+| u20221c803 | Rocca Leon, Anhelo Rodrigo |
+| u202417448 | Huamán Cuba, Johan Giovani |
+| u202414510 | Mansilla Rivero, Carlos Marcelo |
+
+</div>
 <div align="center">
 
   <h2>Período 202610</h2>
