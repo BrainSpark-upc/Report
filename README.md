@@ -111,8 +111,8 @@ El objetivo de esta sección es resumir las modificaciones relevantes realizadas
 
 En esta sección se presenta la evidencia de colaboración del equipo en la elaboración del informe del proyecto. El informe se desarrolla en formato Markdown dentro de un repositorio público de GitHub de la organización del equipo, permitiendo evidenciar los aportes realizados mediante commits, historial de cambios y analíticos de colaboración.
 
-**URL del repositorio del informe del proyecto:**  
-[Agregar URL del repositorio del README del informe]
+**URL del repositorio del informe del proyecto:**
+https://github.com/BrainSpark-upc/Report/blob/main/README.md
 
 Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de acuerdo con los avances de cada entrega. Las actividades realizadas incluyen redacción de secciones, incorporación de capturas, corrección de rutas de imágenes, actualización de evidencias, mejora de redacción, documentación de sprints y ajustes derivados de la retroalimentación recibida.
 
@@ -339,138 +339,155 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 1.1.1. Descripción de la Startup
 
-**BrainSpark** es una startup tecnológica formada por estudiantes de Ingeniería de Software, orientada al desarrollo de soluciones digitales para mejorar procesos críticos dentro del sector salud. La startup nace a partir de la necesidad de optimizar la gestión de información clínica en entornos hospitalarios, especialmente en áreas donde la rapidez, la trazabilidad y la comunicación entre profesionales tienen un impacto directo en la continuidad del cuidado del paciente.
+**BrainSpark** es una startup tecnológica conformada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. El equipo se enfoca en el desarrollo de soluciones digitales orientadas a mejorar procesos críticos dentro del sector salud, aplicando análisis de usuarios, diseño de experiencias web, desarrollo de aplicaciones y servicios RESTful API.
 
-El producto desarrollado por BrainSpark es **PulseReport**, una plataforma web enfocada en apoyar al personal de salud en la gestión de procesos clínicos relacionados con pacientes cardiovasculares. La solución busca reducir la dispersión de información, mejorar la comunicación durante los cambios de turno, facilitar el registro de signos vitales y eventos clínicos, y fortalecer la trazabilidad de las acciones realizadas por el equipo médico y de enfermería.
+La propuesta principal de BrainSpark es **PulseReport**, una solución web orientada a mejorar la gestión de información clínica en entornos cardiovasculares. El producto busca apoyar a profesionales de salud en actividades como el registro de signos vitales, documentación de eventos clínicos, comunicación durante cambios de turno y consulta de información relevante del paciente.
 
-PulseReport responde a problemas frecuentes dentro del entorno clínico, como el uso de registros manuales, la duplicidad de información, la dificultad para consultar datos relevantes del paciente y la falta de estandarización en los traspasos de turno. Para ello, la plataforma incorpora funcionalidades orientadas al registro clínico, monitoreo de signos vitales, documentación de traspasos mediante el modelo SBAR, generación de alertas y consulta de información relevante para la toma de decisiones.
+PulseReport surge a partir de la problemática relacionada con la dispersión de información clínica, la duplicidad de registros, la comunicación no estructurada entre turnos y la dificultad para mantener trazabilidad sobre eventos, responsables y horarios. Frente a ello, la solución propone una experiencia web que permita centralizar información, facilitar el seguimiento clínico y mejorar la continuidad de atención.
 
-La misión de BrainSpark es desarrollar soluciones digitales accesibles, seguras y centradas en el usuario, que contribuyan a mejorar la eficiencia operativa del personal de salud y la calidad de atención brindada a los pacientes.
+Como startup, BrainSpark busca construir un producto digital escalable, accesible y enfocado en el usuario. Su trabajo combina investigación del problema, diseño centrado en el usuario, desarrollo frontend, implementación de servicios web, documentación técnica, validación con usuarios y despliegue en plataformas cloud.
 
-La visión de BrainSpark es convertirse en una startup reconocida por crear productos tecnológicos innovadores para el sector salud, priorizando la trazabilidad, la simplicidad de uso y la mejora continua de los procesos clínicos.
+**Misión:** Desarrollar soluciones digitales que ayuden a mejorar la comunicación, trazabilidad y organización de procesos clínicos, aportando valor al personal de salud y a instituciones que buscan optimizar la continuidad de atención del paciente.
+
+**Visión:** Ser una startup reconocida por crear productos web innovadores, inclusivos y escalables para el sector salud, aplicando buenas prácticas de ingeniería de software y tecnologías open-source.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
   <tr>
-    <th colspan="2">Alexander Auden Aliaga Ocampo</th>
+    <th colspan="2">Aliaga Ocampo, Alexander Auden</th>
   </tr>
   <tr>
     <td>
       <img src="assets/assets/chapter-1/Alex.jpg" width="300px">
     </td>
     <td>
-      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en programación, desarrollo web y bases de datos, utilizando tecnologías como C++, Python, HTML, CSS, JavaScript y MongoDB. Dentro del equipo, aporté en la organización inicial del informe, la documentación del producto y la consolidación de evidencias relacionadas con la propuesta de valor de PulseReport. También cuento con habilidades de comunicación y trabajo colaborativo, lo que me permite contribuir activamente en actividades grupales.
+      <b>Código:</b> u202417693<br>
+      <b>Carrera:</b> Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en programación, desarrollo web y bases de datos, utilizando tecnologías como C++, Python, HTML, CSS, JavaScript y MongoDB. Dentro del equipo, aporto en la organización del informe, documentación del producto, consolidación de evidencias y comunicación de la propuesta de valor de PulseReport. También cuento con habilidades de comunicación, responsabilidad y trabajo colaborativo.
     </td>
   </tr>
 
   <tr>
-    <th colspan="2">Adrian Matias Rios Cespedes</th>
+    <th colspan="2">Rios Cespedes, Adrian Matias</th>
   </tr>
   <tr>
     <td>
       <img src="assets/assets/chapter-1/adrian.jpg" width="300px">
     </td>
     <td>
-      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en lenguajes de programación como C++, Python y JavaScript, además de fundamentos relacionados con bases de datos y gestión de información. Dentro del proyecto, participé en la estructuración de requerimientos, análisis de entrevistas, documentación técnica y organización de artefactos relacionados con el desarrollo de PulseReport. También poseo habilidades orientadas al trabajo en equipo, comunicación efectiva y liderazgo.
+      <b>Código:</b> u202217893<br>
+      <b>Carrera:</b> Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en lenguajes de programación como C++, Python y JavaScript, además de fundamentos de bases de datos y gestión de información. Dentro del proyecto, aporto en la estructuración de requisitos, análisis de entrevistas, documentación técnica y organización de artefactos relacionados con el desarrollo de PulseReport. También contribuyo con habilidades de liderazgo, comunicación efectiva y organización del trabajo.
     </td>
   </tr>
 
   <tr>
-    <th colspan="2">Anhelo Rodrigo Rocca Leon</th>
+    <th colspan="2">Rocca Leon, Anhelo Rodrigo</th>
   </tr>
   <tr>
     <td>
       <img src="assets/assets/chapter-1/anhelo.jpg" width="300px">
     </td>
     <td>
-      Soy estudiante de Ingeniería de Software con conocimientos en programación, bases de datos y desarrollo de soluciones digitales. Manejo lenguajes como C++, Python y SQL, los cuales me han permitido fortalecer mi comprensión sobre lógica de programación y diseño de sistemas. En el proyecto PulseReport, colaboré en actividades relacionadas con la experiencia de usuario, flujos de interacción, mock-ups y documentación visual del producto, buscando que la solución sea clara y útil para el personal de salud.
+      <b>Código:</b> u20221c803<br>
+      <b>Carrera:</b> Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software. Cuento con conocimientos en programación, bases de datos y desarrollo de soluciones digitales, utilizando tecnologías como C++, Python y SQL. En el equipo, aporto en actividades relacionadas con experiencia de usuario, flujos de interacción, mock-ups y documentación visual del producto. Mi contribución se enfoca en que PulseReport tenga una experiencia clara, ordenada y útil para sus usuarios.
     </td>
   </tr>
 
   <tr>
-    <th colspan="2">Johan Giovani Huamán Cuba</th>
+    <th colspan="2">Huamán Cuba, Johan Giovani</th>
   </tr>
   <tr>
     <td>
       <img src="assets/assets/chapter-1/johan.png" width="300px">
     </td>
     <td>
-      Soy estudiante de Ingeniería de Software con conocimientos en programación, arquitectura de software, bases de datos y diseño de sistemas. Tengo experiencia académica utilizando tecnologías como C++, HTML, CSS, JavaScript y Python. Dentro del equipo, participé en la definición de elementos técnicos del proyecto, incluyendo arquitectura, diseño de base de datos, organización de componentes y revisión de consistencia entre los artefactos técnicos desarrollados para PulseReport.
+      <b>Código:</b> u202417448<br>
+      <b>Carrera:</b> Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software con conocimientos en programación, arquitectura de software, bases de datos y diseño de sistemas. Manejo tecnologías como C++, HTML, CSS, JavaScript y Python. Dentro del equipo, aporto en la definición de elementos técnicos del proyecto, incluyendo arquitectura, diseño de base de datos, organización de componentes y revisión de consistencia entre los artefactos técnicos desarrollados para PulseReport.
     </td>
   </tr>
 
   <tr>
-    <th colspan="2">Carlos Marcelo Mansilla Rivero</th>
+    <th colspan="2">Mansilla Rivero, Carlos Marcelo</th>
   </tr>
   <tr>
     <td>
       <img src="assets/assets/chapter-1/carlos.png" width="300px">
     </td>
     <td>
-      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en programación y desarrollo web utilizando tecnologías como C++, HTML, CSS, JavaScript y Python. Me interesa el desarrollo de software tanto desde la parte técnica como desde el análisis y diseño de soluciones. Me integré al equipo durante AV2, colaborando en la revisión de consistencia del informe, organización de evidencias, mejora de documentación y corrección de secciones observadas para alinear mejor el proyecto PulseReport con los criterios de la rúbrica.
+      <b>Código:</b> u202414510<br>
+      <b>Carrera:</b> Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en programación y desarrollo web utilizando tecnologías como C++, HTML, CSS, JavaScript y Python. Me interesa el desarrollo de software tanto desde la parte técnica como desde el análisis y diseño de soluciones. Me integré al equipo durante AV2, aportando en la revisión de consistencia del informe, mejora de redacción, organización de evidencias y alineación del documento con el enunciado del trabajo final y la rúbrica.
     </td>
   </tr>
 </table>
-
 
 ### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
 
-PulseReport es una plataforma web orientada a mejorar la gestión de información clínica en entornos cardiovasculares. La solución surge a partir de la necesidad de reducir la dispersión de datos, mejorar la comunicación entre turnos y fortalecer la trazabilidad de eventos clínicos relevantes.
+PulseReport es una solución web orientada a mejorar la gestión de información clínica en entornos cardiovasculares. El producto surge a partir de una problemática frecuente en instituciones de salud: la información relevante del paciente puede encontrarse dispersa entre registros físicos, hojas de cálculo, sistemas hospitalarios generales y comunicación verbal entre profesionales.
 
-En áreas cardiovasculares, el personal de enfermería y los médicos especialistas trabajan con información sensible que debe registrarse, consultarse y comunicarse de manera rápida y confiable. Sin embargo, en muchos casos estos procesos se apoyan en registros físicos, hojas de cálculo, sistemas hospitalarios poco integrados o comunicación verbal no estructurada. Esta situación puede generar duplicidad de información, pérdida de datos importantes, retrasos en la atención y dificultades para reconstruir la evolución clínica del paciente.
+En áreas cardiovasculares, el personal de enfermería y los médicos especialistas requieren consultar, registrar y comunicar información con rapidez. Datos como signos vitales, eventos clínicos, indicaciones, tratamientos, evolución reciente del paciente y traspasos de turno deben estar disponibles de manera clara y trazable. Cuando esta información no se encuentra organizada, pueden generarse retrasos, omisiones, duplicidad de registros y dificultades para reconstruir lo ocurrido durante la atención.
 
-PulseReport busca responder a esta problemática mediante una plataforma que permita registrar información clínica, consultar datos relevantes del paciente, documentar traspasos de turno mediante el modelo SBAR, visualizar eventos críticos y mantener un registro trazable de las acciones realizadas.
+De acuerdo con la Organización Mundial de la Salud, las enfermedades cardiovasculares son la principal causa de muerte a nivel mundial. Asimismo, en el Perú, el Ministerio de Salud señala que estas enfermedades constituyen la primera causa de muerte en el país. Este contexto refuerza la importancia de contar con procesos clínicos más ordenados, especialmente en áreas donde la continuidad de atención y la trazabilidad de eventos son factores críticos.
 
 ##### A. Quiénes están involucrados (Who)
 
-Los principales involucrados son los profesionales de salud que participan en la atención, monitoreo y seguimiento de pacientes cardiovasculares. Dentro de este grupo se encuentran el personal de enfermería cardiovascular y los médicos especialistas cardiovasculares, quienes interactúan directamente con la información clínica del paciente durante su jornada laboral.
+Los actores involucrados en la problemática son principalmente los profesionales de salud que trabajan con pacientes cardiovasculares.
 
-También participan las instituciones de salud, como hospitales, clínicas privadas y centros especializados en cardiología, debido a que necesitan mejorar sus procesos internos, reducir errores operativos y asegurar una atención más ordenada. Finalmente, los pacientes cardiovasculares son beneficiarios indirectos, ya que una mejor gestión de información clínica contribuye a una atención más continua y segura.
+El **personal de enfermería cardiovascular** participa en el monitoreo del paciente, registro de signos vitales, administración de medicamentos, documentación de eventos clínicos y comunicación durante los cambios de turno. Su trabajo requiere rapidez, precisión y continuidad.
+
+Los **médicos especialistas cardiovasculares** consultan información clínica para evaluar la evolución del paciente, validar eventos relevantes, revisar tratamientos y tomar decisiones clínicas. Para ellos, la información debe estar disponible de forma resumida, confiable y actualizada.
+
+También participan las **instituciones de salud**, como hospitales, clínicas privadas y centros especializados en cardiología, ya que necesitan mejorar la organización de sus procesos, reducir errores operativos y fortalecer la trazabilidad de la atención. Finalmente, los **pacientes cardiovasculares** son beneficiarios indirectos, debido a que una mejor gestión de información puede contribuir a una atención más continua y segura.
 
 ##### B. Qué problema resuelve la solución (What)
 
-El problema principal es la gestión dispersa y poco trazable de información clínica en entornos cardiovasculares. Actualmente, datos relevantes como signos vitales, eventos clínicos, indicaciones, tratamientos y traspasos de turno pueden encontrarse en distintos medios o depender de comunicación verbal entre profesionales.
+El problema principal es la gestión dispersa, poco estructurada y con trazabilidad limitada de información clínica en entornos cardiovasculares.
 
-Esta situación genera dificultades como:
+Actualmente, información importante puede estar distribuida en diferentes medios o depender de comunicación verbal. Esto genera dificultades como:
 
 - Pérdida parcial de información durante cambios de turno.
 - Duplicidad entre registros físicos y digitales.
-- Retrasos al consultar información clínica del paciente.
-- Riesgo de omisiones en eventos relevantes.
+- Retrasos al consultar información clínica relevante.
+- Riesgo de omisiones durante eventos críticos.
 - Dificultad para identificar quién registró una acción y cuándo ocurrió.
 - Mayor carga operativa para el personal de salud.
-- Falta de una vista resumida y clara de la evolución reciente del paciente.
+- Menor claridad para reconstruir la evolución reciente del paciente.
 
-PulseReport busca centralizar y organizar esta información para facilitar el registro, consulta y seguimiento de los procesos clínicos más importantes dentro del flujo cardiovascular.
+PulseReport busca resolver este problema mediante una plataforma web que centraliza información clínica relevante, permite documentar traspasos mediante SBAR, facilita el registro de signos vitales y eventos clínicos, y mantiene trazabilidad sobre responsables, fechas y acciones realizadas.
 
 ##### C. Cuándo ocurre el problema (When)
 
-El problema se presenta durante la jornada clínica diaria, pero se vuelve más crítico en momentos donde la información debe transmitirse o consultarse con rapidez. Esto ocurre especialmente en:
+El problema ocurre durante la jornada clínica diaria, pero se vuelve más crítico en momentos donde la información debe registrarse, consultarse o comunicarse con rapidez.
+
+Esto sucede especialmente durante:
 
 - Cambios de turno entre equipos de enfermería.
 - Registro de signos vitales durante el monitoreo del paciente.
 - Atención de eventos clínicos relevantes.
 - Revisión de evolución clínica por parte del médico.
 - Confirmación de indicaciones o tratamientos.
-- Situaciones de urgencia donde se requiere información actualizada.
-- Revisión posterior de eventos para auditoría o seguimiento.
+- Situaciones de urgencia donde se necesita información actualizada.
+- Revisión posterior de eventos para seguimiento o auditoría.
 
-En estos escenarios, cualquier demora, omisión o error en la comunicación puede afectar la continuidad del cuidado del paciente.
+En estos momentos, una demora o una omisión puede afectar la continuidad del cuidado del paciente.
 
 ##### D. Dónde ocurre el problema (Where)
 
-La problemática se presenta principalmente en instituciones de salud que atienden pacientes cardiovasculares. Entre ellas se encuentran hospitales, clínicas privadas, centros especializados en cardiología, unidades de cuidados intensivos cardiovasculares y áreas de hospitalización o emergencia relacionadas con atención cardíaca.
+La problemática se presenta principalmente en instituciones de salud que atienden pacientes cardiovasculares, como hospitales, clínicas privadas, centros especializados en cardiología, unidades de cuidados intensivos cardiovasculares, áreas de hospitalización y servicios de emergencia.
 
-En estos entornos, la información clínica suele ser consultada y actualizada por distintos profesionales, lo que hace necesario contar con un sistema que mantenga orden, trazabilidad y disponibilidad de datos relevantes.
+En estos espacios, varios profesionales participan en la atención de un mismo paciente, por lo que es necesario que la información clínica se encuentre ordenada, disponible y correctamente registrada.
 
 ##### E. Por qué es relevante este problema (Why)
 
-El problema es relevante porque la información clínica influye directamente en la continuidad del cuidado y en la toma de decisiones médicas. Cuando los datos se encuentran dispersos o incompletos, el personal de salud debe invertir más tiempo en buscar, validar o reconstruir información del paciente.
+El problema es relevante porque la información clínica influye directamente en la continuidad de atención y en la toma de decisiones médicas. Cuando los datos se encuentran incompletos, duplicados o dispersos, el personal de salud debe invertir más tiempo en buscar, validar o reconstruir información.
 
-Esto puede generar consecuencias como:
+Esto puede generar:
 
 - Menor eficiencia operativa durante el turno.
 - Mayor riesgo de errores por información incompleta.
@@ -480,59 +497,128 @@ Esto puede generar consecuencias como:
 - Mayor incertidumbre para el médico al tomar decisiones.
 - Menor capacidad de auditoría y trazabilidad clínica.
 
-Por ello, una solución digital especializada puede aportar valor al reducir fricción operativa y mejorar la organización de la información.
+Por ello, una solución digital especializada puede aportar valor al reducir la fricción operativa y mejorar la organización de la información clínica.
 
 ##### F. Cómo se gestiona actualmente el problema (How)
 
-Actualmente, la gestión de información clínica se realiza mediante una combinación de sistemas hospitalarios, registros físicos, hojas de cálculo, reportes escritos y comunicación verbal. Aunque algunas instituciones cuentan con herramientas digitales, estas no siempre están adaptadas al flujo operativo específico del área cardiovascular.
+Actualmente, la gestión de información clínica puede realizarse mediante una combinación de sistemas hospitalarios, registros físicos, hojas de cálculo, reportes escritos y comunicación verbal. Aunque algunas instituciones cuentan con herramientas digitales, estas no siempre están adaptadas al flujo operativo específico del área cardiovascular.
 
-En muchos casos, el personal utiliza registros físicos como apoyo rápido cuando los sistemas son lentos o requieren demasiados pasos. Luego, esa información debe trasladarse a otro medio, generando duplicidad de trabajo y riesgo de errores. Además, los cambios de turno suelen depender de explicaciones verbales o reportes no estandarizados, lo que puede dificultar la continuidad de atención.
+En muchos casos, el personal utiliza registros físicos como apoyo cuando los sistemas son lentos o requieren demasiados pasos. Luego, esa información debe trasladarse a otro medio, lo que genera duplicidad de trabajo y riesgo de errores. Además, los cambios de turno pueden depender de explicaciones verbales o reportes no estandarizados, dificultando la continuidad de atención.
 
 ##### G. Cuánto impacta el problema (How much)
 
-El impacto del problema se refleja principalmente en tiempo operativo, carga de trabajo, riesgo clínico y trazabilidad. Aunque el impacto exacto puede variar según la institución, las entrevistas y el análisis del contexto evidencian que la falta de centralización de información afecta el trabajo diario de enfermería y médicos especialistas.
+El impacto del problema se refleja en tiempo operativo, carga de trabajo, riesgo clínico y trazabilidad. A nivel global, las enfermedades cardiovasculares representan una de las principales cargas de salud. En las Américas, la Organización Panamericana de la Salud reporta millones de muertes anuales asociadas a estas enfermedades. En Perú, la Encuesta Demográfica y de Salud Familiar 2024 reporta presencia de presión arterial alta en parte importante de la población de 15 años a más, lo que evidencia la relevancia del monitoreo cardiovascular.
 
-El personal de enfermería puede invertir tiempo adicional en registrar, duplicar o completar información pendiente. Por su parte, los médicos pueden requerir más tiempo para revisar la evolución del paciente si los datos se encuentran en diferentes fuentes. Además, la institución pierde capacidad para revisar eventos clínicos de forma ordenada cuando no existe trazabilidad clara sobre responsables, fechas y acciones realizadas.
+En el contexto del producto, el impacto se observa en que el personal de enfermería puede invertir tiempo adicional en registrar, duplicar o completar información pendiente. Por su parte, los médicos pueden requerir más tiempo para revisar la evolución del paciente cuando los datos se encuentran en diferentes fuentes. Además, la institución pierde capacidad para revisar eventos clínicos de forma ordenada si no existe trazabilidad clara sobre responsables, fechas y acciones realizadas.
 
-En resumen, el problema impacta en la eficiencia del personal, la seguridad del paciente, la continuidad de atención y la capacidad de seguimiento clínico.
+##### Puntos principales que debe resolver la solución
+
+PulseReport debe resolver los siguientes puntos principales:
+
+- Centralizar información clínica relevante del paciente cardiovascular.
+- Facilitar el registro de signos vitales y eventos clínicos.
+- Estandarizar la comunicación durante cambios de turno mediante SBAR.
+- Permitir la consulta rápida de evolución clínica y eventos recientes.
+- Mantener trazabilidad sobre responsables, fechas, horarios y acciones.
+- Reducir la dependencia de registros físicos complementarios.
+- Presentar una experiencia web clara, adaptable y consistente entre Landing Page y Web Application.
+
+##### Objetivos de la solución
+
+**Objetivo general:**  
+Desarrollar una solución web que apoye la gestión de información clínica cardiovascular, mejorando la comunicación entre profesionales de salud, la trazabilidad de eventos y la continuidad de atención del paciente.
+
+**Objetivos específicos:**
+
+- Diseñar una Landing Page que comunique claramente la propuesta de valor de PulseReport.
+- Implementar una Web Application adaptable que permita registrar y consultar información clínica.
+- Desarrollar un RESTful API interno que brinde soporte a los principales recursos del sistema.
+- Integrar la Web Application con el RESTful API desarrollado.
+- Incorporar flujos orientados a registro de signos vitales, eventos clínicos, traspasos SBAR y consulta de información.
+- Validar la experiencia del producto con usuarios representativos de los segmentos objetivo.
+- Mantener coherencia visual y funcional entre Landing Page, Web Application y servicios documentados.
+
+##### Restricciones y alcance del proyecto
+
+El alcance de PulseReport se encuentra delimitado por las condiciones del trabajo final y por el nivel de avance del producto académico.
+
+- La Landing Page debe desarrollarse como sitio web estático usando tecnologías web open-source.
+- La Web Application debe ser adaptable a distintas dimensiones de dispositivo.
+- La solución debe contar con un RESTful API de elaboración interna.
+- La Web Application debe integrarse con el RESTful API.
+- La solución debe incluir documentación de servicios mediante OpenAPI/Swagger.
+- El producto debe aplicar buenas prácticas de control de versiones, GitFlow, Conventional Commits y Semantic Versioning.
+- El producto debe considerar accesibilidad e internacionalización en la experiencia web.
+- PulseReport no reemplaza un sistema hospitalario completo; se plantea como una solución complementaria enfocada en comunicación clínica, trazabilidad y continuidad de atención cardiovascular.
+- La validación del producto se realiza en un contexto académico, mediante entrevistas, pruebas de navegación y evaluación heurística con usuarios representativos.
 
 #### 1.2.2. Lean UX Process
 
-El proceso Lean UX de PulseReport permite transformar la problemática identificada en supuestos e hipótesis que pueden ser validados durante el desarrollo del producto. Este enfoque evita asumir que la solución será útil únicamente por incluir funcionalidades clínicas; por el contrario, plantea que cada decisión debe relacionarse con una necesidad del usuario y con una evidencia observable.
+El proceso Lean UX de PulseReport permite transformar la problemática identificada en supuestos e hipótesis que puedan ser validadas durante el desarrollo del producto. Este enfoque evita asumir que una funcionalidad genera valor únicamente por estar implementada. En su lugar, cada decisión debe relacionarse con una necesidad del usuario y con una evidencia observable.
 
-Para el proyecto, se consideran dos grupos principales de usuarios directos: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Además, se reconoce a hospitales, clínicas privadas y centros especializados en cardiología como clientes institucionales, debido a que pueden adoptar o implementar la solución dentro de sus procesos.
+Para este proyecto se consideran dos grupos principales de usuarios directos: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Además, se reconoce a hospitales, clínicas privadas y centros especializados en cardiología como clientes institucionales, debido a que pueden adoptar o implementar la solución dentro de sus procesos.
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-###### Segmento — Personal de enfermería cardiovascular
+###### Problem Statement 1 — Personal de enfermería cardiovascular
 
-**Contexto:** El personal de enfermería cardiovascular participa directamente en el monitoreo de pacientes, registro de signos vitales, administración de medicamentos, documentación de eventos y comunicación entre turnos.
+**Domain:** Gestión de información clínica cardiovascular durante turnos de atención.
 
-**Observación:** Actualmente, muchas de estas actividades pueden apoyarse en registros físicos, sistemas hospitalarios generales o comunicación verbal. Esto genera duplicidad, pérdida de tiempo y riesgo de omisiones durante momentos críticos.
+**Customer segment:** Personal de enfermería cardiovascular que registra signos vitales, eventos clínicos, tratamientos y traspasos de turno.
 
-**Problema:** El personal de enfermería cardiovascular necesita una forma más rápida y estructurada de registrar información clínica y comunicar datos relevantes al siguiente turno, sin depender de múltiples medios o procesos manuales.
+**Pain points:** El personal puede enfrentar duplicidad de registros, uso de apuntes físicos, comunicación no estructurada y pérdida parcial de información durante cambios de turno.
 
-**Pregunta clave:** ¿Cómo podríamos ayudar al personal de enfermería cardiovascular a registrar y comunicar información clínica de manera rápida, clara y trazable durante su turno?
+**Gap:** Los sistemas actuales no siempre ofrecen un flujo simple y especializado para registrar información clínica cardiovascular y comunicarla bajo una estructura clara.
 
-###### Segmento — Médicos especialistas cardiovasculares
+**Vision / Strategy:** PulseReport busca ofrecer una experiencia web que facilite el registro clínico, el traspaso SBAR y la trazabilidad de acciones realizadas durante el turno.
 
-**Contexto:** Los médicos especialistas cardiovasculares necesitan consultar información clínica actualizada para evaluar la evolución del paciente, validar eventos relevantes y tomar decisiones oportunas.
+**Initial segment:** Enfermeros y enfermeras que trabajan en áreas cardiovasculares, unidades de cuidados intensivos, hospitalización o emergencia.
 
-**Observación:** La información del paciente puede encontrarse distribuida entre sistemas hospitalarios, registros físicos, reportes complementarios y comunicación con otros profesionales.
+**Problem Statement:**  
+El personal de enfermería cardiovascular necesita una forma rápida, estructurada y trazable de registrar información clínica y comunicar datos relevantes al siguiente turno, porque los registros dispersos y la comunicación no estandarizada pueden generar omisiones, duplicidad y mayor carga operativa.
 
-**Problema:** Los médicos especialistas cardiovasculares necesitan acceder a información clínica consolidada, confiable y trazable para reducir el tiempo de búsqueda y tomar decisiones con menor incertidumbre.
+**Pregunta clave:**  
+¿Cómo podríamos ayudar al personal de enfermería cardiovascular a registrar y comunicar información clínica de manera rápida, clara y trazable durante su turno?
 
-**Pregunta clave:** ¿Cómo podríamos ayudar a los médicos especialistas cardiovasculares a consultar información crítica del paciente de forma rápida, resumida y confiable?
+###### Problem Statement 2 — Médicos especialistas cardiovasculares
 
-###### Cliente institucional — Hospitales, clínicas y centros especializados
+**Domain:** Consulta, seguimiento y toma de decisiones clínicas en pacientes cardiovasculares.
 
-**Contexto:** Las instituciones de salud necesitan mejorar la continuidad de atención, reducir errores operativos y supervisar procesos clínicos críticos.
+**Customer segment:** Médicos cardiólogos, intensivistas, cirujanos cardiovasculares u otros especialistas que consultan información clínica para evaluar pacientes.
 
-**Observación:** La falta de estandarización en registros, traspasos y seguimiento de eventos dificulta la trazabilidad y la revisión posterior de acciones clínicas.
+**Pain points:** Los médicos pueden necesitar revisar información en múltiples fuentes, validar datos con otros profesionales y reconstruir la evolución del paciente antes de tomar decisiones.
 
-**Problema:** Las instituciones requieren una solución complementaria que ayude a ordenar procesos específicos del área cardiovascular sin reemplazar completamente los sistemas hospitalarios existentes.
+**Gap:** La información clínica relevante no siempre se presenta de forma consolidada, resumida y trazable para apoyar la toma de decisiones.
 
-**Pregunta clave:** ¿Cómo podríamos ofrecer una plataforma especializada que mejore la comunicación, trazabilidad y seguimiento clínico en áreas cardiovasculares?
+**Vision / Strategy:** PulseReport busca ofrecer una vista clínica que permita consultar evolución reciente, eventos relevantes, signos vitales y responsables de registro.
+
+**Initial segment:** Médicos especialistas cardiovasculares que atienden pacientes en áreas críticas o de seguimiento cardiovascular.
+
+**Problem Statement:**  
+Los médicos especialistas cardiovasculares necesitan acceder a información clínica consolidada, confiable y trazable, porque la fragmentación de datos puede incrementar el tiempo de búsqueda y generar incertidumbre durante la toma de decisiones.
+
+**Pregunta clave:**  
+¿Cómo podríamos ayudar a los médicos especialistas cardiovasculares a consultar información crítica del paciente de forma rápida, resumida y confiable?
+
+###### Problem Statement 3 — Cliente institucional
+
+**Domain:** Gestión y supervisión de procesos clínicos cardiovasculares.
+
+**Customer segment:** Hospitales, clínicas privadas y centros especializados en cardiología.
+
+**Pain points:** Las instituciones pueden tener dificultades para supervisar procesos clínicos cuando la información se encuentra dispersa o cuando los traspasos y eventos no tienen trazabilidad suficiente.
+
+**Gap:** Existen sistemas hospitalarios generales, pero no siempre se enfocan en procesos específicos de comunicación clínica, SBAR y trazabilidad cardiovascular.
+
+**Vision / Strategy:** PulseReport busca posicionarse como una solución complementaria para mejorar comunicación, seguimiento y trazabilidad en áreas cardiovasculares.
+
+**Initial segment:** Instituciones de salud con áreas cardiovasculares que requieren mejorar continuidad de atención y seguimiento de eventos clínicos.
+
+**Problem Statement:**  
+Las instituciones de salud necesitan una solución complementaria que ayude a ordenar procesos específicos del área cardiovascular, porque la falta de trazabilidad y comunicación estructurada puede dificultar la supervisión, auditoría y continuidad de atención.
+
+**Pregunta clave:**  
+¿Cómo podríamos ofrecer una plataforma especializada que mejore la comunicación, trazabilidad y seguimiento clínico en áreas cardiovasculares?
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -569,54 +655,54 @@ Para el proyecto, se consideran dos grupos principales de usuarios directos: per
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-Las hipótesis se redactan como afirmaciones comprobables. Cada hipótesis conecta un usuario, una necesidad, una solución propuesta y una señal de validación. De esta manera, el equipo puede evaluar si PulseReport genera valor real y no solo si una funcionalidad fue implementada.
+Las hipótesis se redactan como afirmaciones comprobables. Cada hipótesis conecta una solución propuesta, un segmento de usuarios, un resultado esperado y una señal de validación.
 
 **Formato utilizado:**
 
-> Creemos que **[usuario o segmento]** logrará **[resultado esperado]** si utiliza **[funcionalidad o solución propuesta]**.  
-> Sabremos que esto es cierto cuando **[evidencia observable o medible]**.
+> Creemos que crear **[funcionalidad o experiencia]** para **[segmento de usuario]** permitirá lograr **[resultado esperado]**.  
+> Sabremos que esto es verdadero cuando observemos **[evidencia cualitativa o cuantitativa]**.
 
 ###### Hipótesis 1 — Traspaso SBAR
 
-Creemos que el **personal de enfermería cardiovascular** logrará comunicar información clínica de manera más clara durante los cambios de turno si utiliza un **formulario digital basado en SBAR**.
+Creemos que crear un **formulario digital basado en SBAR** para el **personal de enfermería cardiovascular** permitirá comunicar información clínica de manera más clara durante los cambios de turno.
 
-Sabremos que esto es cierto cuando, durante una prueba de validación, el usuario pueda registrar un traspaso con información de situación, antecedentes, evaluación y recomendación sin requerir instrucciones adicionales, y además indique que la estructura le ayuda a organizar mejor la información entregada.
+Sabremos que esto es verdadero cuando, durante una sesión de validación, el usuario pueda registrar un traspaso con información de situación, antecedentes, evaluación y recomendación sin requerir instrucciones adicionales, y además indique que la estructura le ayuda a organizar mejor la información entregada.
 
 ###### Hipótesis 2 — Registro de signos vitales
 
-Creemos que el **personal de enfermería cardiovascular** podrá reducir la dependencia de registros físicos complementarios si utiliza un **módulo digital de registro de signos vitales** con campos claros y validaciones básicas.
+Creemos que crear un **módulo digital de registro de signos vitales** para el **personal de enfermería cardiovascular** permitirá reducir la dependencia de registros físicos complementarios.
 
-Sabremos que esto es cierto cuando el usuario pueda registrar los signos vitales de un paciente en una tarea simulada, identifique correctamente los campos requeridos y comprenda los mensajes de validación cuando falte información obligatoria.
+Sabremos que esto es verdadero cuando el usuario pueda registrar los signos vitales de un paciente en una tarea simulada, identifique correctamente los campos requeridos y comprenda los mensajes de validación cuando falte información obligatoria.
 
 ###### Hipótesis 3 — Consulta de evolución clínica
 
-Creemos que los **médicos especialistas cardiovasculares** podrán revisar con mayor rapidez el estado reciente del paciente si cuentan con una **vista resumida de evolución clínica** que centralice signos vitales, eventos relevantes y registros recientes.
+Creemos que crear una **vista resumida de evolución clínica** para los **médicos especialistas cardiovasculares** permitirá revisar con mayor rapidez el estado reciente del paciente.
 
-Sabremos que esto es cierto cuando el usuario pueda ubicar información crítica del paciente sin buscar en múltiples secciones y logre explicar el estado general del caso a partir de la información mostrada.
+Sabremos que esto es verdadero cuando el usuario pueda ubicar información crítica del paciente sin buscar en múltiples secciones y logre explicar el estado general del caso a partir de la información mostrada.
 
 ###### Hipótesis 4 — Trazabilidad clínica
 
-Creemos que los **usuarios clínicos** confiarán más en la información registrada si PulseReport muestra **fecha, hora y responsable** de las acciones clínicas relevantes.
+Creemos que mostrar **fecha, hora y responsable** de las acciones clínicas relevantes para los **usuarios clínicos** permitirá aumentar la confianza en la información registrada.
 
-Sabremos que esto es cierto cuando, durante una prueba de validación, el usuario pueda identificar quién registró un evento, cuándo ocurrió y por qué esa información es útil para el seguimiento del paciente.
+Sabremos que esto es verdadero cuando, durante una sesión de validación, el usuario pueda identificar quién registró un evento, cuándo ocurrió y por qué esa información es útil para el seguimiento del paciente.
 
 ###### Hipótesis 5 — Alertas y eventos críticos
 
-Creemos que los **usuarios clínicos** podrán identificar con mayor facilidad situaciones que requieren atención si PulseReport presenta **eventos críticos o alertas clínicas** de manera visible y ordenada.
+Creemos que presentar **eventos críticos o alertas clínicas** de manera visible para los **usuarios clínicos** permitirá identificar con mayor facilidad situaciones que requieren atención.
 
-Sabremos que esto es cierto cuando el usuario pueda reconocer rápidamente un evento relevante dentro del flujo de consulta y describir qué acción tomaría a partir de la alerta presentada.
+Sabremos que esto es verdadero cuando el usuario pueda reconocer rápidamente un evento relevante dentro del flujo de consulta y describir qué acción tomaría a partir de la alerta presentada.
 
 ###### Hipótesis 6 — Landing Page
 
-Creemos que los **visitantes interesados en soluciones digitales para salud** comprenderán la propuesta de valor de PulseReport si la Landing Page presenta de forma clara el problema, la solución, beneficios, características, testimonios, contacto y llamados a la acción.
+Creemos que crear una **Landing Page con propuesta de valor clara, beneficios, características, testimonios, contacto y llamados a la acción** para **visitantes interesados en soluciones digitales de salud** permitirá que comprendan el valor de PulseReport.
 
-Sabremos que esto es cierto cuando los visitantes puedan explicar con sus propias palabras qué problema resuelve PulseReport y puedan identificar fácilmente la acción principal para solicitar información o acceder a la aplicación.
+Sabremos que esto es verdadero cuando los visitantes puedan explicar con sus propias palabras qué problema resuelve PulseReport y puedan identificar fácilmente la acción principal para solicitar información o acceder a la aplicación.
 
 ###### Hipótesis 7 — Adopción institucional
 
-Creemos que los **hospitales, clínicas y centros especializados en cardiología** percibirán mayor valor en PulseReport si la solución se presenta como una herramienta complementaria para mejorar comunicación, trazabilidad y continuidad de atención, en lugar de reemplazar completamente sus sistemas actuales.
+Creemos que presentar PulseReport como una **herramienta complementaria para comunicación, trazabilidad y continuidad de atención** para **hospitales, clínicas y centros especializados en cardiología** permitirá reducir la resistencia de adopción.
 
-Sabremos que esto es cierto cuando un responsable clínico o usuario con experiencia hospitalaria considere viable usar PulseReport como apoyo para registrar traspasos, consultar eventos y mejorar seguimiento clínico.
+Sabremos que esto es verdadero cuando un responsable clínico o usuario con experiencia hospitalaria considere viable usar PulseReport como apoyo para registrar traspasos, consultar eventos y mejorar seguimiento clínico.
 
 ##### 1.2.2.4. Lean UX Canvas
 
@@ -639,7 +725,15 @@ PulseReport diferencia entre usuarios directos y cliente institucional. Los usua
 
 Este segmento está conformado por enfermeros y enfermeras que trabajan en áreas cardiovasculares, unidades de cuidados intensivos, hospitalización, emergencia o centros especializados en cardiología. Su trabajo está relacionado con el monitoreo de pacientes, registro de signos vitales, administración de medicamentos, documentación de eventos clínicos y comunicación durante cambios de turno.
 
-**Características clave de este segmento:**
+**Características demográficas y profesionales:**
+
+- Profesionales de salud con formación técnica o universitaria en enfermería.
+- Edad aproximada entre 24 y 55 años.
+- Experiencia laboral variable, desde personal joven en proceso de especialización hasta profesionales con varios años en áreas clínicas.
+- Trabajo frecuente en turnos rotativos, guardias y escenarios de alta presión operativa.
+- Uso de computadoras institucionales, tablets o dispositivos móviles según disponibilidad del centro de salud.
+
+**Características clave del segmento:**
 
 - Realizan tareas de registro clínico con alta frecuencia.
 - Trabajan en contextos donde la rapidez y precisión son importantes.
@@ -661,7 +755,15 @@ Este segmento está conformado por enfermeros y enfermeras que trabajan en área
 
 Este segmento está conformado por médicos cardiólogos, intensivistas, cirujanos cardiovasculares u otros especialistas que participan en la evaluación, seguimiento y toma de decisiones sobre pacientes cardiovasculares. Su principal necesidad es acceder a información confiable y actualizada para comprender la evolución del paciente y tomar decisiones oportunas.
 
-**Características clave de este segmento:**
+**Características demográficas y profesionales:**
+
+- Profesionales médicos con especialización o experiencia en cardiología, medicina intensiva, cirugía cardiovascular o áreas relacionadas.
+- Edad aproximada entre 28 y 60 años.
+- Experiencia laboral generalmente mayor a la del personal en formación, debido al proceso de especialización médica.
+- Trabajo en hospitales, clínicas, centros especializados, UCI, emergencia o áreas de hospitalización cardiovascular.
+- Uso de sistemas hospitalarios, reportes clínicos, dispositivos móviles y comunicación directa con equipos de enfermería.
+
+**Características clave del segmento:**
 
 - Consultan información clínica para tomar decisiones médicas.
 - Necesitan revisar evolución reciente, eventos relevantes y signos vitales.
@@ -683,14 +785,12 @@ Este segmento está conformado por médicos cardiólogos, intensivistas, cirujan
 
 Además de los usuarios directos, PulseReport considera como cliente objetivo a instituciones de salud que atienden pacientes cardiovasculares. Estas instituciones pueden beneficiarse de una solución que mejore la organización de información clínica, la trazabilidad de procesos y la comunicación entre profesionales.
 
-**Características clave de este cliente:**
+**Características del cliente institucional:**
 
-- Buscan mejorar eficiencia operativa en áreas clínicas.
-- Necesitan reducir errores asociados a registros incompletos o dispersos.
-- Requieren mayor trazabilidad para supervisión y auditoría.
-- Valoran soluciones que puedan complementar sus sistemas actuales.
-- Se interesan por herramientas escalables y accesibles.
-- Buscan mejorar la continuidad de atención del paciente.
+- Instituciones de salud públicas o privadas.
+- Centros con atención cardiovascular, áreas de hospitalización, emergencia o UCI.
+- Organizaciones que buscan mejorar eficiencia operativa y continuidad de atención.
+- Instituciones que ya pueden contar con sistemas hospitalarios, pero requieren soluciones complementarias para procesos específicos.
 
 **Necesidades principales:**
 
@@ -701,11 +801,19 @@ Además de los usuarios directos, PulseReport considera como cliente objetivo a 
 - Implementar soluciones digitales sin elevar demasiado la complejidad operativa.
 - Contar con herramientas que apoyen la calidad de atención en áreas cardiovasculares.
 
+#### Sustento estadístico de los segmentos
+
+Las enfermedades cardiovasculares representan un problema relevante de salud pública. La Organización Mundial de la Salud señala que son la principal causa de muerte a nivel global. En las Américas, la Organización Panamericana de la Salud reporta una alta carga de mortalidad asociada a enfermedades cardiovasculares. En el caso peruano, el Ministerio de Salud identifica estas enfermedades como la primera causa de muerte en el país.
+
+Además, la Encuesta Demográfica y de Salud Familiar 2024 reporta que el 14.2% de personas de 15 años a más presentó presión arterial alta en Perú. Este indicador se relaciona con factores de riesgo cardiovascular y refuerza la necesidad de mejorar procesos de monitoreo, seguimiento y atención clínica en instituciones de salud.
+
+Este contexto justifica la selección de segmentos vinculados al cuidado cardiovascular, ya que el personal de enfermería y los médicos especialistas participan directamente en el registro, consulta y comunicación de información clínica relevante para pacientes con riesgo o condición cardiovascular.
+
 #### Justificación de selección de segmentos
 
 Los segmentos seleccionados se relacionan directamente con el problema central de PulseReport: la gestión de información clínica cardiovascular. El personal de enfermería representa el flujo de registro, monitoreo y comunicación durante el turno. Los médicos especialistas representan el flujo de consulta, validación y toma de decisiones clínicas. Finalmente, las instituciones de salud representan el cliente que requiere mejorar procesos internos, trazabilidad y continuidad de atención.
 
-Esta separación permite mantener coherencia entre el análisis del problema, las entrevistas, los User Personas, el diseño de la solución y las futuras validaciones del producto.
+Esta separación permite mantener coherencia entre el análisis del problema, las entrevistas, los User Personas, el diseño de la solución y las futuras validaciones del producto.  
 
 ### 2.1. Competidores
 
