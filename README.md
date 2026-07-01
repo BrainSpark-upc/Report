@@ -77,11 +77,78 @@
 
 <div style="page-break-after: always;"></div>
 
+## Registro de Versiones del Informe
+
+El objetivo de esta sección es resumir las modificaciones relevantes realizadas al informe durante el ciclo de vida del proyecto. Se consideran modificaciones relevantes la adición de secciones, eliminación de secciones, correcciones o mejoras producto de la retroalimentación recibida del docente o de la autocrítica del equipo.
+
+| Versión | Fecha      | Autor                                                     | Descripción de modificación |
+| ------- | ---------- | --------------------------------------------------------- | --------------------------- |
+| **1.0** | 07/04/2026 | AlexanderAliaga19                                         | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto. |
+| **1.1** | 07/04/2026 | AlexanderAliaga19                                         | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md. |
+| **1.2** | 07/04/2026 | AlexanderAliaga19                                         | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento. |
+| **1.3** | 16/04/2026 | AlexanderAliaga19                                         | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo. |
+| **1.4** | 17/04/2026 | AdrianR16-C                                               | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto. |
+| **1.5** | 18/04/2026 | AdrianR16-C                                               | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios. |
+| **1.6** | 19/04/2026 | AdrianR16-C                                               | Se documentaron hallazgos obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix. |
+| **1.7** | 19/04/2026 | AlexanderAliaga19 / AdrianR16-C                           | Se agregaron lineamientos visuales, correcciones de rutas de imágenes, assets del capítulo 2, perfiles de usuarios, User Personas, Task Matrix y análisis asociado. |
+| **1.8** | 20/04/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4                 | Se agregaron detalles de Event Storming, lineamientos SEO, meta tags, sistema de etiquetado, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto final. |
+| **1.9** | 21/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, sistemas de organización, diagramas de base de datos, diagramas de clase, configuración de entorno de desarrollo, gestión de código fuente y convenciones de estilos. |
+| **2.0** | 22/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, estructura del equipo, wireframes, mock-ups, evidencias, configuración inicial de despliegue, URL de despliegue y referencias bibliográficas. |
+| **2.1** | 23/04/2026 | Johancuba / RoccaA4                                       | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software, estrategia de control de versiones y estructura de documentación técnica. |
+| **2.2** | 10/05/2026 | AdrianR16-C / RoccaA4                                     | Se actualizó el análisis competitivo, estrategias frente a competidores, secciones de configuración de software, GitFlow y claridad estructural del informe a partir de revisión del contenido existente. |
+| **2.3** | 11/05/2026 | AdrianR16-C / Johancuba / RoccaA4                         | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming, Ubiquitous Language, User Stories, Impact Mapping y Product Backlog. |
+| **2.4** | 11/05/2026 | AdrianR16-C                                               | Se corrigieron y mejoraron las entrevistas de profesionales médicos, entrevistas de enfermería cardiovascular, Empathy Maps, User Journey Maps, User Personas y se eliminaron contenidos desactualizados. |
+| **2.5** | 11/05/2026 | AdrianR16-C / RoccaA4                                     | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron las secciones de Impact Mapping, User Stories, Epics y documentación de Sprint 2. |
+| **2.6** | 11/05/2026 | AdrianR16-C / RoccaA4 / Johancuba                         | Se añadieron diagramas y evidencias finales, se corrigieron nombres de archivos, rutas de imágenes, textos de mock-ups, prototipos, user flows y secciones complementarias para mejorar la consistencia del informe. |
+| **2.7** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporó la documentación del Sprint 3, incluyendo planificación, backlog, evidencias de desarrollo, ejecución, documentación de servicios RESTful API y despliegue. |
+| **2.8** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
+| **2.9** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporaron evidencias audiovisuales del Video About-the-Product y del Video About-the-Team, incluyendo descripción de escenas, participantes, testimonios y retrospectiva del proceso de trabajo. |
+| **3.0** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se aplicaron mejoras posteriores a la retroalimentación de AV2, corrigiendo estructura del informe, consistencia de nombres, trazabilidad entre artefactos, evidencias de colaboración, documentación de endpoints y redacción general. |
+| **3.1** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustando el contenido de acuerdo con el enunciado oficial del trabajo final. |
+<div style="page-break-after: always;"></div>
+
+## Project Report Collaboration Insights
+
+En esta sección se presenta la evidencia de colaboración del equipo en la elaboración del informe del proyecto. El informe se desarrolla en formato Markdown dentro de un repositorio público de GitHub de la organización del equipo, permitiendo evidenciar los aportes realizados mediante commits, historial de cambios y analíticos de colaboración.
+
+**URL del repositorio del informe del proyecto:**  
+[Agregar URL del repositorio del README del informe]
+
+Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de acuerdo con los avances de cada entrega. Las actividades realizadas incluyen redacción de secciones, incorporación de capturas, corrección de rutas de imágenes, actualización de evidencias, mejora de redacción, documentación de sprints y ajustes derivados de la retroalimentación recibida.
+
+| Entrega | Actividades de colaboración realizadas | Evidencia considerada |
+| ------- | -------------------------------------- | --------------------- |
+| **AV1** | Se creó la estructura inicial del informe, se documentó el perfil de la startup, la problemática, Lean UX Process, entrevistas, primeros artefactos de análisis, requisitos iniciales, diseño de producto y Sprint 1. | Commits iniciales del README, historial de cambios del repositorio y capturas de colaboración en GitHub. |
+| **TB1** | Se actualizaron artefactos previamente entregados, se mejoró la documentación de requisitos, diseño UX/UI, arquitectura, Sprint 2 y evidencias de despliegue de la Landing Page y primera versión de la Web Application. | Commits asociados a correcciones, capturas de GitHub Insights y evidencias de actualización del informe. |
+| **AV2** | Se incorporó la documentación del Sprint 3, evidencias de implementación, validación, documentación de servicios RESTful API, despliegue de Web Services, Video About-the-Product y avance del Video About-the-Team. Además, Carlos Marcelo Mansilla Rivero se integró al equipo y colaboró en la revisión y mejora del informe. | Commits de actualización del informe, capturas de colaboración, historial de ramas y evidencias de corrección posterior a retroalimentación. |
+
+### Evidencias de colaboración en el informe
+
+A continuación, se deben incluir capturas de los analíticos de colaboración del repositorio del informe, incluyendo commits por integrante, contribuciones y actividad del repositorio.
+
+<p align="center">
+  <img src="assets/assets/project-report-collaboration-insights/report-repository-url.png" alt="URL del repositorio del informe" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/assets/project-report-collaboration-insights/github-commits-av2.png" alt="Commits realizados para AV2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/assets/project-report-collaboration-insights/github-contributors-av2.png" alt="Contribuciones de integrantes en el informe" width="700">
+</p>
+
+**Nota:** Las capturas anteriores deben corresponder al repositorio del informe del proyecto, no a los repositorios de la Landing Page, Frontend Web Application o Web Services. Las evidencias deben mantener coherencia con el Registro de Versiones del Informe.
+
+<div style="page-break-after: always;"></div>
+
 ## Contenido
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 
-- [Capítulo I: Introducción](#capítulo-1-introducción)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
         - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
         - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -107,7 +174,7 @@
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+    - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
     - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -135,14 +202,14 @@
         - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+        - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
         - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
         - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
         - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
         - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
+        - [4.8.1. Database Diagrams](#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
@@ -178,65 +245,39 @@
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+          - [5.2.4. Sprint 4](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
         - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
         - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
         - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heuristicas)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
-        - [5.4.1. Evidencia del video](#541-evidencia-del-video)
-        - [5.4.2. Descripción de escenas, participantes y testimonios](#542-descripción-de-escenas-participantes-y-testimonios)
-        - [5.4.3. Relación del video con la propuesta de valor del producto](#543-relación-del-video-con-la-propuesta-de-valor-del-producto)
-    - [5.5. Video About-the-Team](#55-video-about-the-team)
-        - [5.5.1. Evidencia del video](#551-evidencia-del-video)
-        - [5.5.2. Descripción de sesiones de trabajo registradas](#552-descripción-de-sesiones-de-trabajo-registradas)
-        - [5.5.3. Participación y testimonio de cada integrante](#553-participación-y-testimonio-de-cada-integrante)
-        - [5.5.4. Retrospectiva del proceso de desarrollo](#554-retrospectiva-del-proceso-de-desarrollo)
-    - [5.6. Continuous Improvement](#56-continuous-improvement)
-        - [5.6.1. Feedback recibido en AV2](#561-feedback-recibido-en-av2)
-        - [5.6.2. Acciones correctivas aplicadas](#562-acciones-correctivas-aplicadas)
-        - [5.6.3. Evidencia de mejora sobre artefactos anteriores](#563-evidencia-de-mejora-sobre-artefactos-anteriores)
 
 - [Conclusiones](#conclusiones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
+
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-## Registro de Version de Informe
-
-| Versión | Fecha      | Autor                                                     | Descripción de modificación |
-| ------- | ---------- | --------------------------------------------------------- | --------------------------- |
-| **1.0** | 07/04/2026 | AlexanderAliaga19                                         | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto. |
-| **1.1** | 07/04/2026 | AlexanderAliaga19                                         | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md. |
-| **1.2** | 07/04/2026 | AlexanderAliaga19                                         | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento. |
-| **1.3** | 16/04/2026 | AlexanderAliaga19                                         | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo. |
-| **1.4** | 17/04/2026 | AdrianR16-C                                               | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto. |
-| **1.5** | 18/04/2026 | AdrianR16-C                                               | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios. |
-| **1.6** | 19/04/2026 | AdrianR16-C                                               | Se documentaron hallazgos e insights obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix. |
-| **1.7** | 19/04/2026 | AlexanderAliaga19 / AdrianR16-C                           | Se agregaron lineamientos visuales, correcciones de rutas de imágenes, assets del capítulo 2, perfiles de usuarios, User Personas, Task Matrix y análisis asociado. |
-| **1.8** | 20/04/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4                 | Se agregaron detalles de Event Storming, lineamientos SEO, metatags, sistema de etiquetado, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto final. |
-| **1.9** | 21/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, sistemas de organización, diagramas de base de datos, diagramas de clase, configuración de entorno de desarrollo, gestión de código fuente y convenciones de estilos. |
-| **2.0** | 22/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, estructura del equipo, wireframes, mock-ups, evidencias, configuración inicial de despliegue, URL de despliegue y referencias bibliográficas. |
-| **2.1** | 23/04/2026 | Johancuba / RoccaA4                                       | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software, estrategia de control de versiones y estructura de documentación técnica. |
-| **2.2** | 10/05/2026 | AdrianR16-C / RoccaA4                                     | Se actualizó el análisis competitivo, estrategias frente a competidores, secciones de configuración de software, GitFlow y claridad estructural del informe a partir de revisión del contenido existente. |
-| **2.3** | 11/05/2026 | AdrianR16-C / Johancuba / RoccaA4                         | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming, Ubiquitous Language, User Stories, Impact Mapping y Product Backlog. |
-| **2.4** | 11/05/2026 | AdrianR16-C                                               | Se corrigieron y mejoraron las entrevistas de profesionales médicos, entrevistas de enfermería cardiovascular, Empathy Maps, User Journey Maps, User Personas y se eliminaron contenidos desactualizados. |
-| **2.5** | 11/05/2026 | AdrianR16-C / RoccaA4                                     | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron las secciones de Impact Mapping, User Stories, Epics y documentación de Sprint 2. |
-| **2.6** | 11/05/2026 | AdrianR16-C / RoccaA4 / Johancuba                         | Se añadieron diagramas y evidencias finales, se corrigieron nombres de archivos, rutas de imágenes, textos de mock-ups, prototipos, user flows y secciones complementarias para mejorar la consistencia del informe. |
-| **2.7** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporó la documentación del Sprint 3, incluyendo planificación, backlog, evidencias de desarrollo, ejecución, documentación de servicios RESTful API y despliegue. |
-| **2.8** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se agregaron evidencias de validación de la aplicación y landing page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
-| **2.9** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporaron evidencias audiovisuales del video About-the-Product y del video About-the-Team, incluyendo descripción de escenas, participantes, testimonios y retrospectiva del proceso de trabajo. |
-| **3.0** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se aplicaron mejoras posteriores a la retroalimentación de AV2, corrigiendo estructura del informe, consistencia de nombres, trazabilidad entre artefactos, evidencias de colaboración, documentación de endpoints y redacción general. |
+<div style="page-break-after: always;"></div>
 
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**
+**ABET – EAC - Student Outcome 3**
 
-**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
-Para esta sección se conserva la evidencia correspondiente a **AV1**, ya que representa el trabajo inicial realizado por el equipo en investigación, diseño, arquitectura y planificación del producto **PulseReport**. Además, se incorpora la participación correspondiente a **AV2**, donde se evidencia la evolución del equipo durante la implementación, documentación, validación, despliegue y mejora continua del producto.
-
-Es importante precisar que **Carlos Marcelo Mansilla Rivero** se integró al equipo a partir de **AV2**; por ello, su participación se registra únicamente en las actividades correspondientes al segundo avance del proyecto.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 <table>
   <tr>
@@ -246,112 +287,53 @@ Es importante precisar que **Carlos Marcelo Mansilla Rivero** se integró al equ
   </tr>
 
   <tr>
-    <td>Proporciona liderazgo y crea un entorno colaborativo e inclusivo.</td>
+    <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td>
-      <b>Johan Giovani Huamán Cuba</b><br>
-      <b>AV1:</b> Lideró las sesiones de diseño de la arquitectura de la plataforma PulseReport e instruyó al equipo en la definición lógica de los diagramas de contexto, contenedores y componentes. Fomentó la participación de todos al establecer estándares claros de documentación técnica.<br><br>
-      <b>AV2:</b> Participó en la revisión de la estructura técnica del sistema, apoyando en la consistencia entre arquitectura, diseño de base de datos y documentación de implementación. También colaboró en la revisión de evidencias relacionadas con el desarrollo del producto.<br><br>
-      <b>Alexander Auden Aliaga Ocampo</b><br>
-      <b>AV1:</b> Facilitó la comunicación para definir los requerimientos de los arquetipos de usuario y las entrevistas. Promovió un ambiente de confianza donde el equipo debatió libremente sobre las necesidades reales del personal de enfermería.<br><br>
-      <b>AV2:</b> Colaboró en la consolidación de evidencias del avance del producto, especialmente en la documentación relacionada con la Landing Page, su despliegue y la presentación general de la propuesta de valor de PulseReport.<br><br>
-      <b>Adrian Matias Rios Cespedes</b><br>
-      <b>AV1:</b> Asumió el rol de guía en la estructuración de la base de datos y la lógica del backend. Apoyó a sus compañeros para entender las relaciones complejas entre entidades clínicas y módulos de auditoría.<br><br>
-      <b>AV2:</b> Apoyó en la organización del análisis de requerimientos, la documentación de entrevistas y la revisión de artefactos técnicos vinculados a la implementación de servicios y validación del producto.<br><br>
-      <b>Anhelo Rodrigo Rocca Leon</b><br>
-      <b>AV1:</b> Condujo los debates sobre la experiencia del usuario y la interfaz de la aplicación web. Motivó al grupo para aportar ideas enfocadas en el flujo del sistema y la creación de un entorno accesible para el personal médico.<br><br>
-      <b>AV2:</b> Participó en la mejora de los flujos visuales, mock-ups y evidencias de interfaz, contribuyendo a que la experiencia del usuario mantenga coherencia con los User Personas, User Stories y funcionalidades desarrolladas.<br><br>
-      <b>Carlos Marcelo Mansilla Rivero</b><br>
-      <b>AV2:</b> Se integró al equipo durante el segundo avance del proyecto, colaborando en la revisión de consistencia del informe, la organización de evidencias de implementación y validación, y la mejora de secciones observadas en la retroalimentación. Su participación permitió reforzar la documentación del producto y alinear mejor los entregables con los criterios solicitados por la rúbrica.
+      <b>Aliaga Ocampo, Alexander Auden</b><br>
+      <b>AV1:</b> Participó en la explicación oral de la propuesta inicial de PulseReport, presentando la problemática identificada, el perfil de la startup y el enfoque general de la solución para una audiencia académica.<br>
+      <b>AV2:</b> Apoyó en la comunicación oral de los avances del producto, especialmente en la presentación de la Landing Page, sus secciones principales y la forma en que comunica la propuesta de valor a visitantes interesados.<br><br>
+      <b>Rios Cespedes, Adrian Matias</b><br>
+      <b>AV1:</b> Explicó oralmente los hallazgos obtenidos durante la etapa de entrevistas, relacionando las necesidades identificadas con los segmentos objetivo del proyecto.<br>
+      <b>AV2:</b> Participó en la exposición de avances relacionados con requisitos, documentación técnica y validación del producto, utilizando un lenguaje orientado tanto a la audiencia académica como a usuarios del dominio clínico.<br><br>
+      <b>Rocca Leon, Anhelo Rodrigo</b><br>
+      <b>AV1:</b> Comunicó oralmente decisiones relacionadas con la experiencia de usuario, flujos iniciales e interfaz propuesta para PulseReport, explicando cómo estas decisiones respondían a las necesidades del personal de salud.<br>
+      <b>AV2:</b> Apoyó en la presentación de mock-ups, wireflows y flujos de interacción de la Web Application, explicando de manera clara el recorrido de los usuarios dentro del producto.<br><br>
+      <b>Huamán Cuba, Johan Giovani</b><br>
+      <b>AV1:</b> Explicó oralmente elementos técnicos del diseño de la solución, incluyendo arquitectura, organización de componentes y relación entre los artefactos de diseño de software.<br>
+      <b>AV2:</b> Participó en la explicación de evidencias técnicas del producto, relacionando la arquitectura propuesta con la implementación y despliegue de los componentes desarrollados.<br><br>
+      <b>Mansilla Rivero, Carlos Marcelo</b><br>
+      <b>AV2:</b> Se integró al equipo durante el segundo avance y apoyó en la preparación de la comunicación oral del proyecto, revisando que las explicaciones sobre mejoras, evidencias, validación y documentación fueran claras, coherentes y alineadas con la rúbrica.
     </td>
     <td>
-      <b>Johan:</b> Demostró capacidad para alinear las perspectivas técnicas y de usuario. Su participación ayudó a mantener coherencia entre la arquitectura propuesta y el desarrollo documentado.<br><br>
-      <b>Alexander:</b> Contribuyó a integrar la visión del usuario final con la presentación del producto, reforzando la comunicación de la propuesta de valor.<br><br>
-      <b>Adrian:</b> Impulsó el aprendizaje cruzado dentro del equipo y aportó claridad en la organización de elementos técnicos y de análisis.<br><br>
-      <b>Anhelo:</b> Favoreció la colaboración creativa del equipo, aportando en la representación visual de los flujos y funcionalidades principales.<br><br>
-      <b>Carlos:</b> Su incorporación en AV2 aportó una revisión adicional al informe y a las evidencias del producto. Esto ayudó a identificar inconsistencias, mejorar la presentación de los artefactos y fortalecer la trazabilidad entre implementación, validación y documentación.<br><br>
-      En conjunto, el equipo fortaleció su dinámica colaborativa al distribuir responsabilidades según las fortalezas de cada integrante y al incorporar retroalimentación para mejorar los entregables del segundo avance.
+      Durante AV1, el equipo comunicó oralmente la problemática, la propuesta de solución y los primeros artefactos del ciclo de vida del producto. Para AV2, la comunicación oral se orientó a explicar avances de implementación, validación, despliegue y mejoras aplicadas sobre artefactos previos. Como resultado, el equipo fortaleció su capacidad para adaptar el mensaje a distintas audiencias: docente, evaluadores, visitantes del Landing Page, usuarios clínicos y miembros del equipo técnico.
     </td>
   </tr>
 
   <tr>
-    <td>Establece objetivos, planifica tareas y cumple metas.</td>
+    <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
     <td>
-      <b>Johan Giovani Huamán Cuba</b><br>
-      <b>AV1:</b> Planificó y estructuró las entregas del diseño de software mediante hitos de trabajo bien definidos. Estableció metas claras para la cobertura técnica de los Bounded Contexts según la rúbrica del curso.<br><br>
-      <b>AV2:</b> Contribuyó en la revisión de la documentación técnica y en la organización de los artefactos relacionados con arquitectura, base de datos y componentes principales del sistema.<br><br>
-      <b>Alexander Auden Aliaga Ocampo</b><br>
-      <b>AV1:</b> Organizó el cronograma para la fase de entrevistas y la validación del problema. Definió plazos específicos para la investigación inicial del proyecto y la consolidación de respuestas.<br><br>
-      <b>AV2:</b> Participó en la consolidación de entregables relacionados con la Landing Page, evidencias de despliegue y documentación de avances del producto.<br><br>
-      <b>Adrian Matias Rios Cespedes</b><br>
-      <b>AV1:</b> Dividió el diseño del modelo físico de base de datos en tareas pequeñas y asignó revisiones cruzadas. Trazó metas para culminar los diagramas de clases a tiempo.<br><br>
-      <b>AV2:</b> Apoyó en la revisión y mejora de secciones relacionadas con entrevistas, análisis de usuarios, requerimientos y documentación del proceso de implementación.<br><br>
-      <b>Anhelo Rodrigo Rocca Leon</b><br>
-      <b>AV1:</b> Diseñó un plan de trabajo para mapear los procesos de enfermería, como el modelo de traspasos SBAR. Estableció fechas límite para la revisión de los componentes del frontend.<br><br>
-      <b>AV2:</b> Colaboró en la mejora de evidencias visuales, wireflows, mock-ups y elementos de interfaz, manteniendo relación con los objetivos de usabilidad definidos para el producto.<br><br>
-      <b>Carlos Marcelo Mansilla Rivero</b><br>
-      <b>AV2:</b> Participó en la etapa de mejora y consolidación del segundo avance, apoyando en la revisión de tareas pendientes, verificación de evidencias, organización de entregables y corrección de secciones incompletas del informe. Asimismo, colaboró en la identificación de observaciones relacionadas con Sprint Backlog, documentación de servicios, validaciones y comunicación escrita.
+      <b>Aliaga Ocampo, Alexander Auden</b><br>
+      <b>AV1:</b> Participó en la redacción inicial del informe, incluyendo estructura base, información del equipo, Startup Profile, Solution Profile y secciones relacionadas con la presentación del producto.<br>
+      <b>AV2:</b> Colaboró en la actualización escrita de evidencias de la Landing Page, descripción de avances del producto y mejora de secciones orientadas a explicar la propuesta de valor de PulseReport.<br><br>
+      <b>Rios Cespedes, Adrian Matias</b><br>
+      <b>AV1:</b> Redactó y organizó secciones relacionadas con entrevistas, análisis de usuarios, necesidad del producto y hallazgos obtenidos del proceso de investigación.<br>
+      <b>AV2:</b> Apoyó en la mejora escrita de secciones de requisitos, validación, documentación técnica y evidencias vinculadas al avance del producto.<br><br>
+      <b>Rocca Leon, Anhelo Rodrigo</b><br>
+      <b>AV1:</b> Participó en la documentación de artefactos visuales, flujos de usuario y decisiones relacionadas con la experiencia de usuario de PulseReport.<br>
+      <b>AV2:</b> Colaboró en la revisión y actualización escrita de secciones relacionadas con wireframes, mock-ups, wireflows y evidencias visuales de la Web Application.<br><br>
+      <b>Huamán Cuba, Johan Giovani</b><br>
+      <b>AV1:</b> Contribuyó en la documentación escrita de arquitectura, diseño de software, base de datos y organización técnica de la solución.<br>
+      <b>AV2:</b> Apoyó en la revisión de consistencia técnica del informe, especialmente en secciones relacionadas con implementación, arquitectura, despliegue y documentación de evidencias.<br><br>
+      <b>Mansilla Rivero, Carlos Marcelo</b><br>
+      <b>AV2:</b> Se integró al equipo durante el segundo avance y colaboró en la corrección escrita del informe, revisión de consistencia, organización de evidencias, mejora de redacción y alineación de las secciones con el enunciado del trabajo final y la rúbrica de evaluación.
     </td>
     <td>
-      <b>Johan:</b> Logró aportar orden técnico al proyecto mediante la estructuración de arquitectura y elementos de diseño de software.<br><br>
-      <b>Alexander:</b> Su organización permitió mantener una línea clara entre la investigación inicial, la propuesta de valor y la evidencia del producto desplegado.<br><br>
-      <b>Adrian:</b> Su participación ayudó a sostener la consistencia entre requerimientos, análisis de usuarios y artefactos técnicos.<br><br>
-      <b>Anhelo:</b> Su enfoque visual permitió representar los flujos de interacción de forma más clara y alineada con las necesidades del usuario.<br><br>
-      <b>Carlos:</b> Su participación permitió reforzar la etapa de revisión final de AV2, aportando en la detección de errores de consistencia y en la organización de mejoras necesarias para cumplir con mayor precisión los criterios de evaluación.<br><br>
-      A partir de la retroalimentación recibida, el equipo identificó la necesidad de mejorar la planificación de Engineering Tasks, asegurar estimaciones entre 4 y 8 horas, evidenciar la evolución de tareas entre estados del tablero ágil y conectar con mayor claridad cada tarea con las User Stories del Sprint.
-    </td>
-  </tr>
-
-  <tr>
-    <td>Gestiona el trabajo colaborativo mediante evidencias de desarrollo, documentación y despliegue.</td>
-    <td>
-      Durante AV2, el equipo trabajó en la consolidación de evidencias relacionadas con la implementación de la Landing Page, la aplicación frontend, los servicios RESTful API y la documentación del proceso de desarrollo. Se utilizaron repositorios de GitHub, ramas de trabajo, commits, capturas de ejecución, evidencias de despliegue y herramientas de soporte ágil para registrar el avance del producto.<br><br>
-      El equipo también identificó que algunas evidencias debían fortalecerse para cumplir mejor con la rúbrica, especialmente en relación con los Sprint Backlogs, la documentación de endpoints, la validación de usuarios y la presentación de videos del producto y del equipo.
-    </td>
-    <td>
-      La colaboración del equipo no solo se evidenció en la división de tareas, sino también en la revisión y corrección de artefactos generados durante el proceso. Para mejorar la calidad de la entrega, se decidió reforzar la trazabilidad entre User Stories, Engineering Tasks, evidencias de implementación, endpoints documentados, capturas de despliegue y resultados de validación.
-    </td>
-  </tr>
-
-  <tr>
-    <td>Aplica mejora continua a partir de la retroalimentación recibida.</td>
-    <td>
-      Luego de la revisión de AV2, el equipo analizó las observaciones recibidas en la rúbrica e identificó oportunidades de mejora en los siguientes artefactos: Sprint Backlog, Landing Page desplegada, Frontend Web Application, RESTful API Documentation, evidencias de colaboración, entrevistas de validación, video About-the-Product, video About-the-Team y comunicación escrita del informe.<br><br>
-      Como parte de la mejora continua, se planificó corregir estimaciones de tareas, agregar evidencias de estados del tablero ágil, completar capturas faltantes, mejorar la documentación de endpoints con ejemplos de request y response, reforzar las entrevistas de validación con tareas basadas en User Goals, y añadir la sección correspondiente al video About-the-Team.
-    </td>
-    <td>
-      La retroalimentación permitió reconocer que el avance técnico del producto debía estar mejor respaldado por evidencias claras, verificables y alineadas con la rúbrica. Por ello, el equipo orientó sus esfuerzos a mejorar la documentación, corregir inconsistencias y presentar de manera más ordenada el proceso de desarrollo del producto PulseReport.
-    </td>
-  </tr>
-
-  <tr>
-    <td>Comunica resultados de forma oral y escrita en el marco de un proyecto de software.</td>
-    <td>
-      El equipo documentó la propuesta de valor, los segmentos objetivo, las entrevistas, los User Personas, los requerimientos, la arquitectura, el diseño UX/UI, la implementación, el despliegue y la validación del producto. Asimismo, se consideró la elaboración de videos para explicar tanto el funcionamiento de PulseReport como el proceso de trabajo del equipo.<br><br>
-      Para fortalecer la comunicación escrita, se revisaron secciones con errores de formato, inconsistencias de nombres, placeholders, imágenes faltantes y textos no alineados con el dominio clínico del producto.
-    </td>
-    <td>
-      La comunicación del proyecto mejora cuando cada sección del informe mantiene relación directa con los artefactos anteriores y posteriores. Por ello, el equipo busca presentar una narrativa más coherente: problema identificado, solución propuesta, diseño del producto, implementación, validación, despliegue y mejora continua. Esto permite que PulseReport se entienda como una solución más sólida, verificable y alineada con las necesidades del entorno clínico cardiovascular.
+      El informe permitió al equipo comunicar por escrito el proceso de ingeniería aplicado durante el ciclo de vida del producto. En AV1 se documentaron la investigación inicial, el problema, la solución propuesta, los segmentos objetivo y los primeros artefactos de diseño. En AV2 se fortaleció la redacción mediante la incorporación de evidencias de implementación, validación, despliegue, documentación de servicios y mejoras producto de retroalimentación. La comunicación escrita del equipo busca mantener claridad, trazabilidad entre secciones y coherencia con el dominio clínico cardiovascular del producto.
     </td>
   </tr>
 </table>
 
-### Evidencia de mejora del Student Outcome para AV2
-
-| Aspecto observado | Mejora aplicada o planificada | Evidencia esperada en el informe |
-| ----------------- | ----------------------------- | -------------------------------- |
-| Participación de integrantes | Se conserva la participación de AV1 y se agrega la integración de Carlos Marcelo Mansilla Rivero en AV2. | Tabla de Student Outcome actualizada con acciones por integrante y avance. |
-| Planificación de tareas | Se identificó la necesidad de corregir Engineering Tasks para que tengan estimaciones entre 4 y 8 horas. | Sprint Backlog corregido y tablero ágil con estados To Do, In Process, To Review y Done. |
-| Colaboración del equipo | Se refuerza la documentación de repositorios, ramas, commits, Pull Requests y evidencias de trabajo colaborativo. | Capturas de GitHub, GitHub Insights, Jira board y Team Collaboration Insights. |
-| Validación del producto | Se plantea mejorar entrevistas de validación con tareas basadas en User Goals y hallazgos heurísticos más completos. | Registro de entrevistas, tareas asignadas, hallazgos, heurísticas, severidad y alternativa de solución. |
-| Comunicación escrita | Se corrigen inconsistencias, placeholders, imágenes faltantes y errores de redacción. | README actualizado, capturas correctas, enlaces funcionales y secciones completas. |
-
-### Conclusión del Student Outcome
-
-El desarrollo de PulseReport permitió al equipo BrainSpark aplicar habilidades de colaboración, liderazgo, planificación, comunicación y mejora continua dentro de un proyecto de software. Durante AV1, el equipo concentró sus esfuerzos en la investigación del problema, definición de usuarios, arquitectura inicial y diseño del producto. Durante AV2, el trabajo se orientó hacia la implementación, validación, despliegue, documentación y corrección de artefactos observados.
-
-La incorporación de Carlos Marcelo Mansilla Rivero en AV2 permitió reforzar la revisión del informe y la organización de mejoras necesarias para alinear mejor los entregables con la rúbrica. En conjunto, el equipo reconoce que la calidad del proyecto no depende únicamente del desarrollo del producto, sino también de la capacidad de evidenciar correctamente el proceso seguido, justificar las decisiones tomadas y aplicar mejora continua sobre los artefactos entregados.
-
-## Capítulo 1: Introducción
+## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 
