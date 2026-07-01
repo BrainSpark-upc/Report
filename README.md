@@ -1650,45 +1650,102 @@ Estos hallazgos refuerzan que PulseReport debe enfocarse en simplicidad operativ
 
 ### 2.4. Big Picture Event Storming
 
-Step 1: Collect Domain Events — PulseReport
-En esta primera etapa se realizó la recolección inicial de eventos de dominio relacionados con el flujo clínico cardiovascular. Los eventos fueron redactados en pasado, siguiendo la lógica de Event Storming, ya que representan hechos significativos que ocurren actualmente dentro del proceso hospitalario, independientemente de la existencia de PulseReport.
+La presente sección desarrolla el Big Picture Event Storming del proyecto PulseReport. Este artefacto permite analizar el dominio clínico cardiovascular desde una perspectiva amplia, identificando eventos relevantes, actores, sistemas externos, problemas y oportunidades dentro del flujo actual de trabajo.
+
+El objetivo principal del Big Picture Event Storming es comprender cómo ocurre actualmente el proceso clínico relacionado con monitoreo, registro, comunicación entre turnos y seguimiento de pacientes cardiovasculares. A partir de este análisis se identifican puntos críticos que posteriormente orientan la definición de requerimientos, bounded contexts y decisiones de diseño del producto.
+
+Es importante precisar que este artefacto representa el flujo del dominio y no únicamente pantallas o funcionalidades del sistema. Por ello, los eventos se redactan como hechos ocurridos en el proceso, siguiendo la lógica de Domain-Driven Design y Event Storming.
+
+#### Step 1: Collect Domain Events
+
+En esta primera etapa se recolectaron los principales eventos de dominio relacionados con el flujo clínico cardiovascular. Los eventos fueron redactados en pasado, ya que representan hechos significativos que ocurren dentro del proceso actual de atención, registro y seguimiento del paciente.
+
+Los eventos identificados incluyen acciones relacionadas con recepción de turno, revisión del estado del paciente, registro de signos vitales, administración de medicamentos, comunicación de eventos críticos, generación de indicaciones médicas y entrega de información al siguiente equipo.
+
+Estos eventos permiten entender qué situaciones son relevantes para el negocio y qué información debe mantenerse trazable dentro del proceso clínico.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/STEP1 COLLECT DOMAIN EVENTS.png" alt="UPC">
+  <img src="assets/assets/chapter-2/STEP1 COLLECT DOMAIN EVENTS.png" alt="Step 1 Collect Domain Events">
 </p>
 
-Step 2: Sort Domain Events — PulseReport
-En esta segunda etapa, los eventos de dominio recolectados fueron ordenados cronológicamente para representar el flujo actual del proceso clínico cardiovascular. Esta organización permite comprender cómo se desarrolla el proceso desde la recepción del turno hasta la entrega de información al siguiente equipo, identificando la secuencia natural de eventos dentro del dominio hospitalario.
+#### Step 2: Sort Domain Events
+
+En esta segunda etapa, los eventos de dominio recolectados fueron ordenados cronológicamente para representar el flujo actual del proceso clínico cardiovascular.
+
+La secuencia inicia con la recepción de información del turno anterior, continúa con la revisión de pacientes asignados, monitoreo clínico, registro de signos vitales, administración de medicamentos, identificación de eventos relevantes y coordinación con médicos. Finalmente, el flujo concluye con la entrega de información clínica al siguiente turno.
+
+Este orden permite visualizar el recorrido general del dominio y detectar en qué momentos pueden aparecer interrupciones, duplicidad de registros, pérdida de información o falta de trazabilidad.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 2 Sort Domain Events.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Step 2 Sort Domain Events.png" alt="Step 2 Sort Domain Events">
 </p>
 
-Step 3: Add Actors and External Systems — PulseReport
-En esta tercera etapa, se agregaron los actores y sistemas externos relacionados con los eventos de dominio previamente ordenados. Esto permite identificar quién participa en cada parte del proceso clínico cardiovascular y qué herramientas o canales intervienen actualmente en el flujo As-Is.
+#### Step 3: Add Actors and External Systems
+
+En esta tercera etapa se agregaron los actores y sistemas externos que participan en el flujo clínico cardiovascular. Esto permite identificar quién ejecuta determinadas acciones, quién necesita consultar información y qué herramientas intervienen actualmente en el proceso.
+
+Los principales actores identificados son el personal de enfermería cardiovascular, médicos especialistas cardiovasculares, médicos intensivistas, supervisores clínicos y personal administrativo o institucional. Asimismo, se consideran sistemas externos como sistemas hospitalarios EHR/HIS, registros físicos, hojas de cálculo, monitores biomédicos y canales de comunicación verbal o digital.
+
+| Elemento | Descripción |
+| -------- | ----------- |
+| **Personal de enfermería cardiovascular** | Registra signos vitales, administra medicamentos, reporta eventos clínicos y comunica información durante cambios de turno. |
+| **Médico especialista cardiovascular** | Consulta información clínica, valida evolución del paciente, emite indicaciones y toma decisiones clínicas. |
+| **Supervisor o responsable clínico** | Revisa procesos, continuidad de atención y trazabilidad de eventos relevantes. |
+| **Sistema hospitalario EHR/HIS** | Almacena información clínica general del paciente, aunque puede no estar optimizado para flujos cardiovasculares específicos. |
+| **Registros físicos u hojas de cálculo** | Funcionan como apoyo temporal o sustituto cuando los sistemas digitales son lentos o poco prácticos. |
+| **Monitores biomédicos** | Proveen información fisiológica del paciente, como signos vitales y parámetros cardiovasculares. |
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="Step 3 Add Actors and External Systems 1">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport2.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport2.png" alt="Step 3 Add Actors and External Systems 2">
 </p>
 
-Step 4: Add Problems and Opportunities — PulseReport
-En esta etapa se identificaron los principales problemas y oportunidades asociados al flujo clínico cardiovascular actual. Los problemas representan fricciones, riesgos o limitaciones detectadas durante el proceso As-Is, mientras que las oportunidades permiten reconocer posibles mejoras que podrían orientar futuros requerimientos de PulseReport.
+#### Step 4: Add Problems and Opportunities
 
-| Elemento                | Color recomendado | Ejemplo                        |
-| ----------------------- | ----------------- | ------------------------------ |
-| Eventos de dominio      | Naranja           | “Signos vitales registrados”   |
-| Actores                 | Amarillo          | “Enfermera cardiovascular”     |
-| Sistemas externos       | Azul              | “Sistema hospitalario EHR/HIS” |
-| Problemas / Pain Points | Rojo o rosado     | “Duplicidad de registros”      |
-| Oportunidades           | Verde             | “Reducir registro manual”      |
+En esta cuarta etapa se identificaron los principales problemas y oportunidades asociados al flujo clínico cardiovascular actual. Los problemas representan fricciones, riesgos o limitaciones detectadas durante el proceso As-Is. Las oportunidades permiten reconocer posibles mejoras que PulseReport puede considerar en su propuesta de solución.
+
+| Elemento | Color recomendado | Ejemplo |
+| -------- | ----------------- | ------- |
+| **Eventos de dominio** | Naranja | “Signos vitales registrados” |
+| **Actores** | Amarillo | “Enfermera cardiovascular” |
+| **Sistemas externos** | Azul | “Sistema hospitalario EHR/HIS” |
+| **Problemas / Pain Points** | Rojo o rosado | “Duplicidad de registros” |
+| **Oportunidades** | Verde | “Reducir registro manual” |
+
+Los principales problemas identificados son:
+
+- Información clínica dispersa entre sistemas, papel y comunicación verbal.
+- Duplicidad de registros entre medios físicos y digitales.
+- Pérdida parcial de información durante cambios de turno.
+- Dificultad para consultar rápidamente la evolución reciente del paciente.
+- Falta de trazabilidad clara sobre responsables, horarios y acciones realizadas.
+- Exceso de pasos operativos en sistemas hospitalarios generales.
+- Dependencia de comunicación no estructurada en momentos críticos.
+
+Las principales oportunidades identificadas son:
+
+- Estandarizar la comunicación clínica mediante SBAR.
+- Centralizar información relevante del paciente cardiovascular.
+- Reducir la duplicidad de registros manuales.
+- Mejorar la trazabilidad de eventos clínicos.
+- Facilitar el acceso rápido a información crítica.
+- Incorporar vistas resumidas para médicos y personal de enfermería.
+- Diseñar flujos simples adaptados al contexto clínico real.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 4 Add Problems and Opportunities.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Step 4 Add Problems and Opportunities.png" alt="Step 4 Add Problems and Opportunities">
 </p>
+
+#### Conclusión del Big Picture Event Storming
+
+El Big Picture Event Storming permitió visualizar el dominio clínico cardiovascular de forma integral, identificando eventos, actores, sistemas externos, problemas y oportunidades de mejora.
+
+A partir del análisis, se confirma que los principales puntos críticos del proceso actual se relacionan con la dispersión de información, duplicidad de registros, comunicación no estructurada durante cambios de turno y falta de trazabilidad clínica. Estos hallazgos refuerzan la necesidad de que PulseReport priorice funcionalidades orientadas a registro rápido, comunicación SBAR, centralización de información, trazabilidad de eventos y consulta resumida del estado del paciente.
+
+Este artefacto sirve como base para la definición del Ubiquitous Language, los bounded contexts, las User Stories y la arquitectura de software del producto.
 
 
 ### 2.5. Ubiquitous Language.
