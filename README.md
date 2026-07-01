@@ -1265,387 +1265,382 @@ Los hallazgos obtenidos validan la necesidad de una solución como PulseReport, 
 Estos resultados servirán como base para la construcción de User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y requisitos del producto.
 
 ### 2.3. Needfinding
+
+La presente sección desarrolla los artefactos de Needfinding del proyecto PulseReport. Estos artefactos permiten transformar los hallazgos obtenidos en entrevistas, análisis competitivo y definición de segmentos objetivo en representaciones más claras de los usuarios, sus tareas, recorridos, emociones, frustraciones y oportunidades de mejora.
+
+El propósito de esta sección es comprender con mayor profundidad cómo trabajan actualmente los usuarios dentro del entorno clínico cardiovascular, qué problemas enfrentan y qué necesidades deben ser consideradas en el diseño de la solución.
+
+Los artefactos desarrollados en esta sección son:
+
+| Artefacto | Propósito |
+| --------- | --------- |
+| **User Personas** | Representar arquetipos de usuarios basados en los segmentos objetivo y hallazgos de entrevistas. |
+| **User Task Matrix** | Identificar tareas reales, frecuencia e importancia para cada User Persona. |
+| **User Journey Mapping** | Representar el recorrido actual As-Is de los usuarios antes de utilizar PulseReport. |
+| **Empathy Mapping** | Comprender lo que los usuarios piensan, sienten, ven, escuchan, dicen, hacen, necesitan y esperan. |
+
 #### 2.3.1. User Personas
 
-La presente sección desarrolla los User Personas del proyecto PulseReport, elaborados a partir de los hallazgos obtenidos en el análisis de entrevistas y el análisis competitivo. Estos artefactos permiten representar de forma estructurada a los principales usuarios del sistema, considerando sus necesidades, objetivos, frustraciones, comportamientos, nivel tecnológico y contexto de uso dentro del entorno cardiovascular hospitalario.
+La presente sección desarrolla los User Personas del proyecto PulseReport. Estos arquetipos fueron elaborados a partir de los segmentos objetivo definidos, el análisis de entrevistas disponible y la comprensión del dominio clínico cardiovascular.
 
-La construcción de los User Personas se relaciona directamente con los artefactos desarrollados previamente. Las entrevistas permitieron identificar problemas recurrentes como la complejidad de los sistemas hospitalarios, la duplicidad de registros, la falta de trazabilidad, la fragmentación de información clínica y las dificultades de comunicación durante cambios de turno. Por otro lado, el análisis competitivo permitió reconocer oportunidades de diferenciación frente a soluciones existentes, especialmente mediante una propuesta más especializada, intuitiva y adaptada al flujo operativo real del personal clínico cardiovascular.
+Es importante precisar que los User Personas no representan entrevistados reales de manera literal, sino perfiles sintéticos construidos para representar patrones, necesidades y comportamientos recurrentes de los usuarios objetivo. Por ello, los nombres utilizados corresponden a arquetipos de diseño.
 
-Para la elaboración de estos arquetipos se tomaron en cuenta características objetivas, como edad, ocupación, experiencia laboral, área de trabajo, dispositivos utilizados y canales digitales; y características subjetivas, como motivaciones, frustraciones, personalidad, objetivos, comportamiento operativo y necesidades UX. Estos elementos permiten que cada User Persona represente un segmento objetivo específico y sirva como base para la definición de requerimientos funcionales, requerimientos no funcionales y decisiones de diseño centradas en el usuario.
+Los User Personas permiten orientar las decisiones posteriores de requisitos, diseño de experiencia de usuario, arquitectura de información y priorización del producto. Para su construcción se consideran características objetivas, como rol, edad aproximada, experiencia, área de trabajo y herramientas utilizadas; y características subjetivas, como motivaciones, frustraciones, objetivos, necesidades y actitud frente a la tecnología.
 
-En este proyecto se elaboran dos User Personas, uno por cada segmento objetivo identificado: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Ambos perfiles permiten comprender cómo PulseReport puede responder a necesidades reales del entorno clínico, priorizando rapidez operativa, comunicación estructurada, trazabilidad médica y acceso eficiente a información crítica.
+En este proyecto se consideran dos User Personas principales:
+
+| User Persona | Segmento objetivo | Descripción |
+| ------------ | ----------------- | ----------- |
+| **Daniela Ríos** | Personal de enfermería cardiovascular | Representa al personal encargado del registro clínico, monitoreo del paciente, administración de medicamentos y comunicación durante cambios de turno. |
+| **Dr. Alejandro Torres** | Médico especialista cardiovascular | Representa al profesional médico que consulta, valida e interpreta información clínica para tomar decisiones oportunas sobre pacientes cardiovasculares. |
+
+##### User Persona 1 — Daniela Ríos
+
+Daniela Ríos representa al personal de enfermería cardiovascular que trabaja en entornos clínicos de alta presión, como UCI cardiovascular, hospitalización o emergencia. Sus tareas principales se relacionan con el monitoreo de pacientes, registro de signos vitales, administración de medicamentos, documentación de eventos clínicos y entrega de información durante cambios de turno.
+
+Este perfil evidencia la necesidad de contar con herramientas rápidas, claras y de baja carga operativa, debido a que el personal de enfermería debe registrar información mientras atiende directamente al paciente. Sus principales frustraciones se relacionan con la duplicidad de registros, sistemas lentos, comunicación desordenada y riesgo de omisiones durante el cambio de turno.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/DANIELA RIOS - USERPSONA.png" alt="UPC">
+  <img src="assets/assets/chapter-2/DANIELA RIOS - USERPSONA.png" alt="User Persona Daniela Ríos">
 </p>
+
+##### User Persona 2 — Dr. Alejandro Torres
+
+El Dr. Alejandro Torres representa a médicos especialistas cardiovasculares o profesionales médicos relacionados con la evaluación, seguimiento y toma de decisiones clínicas. Su trabajo requiere consultar información actualizada del paciente, validar eventos relevantes, revisar indicaciones, interpretar evolución clínica y coordinar acciones con el personal de enfermería.
+
+Este perfil evidencia la necesidad de acceder rápidamente a información consolidada, confiable y trazable. Sus principales frustraciones están relacionadas con la información fragmentada, sistemas hospitalarios complejos, registros físicos complementarios y dificultad para reconstruir la evolución reciente del paciente.
+
 <p align="center">
-  <img src="assets/assets/chapter-2/Alejandro Torres - UserPersona.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Alejandro Torres - UserPersona.png" alt="User Persona Alejandro Torres">
 </p>
+
+##### Conclusión de User Personas
+
+Los User Personas definidos permiten representar los dos flujos principales del dominio de PulseReport. Daniela Ríos concentra necesidades relacionadas con registro rápido, comunicación estructurada y reducción de carga operativa. El Dr. Alejandro Torres concentra necesidades relacionadas con consulta de información, validación clínica, trazabilidad y soporte a la toma de decisiones.
+
+Ambos perfiles confirman que PulseReport debe priorizar una experiencia simple, trazable y orientada a la continuidad de atención cardiovascular.
+
 #### 2.3.2. User Task Matrix
 
-La presente sección desarrolla el **User Task Matrix** del proyecto PulseReport. Este artefacto permite organizar y comparar las principales tareas que realizan los User Personas dentro del entorno cardiovascular hospitalario para cumplir sus objetivos profesionales.
+La presente sección desarrolla el User Task Matrix del proyecto PulseReport. Este artefacto permite organizar y comparar las principales tareas que realizan los User Personas dentro del entorno cardiovascular hospitalario para cumplir sus objetivos profesionales.
 
-El análisis se basa en los hallazgos obtenidos en las entrevistas, el análisis de entrevistas y los User Personas definidos previamente. Su finalidad es identificar cuáles son las tareas más frecuentes e importantes para cada segmento objetivo, con el propósito de orientar posteriormente la priorización de requerimientos del sistema.
+El análisis se basa en los hallazgos obtenidos en entrevistas, User Personas y comprensión del dominio clínico. Su finalidad es identificar cuáles son las tareas más frecuentes e importantes para cada segmento objetivo, con el propósito de orientar posteriormente la priorización de requerimientos del sistema.
 
-Es importante precisar que las tareas incluidas en esta matriz **no representan funcionalidades, botones, módulos ni características de PulseReport**. Las tareas corresponden a actividades reales que los usuarios ya realizan actualmente dentro de su flujo laboral, independientemente de la existencia de una solución tecnológica. Por ello, se formulan como acciones propias del usuario y no como opciones del software.
+Es importante precisar que las tareas incluidas en esta matriz no representan botones, pantallas, módulos ni funcionalidades de PulseReport. Las tareas corresponden a actividades reales que los usuarios ya realizan actualmente dentro de su flujo laboral, independientemente de la existencia de la solución.
 
 Los User Personas considerados son:
 
-| User Persona         | Segmento objetivo                     |
-| -------------------- | ------------------------------------- |
-| Daniela Ríos         | Personal de enfermería cardiovascular |
-| Dr. Alejandro Torres | Médico especialista cardiovascular    |
+| User Persona | Segmento objetivo |
+| ------------ | ----------------- |
+| Daniela Ríos | Personal de enfermería cardiovascular |
+| Dr. Alejandro Torres | Médico especialista cardiovascular |
 
 Para cada tarea se evalúan dos criterios:
 
-| Criterio    | Descripción                                                                                                                   |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Frecuencia  | Qué tan seguido realiza el User Persona dicha tarea dentro de su jornada laboral.                                             |
-| Importancia | Nivel de impacto que tiene la tarea en la continuidad clínica, seguridad del paciente y cumplimiento del trabajo profesional. |
+| Criterio | Descripción |
+| -------- | ----------- |
+| **Frecuencia** | Qué tan seguido realiza el User Persona dicha tarea dentro de su jornada laboral. |
+| **Importancia** | Nivel de impacto que tiene la tarea en la continuidad clínica, seguridad del paciente y cumplimiento del trabajo profesional. |
 
----
+##### User Task Matrix — PulseReport
 
-# User Task Matrix
+| Tarea identificada | Daniela Ríos — Frecuencia | Daniela Ríos — Importancia | Dr. Alejandro Torres — Frecuencia | Dr. Alejandro Torres — Importancia |
+| ------------------ | ------------------------: | -------------------------: | --------------------------------: | ---------------------------------: |
+| Registrar signos vitales del paciente | Muy alta | Crítica | Media | Alta |
+| Registrar administración de medicamentos | Muy alta | Crítica | Baja | Alta |
+| Consultar evolución clínica reciente del paciente | Alta | Crítica | Muy alta | Crítica |
+| Comunicar información relevante durante cambio de turno | Muy alta | Crítica | Alta | Crítica |
+| Revisar indicaciones médicas actualizadas | Alta | Crítica | Muy alta | Crítica |
+| Reportar eventos clínicos relevantes del paciente | Alta | Crítica | Alta | Crítica |
+| Confirmar evolución y registros previos del paciente | Media | Alta | Alta | Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud | Alta | Alta | Alta | Crítica |
+| Priorizar pacientes según su estado clínico | Alta | Crítica | Alta | Crítica |
+| Reunir información clínica desde diferentes fuentes | Alta | Alta | Muy alta | Crítica |
+| Validar información registrada por otros miembros del equipo | Media | Alta | Alta | Alta |
+| Identificar cambios críticos en el estado del paciente | Alta | Crítica | Muy alta | Crítica |
+| Preparar información para rondas o evaluación médica | Media | Alta | Alta | Alta |
+| Actualizar información clínica luego de una intervención | Alta | Crítica | Media | Alta |
+| Consultar reportes físicos o registros complementarios | Alta | Media | Media | Media |
+| Completar información pendiente después de una emergencia | Alta | Alta | Baja | Media |
+| Revisar balance general del paciente | Media | Alta | Alta | Crítica |
+| Confirmar cumplimiento de indicaciones clínicas | Alta | Crítica | Alta | Crítica |
 
-| Tarea identificada                                           | Daniela Ríos — Frecuencia | Daniela Ríos — Importancia | Dr. Alejandro Torres — Frecuencia | Dr. Alejandro Torres — Importancia |
-| ------------------------------------------------------------ | ------------------------: | -------------------------: | --------------------------------: | ---------------------------------: |
-| Registrar signos vitales del paciente                        |                  Muy alta |                    Crítica |                             Media |                               Alta |
-| Registrar administración de medicamentos                     |                  Muy alta |                    Crítica |                              Baja |                               Alta |
-| Consultar evolución clínica reciente del paciente            |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
-| Comunicar información relevante durante cambio de turno      |                  Muy alta |                    Crítica |                              Alta |                            Crítica |
-| Revisar indicaciones médicas actualizadas                    |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
-| Reportar eventos clínicos relevantes del paciente            |                      Alta |                    Crítica |                              Alta |                            Crítica |
-| Confirmar evolución y registros previos del paciente         |                     Media |                       Alta |                              Alta |                            Crítica |
-| Coordinar acciones clínicas con otros profesionales de salud |                      Alta |                       Alta |                              Alta |                            Crítica |
-| Priorizar pacientes según su estado clínico                  |                      Alta |                    Crítica |                              Alta |                            Crítica |
-| Reunir información clínica desde diferentes fuentes          |                      Alta |                       Alta |                          Muy alta |                            Crítica |
-| Validar información registrada por otros miembros del equipo |                     Media |                       Alta |                              Alta |                               Alta |
-| Identificar cambios críticos en el estado del paciente       |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
-| Preparar información para rondas o evaluación médica         |                     Media |                       Alta |                              Alta |                               Alta |
-| Actualizar información clínica luego de una intervención     |                      Alta |                    Crítica |                             Media |                               Alta |
-| Consultar reportes físicos o registros complementarios       |                      Alta |                      Media |                             Media |                              Media |
-| Completar información pendiente después de una emergencia    |                      Alta |                       Alta |                              Baja |                              Media |
-| Revisar balance general del paciente                         |                     Media |                       Alta |                              Alta |                            Crítica |
-| Confirmar cumplimiento de indicaciones clínicas              |                      Alta |                    Crítica |                              Alta |                            Crítica |
-
----
-
-# Análisis de tareas con mayor frecuencia e importancia
+##### Tareas con mayor frecuencia e importancia
 
 A partir del User Task Matrix se identifican tareas que presentan alta frecuencia e importancia crítica para ambos segmentos objetivo. Estas tareas representan actividades esenciales dentro del flujo clínico cardiovascular, debido a que tienen impacto directo en la seguridad del paciente, la continuidad de atención y la coordinación entre profesionales de salud.
 
-Las tareas más relevantes para ambos User Personas son:
+| Tarea crítica | Justificación |
+| ------------- | ------------- |
+| Consultar evolución clínica reciente del paciente | Permite comprender rápidamente el estado actual del paciente y tomar decisiones adecuadas. |
+| Comunicar información relevante durante cambio de turno | Reduce el riesgo de pérdida de información entre equipos clínicos. |
+| Revisar indicaciones médicas actualizadas | Permite ejecutar tratamientos correctamente y evitar acciones desactualizadas. |
+| Reportar eventos clínicos relevantes del paciente | Facilita el seguimiento de situaciones críticas y mejora la trazabilidad del caso. |
+| Identificar cambios críticos en el estado del paciente | Permite responder oportunamente ante deterioros clínicos. |
+| Confirmar cumplimiento de indicaciones clínicas | Reduce riesgos asociados a omisiones, duplicidad de acciones o errores de coordinación. |
 
-| Tarea crítica                                           | Justificación                                                                              |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Consultar evolución clínica reciente del paciente       | Permite comprender rápidamente el estado actual del paciente y tomar decisiones adecuadas. |
-| Comunicar información relevante durante cambio de turno | Reduce el riesgo de pérdida de información entre equipos clínicos.                         |
-| Revisar indicaciones médicas actualizadas               | Permite ejecutar tratamientos correctamente y evitar acciones desactualizadas.             |
-| Reportar eventos clínicos relevantes del paciente       | Facilita el seguimiento de situaciones críticas y mejora la trazabilidad del caso.         |
-| Identificar cambios críticos en el estado del paciente  | Permite responder oportunamente ante deterioros clínicos.                                  |
-| Confirmar cumplimiento de indicaciones clínicas         | Reduce riesgos asociados a omisiones, duplicidad de acciones o errores de coordinación.    |
-
-Estas tareas deben ser consideradas prioritarias porque evidencian necesidades comunes entre ambos perfiles: acceso rápido a información, comunicación estructurada, trazabilidad clínica y reducción de errores operativos.
-
----
-
-# Tareas más relevantes para Daniela Ríos
+##### Tareas más relevantes para Daniela Ríos
 
 Daniela Ríos representa al personal de enfermería cardiovascular. Sus tareas se concentran principalmente en el registro, monitoreo, ejecución de indicaciones y comunicación operativa durante el turno.
 
-| Tarea                                                     | Frecuencia | Importancia |
-| --------------------------------------------------------- | ---------: | ----------: |
-| Registrar signos vitales del paciente                     |   Muy alta |     Crítica |
-| Registrar administración de medicamentos                  |   Muy alta |     Crítica |
-| Comunicar información relevante durante cambio de turno   |   Muy alta |     Crítica |
-| Actualizar información clínica luego de una intervención  |       Alta |     Crítica |
-| Confirmar cumplimiento de indicaciones clínicas           |       Alta |     Crítica |
-| Completar información pendiente después de una emergencia |       Alta |        Alta |
-| Consultar reportes físicos o registros complementarios    |       Alta |       Media |
-
-## Interpretación
+| Tarea | Frecuencia | Importancia |
+| ----- | ---------: | ----------: |
+| Registrar signos vitales del paciente | Muy alta | Crítica |
+| Registrar administración de medicamentos | Muy alta | Crítica |
+| Comunicar información relevante durante cambio de turno | Muy alta | Crítica |
+| Actualizar información clínica luego de una intervención | Alta | Crítica |
+| Confirmar cumplimiento de indicaciones clínicas | Alta | Crítica |
+| Completar información pendiente después de una emergencia | Alta | Alta |
+| Consultar reportes físicos o registros complementarios | Alta | Media |
 
 El perfil de Daniela evidencia que el personal de enfermería cardiovascular realiza tareas operativas de alta frecuencia y alta precisión. El registro de signos vitales, administración de medicamentos y actualización de información clínica son actividades recurrentes que deben ejecutarse con rapidez para mantener continuidad en la atención del paciente.
 
 También se identifica que la comunicación durante cambios de turno es una tarea crítica, ya que representa un punto vulnerable donde puede perderse información relevante. Esta situación confirma la necesidad de estructurar mejor la transferencia de información clínica entre equipos.
 
-Además, la tarea de completar información pendiente después de una emergencia evidencia una brecha operativa importante: los sistemas actuales no siempre acompañan la velocidad del entorno clínico, lo que obliga al personal a regularizar datos posteriormente. Esto puede generar carga adicional, estrés operativo y riesgo de omisiones.
+Desde la perspectiva de requerimientos, PulseReport debe priorizar flujos que permitan registrar información de forma rápida, estructurada y con mínima carga cognitiva para el personal de enfermería.
 
-Desde la perspectiva de requerimientos, este análisis sugiere que PulseReport debe priorizar flujos que permitan registrar información de forma rápida, estructurada y con mínima carga cognitiva para el personal de enfermería.
+##### Tareas más relevantes para Dr. Alejandro Torres
 
----
+El Dr. Alejandro Torres representa a médicos especialistas cardiovasculares. Sus tareas se enfocan principalmente en consultar, interpretar, validar y utilizar información clínica para la toma de decisiones médicas.
 
-# Tareas más relevantes para Dr. Alejandro Torres
-
-El Dr. Alejandro Torres representa a los médicos especialistas cardiovasculares. Sus tareas se enfocan principalmente en consultar, interpretar, validar y utilizar información clínica para la toma de decisiones médicas.
-
-| Tarea                                                        | Frecuencia | Importancia |
-| ------------------------------------------------------------ | ---------: | ----------: |
-| Consultar evolución clínica reciente del paciente            |   Muy alta |     Crítica |
-| Revisar indicaciones médicas actualizadas                    |   Muy alta |     Crítica |
-| Reunir información clínica desde diferentes fuentes          |   Muy alta |     Crítica |
-| Identificar cambios críticos en el estado del paciente       |   Muy alta |     Crítica |
-| Confirmar evolución y registros previos del paciente         |       Alta |     Crítica |
-| Revisar balance general del paciente                         |       Alta |     Crítica |
-| Coordinar acciones clínicas con otros profesionales de salud |       Alta |     Crítica |
-
-## Interpretación
+| Tarea | Frecuencia | Importancia |
+| ----- | ---------: | ----------: |
+| Consultar evolución clínica reciente del paciente | Muy alta | Crítica |
+| Revisar indicaciones médicas actualizadas | Muy alta | Crítica |
+| Reunir información clínica desde diferentes fuentes | Muy alta | Crítica |
+| Identificar cambios críticos en el estado del paciente | Muy alta | Crítica |
+| Confirmar evolución y registros previos del paciente | Alta | Crítica |
+| Revisar balance general del paciente | Alta | Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud | Alta | Crítica |
 
 El perfil del Dr. Alejandro evidencia que los médicos especialistas cardiovasculares requieren información centralizada, precisa y disponible de forma inmediata. A diferencia del personal de enfermería, sus tareas no se concentran principalmente en registrar información, sino en revisarla, interpretarla y tomar decisiones clínicas a partir de ella.
 
 La tarea de reunir información clínica desde diferentes fuentes aparece como una de las más frecuentes e importantes. Esto evidencia un problema relevante identificado en las entrevistas: la información del paciente suele encontrarse dispersa entre sistemas hospitalarios, reportes físicos, comunicación verbal y registros complementarios.
 
-Asimismo, la identificación de cambios críticos y la revisión de evolución clínica son tareas indispensables para el trabajo médico cardiovascular, debido a que afectan directamente la toma de decisiones en contextos de alta presión.
+Desde la perspectiva de requerimientos, PulseReport debe priorizar vistas clínicas resumidas, acceso rápido a información relevante y mecanismos de trazabilidad que permitan validar la evolución del paciente de manera eficiente.
 
-Desde la perspectiva de requerimientos, este análisis sugiere que PulseReport debe priorizar vistas clínicas resumidas, acceso rápido a información relevante y mecanismos de trazabilidad que permitan validar la evolución del paciente de manera eficiente.
+##### Coincidencias entre ambos User Personas
 
----
+| Coincidencia identificada | Explicación | Implicancia para PulseReport |
+| ------------------------- | ----------- | ---------------------------- |
+| Ambos necesitan acceder rápidamente a información clínica | Tanto enfermería como médicos dependen de información actualizada para cumplir sus tareas. | El sistema debe priorizar navegación simple y visualización resumida. |
+| Ambos participan en continuidad de atención | Ambos perfiles intervienen en procesos de cambio de turno, seguimiento y coordinación clínica. | Debe incorporarse comunicación estructurada mediante SBAR. |
+| Ambos requieren trazabilidad de información | Necesitan conocer qué ocurrió, cuándo ocurrió y quién registró determinada información. | El sistema debe registrar responsables, horarios y cambios relevantes. |
+| Ambos enfrentan información dispersa | Las entrevistas evidencian uso de sistemas, registros físicos y comunicación verbal. | PulseReport debe centralizar datos relevantes del paciente. |
+| Ambos rechazan procesos complejos | Los usuarios priorizan rapidez y simplicidad en contextos clínicos. | La interfaz debe reducir pasos operativos y carga cognitiva. |
+| Ambos trabajan bajo presión clínica | Las tareas se realizan en contextos donde el tiempo tiene impacto directo en la atención. | El sistema debe estar optimizado para rapidez, claridad y mínima fricción. |
 
-# Coincidencias entre ambos User Personas
+##### Diferencias entre ambos User Personas
 
-| Coincidencia identificada                                 | Explicación                                                                                    | Implicancia para PulseReport                                               |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Ambos necesitan acceder rápidamente a información clínica | Tanto enfermería como médicos dependen de información actualizada para cumplir sus tareas.     | El sistema debe priorizar navegación simple y visualización resumida.      |
-| Ambos participan en continuidad de atención               | Ambos perfiles intervienen en procesos de cambio de turno, seguimiento y coordinación clínica. | Debe incorporarse comunicación estructurada mediante SBAR.                 |
-| Ambos requieren trazabilidad de información               | Necesitan conocer qué ocurrió, cuándo ocurrió y quién registró determinada información.        | El sistema debe registrar responsables, horarios y cambios relevantes.     |
-| Ambos enfrentan información dispersa                      | Las entrevistas evidencian uso de sistemas, registros físicos y comunicación verbal.           | PulseReport debe centralizar datos relevantes del paciente.                |
-| Ambos rechazan procesos complejos                         | Los usuarios priorizan rapidez y simplicidad en contextos clínicos.                            | La interfaz debe reducir pasos operativos y carga cognitiva.               |
-| Ambos trabajan bajo presión clínica                       | Las tareas se realizan en contextos donde el tiempo tiene impacto directo en la atención.      | El sistema debe estar optimizado para rapidez, claridad y mínima fricción. |
+| Diferencia | Daniela Ríos | Dr. Alejandro Torres | Implicancia para PulseReport |
+| ---------- | ------------ | -------------------- | ---------------------------- |
+| Tipo de tarea principal | Registro, ejecución y comunicación operativa | Consulta, análisis y decisión clínica | Se requieren flujos diferenciados según rol. |
+| Frecuencia de registro | Muy alta | Media o baja | El flujo de enfermería debe minimizar pasos para ingresar datos. |
+| Uso principal de la información | Registrar y comunicar información clínica | Interpretar y validar información clínica | El sistema debe incluir tanto registro rápido como visualización clínica resumida. |
+| Riesgo principal | Omisión o retraso en registro clínico | Decisión con información incompleta | Se requieren alertas, trazabilidad y centralización de información. |
+| Momento crítico | Cambio de turno y atención directa al paciente | Evaluación clínica y toma de decisiones | El sistema debe soportar continuidad y análisis clínico. |
+| Necesidad dominante | Agilidad operativa | Acceso rápido a información consolidada | Deben existir vistas y prioridades adaptadas a cada perfil. |
 
----
+##### Conclusión del User Task Matrix
 
-# Diferencias entre ambos User Personas
-
-| Diferencia                      | Daniela Ríos                                   | Dr. Alejandro Torres                      | Implicancia para PulseReport                                                |
-| ------------------------------- | ---------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- |
-| Tipo de tarea principal         | Registro, ejecución y comunicación operativa   | Consulta, análisis y decisión clínica     | Se requieren flujos diferenciados según rol.                                |
-| Frecuencia de registro          | Muy alta                                       | Media o baja                              | El flujo de enfermería debe minimizar pasos para ingresar datos.            |
-| Uso principal de la información | Registrar y comunicar información clínica      | Interpretar y validar información clínica | El sistema debe incluir tanto registro rápido como visualización analítica. |
-| Riesgo principal                | Omisión o retraso en registro clínico          | Decisión con información incompleta       | Se requieren alertas, trazabilidad y centralización de información.         |
-| Momento crítico                 | Cambio de turno y atención directa al paciente | Evaluación clínica y toma de decisiones   | El sistema debe soportar escenarios de continuidad y análisis clínico.      |
-| Necesidad dominante             | Agilidad operativa                             | Acceso rápido a información consolidada   | Deben existir vistas y prioridades adaptadas a cada perfil.                 |
-
----
-
-# Priorización preliminar de tareas
-
-A partir de la frecuencia e importancia observadas, se identifican tareas que deben ser consideradas de mayor prioridad para el diseño de PulseReport.
-
-| Prioridad | Tarea                                                   | Justificación                                                                 |
-| --------- | ------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Crítica   | Comunicar información relevante durante cambio de turno | Impacta directamente en continuidad de atención y reducción de omisiones.     |
-| Crítica   | Consultar evolución clínica reciente del paciente       | Es esencial para la toma de decisiones médicas y seguimiento clínico.         |
-| Crítica   | Registrar signos vitales del paciente                   | Es una tarea de alta frecuencia para enfermería y base del monitoreo clínico. |
-| Crítica   | Revisar indicaciones médicas actualizadas               | Reduce riesgos asociados a tratamientos desactualizados o incompletos.        |
-| Crítica   | Identificar cambios críticos en el estado del paciente  | Permite actuar oportunamente ante deterioro clínico.                          |
-| Alta      | Confirmar evolución y registros previos del paciente    | Refuerza trazabilidad y validación de información clínica.                    |
-| Alta      | Reunir información clínica desde diferentes fuentes     | Evidencia necesidad de centralización y reducción de búsqueda manual.         |
-
----
-
-# Conclusión del User Task Matrix
-
-El User Task Matrix evidencia que las tareas más importantes dentro del entorno cardiovascular hospitalario están relacionadas con el registro clínico, consulta rápida de información, comunicación entre turnos, trazabilidad médica y seguimiento de eventos críticos.
+El User Task Matrix evidencia que las tareas más importantes dentro del entorno cardiovascular hospitalario están relacionadas con registro clínico, consulta rápida de información, comunicación entre turnos, trazabilidad médica y seguimiento de eventos críticos.
 
 Para el personal de enfermería cardiovascular, las tareas prioritarias se concentran en registrar, actualizar y comunicar información clínica de forma rápida y precisa. Para los médicos especialistas cardiovasculares, las tareas prioritarias se enfocan en acceder, interpretar y validar información crítica para la toma de decisiones.
 
-Las principales coincidencias entre ambos perfiles muestran la necesidad de una solución que mejore la continuidad clínica, reduzca la dispersión de información y facilite la trazabilidad. Las principales diferencias indican que PulseReport debe considerar flujos diferenciados: uno orientado al registro rápido para enfermería y otro orientado a visualización clínica resumida para médicos.
-
 A partir de este análisis, PulseReport debe priorizar funcionalidades orientadas a:
 
-* registro clínico rápido,
-* comunicación estructurada mediante SBAR,
-* visualización resumida de evolución clínica,
-* centralización de información del paciente,
-* trazabilidad de eventos clínicos,
-* reducción de pasos operativos,
-* y soporte a la toma de decisiones clínicas.
+- Registro clínico rápido.
+- Comunicación estructurada mediante SBAR.
+- Visualización resumida de evolución clínica.
+- Centralización de información del paciente.
+- Trazabilidad de eventos clínicos.
+- Reducción de pasos operativos.
+- Soporte a la toma de decisiones clínicas.
 
-Estas prioridades se derivan directamente de tareas reales identificadas en los User Personas, por lo que permiten orientar el desarrollo del sistema hacia necesidades concretas del entorno cardiovascular hospitalario.
+#### 2.3.3. User Journey Mapping
 
-#### 2.3.3. User Journey Mapping.
+La presente sección desarrolla los User Journey Maps As-Is del proyecto PulseReport. Estos artefactos representan el recorrido actual que realizan los User Personas dentro del entorno cardiovascular hospitalario antes de la implementación de la solución propuesta.
 
-La presente sección desarrolla los User Journey Maps As-Is del proyecto PulseReport. Estos artefactos representan el recorrido actual que realizan los User Personas dentro del entorno cardiovascular hospitalario, antes de la implementación de la solución propuesta.
+Los Journey Maps se elaboran a partir de los hallazgos obtenidos en entrevistas, análisis de entrevistas, User Personas y User Task Matrix. Su propósito es comprender cómo los usuarios realizan actualmente sus actividades, qué puntos de contacto utilizan, qué emociones experimentan, qué dificultades enfrentan y qué oportunidades de mejora pueden ser consideradas posteriormente en el diseño del sistema.
 
-Los Journey Maps se elaboran a partir de los hallazgos obtenidos en las entrevistas, el análisis de entrevistas, los User Personas y el User Task Matrix. Su propósito es comprender cómo los usuarios realizan actualmente sus actividades, qué puntos de contacto utilizan, qué emociones experimentan, qué dificultades enfrentan y qué oportunidades de mejora pueden ser consideradas posteriormente en el diseño del sistema.
+Cada mapa representa un recorrido end-to-end, desde el inicio hasta el cierre de una actividad clínica relevante. En este caso, se desarrollan dos User Journey Maps As-Is:
 
-Cada mapa representa un recorrido end-to-end, es decir, desde el inicio hasta el cierre de una actividad clínica relevante. En este caso, se desarrollan dos User Journey Maps As-Is:
+| User Persona | Segmento objetivo | Journey Map As-Is |
+| ------------ | ----------------- | ----------------- |
+| Daniela Ríos | Personal de enfermería cardiovascular | Desde la recepción del turno hasta la entrega de información al siguiente equipo. |
+| Dr. Alejandro Torres | Médico especialista cardiovascular | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
 
-| User Persona         | Segmento objetivo                     | Journey Map As-Is                                                                                  |
-| -------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Daniela Ríos         | Personal de enfermería cardiovascular | Desde la recepción del turno hasta la entrega de información al siguiente equipo                   |
-| Dr. Alejandro Torres | Médico especialista cardiovascular    | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica |
+##### User Journey Map 1 — Daniela Ríos
 
-Estos mapas no describen el funcionamiento de PulseReport, sino el proceso actual del usuario sin la solución, permitiendo identificar pain points, emociones y oportunidades de mejora del contexto real.
+| Campo | Información |
+| ----- | ----------- |
+| **User Persona** | Daniela Ríos |
+| **Segmento objetivo** | Personal de enfermería cardiovascular |
+| **Rol** | Enfermera cardiovascular |
+| **Área** | UCI cardiovascular |
+| **Journey As-Is** | Desde la recepción del turno hasta la entrega de información al siguiente equipo. |
 
-User Journey Map 1 — Daniela Ríos
-
-| Campo             | Información                                                                      |
-| ----------------- | -------------------------------------------------------------------------------- |
-| User Persona      | Daniela Ríos                                                                     |
-| Segmento objetivo | Personal de enfermería cardiovascular                                            |
-| Rol               | Enfermera cardiovascular                                                         |
-| Área              | UCI cardiovascular                                                               |
-| Journey As-Is     | Desde la recepción del turno hasta la entrega de información al siguiente equipo |
-
-
-Escenario As-Is
-
+**Escenario As-Is:**  
 Daniela inicia su turno en UCI cardiovascular. Debe recibir información del equipo anterior, revisar el estado de sus pacientes, monitorear signos vitales, administrar medicamentos, registrar eventos clínicos y finalmente entregar información clara y completa al siguiente turno.
 
 Actualmente, estas actividades se realizan mediante sistemas hospitalarios complejos, computadoras fijas, registros físicos complementarios y comunicación verbal. El proceso presenta dificultades relacionadas con dispersión de información, duplicidad de registros, exceso de pasos operativos y falta de comunicación estructurada.
 
-Objetivo del Journey
-
+**Objetivo del Journey:**  
 Identificar las dificultades actuales que enfrenta el personal de enfermería cardiovascular durante el monitoreo, registro clínico y transferencia de información entre turnos, con la finalidad de detectar oportunidades de mejora relacionadas con rapidez operativa, comunicación estructurada y trazabilidad.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/User Journey Map As-Is — Daniela Ríos (1).png" alt="UPC">
+  <img src="assets/assets/chapter-2/User Journey Map As-Is — Daniela Ríos (1).png" alt="User Journey Map Daniela Ríos">
 </p>
 
-Resumen del Journey — Daniela Ríos
-
+**Resumen del Journey — Daniela Ríos:**  
 El recorrido de Daniela evidencia que el personal de enfermería cardiovascular enfrenta una alta carga operativa al combinar atención directa al paciente con monitoreo y documentación clínica. Los principales puntos de fricción aparecen durante el registro de información, la atención de eventos críticos, la regularización posterior de datos y la entrega de turno.
 
 Asimismo, se observa que los registros físicos complementarios surgen como una solución informal frente a la lentitud del sistema, pero generan duplicidad, riesgo de error y mayor carga cognitiva. El cambio de turno también representa un momento vulnerable por la falta de una estructura uniforme en la comunicación.
 
-User Journey Map 2 — Dr. Alejandro Torres
+##### User Journey Map 2 — Dr. Alejandro Torres
 
-| Campo             | Información                                                                                        |
-| ----------------- | -------------------------------------------------------------------------------------------------- |
-| User Persona      | Dr. Alejandro Torres                                                                               |
-| Segmento objetivo | Médico especialista cardiovascular                                                                 |
-| Rol               | Cardiólogo intensivista                                                                            |
-| Área              | UCI cardiovascular                                                                                 |
-| Journey As-Is     | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica |
+| Campo | Información |
+| ----- | ----------- |
+| **User Persona** | Dr. Alejandro Torres |
+| **Segmento objetivo** | Médico especialista cardiovascular |
+| **Rol** | Cardiólogo intensivista |
+| **Área** | UCI cardiovascular |
+| **Journey As-Is** | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
 
-Escenario As-Is
-
+**Escenario As-Is:**  
 El Dr. Alejandro Torres debe identificar pacientes críticos, consultar su evolución reciente, revisar signos vitales, validar medicamentos administrados, confirmar indicaciones, coordinar con enfermería y tomar decisiones clínicas oportunas.
 
 Actualmente, la información del paciente se encuentra distribuida entre sistemas hospitalarios, reportes físicos, monitores biomédicos y comunicación verbal, lo que dificulta el acceso rápido a información crítica y retrasa la toma de decisiones.
 
-Objetivo del Journey
-
+**Objetivo del Journey:**  
 Identificar las dificultades actuales que enfrenta el médico especialista cardiovascular al consultar, validar e interpretar información clínica para tomar decisiones médicas oportunas y seguras.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/User Journey Map As-Is — Dr. Alejandro Torres.png" alt="UPC">
+  <img src="assets/assets/chapter-2/User Journey Map As-Is — Dr. Alejandro Torres.png" alt="User Journey Map Dr. Alejandro Torres">
 </p>
 
-Resumen del Journey — Dr. Alejandro Torres
-
+**Resumen del Journey — Dr. Alejandro Torres:**  
 El recorrido del Dr. Alejandro evidencia que los médicos especialistas cardiovasculares enfrentan principalmente dificultades relacionadas con la fragmentación de información, la lentitud para consultar datos clínicos y la falta de visualización rápida de la evolución del paciente.
 
 A diferencia del personal de enfermería, su recorrido se concentra menos en registrar información y más en consultarla, interpretarla y validarla para tomar decisiones clínicas. Sin embargo, la dispersión de datos entre sistemas, reportes físicos, monitores y comunicación verbal incrementa el tiempo de análisis y el riesgo de decidir con información incompleta.
 
-| Aspecto                         | Daniela Ríos                                 | Dr. Alejandro Torres                                 | Implicancia para PulseReport                                       |
-| ------------------------------- | -------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------ |
-| Enfoque principal del recorrido | Registro, monitoreo y comunicación operativa | Consulta, validación y toma de decisiones            | Se requieren flujos diferenciados según rol.                       |
-| Momento más crítico             | Evento clínico y cambio de turno             | Identificación de cambios críticos y decisión médica | El sistema debe priorizar rapidez y claridad en momentos críticos. |
-| Principal fuente de frustración | Exceso de pasos y duplicidad de registros    | Información dispersa y difícil de consolidar         | PulseReport debe reducir fricción operativa y centralizar datos.   |
-| Riesgo principal                | Omisión o registro tardío                    | Decisión con información incompleta                  | Se requiere trazabilidad y visualización resumida.                 |
-| Necesidad dominante             | Registro rápido y comunicación estructurada  | Acceso rápido a información consolidada              | Deben existir vistas adaptadas a cada perfil.                      |
+##### Comparación entre User Journey Maps
 
-Conclusión del User Journey Mapping
+| Aspecto | Daniela Ríos | Dr. Alejandro Torres | Implicancia para PulseReport |
+| ------- | ------------ | -------------------- | ---------------------------- |
+| Enfoque principal del recorrido | Registro, monitoreo y comunicación operativa | Consulta, validación y toma de decisiones | Se requieren flujos diferenciados según rol. |
+| Momento más crítico | Evento clínico y cambio de turno | Identificación de cambios críticos y decisión médica | El sistema debe priorizar rapidez y claridad en momentos críticos. |
+| Principal fuente de frustración | Exceso de pasos y duplicidad de registros | Información dispersa y difícil de consolidar | PulseReport debe reducir fricción operativa y centralizar datos. |
+| Riesgo principal | Omisión o registro tardío | Decisión con información incompleta | Se requiere trazabilidad y visualización resumida. |
+| Necesidad dominante | Registro rápido y comunicación estructurada | Acceso rápido a información consolidada | Deben existir vistas adaptadas a cada perfil. |
+
+##### Conclusión del User Journey Mapping
 
 Los User Journey Maps As-Is evidencian que los principales problemas del flujo actual dentro del entorno cardiovascular hospitalario se relacionan con dispersión de información, documentación compleja, comunicación no estructurada y dificultad para reconstruir trazabilidad clínica.
 
 En el caso de Daniela Ríos, las mayores fricciones aparecen durante el registro clínico, la atención de eventos críticos y la entrega de turno. En el caso del Dr. Alejandro Torres, los principales problemas se concentran en la búsqueda, validación e interpretación de información clínica para la toma de decisiones.
 
-Estos hallazgos refuerzan la necesidad de que PulseReport priorice funcionalidades orientadas a:
+Estos hallazgos refuerzan la necesidad de que PulseReport priorice:
 
-registro clínico rápido,
-comunicación estructurada mediante SBAR,
-centralización de información clínica,
-visualización resumida de evolución del paciente,
-y trazabilidad de eventos, responsables y horarios.
+- Registro clínico rápido.
+- Comunicación estructurada mediante SBAR.
+- Centralización de información clínica.
+- Visualización resumida de evolución del paciente.
+- Trazabilidad de eventos, responsables y horarios.
 
-### 2.3.4. Empathy Mapping
+#### 2.3.4. Empathy Mapping
 
 La presente sección desarrolla los Empathy Maps correspondientes a los User Personas definidos para el proyecto PulseReport. Este artefacto permite comprender de manera más profunda el contexto, necesidades, emociones, frustraciones, comportamientos y expectativas de los usuarios dentro del entorno cardiovascular hospitalario.
 
-El proceso de elaboración consistió en colocar a cada User Persona en el centro del análisis y organizar la información obtenida en las entrevistas, el análisis de entrevistas, el User Task Matrix y los User Journey Maps As-Is. A partir de estos insumos, se identificó qué piensa y siente cada usuario, qué observa en su entorno, qué escucha de otros actores, qué dice y hace durante su trabajo, cuáles son sus principales pains y qué gains podrían ayudarlo a resolver sus problemas.
+El proceso de elaboración consistió en colocar a cada User Persona en el centro del análisis y organizar la información obtenida en entrevistas, User Personas, User Task Matrix y User Journey Maps As-Is. A partir de estos insumos, se identificó qué piensa y siente cada usuario, qué observa en su entorno, qué escucha de otros actores, qué dice y hace durante su trabajo, cuáles son sus principales pains y qué gains podrían ayudarlo a resolver sus problemas.
 
 Los Empathy Maps desarrollados corresponden a los dos User Personas del proyecto:
 
-| User Persona         | Segmento objetivo                     | Propósito del Empathy Map                                                                                                      |
-| -------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Daniela Ríos         | Personal de enfermería cardiovascular | Comprender sus necesidades durante el registro clínico, monitoreo de pacientes y cambio de turno.                              |
-| Dr. Alejandro Torres | Médico especialista cardiovascular    | Comprender sus necesidades durante la consulta, validación e interpretación de información clínica para la toma de decisiones. |
+| User Persona | Segmento objetivo | Propósito del Empathy Map |
+| ------------ | ----------------- | ------------------------- |
+| Daniela Ríos | Personal de enfermería cardiovascular | Comprender sus necesidades durante el registro clínico, monitoreo de pacientes y cambio de turno. |
+| Dr. Alejandro Torres | Médico especialista cardiovascular | Comprender sus necesidades durante la consulta, validación e interpretación de información clínica para la toma de decisiones. |
 
-Empathy Map 1 — Daniela Ríos
-¿Con quién estamos empatizando?
-| Campo              | Información                                                                               |
-| ------------------ | ----------------------------------------------------------------------------------------- |
-| User Persona       | Daniela Ríos                                                                              |
-| Segmento objetivo  | Personal de enfermería cardiovascular                                                     |
-| Rol                | Enfermera cardiovascular                                                                  |
-| Área               | UCI cardiovascular                                                                        |
-| Nivel tecnológico  | Intermedio – Alto                                                                         |
-| Contexto principal | Registro clínico, monitoreo de pacientes críticos y comunicación durante cambios de turno |
+##### Empathy Map 1 — Daniela Ríos
+
+###### ¿Con quién estamos empatizando?
+
+| Campo | Información |
+| ----- | ----------- |
+| **User Persona** | Daniela Ríos |
+| **Segmento objetivo** | Personal de enfermería cardiovascular |
+| **Rol** | Enfermera cardiovascular |
+| **Área** | UCI cardiovascular |
+| **Nivel tecnológico** | Intermedio – Alto |
+| **Contexto principal** | Registro clínico, monitoreo de pacientes críticos y comunicación durante cambios de turno. |
 
 Daniela representa al personal de enfermería cardiovascular que trabaja bajo presión operativa constante. Debe monitorear pacientes críticos, administrar medicamentos, registrar información clínica y transferir datos relevantes al siguiente turno sin omitir información importante.
 
-¿Qué necesito hacer?
--Necesito registrar información clínica de manera rápida y precisa.
--Necesito monitorear constantemente a pacientes cardiovasculares críticos.
--Necesito administrar medicamentos y dejar constancia clara de horarios e indicaciones.
--Necesito comunicar información importante al siguiente turno sin omitir detalles.
--Necesito reducir la duplicidad entre registros físicos y digitales.
--Necesito mantener trazabilidad sobre signos vitales, medicamentos y eventos clínicos.
--Necesito cumplir mis responsabilidades clínicas sin aumentar mi carga administrativa.
+###### ¿Qué necesita hacer?
+
+- Registrar información clínica de manera rápida y precisa.
+- Monitorear constantemente a pacientes cardiovasculares críticos.
+- Administrar medicamentos y dejar constancia clara de horarios e indicaciones.
+- Comunicar información importante al siguiente turno sin omitir detalles.
+- Reducir la duplicidad entre registros físicos y digitales.
+- Mantener trazabilidad sobre signos vitales, medicamentos y eventos clínicos.
+- Cumplir responsabilidades clínicas sin aumentar carga administrativa.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Empathy Map — Daniela Ríos.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Empathy Map — Daniela Ríos.png" alt="Empathy Map Daniela Ríos">
 </p>
 
-¿Qué puede convencerme de que PulseReport es la alternativa correcta?
-Que me permita registrar información clínica más rápido.
-Que reduzca la duplicidad entre papel y sistema digital.
-Que facilite el cambio de turno mediante una estructura clara como SBAR.
-Que no me agregue más carga operativa.
-Que sea simple de usar durante situaciones críticas.
-Que me ayude a evitar omisiones de información importante.
-Que me permita acceder a información relevante sin depender siempre de una computadora fija.
+###### ¿Qué puede convencerla de que PulseReport es la alternativa correcta?
 
-Empathy Map 2 — Dr. Alejandro Torres
-¿Con quién estamos empatizando?
+- Que permita registrar información clínica más rápido.
+- Que reduzca la duplicidad entre papel y sistema digital.
+- Que facilite el cambio de turno mediante una estructura clara como SBAR.
+- Que no agregue más carga operativa.
+- Que sea simple de usar durante situaciones críticas.
+- Que ayude a evitar omisiones de información importante.
+- Que permita acceder a información relevante sin depender siempre de una computadora fija.
 
-| Campo              | Información                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------ |
-| User Persona       | Dr. Alejandro Torres                                                                 |
-| Segmento objetivo  | Médico especialista cardiovascular                                                   |
-| Rol                | Cardiólogo intensivista                                                              |
-| Área               | UCI cardiovascular                                                                   |
-| Nivel tecnológico  | Alto                                                                                 |
-| Contexto principal | Consulta, validación e interpretación de información clínica para toma de decisiones |
+##### Empathy Map 2 — Dr. Alejandro Torres
 
-¿Qué necesito hacer?
-Necesito acceder rápidamente a información clínica crítica.
-Necesito revisar la evolución reciente del paciente.
-Necesito validar signos vitales, medicamentos e indicaciones.
-Necesito confirmar información relevante con enfermería.
-Necesito identificar cambios críticos en el estado del paciente.
-Necesito tomar decisiones clínicas con información completa y confiable.
-Necesito revisar trazabilidad de eventos, responsables y horarios.
-Necesito coordinar indicaciones con el equipo clínico.
+###### ¿Con quién estamos empatizando?
+
+| Campo | Información |
+| ----- | ----------- |
+| **User Persona** | Dr. Alejandro Torres |
+| **Segmento objetivo** | Médico especialista cardiovascular |
+| **Rol** | Cardiólogo intensivista |
+| **Área** | UCI cardiovascular |
+| **Nivel tecnológico** | Alto |
+| **Contexto principal** | Consulta, validación e interpretación de información clínica para toma de decisiones. |
+
+El Dr. Alejandro Torres representa a médicos especialistas que necesitan consultar información crítica del paciente de manera rápida, confiable y trazable. Su principal responsabilidad es interpretar datos clínicos para tomar decisiones oportunas y coordinar acciones con otros profesionales de salud.
+
+###### ¿Qué necesita hacer?
+
+- Acceder rápidamente a información clínica crítica.
+- Revisar la evolución reciente del paciente.
+- Validar signos vitales, medicamentos e indicaciones.
+- Confirmar información relevante con enfermería.
+- Identificar cambios críticos en el estado del paciente.
+- Tomar decisiones clínicas con información completa y confiable.
+- Revisar trazabilidad de eventos, responsables y horarios.
+- Coordinar indicaciones con el equipo clínico.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Empathy map --- Alejandro.png" alt="UPC">
+  <img src="assets/assets/chapter-2/Empathy map --- Alejandro.png" alt="Empathy Map Dr. Alejandro Torres">
 </p>
 
-¿Qué puede convencerme de que PulseReport es la alternativa correcta?
-Que centralice la información clínica relevante.
-Que reduzca el tiempo de búsqueda entre sistemas y reportes.
-Que muestre rápidamente la evolución reciente del paciente.
-Que permita validar trazabilidad de eventos, responsables y horarios.
-Que facilite comunicación estructurada con enfermería.
-Que no incremente la carga administrativa.
-Que reduzca el riesgo de tomar decisiones con información incompleta.
-Que sea rápido, seguro e intuitivo.
+###### ¿Qué puede convencerlo de que PulseReport es la alternativa correcta?
 
-Conclusión del Empathy Mapping
+- Que centralice la información clínica relevante.
+- Que reduzca el tiempo de búsqueda entre sistemas y reportes.
+- Que muestre rápidamente la evolución reciente del paciente.
+- Que permita validar trazabilidad de eventos, responsables y horarios.
+- Que facilite comunicación estructurada con enfermería.
+- Que no incremente la carga administrativa.
+- Que reduzca el riesgo de tomar decisiones con información incompleta.
+- Que sea rápido, seguro e intuitivo.
+
+##### Conclusión del Empathy Mapping
 
 Los Empathy Maps evidencian que ambos User Personas enfrentan problemas relacionados con información dispersa, sistemas complejos, comunicación poco estructurada y necesidad de trazabilidad clínica.
 
@@ -1653,7 +1648,7 @@ Daniela Ríos necesita reducir carga operativa, registrar información con rapid
 
 Estos hallazgos refuerzan que PulseReport debe enfocarse en simplicidad operativa, centralización de información, comunicación estructurada mediante SBAR, trazabilidad y visualización rápida de datos clínicos relevantes.
 
-### 2.4. Big Picture Storming.
+### 2.4. Big Picture Event Storming
 
 Step 1: Collect Domain Events — PulseReport
 En esta primera etapa se realizó la recolección inicial de eventos de dominio relacionados con el flujo clínico cardiovascular. Los eventos fueron redactados en pasado, siguiendo la lógica de Event Storming, ya que representan hechos significativos que ocurren actualmente dentro del proceso hospitalario, independientemente de la existencia de PulseReport.
