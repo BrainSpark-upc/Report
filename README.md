@@ -56,37 +56,42 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes realizadas al informe durante el ciclo de vida del proyecto. Se consideran modificaciones relevantes la adición de secciones, eliminación de secciones, correcciones o mejoras producto de la retroalimentación recibida del docente o de la autocrítica del equipo.
 
-| Versión | Fecha      | Autor                                                     | Descripción de modificación |
-| ------- | ---------- | --------------------------------------------------------- | --------------------------- |
-| **1.0** | 07/04/2026 | AlexanderAliaga19                                         | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto. |
-| **1.1** | 07/04/2026 | AlexanderAliaga19                                         | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md. |
-| **1.2** | 07/04/2026 | AlexanderAliaga19                                         | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento. |
-| **1.3** | 16/04/2026 | AlexanderAliaga19                                         | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo. |
-| **1.4** | 17/04/2026 | AdrianR16-C                                               | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto. |
-| **1.5** | 18/04/2026 | AdrianR16-C                                               | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios. |
-| **1.6** | 19/04/2026 | AdrianR16-C                                               | Se documentaron hallazgos obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix. |
-| **1.7** | 19/04/2026 | AlexanderAliaga19 / AdrianR16-C                           | Se agregaron lineamientos visuales, correcciones de rutas de imágenes, assets del capítulo 2, perfiles de usuarios, User Personas, Task Matrix y análisis asociado. |
-| **1.8** | 20/04/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4                 | Se agregaron detalles de Event Storming, lineamientos SEO, meta tags, sistema de etiquetado, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto final. |
-| **1.9** | 21/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, sistemas de organización, diagramas de base de datos, diagramas de clase, configuración de entorno de desarrollo, gestión de código fuente y convenciones de estilos. |
-| **2.0** | 22/04/2026 | AlexanderAliaga19 / Johancuba / RoccaA4                   | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, estructura del equipo, wireframes, mock-ups, evidencias, configuración inicial de despliegue, URL de despliegue y referencias bibliográficas. |
-| **2.1** | 23/04/2026 | Johancuba / RoccaA4                                       | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software, estrategia de control de versiones y estructura de documentación técnica. |
-| **2.2** | 10/05/2026 | AdrianR16-C / RoccaA4                                     | Se actualizó el análisis competitivo, estrategias frente a competidores, secciones de configuración de software, GitFlow y claridad estructural del informe a partir de revisión del contenido existente. |
-| **2.3** | 11/05/2026 | AdrianR16-C / Johancuba / RoccaA4                         | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming, Ubiquitous Language, User Stories, Impact Mapping y Product Backlog. |
-| **2.4** | 11/05/2026 | AdrianR16-C                                               | Se corrigieron y mejoraron las entrevistas de profesionales médicos, entrevistas de enfermería cardiovascular, Empathy Maps, User Journey Maps, User Personas y se eliminaron contenidos desactualizados. |
-| **2.5** | 11/05/2026 | AdrianR16-C / RoccaA4                                     | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron las secciones de Impact Mapping, User Stories, Epics y documentación de Sprint 2. |
-| **2.6** | 11/05/2026 | AdrianR16-C / RoccaA4 / Johancuba                         | Se añadieron diagramas y evidencias finales, se corrigieron nombres de archivos, rutas de imágenes, textos de mock-ups, prototipos, user flows y secciones complementarias para mejorar la consistencia del informe. |
-| **2.7** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporó la documentación del Sprint 3, incluyendo planificación, backlog, evidencias de desarrollo, ejecución, documentación de servicios RESTful API y despliegue. |
-| **2.8** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
-| **2.9** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporaron evidencias audiovisuales del Video About-the-Product y del Video About-the-Team, incluyendo descripción de escenas, participantes, testimonios y retrospectiva del proceso de trabajo. |
-| **3.0** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se aplicaron mejoras posteriores a la retroalimentación de AV2, corrigiendo estructura del informe, consistencia de nombres, trazabilidad entre artefactos, evidencias de colaboración, documentación de endpoints y redacción general. |
-| **3.1** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustando el contenido de acuerdo con el enunciado oficial del trabajo final. |
-
+| Versión | Fecha | Autor | Descripción de modificación |
+| ------- | ----- | ----- | --------------------------- |
+| **1.0** | 07/04/2026 | AlexanderAliaga19 | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto. |
+| **1.1** | 07/04/2026 | AlexanderAliaga19 | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md. |
+| **1.2** | 07/04/2026 | AlexanderAliaga19 | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento. |
+| **1.3** | 16/04/2026 | AlexanderAliaga19 | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo. |
+| **1.4** | 17/04/2026 | AdrianR16-C | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto. |
+| **1.5** | 18/04/2026 | AdrianR16-C | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios. |
+| **1.6** | 19/04/2026 | AdrianR16-C | Se documentaron hallazgos obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix. |
+| **1.7** | 19/04/2026 | AlexanderAliaga19 | Se agregaron lineamientos visuales, correcciones de rutas de imágenes y ajustes de presentación en los assets del capítulo 2. |
+| **1.8** | 19/04/2026 | AdrianR16-C | Se actualizaron perfiles de usuarios, User Personas, User Task Matrix y análisis asociado al proceso de investigación de usuarios. |
+| **1.9** | 20/04/2026 | RoccaA4 | Se agregaron detalles de Event Storming, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto. |
+| **2.0** | 21/04/2026 | Johancuba | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, diagramas de base de datos, diagramas de clase y configuración técnica del proyecto. |
+| **2.1** | 22/04/2026 | AlexanderAliaga19 | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, planificación y evidencias de desarrollo de la Landing Page. |
+| **2.2** | 22/04/2026 | RoccaA4 | Se agregaron wireframes, mock-ups, user flows y evidencias visuales correspondientes al diseño UX/UI del producto. |
+| **2.3** | 23/04/2026 | Johancuba | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software y estrategia de control de versiones. |
+| **2.4** | 10/05/2026 | AdrianR16-C | Se actualizó el análisis competitivo, estrategias frente a competidores y claridad estructural del informe a partir de revisión del contenido existente. |
+| **2.5** | 11/05/2026 | AdrianR16-C | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming y Ubiquitous Language. |
+| **2.6** | 11/05/2026 | RoccaA4 | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron secciones de UX/UI y prototipos. |
+| **2.7** | 11/05/2026 | Johancuba | Se añadieron diagramas y evidencias técnicas, se corrigieron nombres de archivos, rutas de imágenes y secciones relacionadas con arquitectura y despliegue. |
+| **2.8** | 18/06/2026 | AlexanderAliaga19 | Se incorporó documentación del Sprint 3, incluyendo planificación, alcance, evidencias de desarrollo y actualización de secciones generales del informe. |
+| **2.9** | 18/06/2026 | AdrianR16-C | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
+| **3.0** | 18/06/2026 | RoccaA4 | Se actualizaron evidencias visuales del producto, mock-ups, flujos de interacción y capturas relacionadas con la Web Application. |
+| **3.1** | 18/06/2026 | Johancuba | Se documentaron servicios RESTful API, despliegue de Web Services, configuración técnica y evidencias de implementación. |
+| **3.2** | 18/06/2026 | CarlosMansilla | Se revisó la coherencia general del informe de AV2, corrigiendo redacción, estructura, evidencias y alineación con la rúbrica. |
+| **3.3** | 01/07/2026 | AlexanderAliaga19 | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustes generales del documento. |
+| **3.4** | 01/07/2026 | AdrianR16-C | Se corrigieron secciones relacionadas con entrevistas, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación y requerimientos. |
+| **3.5** | 01/07/2026 | RoccaA4 | Se revisaron y actualizaron secciones relacionadas con UX/UI, wireframes, mock-ups, prototipos, user flows y coherencia visual de la Web Application. |
+| **3.6** | 01/07/2026 | Johancuba | Se revisaron y actualizaron secciones relacionadas con arquitectura de software, diseño orientado a objetos, base de datos, configuración técnica y despliegue. |
+| **3.7** | 01/07/2026 | CarlosMansilla | Se corrigió la coherencia general del informe final TB2, incluyendo Student Outcome, Sprint 4, evidencias de colaboración, redacción y alineación con el enunciado oficial. |
 <div style="page-break-after: always;"></div>
-## Project Report Collaboration Insights
 
+## Project Report Collaboration Insights
 En esta sección se presenta la evidencia de colaboración del equipo en la elaboración del informe del proyecto. El informe se desarrolla en formato Markdown dentro de un repositorio público de GitHub de la organización del equipo, permitiendo evidenciar los aportes realizados mediante commits, historial de cambios y analíticos de colaboración.
 
-**URL del repositorio del informe del proyecto:**
+**URL del repositorio del informe del proyecto:**  
 https://github.com/BrainSpark-upc/Report/blob/main/README.md
 
 Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de acuerdo con los avances de cada entrega. Las actividades realizadas incluyen redacción de secciones, incorporación de capturas, corrección de rutas de imágenes, actualización de evidencias, mejora de redacción, documentación de sprints y ajustes derivados de la retroalimentación recibida.
@@ -96,10 +101,12 @@ Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de 
 | **AV1** | Se creó la estructura inicial del informe, se documentó el perfil de la startup, la problemática, Lean UX Process, entrevistas, primeros artefactos de análisis, requisitos iniciales, diseño de producto y Sprint 1. | Commits iniciales del README, historial de cambios del repositorio y capturas de colaboración en GitHub. |
 | **TB1** | Se actualizaron artefactos previamente entregados, se mejoró la documentación de requisitos, diseño UX/UI, arquitectura, Sprint 2 y evidencias de despliegue de la Landing Page y primera versión de la Web Application. | Commits asociados a correcciones, capturas de GitHub Insights y evidencias de actualización del informe. |
 | **AV2** | Se incorporó la documentación del Sprint 3, evidencias de implementación, validación, documentación de servicios RESTful API, despliegue de Web Services, Video About-the-Product y avance del Video About-the-Team. Además, Carlos Marcelo Mansilla Rivero se integró al equipo y colaboró en la revisión y mejora del informe. | Commits de actualización del informe, capturas de colaboración, historial de ramas y evidencias de corrección posterior a retroalimentación. |
+| **TB2** | Se realizó la revisión final del informe, incorporando Sprint 4, actualización de Student Outcome, corrección de secciones pendientes, mejora de trazabilidad entre artefactos, revisión de nombres del producto, actualización de evidencias finales, validación de despliegues y alineación general con el enunciado oficial del trabajo final. | Commits finales del README, capturas actualizadas de GitHub Insights, contributors, historial de commits por integrante, evidencias de Sprint 4 y revisión final del repositorio del informe. |
+
 
 ### Evidencias de colaboración en el informe
 
-A continuación, se deben incluir capturas de los analíticos de colaboración del repositorio del informe, incluyendo commits por integrante, contribuciones y actividad del repositorio.
+A continuación, se incluyen capturas de los analíticos de colaboración del repositorio del informe, incluyendo commits por integrante, contribuciones y actividad del repositorio.
 
 <p align="center">
   <img src="assets/assets/project-report-collaboration-insights/report-repository-url.png" alt="URL del repositorio del informe" width="700">
@@ -113,7 +120,13 @@ A continuación, se deben incluir capturas de los analíticos de colaboración d
   <img src="assets/assets/project-report-collaboration-insights/github-contributors-av2.png" alt="Contribuciones de integrantes en el informe" width="700">
 </p>
 
-**Nota:** Las capturas anteriores deben corresponder al repositorio del informe del proyecto, no a los repositorios de la Landing Page, Frontend Web Application o Web Services. Las evidencias deben mantener coherencia con el Registro de Versiones del Informe.
+<p align="center">
+  <img src="assets/assets/project-report-collaboration-insights/github-commits-tb2.png" alt="Commits realizados para TB2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/assets/project-report-collaboration-insights/github-contributors-tb2.png" alt="Contribuciones de integrantes en TB2" width="700">
+</p>
 
 <div style="page-break-after: always;"></div>
 
