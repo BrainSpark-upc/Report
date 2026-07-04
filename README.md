@@ -3,41 +3,33 @@
 </p>
 
 <div align="center">
+<p><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
-  <h2>Universidad Peruana de Ciencias Aplicadas</h2>
+<p><strong>Carrera de Ingeniería de Software</strong></p>
 
-  <h2>Carrera de Ingeniería de Software</h2>
+<p><strong><big>1ASI0729</big></strong></p>
 
-  <br>
+<p><strong><big>Desarrollo de Aplicaciones Open Source</big></strong></p>
 
-  <h1>1ASI0729</h1>
+<p><strong>NRC</strong></p>
 
-  <h1>Desarrollo de Aplicaciones Open Source</h1>
+<p><strong><big>2610</big></strong></p>
 
-  <h2>NRC</h2>
+<p><strong><big>Informe del Trabajo Final</big></strong></p>
 
-  <h1>2610</h1>
+<p><strong>Docente</strong></p>
 
-  <h1>Informe del Trabajo Final</h1>
+<p><strong><big>Velásquez Núñez, Ángel Augusto</big></strong></p>
 
-  <h2>Docente</h2>
+<p><strong>Equipo</strong></p>
 
-  <h1>Velásquez Núñez, Ángel Augusto</h1>
+<p><strong><big>BrainSpark</big></strong></p>
 
-  <h2>Equipo</h2>
+<p><strong>Proyecto</strong></p>
 
-  <h1>BrainSpark</h1>
+<p><strong><big>PulseReport</big></strong></p>
 
-  <br>
-
-  <h2>Proyecto</h2>
-
-  <h1>PulseReport</h1>
-
-  <br>
-
-  <h2>Integrantes</h2>
-
+<p><strong>Integrantes</strong></p>
 </div>
 
 <div align="center">
@@ -53,9 +45,8 @@
 </div>
 <div align="center">
 
-  <h2>Período 202610</h2>
-
-  <h2>Junio 2026</h2>
+  <p><strong>Período 202610</strong></p>
+  <p><strong>Junio 2026</strong></p>
 
 </div>
 
@@ -89,8 +80,8 @@ El objetivo de esta sección es resumir las modificaciones relevantes realizadas
 | **2.9** | 18/06/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se incorporaron evidencias audiovisuales del Video About-the-Product y del Video About-the-Team, incluyendo descripción de escenas, participantes, testimonios y retrospectiva del proceso de trabajo. |
 | **3.0** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se aplicaron mejoras posteriores a la retroalimentación de AV2, corrigiendo estructura del informe, consistencia de nombres, trazabilidad entre artefactos, evidencias de colaboración, documentación de endpoints y redacción general. |
 | **3.1** | 01/07/2026 | AlexanderAliaga19 / AdrianR16-C / RoccaA4 / Johancuba / CarlosMansilla | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustando el contenido de acuerdo con el enunciado oficial del trabajo final. |
-<div style="page-break-after: always;"></div>
 
+<div style="page-break-after: always;"></div>
 ## Project Report Collaboration Insights
 
 En esta sección se presenta la evidencia de colaboración del equipo en la elaboración del informe del proyecto. El informe se desarrolla en formato Markdown dentro de un repositorio público de GitHub de la organización del equipo, permitiendo evidenciar los aportes realizados mediante commits, historial de cambios y analíticos de colaboración.
