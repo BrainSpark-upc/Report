@@ -4528,6 +4528,608 @@ Los commits reflejan participación activa de todos los integrantes, con múltip
 
 El Sprint 3 evidenció una mejora significativa en la organización y colaboración del equipo, logrando integrar múltiples módulos del backend de manera eficiente. La adopción de buenas prácticas de desarrollo y comunicación permitió cumplir con los objetivos del sprint y entregar un sistema funcional, estable y bien estructurado.
 
+### 5.2.4 Sprint 4
+
+Durante el Sprint 4, el equipo se enfocó en la entrega de la versión final integrada de PulseReport: implementación del bounded context de IAM (Identity and Access Management) para asegurar el Web Service, estandarización del manejo de errores del API, integración de la Web Application con el backend desplegado en la nube (Railway), cierre de los flujos clínicos pendientes y publicación de la versión final del Landing Page con los videos About-the-Product y About-the-Team, CTAs por segmento y enlaces a redes sociales.
+
+#### 5.2.4.1. Sprint Planning 4
+
+Las Engineering Tasks han sido segmentadas manteniendo el límite riguroso de esfuerzo técnico (4 a 8 horas).
+
+<table>
+<tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 4</th> </tr>
+
+<tr> <td colspan="13">Sprint Planning Background</td> </tr>
+
+<tr> <td colspan="5">Date</td> <td colspan="8">24-06-2026 <!-- TODO: confirmar fecha real --></td> </tr>
+<tr> <td colspan="5">Time</td> <td colspan="8">08:00 PM <!-- TODO: confirmar hora --></td> </tr>
+<tr> <td colspan="5">Location</td> <td colspan="8">Reunión virtual en Discord</td> </tr>
+
+<tr> <td colspan="5">Prepared By</td> <td colspan="8">Huamán Cuba, Johan Giovani</td> </tr>
+
+<tr> <td colspan="5">Attendees (to planning meeting)</td>
+<td colspan="8">
+Aliaga Ocampo, Alexander Auden<br>
+Rios Cespedes, Adrian Matias<br>
+Huamán Cuba, Johan Giovani<br>
+Rodrigo Rocca, Anhelo<br>
+Mansilla Rivero, Carlos Marcelo
+</td> </tr>
+
+<tr> <td colspan="5">Sprint n-1 Review Summary</td>
+<td colspan="8">
+Durante el sprint anterior se completó la implementación del backend de PulseReport con los bounded contexts de pacientes, signos vitales, auditoría, handover clínico y eventos críticos, validados íntegramente mediante Swagger UI con persistencia en MySQL. El despliegue se realizó en entorno local, quedando pendiente el despliegue en la nube, la protección del API mediante autenticación y la integración con el frontend. (Sprint 3)
+</td> </tr>
+
+<tr> <td colspan="5">Sprint n-1 Retrospective Summary</td>
+<td colspan="8">
+El equipo identificó que el despliegue debe realizarse de manera más temprana para detectar problemas de integración a tiempo, que la documentación del API debe completarse en paralelo al desarrollo (descripción y ejemplo por cada tipo de request) y que el API no puede quedar expuesto sin autenticación. Se acordó priorizar IAM, la integración continua frontend–backend y el cierre de evidencias del informe.
+</td> </tr>
+
+<tr> <td colspan="13">Sprint Goal & User Stories</td> </tr>
+
+<tr> <td colspan="5">Sprint 4 Goal</td>
+<td colspan="8">
+<strong>
+"Our focus is on delivering the final integrated release of PulseReport: the Landing Page, the Web Application and the RESTful Web Service deployed to the cloud and working together, secured through Identity and Access Management.
+We believe this delivers a trustworthy end-to-end clinical information experience to visitors, nursing staff and physicians, and a fully documented API to developers.
+This will be confirmed when a visitor can navigate from the Landing Page call-to-actions into the deployed Web Application, sign in, execute the core clinical flows against the production API, and consult the published OpenAPI documentation."
+</strong>
+</td> </tr>
+
+<tr> <td colspan="5">Sprint 4 Velocity</td> <td colspan="8">37 Story Points</td> </tr>
+<tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">37 Story Points</td> </tr>
+
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Landing Page Final Release (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Web App IAM & Core Flows Integration (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Web Service IAM, Errors & OpenAPI Docs (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Clinical Dashboard & Alerts Integration (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Cloud Deployment & Configuration (L/C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Aliaga Ocampo, Alexander Auden</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AlexanderAliaga19</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">c3sv.19@gmail.com <!-- TODO: reemplazar por el username de GitHub de Carlos --></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Huamán Cuba, Johan Giovani</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Johancuba</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rios Cespedes, Adrian Matias</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AdrianR16-C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 5.2.4.3 Sprint Backlog 4
+
+El Sprint 4 se enfocó en cerrar el alcance de la solución: autenticación y autorización (TS-01), manejo consistente de errores del API (TS-06), integración de los flujos clínicos pendientes (US-15, US-22, US-23, US-24, US-25), la versión final del Landing Page y el despliegue e integración de los tres productos en la nube.
+
+**Board del Sprint (Jira):**
+
+![Jira Board Sprint 4](assets/chapter-5/jira-board-sprint4.png)
+<!-- TODO: agregar la captura real del board de Jira del Sprint 4 -->
+
+### Sprint Backlog
+<table>
+  <thead>
+    <tr>
+      <th align="left">Sprint #</th>
+      <th align="left" colspan="7">Sprint 4</th>
+    </tr>
+    <tr>
+      <th align="left" colspan="2">User Story</th>
+      <th align="left" colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Description</th>
+      <th align="left">Estimation<br>(Hours)</th>
+      <th align="left">Assigned To</th>
+      <th align="left">Status<br>(To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-33</td>
+      <td>Implementar endpoints sign-up y sign-in</td>
+      <td>Bounded context IAM: registro e inicio de sesión de usuarios</td>
+      <td>8</td>
+      <td>Carlos Marcelo Mansilla</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-34</td>
+      <td>Configurar JWT y hashing de contraseñas</td>
+      <td>Generación y validación de tokens JWT; hashing con BCrypt</td>
+      <td>6</td>
+      <td>Carlos Marcelo Mansilla</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-35</td>
+      <td>Proteger endpoints con autorización</td>
+      <td>Spring Security: rutas protegidas y roles de acceso</td>
+      <td>6</td>
+      <td>Alexander Aliaga</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-36</td>
+      <td>Integrar IAM en la Web Application</td>
+      <td>Login/registro reales contra el API, guards e interceptor con token</td>
+      <td>8</td>
+      <td>Alexander Aliaga</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-06</td>
+      <td>Manejo consistente de errores del API</td>
+      <td>T-37</td>
+      <td>Estandarizar respuestas de error</td>
+      <td>Manejador global de excepciones (400/401/403/404) con mensajes consistentes</td>
+      <td>4</td>
+      <td>Anhelo Rocca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-15</td>
+      <td>Confirmar recepción de traspaso</td>
+      <td>T-38</td>
+      <td>Integrar confirmación de traspaso</td>
+      <td>Conectar la confirmación del frontend con el endpoint acknowledge</td>
+      <td>4</td>
+      <td>Anhelo Rocca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-22</td>
+      <td>Consultar cumplimiento de indicaciones</td>
+      <td>T-39</td>
+      <td>Implementar vista de cumplimiento</td>
+      <td>Vista de estado de indicaciones (pendiente/cumplida) consumiendo el API</td>
+      <td>6</td>
+      <td>Adrian Rios</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-23</td>
+      <td>Consultar resumen clínico del paciente</td>
+      <td>T-40</td>
+      <td>Integrar dashboard con datos reales</td>
+      <td>Reemplazar el Fake API por el Web Service en el dashboard clínico</td>
+      <td>6</td>
+      <td>Johan Cuba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-24</td>
+      <td>Identificar cambios críticos</td>
+      <td>T-41</td>
+      <td>Integrar alertas críticas en dashboard</td>
+      <td>Consumir endpoints de critical events y visualizar alertas</td>
+      <td>6</td>
+      <td>Johan Cuba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-25</td>
+      <td>Validar información con enfermería</td>
+      <td>T-42</td>
+      <td>Registrar validación médico-enfermería</td>
+      <td>Registro de validaciones clínicas asociadas al paciente</td>
+      <td>5</td>
+      <td>Adrian Rios</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Landing Page: versión final</td>
+      <td>T-43</td>
+      <td>Incrustar videos About-the-Product y About-the-Team</td>
+      <td>Incorporar ambos videos en las secciones correspondientes del Landing</td>
+      <td>4</td>
+      <td>Johan Cuba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Landing Page: versión final</td>
+      <td>T-44</td>
+      <td>Vincular CTAs por segmento con la Web App</td>
+      <td>Botones de llamada a la acción hacia las vistas de la aplicación desplegada</td>
+      <td>4</td>
+      <td>Alexander Aliaga</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Landing Page: versión final</td>
+      <td>T-45</td>
+      <td>Ajustes finales responsive, a11y e i18n</td>
+      <td>Responsive Web Design, atributos ARIA y traducciones en/es</td>
+      <td>6</td>
+      <td>Anhelo Rocca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Documentación del API</td>
+      <td>T-46</td>
+      <td>Completar documentación OpenAPI</td>
+      <td>Descripción y ejemplo de request/response para todos los endpoints (springdoc)</td>
+      <td>6</td>
+      <td>Carlos Marcelo Mansilla</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Despliegue en la nube</td>
+      <td>T-47</td>
+      <td>Desplegar Web Service y base de datos en Railway</td>
+      <td>Despliegue del API y MySQL con variables de entorno</td>
+      <td>6</td>
+      <td>Adrian Rios</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Despliegue en la nube</td>
+      <td>T-48</td>
+      <td>Apuntar frontend al API de producción</td>
+      <td>Configurar apiBaseUrl de producción y redesplegar en Firebase Hosting</td>
+      <td>4</td>
+      <td>Adrian Rios</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Servicio externo de terceros</td>
+      <td>T-49</td>
+      <td>Integrar servicio externo</td>
+      <td>Integración de un servicio de terceros en la solución <!-- TODO: precisar cuál (p. ej. EmailJS para el formulario de contacto) --></td>
+      <td>5</td>
+      <td>Anhelo Rocca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Evidencias y videos</td>
+      <td>T-50</td>
+      <td>Grabar y editar videos finales</td>
+      <td>Videos About-the-Product (actualizado), About-the-Team y navegación de productos</td>
+      <td>8</td>
+      <td>Equipo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+### Estados de las tareas
+- **To-do**: Pendiente
+- **InProcess**: En desarrollo
+- **ToReview**: En revisión
+- **Done**: Finalizado
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En este Sprint, el equipo implementó el bounded context de IAM en el Web Service, estandarizó el manejo de errores, integró la Web Application con el API desplegado en producción y publicó la versión final del Landing Page. Se trabajó en los tres repositorios de la organización BrainSpark-upc mediante feature branches, pull requests y el release final v1.0.0.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------------------------|-------------------------------|------------------|------------------------------|---------------------------------------------|--------------------|
+| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): add sign-up and sign-in endpoints | Implemented authentication endpoints with user registration and credential validation | <!-- TODO --> |
+| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): add JWT token generation and validation | Configured JWT-based token service with expiration and signature validation | <!-- TODO --> |
+| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): secure endpoints with Spring Security configuration | Protected clinical resources requiring a valid bearer token | <!-- TODO --> |
+| BrainSpark-upc/BackPulseReport | feature/error-handling | <!-- TODO: id real --> | feat(shared): add global exception handler with consistent error responses | Standardized error payloads for validation, authorization and not-found scenarios | <!-- TODO --> |
+| BrainSpark-upc/BackPulseReport | feature/openapi-docs | <!-- TODO: id real --> | docs(openapi): add operation descriptions and request/response examples | Completed OpenAPI annotations for all endpoints with summaries and examples | <!-- TODO --> |
+| BrainSpark-upc/BackPulseReport | release/1.0.0 | <!-- TODO: id real --> | chore(release): v1.0.0 | Final integrated release of the PulseReport Web Service | <!-- TODO --> |
+| BrainSpark-upc/FrontPulseReport | feature/iam-integration | <!-- TODO: id real --> | feat(iam): connect sign-in and sign-up views to production API | Replaced mock authentication with real IAM endpoints and token persistence | <!-- TODO --> |
+| BrainSpark-upc/FrontPulseReport | feature/iam-integration | <!-- TODO: id real --> | feat(iam): add auth interceptor and route guards | Attached bearer token to API requests and protected clinical routes | <!-- TODO --> |
+| BrainSpark-upc/FrontPulseReport | feature/api-integration | <!-- TODO: id real --> | refactor(services): replace fake API base url with production environment | Pointed HTTP services to the Web Service deployed on Railway | <!-- TODO --> |
+| BrainSpark-upc/FrontPulseReport | feature/dashboard-integration | <!-- TODO: id real --> | feat(dashboard): consume critical events endpoints for alerts | Integrated critical alerts into the clinical dashboard with real data | <!-- TODO --> |
+| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): embed About-the-Product and About-the-Team videos | Added video sections targeting the emotional visitor profile | <!-- TODO --> |
+| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): link call-to-action buttons to deployed web application | Connected segment-specific CTAs with the corresponding application views | <!-- TODO --> |
+| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): add social media links and final responsive adjustments | Included social media accounts in footer and fixed responsive issues | <!-- TODO --> |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo logró la versión final integrada de PulseReport. La solución completa quedó operativa de extremo a extremo: un visitante puede navegar desde el Landing Page hacia la Web Application desplegada, registrarse e iniciar sesión mediante IAM, y ejecutar los flujos clínicos (traspasos SBAR con confirmación, signos vitales, cumplimiento de indicaciones, resumen clínico y alertas críticas) contra el API en producción.
+
+Los principales resultados alcanzados en este sprint fueron los siguientes:
+
+- Implementación y validación del bounded context **IAM** (sign-up, sign-in, protección de recursos con JWT).
+- Estandarización del **manejo de errores** del API con respuestas consistentes.
+- **Integración frontend–backend** en producción, reemplazando el Fake API por el Web Service desplegado en **Railway**.
+- Cierre de los flujos clínicos pendientes: confirmación de traspaso, cumplimiento de indicaciones, resumen clínico con datos reales, alertas críticas y validación médico-enfermería.
+- Publicación de la **versión final del Landing Page** con videos incrustados, CTAs por segmento y redes sociales.
+
+A continuación, se presentan las principales vistas implementadas y validadas durante el sprint:
+
+  ### A. Landing Page final con videos y CTAs por segmento
+
+  ![Landing Final](assets/chapter-5/landing-final.png)
+  <!-- TODO: agregar captura real -->
+
+  *Versión final del Landing Page mostrando la sección de video y los call-to-action vinculados a la Web Application desplegada.*
+
+  ---
+
+  ### B. Registro e inicio de sesión (IAM) integrados
+
+  ![Sign In](assets/chapter-5/sign-in-integrated.png)
+  <!-- TODO: agregar captura real -->
+
+  *Autenticación funcionando de extremo a extremo contra el API en producción, con emisión de token JWT.*
+
+  ---
+
+  ### C. Dashboard clínico con datos reales y alertas críticas
+
+  ![Dashboard Final](assets/chapter-5/dashboard-final.png)
+  <!-- TODO: agregar captura real -->
+
+  *Dashboard clínico consumiendo el Web Service desplegado, mostrando signos vitales recientes y alertas de eventos críticos.*
+
+  ---
+
+  ### D. Confirmación de traspaso y cumplimiento de indicaciones
+
+  ![Handover Acknowledge](assets/chapter-5/handover-acknowledge.png)
+  <!-- TODO: agregar captura real -->
+
+  *Flujo de confirmación de recepción de traspaso y vista de cumplimiento de indicaciones integrados con el API.*
+
+  ### Video de navegación y visualización del Sprint 4
+
+  <!-- TODO: agregar screenshot + URL del video en Microsoft Stream (nomenclatura: upc-pre-202610-1asi0729-NRC-carelabs-productnavigation-sprint-4) -->
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se completó la documentación OpenAPI del Web Service: cada endpoint incluye la descripción de la operación, sus parámetros, un ejemplo de request y la explicación del response, generada con springdoc-openapi y publicada junto con el despliegue del API en Railway. Asimismo, con la incorporación de IAM, los recursos clínicos quedaron protegidos y requieren un token válido para su consumo.
+
+**Documentación de endpoints (Swagger UI):**
+
+Acceso público: <!-- TODO: URL pública, p. ej. https://pulsereport-api.up.railway.app/swagger-ui/index.html -->
+
+### Endpoints implementados (versión final v1.0.0)
+
+**IAM (Authentication)**
+
+POST /authentication/sign-up
+POST /authentication/sign-in
+
+**Pacientes (Patients)** — requieren token
+
+GET /patients
+GET /patients/{id}
+POST /patients
+PUT /patients/{id}
+
+**Signos Vitales (Vital Signs)** — requieren token
+
+POST /vital-sign-records
+GET /vital-sign-records/{patientId}
+GET /vital-sign-records/latest/{patientId}
+
+**Auditoría (Audit Logs)** — requieren token
+
+POST /audit-logs
+
+**Handover Clínico** — requieren token
+
+POST /handovers
+GET /handovers/{id}
+GET /handovers/patient/{patientId}
+PUT /handovers/{id}/acknowledge
+
+**Eventos Críticos (Critical Events)** — requieren token
+
+GET /critical-events/patient/{patientId}
+PUT /critical-events/{id}/attend
+PUT /critical-events/{id}/close
+
+<!-- TODO: verificar rutas exactas contra el Swagger real (por ejemplo, si el proyecto usa el prefijo /api/v1) -->
+
+### Ejemplos de request y response
+
+*Inicio de sesión (POST /authentication/sign-in):*
+
+```json
+// Request
+{ "username": "nurse.mendoza", "password": "********" }
+
+// Response 200 OK
+{ "id": 1, "username": "nurse.mendoza", "token": "eyJhbGciOiJIUzI1NiJ9..." }
+```
+
+*Registro de signos vitales (POST /vital-sign-records):*
+
+```json
+// Request
+{
+  "patientId": 12,
+  "heartRate": 118,
+  "bloodPressure": "140/90",
+  "oxygenSaturation": 93,
+  "recordedAt": "2026-07-01T14:30:00"
+}
+
+// Response 201 Created
+{
+  "id": 87,
+  "patientId": 12,
+  "heartRate": 118,
+  "bloodPressure": "140/90",
+  "oxygenSaturation": 93,
+  "recordedAt": "2026-07-01T14:30:00"
+}
+```
+
+*Respuesta de error estandarizada (TS-06):*
+
+```json
+// Response 400 Bad Request
+{
+  "timestamp": "2026-07-01T14:31:05",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "heartRate must be a positive number",
+  "path": "/vital-sign-records"
+}
+```
+
+### Evidencia de documentación en Swagger
+
+![Swagger Final Docs](assets/chapter-5/swagger-final-docs.png)
+<!-- TODO: agregar captura del Swagger UI final mostrando descripciones y ejemplos por endpoint -->
+
+*Documentación OpenAPI publicada mostrando la descripción y los ejemplos de cada operación, organizada por bounded context e incluyendo el esquema de autenticación Bearer.*
+
+### Características de la documentación
+
+* **Descripción por operación**: Cada endpoint incluye summary y descripción de su propósito.
+* **Ejemplos de request/response**: Contratos documentados con ejemplos para cada tipo de request.
+* **Esquema de seguridad**: Documentación del flujo Bearer JWT para consumir recursos protegidos.
+* **Acceso público**: Documentación disponible en línea junto con el API desplegado.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo completó el despliegue integral de la solución: el Web Service y la base de datos MySQL se publicaron en Railway, la Web Application se reconfiguró para consumir el API de producción y el Landing Page se actualizó con su versión final.
+
+### Pasos realizados para el despliegue
+
+1. **Despliegue del Web Service en Railway:**
+   - Se creó el servicio conectando el repositorio `BrainSpark-upc/BackPulseReport` (rama `main`).
+   - Se configuraron las variables de entorno: `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`, `JWT_SECRET`.
+   - Se verificó el arranque del servicio y el acceso público al Swagger UI.
+
+2. **Base de datos en la nube:**
+   - Se aprovisionó MySQL en Railway y se migró el esquema `pulsereport_platform`.
+   - Se validó la persistencia mediante pruebas de endpoints en producción.
+
+3. **Reconfiguración del frontend:**
+   - Se actualizó `environment.ts` con la `apiBaseUrl` de producción.
+   - Se ejecutó `ng build` y `firebase deploy` para republicar la Web Application.
+
+4. **Versión final del Landing Page:**
+   - Merge de `develop` a `main` y republicación en GitHub Pages con videos, CTAs y redes sociales.
+
+5. **Verificación de integración end-to-end:**
+   - Navegación desde el Landing Page hacia la Web Application, inicio de sesión y ejecución de los flujos clínicos contra el API de producción.
+
+### URLs finales de la solución
+
+| Producto | URL de producción |
+|----------|-------------------|
+| Landing Page | <!-- TODO: URL de GitHub Pages --> |
+| Web Application | https://pulsereport-frontend.web.app |
+| Web Service (Swagger UI) | <!-- TODO: URL pública de Railway + /swagger-ui/index.html --> |
+
+### Evidencia del despliegue
+
+![Railway Deployment](assets/chapter-5/railway-deployment.png)
+<!-- TODO: agregar captura del panel de Railway con el servicio corriendo -->
+
+*Panel de Railway mostrando el Web Service de PulseReport desplegado y en ejecución.*
+
+![Swagger Production](assets/chapter-5/swagger-production.png)
+<!-- TODO: agregar captura del Swagger UI público en producción -->
+
+*Swagger UI accesible públicamente tras el despliegue del Web Service.*
+
+### Resultados del despliegue
+
+* Los tres productos digitales quedaron desplegados y accesibles públicamente.
+* La Web Application consume el API de producción con autenticación JWT.
+* Los recursos clínicos del API quedaron protegidos mediante IAM.
+* Se validó la integración completa Landing Page → Web Application → Web Service → MySQL.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p align="center">
+  <img src="assets/chapter-5/sprint4-commits-back.png" alt="sprint4-commits-back" width="1000">
+</p>
+<!-- TODO: agregar capturas de GitHub Insights (contributors) del Sprint 4 para los tres repositorios: Landing-Page, FrontPulseReport y BackPulseReport -->
+
+Durante el Sprint 4, los cinco integrantes colaboraron en el cierre de la solución, distribuyendo el trabajo entre los tres repositorios de la organización. Se evidenció una distribución clara de responsabilidades:
+
+- IAM y documentación OpenAPI del Web Service: **Carlos**
+- Integración de IAM y flujos core en la Web Application: **Alexander**
+- Versión final del Landing Page y manejo de errores del API: **Anhelo**
+- Dashboard clínico y alertas con datos reales: **Johan**
+- Despliegue en Railway y configuración de entornos: **Adrian**
+
+La comunicación se realizó mediante Discord con seguimiento en Jira, integrando los cambios mediante pull requests hacia `develop` y cerrando el proyecto con el release **v1.0.0** en los repositorios.
+
+### Principales aprendizajes del equipo
+
+* **Integración temprana**: Desplegar e integrar cuanto antes reduce riesgos al cierre del proyecto.
+* **Seguridad como requisito**: El API no puede quedar expuesto; IAM es parte del alcance mínimo de un producto real.
+* **Documentación en paralelo**: Completar descripciones y ejemplos del API junto con el desarrollo evita retrabajos.
+* **Cierre coordinado**: La división por aspectos permitió cerrar frontend, backend, landing y despliegue en paralelo.
+
+### Conclusión
+
+El Sprint 4 permitió entregar la versión final integrada de PulseReport, con los tres productos desplegados, el API protegido mediante IAM y documentado con OpenAPI, y los flujos clínicos operando de extremo a extremo contra datos reales. Con ello se cerró el alcance del proyecto de forma estable, trazable y lista para su presentación final.
+
+
 ## 5.3. Validation Interviews
 
 En esta sección se describen las entrevistas de validación realizadas con usuarios pertenecientes a los segmentos objetivo de PulseReport. Estas entrevistas tuvieron como propósito evaluar la interacción de los usuarios con el Landing Page y con las funcionalidades del sistema, obteniendo retroalimentación sobre usabilidad, comprensión y valor percibido.
