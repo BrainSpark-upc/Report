@@ -3570,18 +3570,26 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://github.com
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+La herramienta de Insights de GitHub demuestra que todos los miembros del equipo han colaborado activamente mediante la subida de commits. Hubo un esfuerzo distribuido:
+
+Alexander Aliaga gestionó la maquetación principal.
+Anhelo Rocca estructuró las secciones interactivas de equipo y testimonios.
+Johan Huamán trabajó en la internacionalización.
+Adrian Rios resolvió bugs de media queries y gestionó el flujo GitFlow.
+
 <p align="center">
   <img src="assets/chapter-5/members-commit.png" alt="deployment4" width="1000">
 </p>
 
 ### 5.2.2 Sprint 2
 
-El Sprint 2 se enfocó en el desarrollo de la aplicación web frontend de PulseReport, donde se implementaron las vistas principales y funcionalidades clínicas para el personal de enfermería cardiovascular y médicos especialistas. Durante este sprint, el equipo priorizó la integración de módulos clave como pacientes, signos vitales, traspasos SBAR, eventos clínicos y dashboard clínico básico.
+El Sprint 2 se enfocó de lleno en el diseño e implementación de la versión ejecutable de las Frontend Web Applications (SPA construida en Angular). Durante este ciclo, el equipo implementó componentes funcionales altamente cohesivos: módulos para autenticación, gestión y visualización de pacientes, registro digital del traspaso SBAR, e interfaces para captura de signos vitales. Todo en un marco Responsive y estructurado bajo los flujos del usuario (User Flows) que cubren el alcance del 50% planificado para este Sprint.
 
 #### 5.2.2.1 Sprint Planning 2
 
-<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 2</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">11-05-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion virtual en Discord</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Anhelo Rodrigo Rocca Leon</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Alexander Auden Aliaga Ocampo, Adrian Matias Rios Cespedes, Johan Giovani Huamán Cuba</td> </tr> 
-<tr> <td colspan="5">Sprint 1 Review Summary</td> <td colspan="8">Landing Page completada exitosamente: Todas las secciones implementadas, funcionalidades de navegación, responsividad y despliegue en GitHub Pages validado. Landing Page accesible en producción.</td> </tr> <tr> <td colspan="5">Sprint 1 Retrospective Summary</td> <td colspan="8">El equipo identificó la necesidad de mejorar la coordinación en branches de GitHub, establecer estándares de commit messages y optimizar la división de tareas. Se acordó implementar una mejor gestión de conflictos de merge y comunicación diaria mediante Discord.</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 2 Goal</td> <td colspan="8"><strong>"Our focus is on delivering core web application functionality for managing cardiovascular patient data, enabling clinical process digitalization through vital signs registration, SBAR handovers, clinical event tracking, and basic diagnostic dashboard views. We believe it delivers essential tools for nursing staff and specialists to improve clinical continuity, reduce information fragmentation, and enable rapid access to critical patient information. This will be confirmed when healthcare professionals can register vital signs, document SBAR handovers, track clinical events, and view patient clinical summaries from a functional web application deployed in a development environment, with all corresponding documentation completed."</strong></td></tr> <tr> <td colspan="5">Sprint 2 Velocity</td> <td colspan="8">8</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">38 story points</td> </tr> </table>
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 2</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">11-05-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion virtual en Discord</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Rocca Leon, Anhelo Rodrigo</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Aliaga Ocampo, Alexander Auden / Rios Cespedes, Adrian Matias / Huamán Cuba, Johan Giovani / Rocca Leon, Anhelo Rodrigo </td> </tr> 
+<tr> <td colspan="5">Sprint 1 Review Summary</td> <td colspan="8">Landing Page completada exitosamente: Todas las secciones implementadas, funcionalidades de navegación, responsividad y despliegue en GitHub Pages validado. Landing Page accesible en producción.</td> </tr> <tr> <td colspan="5">Sprint 1 Retrospective Summary</td> <td colspan="8">El equipo identificó la necesidad de mejorar la coordinación en branches de GitHub, establecer estándares de commit messages y optimizar la división de tareas. Se acordó implementar una mejor gestión de conflictos de merge y comunicación diaria mediante Discord.</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 2 Goal</td> <td colspan="8"><strong>"Our focus is on delivering core web application functionality for managing cardiovascular patient data, enabling clinical process digitalization through vital signs registration, SBAR handovers, clinical event tracking, and basic diagnostic dashboard views. We believe it delivers essential tools for nursing staff and specialists to improve clinical continuity, reduce information fragmentation, and enable rapid access to critical patient information. This will be confirmed when healthcare professionals can register vital signs, document SBAR handovers, track clinical events, and view patient clinical summaries from a functional web application deployed in a development environment, with all corresponding documentation completed."</strong></td></tr> <tr> <td colspan="5">Sprint 2 Velocity</td> <td colspan="8">44 Story Points (Esfuerzo Técnico Mayor)</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">44 Story Points</td> </tr> </table>
 
 
 #### 5.2.2.2 Aspect Leaders and Collaborators
@@ -3640,6 +3648,8 @@ En el Sprint 2, el equipo se enfocó en la implementación de funcionalidades de
 #### 5.2.2.3 Sprint Backlog 2
 
 El Sprint 2 se enfocó en implementar las funcionalidades clínicas principales de la aplicación web de PulseReport. Las prioridades incluyeron la gestión de pacientes, registro de signos vitales, documentación de traspasos SBAR, seguimiento de eventos clínicos y un dashboard clínico básico. El equipo utilizó Angular como framework principal y estableció patrones arquitectónicos reutilizables.
+
+*Las Engineering Tasks han sido fraccionadas adecuadamente para garantizar que cada actividad se complete dentro del esfuerzo ágil correcto (rango de 4 a 8 horas).*
 
 **Board del Sprint (Jira):**
 
