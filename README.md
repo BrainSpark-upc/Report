@@ -563,11 +563,34 @@ El alcance de PulseReport se encuentra delimitado por las condiciones del trabaj
 
 #### 1.2.2. Lean UX Process
 
-El proceso Lean UX de PulseReport permite transformar la problemática identificada en supuestos e hipótesis que puedan ser validadas durante el desarrollo del producto. Este enfoque evita asumir que una funcionalidad genera valor únicamente por estar implementada. En su lugar, cada decisión debe relacionarse con una necesidad del usuario y con una evidencia observable.
+El Lean UX Process de PulseReport se define como un ciclo de aprendizaje continuo orientado a resultados, no a entregables. 
+Nos permite transformar la problemática identificada en supuestos e hipótesis que puedan ser validadas durante el desarrollo del producto. 
+Siguiendo el enfoque de la tercera edición del libro 'Lean Ux' escrito por Jeff Gothelf y Josh Seiden, 
+la lógica central del proceso es: problema → outcomes → supuestos → hipótesis → experimentos → aprendizaje → iteración.
 
-Para este proyecto se consideran dos grupos principales de usuarios directos: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. Además, se reconoce a hospitales, clínicas privadas y centros especializados en cardiología como clientes institucionales, debido a que pueden adoptar o implementar la solución dentro de sus procesos.
+Para este proyecto se consideran dos grupos principales de usuarios directos: personal de enfermería cardiovascular y médicos especialistas cardiovasculares. 
+Además, se reconoce a hospitales, clínicas privadas y centros especializados en cardiología como clientes institucionales, 
+debido a que pueden adoptar o implementar la solución dentro de sus procesos.
 
 ##### 1.2.2.1. Lean UX Problem Statements
+
+**Business Outcomes**
+
+- Reducir el tiempo necesario para registrar y consultar información clínica relevante.
+- Disminuir la duplicidad de registros entre medios físicos y digitales.
+- Incrementar la adopción de una solución digital complementaria en entornos cardiovasculares.
+- Mejorar la trazabilidad de eventos, responsables, fechas y horas.
+- Favorecer la solicitud de información o demostración a través de la Landing Page.
+
+**User Outcomes**
+
+- El personal de enfermería cardiovascular registra información clínica con menos pasos y menor fricción.
+- Los usuarios clínicos comunican traspasos de turno de forma estructurada mediante SBAR.
+- Los médicos especialistas encuentran más rápido la evolución reciente del paciente.
+- Los usuarios identifican con facilidad eventos críticos, alertas y acciones registradas.
+- Los visitantes comprenden rápidamente qué resuelve PulseReport y cómo acceder a la solución.
+
+##### 1.2.2.2. Lean UX Problem Statements
 
 ###### Problem Statement 1 — Personal de enfermería cardiovascular
 
@@ -629,7 +652,7 @@ Las instituciones de salud necesitan una solución complementaria que ayude a or
 **Pregunta clave:**  
 ¿Cómo podríamos ofrecer una plataforma especializada que mejore la comunicación, trazabilidad y seguimiento clínico en áreas cardiovasculares?
 
-##### 1.2.2.2. Lean UX Assumptions
+##### 1.2.2.3. Lean UX Assumptions
 
 ###### Supuestos sobre los usuarios
 
@@ -662,7 +685,21 @@ Las instituciones de salud necesitan una solución complementaria que ayude a or
 - La adopción del producto dependerá de que la solución sea percibida como útil, simple y alineada al flujo real del personal clínico.
 - La validación con usuarios representativos permitirá identificar mejoras antes de escalar el producto.
 
-##### 1.2.2.3. Lean UX Hypothesis Statements
+###### 1.2.2.4. Lean UX Assumption Prioritization
+
+Las suposiciones se priorizan según dos criterios: riesgo e incertidumbre. Se trabaja primero sobre aquello que, si resulta falso, tendría mayor impacto sobre el valor del producto.
+
+| Supuesto	                                                                      |  Riesgo  |  Incertidumbre  |  Prioridad  |
+|--------------------------------------------------------------------------------|:--------:|:---------------:|:-----------:|
+| El traspaso SBAR reduce omisiones en cambios de turno.                         |   Alto   |      Alto       |    Alta     |
+| El registro digital de signos vitales reduce la dependencia de papel.          |   Alto   |      Alto       |    Alta     |
+| La vista resumida permite al médico revisar el estado del paciente más rápido. |   Alto   |      Medio      |    Alta     |
+| La trazabilidad por fecha, hora y responsable genera confianza.                |  Medio   |      Medio      |    Media    |
+| La Landing Page comunica con claridad la propuesta de valor.                   |  Medio   |      Medio      |    Media    |
+| Las instituciones aceptarían una herramienta complementaria.                   |  	Alto	  |      Alto	      |    Alta     |
+| Una interfaz simple mejora la disposición de uso.                              |  Medio   |      Medio      |    Media    |
+
+##### 1.2.2.5. Lean UX Hypothesis Statements
 
 Las hipótesis se redactan como afirmaciones comprobables. Cada hipótesis conecta una solución propuesta, un segmento de usuarios, un resultado esperado y una señal de validación.
 
@@ -681,7 +718,7 @@ Sabremos que esto es verdadero cuando, durante una sesión de validación, el us
 
 Creemos que crear un **módulo digital de registro de signos vitales** para el **personal de enfermería cardiovascular** permitirá reducir la dependencia de registros físicos complementarios.
 
-Sabremos que esto es verdadero cuando el usuario pueda registrar los signos vitales de un paciente en una tarea simulada, identifique correctamente los campos requeridos y comprenda los mensajes de validación cuando falte información obligatoria.
+Sabremos que esto es verdadero cuando el usuario registre los signos vitales de un paciente en una tarea simulada, identifique correctamente los campos obligatorios y complete el flujo sin omitir información crítica.
 
 ###### Hipótesis 3 — Consulta de evolución clínica
 
@@ -693,13 +730,13 @@ Sabremos que esto es verdadero cuando el usuario pueda ubicar información crít
 
 Creemos que mostrar **fecha, hora y responsable** de las acciones clínicas relevantes para los **usuarios clínicos** permitirá aumentar la confianza en la información registrada.
 
-Sabremos que esto es verdadero cuando, durante una sesión de validación, el usuario pueda identificar quién registró un evento, cuándo ocurrió y por qué esa información es útil para el seguimiento del paciente.
+Sabremos que esto es verdadero cuando el usuario identifique fácilmente quién registró un evento, cuand ocurrió y por qué esa información resulta útil para el seguimiento del paciente.
 
 ###### Hipótesis 5 — Alertas y eventos críticos
 
 Creemos que presentar **eventos críticos o alertas clínicas** de manera visible para los **usuarios clínicos** permitirá identificar con mayor facilidad situaciones que requieren atención.
 
-Sabremos que esto es verdadero cuando el usuario pueda reconocer rápidamente un evento relevante dentro del flujo de consulta y describir qué acción tomaría a partir de la alerta presentada.
+Sabremos que esto es verdadero cuando el usuario reconozca rápidamente un evento relevante dentro del flujo de consulta y describa la acción que tomaría a partir de la alerta mostrada.
 
 ###### Hipótesis 6 — Landing Page
 
@@ -713,18 +750,38 @@ Creemos que presentar PulseReport como una **herramienta complementaria para com
 
 Sabremos que esto es verdadero cuando un responsable clínico o usuario con experiencia hospitalaria considere viable usar PulseReport como apoyo para registrar traspasos, consultar eventos y mejorar seguimiento clínico.
 
-##### 1.2.2.4. Lean UX Canvas
+##### 1.2.2.6. Lean UX Experiments and Learning
 
-| Sección | Descripción |
-| ------- | ----------- |
-| **1. Problema / Oportunidad** | En áreas cardiovasculares, la información clínica puede encontrarse dispersa entre registros físicos, sistemas hospitalarios, hojas de cálculo y comunicación verbal. Esto genera riesgo de omisiones, duplicidad de registros, pérdida de trazabilidad y retrasos en la atención. PulseReport busca mejorar la continuidad del cuidado mediante una plataforma web que centralice información clínica relevante y estructure procesos críticos. |
-| **2. Usuarios y Clientes** | **Usuarios directos:** personal de enfermería cardiovascular y médicos especialistas cardiovasculares. <br> **Cliente institucional:** hospitales, clínicas privadas y centros especializados en cardiología. <br> **Beneficiario indirecto:** pacientes cardiovasculares que reciben atención más continua y mejor organizada. |
-| **3. Supuestos** | Los usuarios necesitan registrar y consultar información de manera rápida, clara y segura. Los cambios de turno son momentos críticos donde puede perderse información. Los médicos necesitan vistas resumidas para tomar decisiones. Las instituciones valoran soluciones que mejoren trazabilidad sin reemplazar completamente sus sistemas actuales. |
-| **4. Necesidades del Usuario** | Registrar signos vitales, documentar traspasos SBAR, consultar evolución clínica, identificar eventos relevantes, revisar información trazable y reducir dependencia de registros físicos o comunicación no estructurada. |
-| **5. Solución Propuesta** | PulseReport es una plataforma web orientada a la gestión de procesos clínicos cardiovasculares. Incluye registro de pacientes, signos vitales, eventos clínicos, traspasos SBAR, dashboard clínico, alertas y log de auditoría. |
-| **6. Resultados Esperados** | Mejor comunicación entre turnos, mayor trazabilidad clínica, menor duplicidad de registros, consulta más rápida de información relevante y mejor continuidad de atención. |
-| **7. Experimentos** | Entrevistas con usuarios, validación de Landing Page, pruebas de usabilidad con tareas basadas en User Goals, evaluación heurística, demostración de flujos principales y revisión de evidencias de implementación. |
-| **8. MVP** | Landing Page desplegada, aplicación web con flujos principales de registro y consulta, documentación de traspasos SBAR, registro de signos vitales, visualización de eventos clínicos, dashboard básico y servicios RESTful API documentados. |
+Cada hipótesis debe validarse con un experimento breve, concreto y orientado al aprendizaje.
+
+|Hipótesis	|Experimento	|Evidencia esperada	| Aprendizaje esperado|
+|-----------|-------------|---------------------|---------------------|
+|SBAR	|Prueba de tarea con enfermería cardiovascular.	|El usuario completa el traspaso sin ayuda y entiende la estructura.	|Confirmar si SBAR reduce ambigüedad y mejora la organización del reporte.|
+|Signos vitales	|Prueba de registro de signos vitales.	|El usuario identifica campos obligatorios y completa el formulario correctamente.	|Validar si el flujo reduce fricción frente al registro físico.|
+|Evolución clínica	|Prueba de consulta guiada.	|El médico interpreta rápidamente el estado del paciente.	|Verificar si la vista resumida realmente acelera la consulta.|
+|Trazabilidad	|Revisión de auditoría en escenarios simulados.	|El usuario identifica autor, fecha y hora sin dificultad.	|Comprobar si la trazabilidad genera confianza en el registro.|
+|Alertas	|Test de reconocimiento visual.	|El usuario detecta eventos críticos con rapidez.	|Determinar si el sistema de alertas es visible y accionable.|
+|Landing Page	|Test de comprensión de propuesta de valor.	|El visitante explica el problema y la solución.	|Validar si el sitio comunica el valor del producto en pocos segundos.|
+|Adopción institucional	|Entrevista breve con usuario experto.	|El usuario considera viable usar la solución como complemento.	|Medir interés real y objeciones para adopción institucional.|
+
+Los experimentos se ejecutan en ciclos cortos, y cada resultado alimenta una decisión de diseño. 
+Si una hipótesis se confirma, se refuerza el enfoque del producto. 
+Si se invalida, la solución se ajusta o se redefine antes de continuar.
+
+##### 1.2.2.7. Lean UX Canvas
+
+| Sección                    | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Business Problem**    | En áreas cardiovasculares, la información clínica puede encontrarse dispersa entre registros físicos, sistemas hospitalarios, hojas de cálculo y comunicación verbal. Esto genera riesgo de omisiones, duplicidad de registros, pérdida de trazabilidad y retrasos en la atención. PulseReport busca mejorar la continuidad del cuidado mediante una plataforma web que centralice información clínica relevante y estructure procesos críticos. |
+| **2. Business Outcomes**   | Reducir tiempo operativo, disminuir duplicidad de registros, mejorar trazabilidad y aumentar adopción de una solución digital complementaria.                                                                                                                                                                                                                                                                                                    |
+| **3. Users and Customers** | **Usuarios directos:** personal de enfermería cardiovascular y médicos especialistas cardiovasculares. **Cliente institucional:** hospitales, clínicas privadas y centros especializados en cardiología.                                                                                                                                                                                                                                         |
+| **4. User Outcomes**       | Registrar signos vitales, documentar traspasos SBAR, consultar evolución clínica, identificar eventos relevantes, revisar información trazable y reducir dependencia de registros físicos o comunicación no estructurada.                                                                                                                                                                                                                        |
+| **5. User Benefits**       | Menor carga operativa, mejor continuidad de atención, menos omisiones, mayor claridad en traspasos de turno y mayor confianza en la información.                                                                                                                                                                                                                                                                                                 |
+| **6. Solutions**           | Landing Page informativa, Web Application clínica, traspasos SBAR, registro de signos vitales, dashboard clínico, alertas y log de auditoría.                                                                                                                                                                                                                                                                                                    |
+| **7. Hypotheses**          | Las funciones propuestas mejorarán la comunicación entre turnos, la consulta clínica y la trazabilidad del paciente.                                                                                                                                                                                                                                                                                                                             |
+| **8. Assumptions**         | Los usuarios valoran simplicidad, rapidez y una herramienta complementaria que no aumente su carga operativa.                                                                                                                                                                                                                                                                                                                                    |
+| **9. Experiments**         | Entrevistas, pruebas de usabilidad, validación de Landing Page, evaluación heurística y revisión de flujos principales.                                                                                                                                                                                                                                                                                                                          |
+| **10. Learning**           | Cada validación debe producir ajustes concretos en la experiencia del usuario y en la priorización del backlog.                                                                                                                                                                                                                                                                                                                                  |
 
 ### 1.3. Segmentos objetivo
 
