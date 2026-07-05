@@ -1939,52 +1939,97 @@ Cuadro de Epics, User Stories y Technical Stories
 | **TS-04**       | Gestión de traspasos SBAR mediante API          | Como Developer, quiero implementar endpoints de traspasos SBAR para registrar y consultar entregas de turno.                                                                                                                               | **Given** que un cliente autorizado envía un traspaso SBAR válido, **When** el API procesa la solicitud, **Then** guarda el traspaso asociado al paciente y responde con estado 201. <br><br> **Given** que falta un campo requerido del SBAR, **When** el API procesa la solicitud, **Then** responde con estado 400.                                                                                                                                                                     | EP-06                     |
 | **TS-05**       | Trazabilidad de acciones clínicas               | Como Developer, quiero registrar auditoría de acciones clínicas para conservar responsable, fecha y tipo de operación realizada.                                                                                                           | **Given** que un usuario autorizado crea o actualiza un registro clínico, **When** el API completa la operación, **Then** almacena usuario, fecha, hora y tipo de acción. <br><br> **Given** que se consulta la auditoría de un registro, **When** existe información de trazabilidad, **Then** el API responde con la secuencia de acciones registradas.                                                                                                                                  | EP-06                     |
 | **TS-06**       | Manejo consistente de errores del API           | Como Developer, quiero estandarizar las respuestas de error para facilitar el consumo del API por parte del frontend.                                                                                                                      | **Given** que ocurre un error de validación, **When** el API responde, **Then** incluye código HTTP 400 y detalle del error. <br><br> **Given** que un usuario no autorizado solicita un recurso protegido, **When** el API procesa la solicitud, **Then** responde con estado 401 o 403 según corresponda.                                                                                                                                                                                | EP-06                     |
-| Bloque                                            | Historias     |
-| ------------------------------------------------- | ------------- |
-| EP-01 Landing Page informativa                    | US-01 a US-12 |
-| EP-02 Gestión de traspaso clínico SBAR            | US-13 a US-15 |
-| EP-03 Registro y seguimiento clínico del paciente | US-16 a US-19 |
-| EP-04 Trazabilidad clínica                        | US-20 a US-22 |
-| EP-05 Soporte a la toma de decisiones clínicas    | US-23 a US-25 |
-| EP-06 RESTful API de PulseReport                  | TS-01 a TS-06 |
 
+#### Resumen de Epics, User Stories y Technical Stories
 
+| Epic ID | Bloque | Historias relacionadas | Propósito |
+| ------- | ------ | ---------------------- | --------- |
+| **EP-01** | Landing Page informativa | US-01 a US-12 | Comunicar la propuesta de valor de PulseReport, explicar el problema, presentar beneficios, generar confianza y facilitar contacto con visitantes interesados. |
+| **EP-02** | Gestión de traspaso clínico SBAR | US-13 a US-15 | Estructurar la comunicación clínica durante cambios de turno mediante el modelo SBAR. |
+| **EP-03** | Registro y seguimiento clínico del paciente | US-16 a US-19 | Registrar información clínica relevante como signos vitales, administración de medicamentos y eventos clínicos. |
+| **EP-04** | Trazabilidad clínica | US-20 a US-22 | Consultar historial, responsables y cumplimiento de indicaciones para fortalecer seguimiento, auditoría y continuidad clínica. |
+| **EP-05** | Soporte a la toma de decisiones clínicas | US-23 a US-25 | Facilitar consulta de información consolidada, identificación de cambios críticos y validación de información con enfermería. |
+| **EP-06** | RESTful API de PulseReport | TS-01 a TS-06 | Implementar recursos técnicos del backend necesarios para exponer pacientes, registros clínicos, traspasos, trazabilidad, autenticación y manejo de errores. |
+
+La distribución de Epics, User Stories y Technical Stories permite mantener trazabilidad entre la investigación de usuarios, los Business Goals, el Impact Mapping, el Product Backlog y las funcionalidades implementadas en los sprints del proyecto.
 
 ### 3.2. Impact Mapping
 
 La presente sección desarrolla el Impact Mapping del proyecto PulseReport, elaborado para el modelo de negocio digital a partir de los User Personas, User Stories, User Journey Maps, Empathy Maps, Big Picture Event Storming y Ubiquitous Language.
 
-El Impact Mapping permite conectar los Business Goals con los actores que pueden contribuir a lograrlos, los cambios de comportamiento esperados, los entregables digitales necesarios y las User Stories que permitirán implementar dichos entregables.
+El Impact Mapping permite conectar los objetivos de negocio con los actores que pueden contribuir a lograrlos, los cambios de comportamiento esperados, los entregables digitales necesarios y las User Stories que permiten construir dichos entregables. De esta manera, se evita que las funcionalidades sean definidas de forma aislada y se mantiene trazabilidad entre investigación, requerimientos, diseño e implementación.
 
 La estructura utilizada responde a las siguientes preguntas:
 
-| Elemento            | Pregunta que responde                                                                      |
-| ------------------- | ------------------------------------------------------------------------------------------ |
-| **Business Goal**   | ¿Qué objetivo de negocio se quiere alcanzar?                                               |
-| **Actor / Persona** | ¿Quién puede ayudar a lograr la meta?                                                      |
-| **Impact**          | ¿Qué tendría que hacer el actor para contribuir al objetivo?                               |
-| **Deliverable**     | ¿Qué puede construir el negocio digital para provocar ese impacto?                         |
-| **User Stories**    | ¿Qué historias permiten desarrollar los features necesarios para producir los entregables? |
+| Elemento | Pregunta que responde |
+| -------- | --------------------- |
+| **Business Goal** | ¿Qué objetivo de negocio se quiere alcanzar? |
+| **Actor / Persona** | ¿Quién puede ayudar a lograr la meta? |
+| **Impact** | ¿Qué tendría que hacer el actor para contribuir al objetivo? |
+| **Deliverable** | ¿Qué puede construir el negocio digital para provocar ese impacto? |
+| **User Stories** | ¿Qué historias permiten desarrollar los features necesarios para producir los entregables? |
 
-En este caso, el Impact Mapping considera varios Business Goals definidos bajo criterios SMART, los User Personas previamente identificados y las User Stories del backlog del proyecto PulseReport.
+Para este proyecto se consideran Business Goals definidos bajo criterios SMART, los User Personas previamente identificados y las User Stories del backlog del proyecto PulseReport.
 
-Business Goals SMART
+#### Business Goals SMART
 
-| Business Goal ID | Business Goal SMART                                                                                                                                                                                                                         |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **BG-01**        | Lograr que al menos **60 visitantes interesados** soliciten información o una demostración de PulseReport mediante la Landing Page durante los primeros **4 meses** posteriores a su publicación.                                           |
-| **BG-02**        | Conseguir que al menos **3 instituciones de salud o áreas clínicas cardiovasculares** validen el flujo de traspaso SBAR digital durante los primeros **6 meses** del proyecto.                                                              |
-| **BG-03**        | Reducir en un **30% el tiempo estimado de búsqueda y revisión de información clínica relevante** durante escenarios simulados de UCI cardiovascular en un periodo de **6 meses**.                                                           |
-| **BG-04**        | Lograr que al menos el **80% de usuarios clínicos participantes en pruebas piloto** registre eventos clínicos, signos vitales o traspasos usando PulseReport sin recurrir a registros físicos complementarios en un periodo de **8 meses**. |
-| **BG-05**        | Alcanzar un nivel mínimo de **85% de trazabilidad completa** en eventos clínicos registrados durante pruebas piloto, considerando responsable, fecha, hora y tipo de acción, en un periodo de **8 meses**.                                  |
+| Business Goal ID | Business Goal SMART |
+| ---------------- | ------------------- |
+| **BG-01** | Lograr que al menos **60 visitantes interesados** soliciten información o una demostración de PulseReport mediante la Landing Page durante los primeros **4 meses** posteriores a su publicación. |
+| **BG-02** | Conseguir que al menos **3 instituciones de salud o áreas clínicas cardiovasculares** validen el flujo de traspaso SBAR digital durante los primeros **6 meses** del proyecto. |
+| **BG-03** | Reducir en un **30% el tiempo estimado de búsqueda y revisión de información clínica relevante** durante escenarios simulados de UCI cardiovascular en un periodo de **6 meses**. |
+| **BG-04** | Lograr que al menos el **80% de usuarios clínicos participantes en pruebas piloto** registre eventos clínicos, signos vitales o traspasos usando PulseReport sin recurrir a registros físicos complementarios en un periodo de **8 meses**. |
+| **BG-05** | Alcanzar un nivel mínimo de **85% de trazabilidad completa** en eventos clínicos registrados durante pruebas piloto, considerando responsable, fecha, hora y tipo de acción, en un periodo de **8 meses**. |
 
-Impact Mapping detallado
+#### Actors / Personas considerados
 
-Debido a la extensión de las User Stories, la captura visual del Impact Mapping presenta los identificadores principales. La siguiente tabla detalla las User Stories completas en formato “Como… deseo… para…”, vinculadas a cada Business Goal, Impact y Deliverable.
+| Actor / Persona | Relación con PulseReport |
+| --------------- | ------------------------ |
+| **Visitante de la Landing Page** | Persona interesada en conocer la solución, revisar beneficios, evaluar confianza y solicitar información o una demostración. |
+| **Daniela Ríos — Personal de enfermería cardiovascular** | User Persona encargado de registrar signos vitales, eventos clínicos, administración de medicamentos y traspasos SBAR durante el turno. |
+| **Dr. Alejandro Torres — Médico especialista cardiovascular** | User Persona encargado de consultar información clínica, validar evolución del paciente y tomar decisiones médicas oportunas. |
+| **Cliente institucional** | Hospital, clínica privada o centro especializado en cardiología que puede adoptar PulseReport para mejorar procesos internos. |
+| **Developer** | Actor técnico encargado de implementar y consumir recursos del RESTful API que soportan la Web Application. |
 
-imagen
-imagen
-imagen
+#### Capturas del Impact Mapping
+
+El Impact Mapping visual fue elaborado en una herramienta colaborativa y organizado en tres capturas para facilitar su lectura. Cada captura relaciona Business Goals, actores, impactos, entregables y User Stories asociadas.
+
+<p align="center">
+  <img src="assets/assets/chapter-3/impact-mapping-bg01-bg02.png" alt="Impact Mapping BG-01 y BG-02" width="850">
+</p>
+
+<p align="center">
+  <img src="assets/assets/chapter-3/impact-mapping-bg03-bg04.png" alt="Impact Mapping BG-03 y BG-04" width="850">
+</p>
+
+<p align="center">
+  <img src="assets/assets/chapter-3/impact-mapping-bg05.png" alt="Impact Mapping BG-05" width="850">
+</p>
+
+#### Impact Mapping detallado
+
+Debido a que las capturas visuales presentan los identificadores principales para mantener legibilidad, la siguiente tabla detalla la relación completa entre Business Goals, actores, impactos esperados, entregables digitales y User Stories asociadas.
+
+| Business Goal | Actor / Persona | Impact esperado | Deliverable | User Stories relacionadas |
+| ------------- | --------------- | --------------- | ----------- | ------------------------- |
+| **BG-01** | Visitante de la Landing Page | Comprender rápidamente qué es PulseReport, qué problema resuelve y por qué puede aportar valor al entorno clínico cardiovascular. | Landing Page informativa con propuesta de valor, explicación del problema, funcionamiento y beneficios. | **US-01:** Como visitante, deseo visualizar la landing page de PulseReport para conocer rápidamente la solución propuesta. <br><br> **US-02:** Como visitante, deseo conocer la propuesta de valor de PulseReport para entender qué problema clínico busca resolver. <br><br> **US-03:** Como visitante, deseo entender por qué existe la necesidad de PulseReport para reconocer el problema actual de información clínica dispersa. |
+| **BG-01** | Visitante de la Landing Page | Evaluar confianza, resolver dudas y decidir si desea solicitar información adicional. | Secciones de características, beneficios, preguntas frecuentes, testimonios, equipo y contacto. | **US-04:** Como visitante, deseo conocer cómo funciona PulseReport en pasos simples para comprender el flujo general de uso de la solución. <br><br> **US-05:** Como visitante, deseo conocer las características principales de PulseReport para evaluar si la solución responde a necesidades del entorno clínico cardiovascular. <br><br> **US-06:** Como visitante, deseo revisar los beneficios de PulseReport para comprender el valor que aporta al entorno clínico. <br><br> **US-07:** Como visitante, deseo revisar preguntas frecuentes para resolver dudas básicas sobre alcance, uso y modelo de servicio de PulseReport. <br><br> **US-08:** Como visitante, deseo revisar testimonios sobre PulseReport para aumentar mi confianza en la solución. <br><br> **US-09:** Como visitante, deseo conocer al equipo detrás de PulseReport para identificar quiénes desarrollan la solución. <br><br> **US-10:** Como visitante, deseo contactar al equipo de PulseReport para solicitar información adicional o una demostración. |
+| **BG-01** | Visitante de la Landing Page | Acceder a la información desde distintos dispositivos y revisar el contenido en su idioma de preferencia. | Landing Page responsive e internacionalizada. | **US-11:** Como visitante, deseo cambiar el idioma del sitio entre español e inglés para revisar la información en el idioma de mi preferencia. <br><br> **US-12:** Como visitante, deseo acceder al sitio web desde dispositivos móviles para revisar información de PulseReport desde cualquier lugar. |
+| **BG-02** | Daniela Ríos — Personal de enfermería cardiovascular | Registrar información del cambio de turno de manera estructurada para reducir omisiones y mejorar continuidad clínica. | Módulo de traspaso clínico SBAR. | **US-13:** Como enfermera cardiovascular, deseo registrar un traspaso clínico usando SBAR para comunicar información relevante al siguiente turno. <br><br> **US-14:** Como enfermera entrante, deseo consultar el traspaso clínico del turno anterior para continuar la atención del paciente sin perder información relevante. <br><br> **US-15:** Como enfermera entrante, deseo confirmar que recibí el traspaso clínico para dejar constancia de continuidad de atención. |
+| **BG-02** | Cliente institucional | Validar si el flujo SBAR digital puede aplicarse como apoyo operativo dentro de áreas cardiovasculares. | Flujo demostrable de traspaso SBAR, evidencias de uso, documentación del proceso y validación con usuarios. | **US-13:** Como enfermera cardiovascular, deseo registrar un traspaso clínico usando SBAR para comunicar información relevante al siguiente turno. <br><br> **US-14:** Como enfermera entrante, deseo consultar el traspaso clínico del turno anterior para continuar la atención del paciente sin perder información relevante. <br><br> **TS-04:** Como Developer, deseo implementar endpoints de traspasos SBAR para registrar y consultar entregas de turno. |
+| **BG-03** | Dr. Alejandro Torres — Médico especialista cardiovascular | Consultar información clínica consolidada y reducir el tiempo de búsqueda entre múltiples fuentes. | Vista de evolución clínica, resumen clínico del paciente e historial de eventos. | **US-17:** Como médico especialista cardiovascular, deseo consultar la evolución clínica reciente del paciente para tomar decisiones con información actualizada. <br><br> **US-20:** Como médico especialista cardiovascular, deseo consultar el historial de eventos clínicos para reconstruir la evolución del paciente. <br><br> **US-23:** Como médico especialista cardiovascular, deseo consultar un resumen clínico del paciente para comprender rápidamente su estado actual. |
+| **BG-03** | Daniela Ríos — Personal de enfermería cardiovascular | Registrar información clínica de manera ordenada para que luego pueda ser consultada con menor fricción por otros profesionales. | Formularios de registro clínico para signos vitales, administración de medicamentos y eventos relevantes. | **US-16:** Como enfermera cardiovascular, deseo registrar signos vitales del paciente para mantener actualizado el monitoreo clínico. <br><br> **US-18:** Como enfermera cardiovascular, deseo registrar la administración de medicamentos para dejar constancia del cumplimiento de indicaciones médicas. <br><br> **US-19:** Como enfermera cardiovascular, deseo registrar eventos clínicos relevantes para que el equipo pueda dar seguimiento oportuno al paciente. |
+| **BG-04** | Daniela Ríos — Personal de enfermería cardiovascular | Registrar signos vitales, eventos y traspasos en un flujo digital para reducir dependencia de apuntes físicos complementarios. | Módulos digitales de registro clínico, eventos relevantes y traspaso SBAR. | **US-13:** Como enfermera cardiovascular, deseo registrar un traspaso clínico usando SBAR para comunicar información relevante al siguiente turno. <br><br> **US-16:** Como enfermera cardiovascular, deseo registrar signos vitales del paciente para mantener actualizado el monitoreo clínico. <br><br> **US-19:** Como enfermera cardiovascular, deseo registrar eventos clínicos relevantes para que el equipo pueda dar seguimiento oportuno al paciente. |
+| **BG-04** | Developer | Exponer recursos técnicos que permitan al frontend registrar y consultar información clínica desde el RESTful API. | Endpoints de pacientes, registros clínicos, traspasos y manejo consistente de errores. | **TS-02:** Como Developer, deseo exponer endpoints de pacientes para crear, consultar y actualizar información básica del paciente cardiovascular. <br><br> **TS-03:** Como Developer, deseo exponer endpoints de registros clínicos para permitir el registro y consulta de signos vitales, eventos e indicaciones. <br><br> **TS-04:** Como Developer, deseo implementar endpoints de traspasos SBAR para registrar y consultar entregas de turno. <br><br> **TS-06:** Como Developer, deseo estandarizar las respuestas de error para facilitar el consumo del API por parte del frontend. |
+| **BG-05** | Dr. Alejandro Torres — Médico especialista cardiovascular | Identificar responsables, horarios, secuencia de eventos y cumplimiento de indicaciones para tomar decisiones con información trazable. | Historial de eventos, detalle de responsable de registro, cumplimiento de indicaciones y resumen clínico. | **US-20:** Como médico especialista cardiovascular, deseo consultar el historial de eventos clínicos para reconstruir la evolución del paciente. <br><br> **US-21:** Como usuario clínico, deseo identificar quién registró una información clínica para asegurar trazabilidad y responsabilidad profesional. <br><br> **US-22:** Como médico especialista cardiovascular, deseo revisar el cumplimiento de indicaciones para verificar si el tratamiento fue ejecutado correctamente. <br><br> **US-23:** Como médico especialista cardiovascular, deseo consultar un resumen clínico del paciente para comprender rápidamente su estado actual. |
+| **BG-05** | Daniela Ríos — Personal de enfermería cardiovascular | Registrar información con responsable, fecha, hora y estado para fortalecer continuidad de atención. | Registro trazable de signos vitales, eventos, medicamentos y traspasos. | **US-16:** Como enfermera cardiovascular, deseo registrar signos vitales del paciente para mantener actualizado el monitoreo clínico. <br><br> **US-18:** Como enfermera cardiovascular, deseo registrar la administración de medicamentos para dejar constancia del cumplimiento de indicaciones médicas. <br><br> **US-19:** Como enfermera cardiovascular, deseo registrar eventos clínicos relevantes para que el equipo pueda dar seguimiento oportuno al paciente. |
+| **BG-05** | Developer | Garantizar que las acciones clínicas registradas mantengan evidencia técnica de auditoría, seguridad y trazabilidad. | Auditoría de acciones clínicas, autenticación, autorización y protección de recursos del API. | **TS-01:** Como Developer, deseo implementar autenticación para proteger el acceso a recursos clínicos del sistema. <br><br> **TS-05:** Como Developer, deseo registrar auditoría de acciones clínicas para conservar responsable, fecha y tipo de operación realizada. <br><br> **TS-06:** Como Developer, deseo estandarizar las respuestas de error para facilitar el consumo del API por parte del frontend. |
+| **BG-05** | Dr. Alejandro Torres — Médico especialista cardiovascular | Identificar cambios críticos y validar información con enfermería para responder oportunamente ante deterioros clínicos. | Alertas o marcadores de cambios críticos y registro de validación clínica entre médico y enfermería. | **US-24:** Como médico especialista cardiovascular, deseo identificar cambios críticos del paciente para responder oportunamente ante deterioros clínicos. <br><br> **US-25:** Como médico especialista cardiovascular, deseo validar información relevante con enfermería para reducir incertidumbre antes de tomar una decisión clínica. |
+
+#### Conclusión del Impact Mapping
+
+El Impact Mapping permite evidenciar que las funcionalidades priorizadas de PulseReport responden a objetivos de negocio concretos. La Landing Page se relaciona con la adquisición de visitantes interesados y la comunicación de la propuesta de valor. Los módulos clínicos de traspaso SBAR, signos vitales, eventos, resumen clínico e historial se relacionan con la mejora de comunicación, reducción del tiempo de búsqueda de información, disminución de dependencia de registros físicos y fortalecimiento de trazabilidad. Finalmente, las Technical Stories del RESTful API permiten sostener técnicamente los entregables necesarios para registro, consulta, seguridad, auditoría y continuidad clínica.
 
 ### 3.3. Product Backlog
 
@@ -1992,67 +2037,102 @@ La presente sección desarrolla el Product Backlog del proyecto PulseReport, inc
 
 De acuerdo con el criterio solicitado, las historias relacionadas con el sitio web estático o Landing Page se consideran desde el primer sprint, ya que permiten comunicar la propuesta de valor, captar visitantes interesados y validar el interés inicial del mercado. Posteriormente se priorizan las funcionalidades clínicas centrales relacionadas con traspaso SBAR, registro clínico, trazabilidad, consulta de información y soporte a la toma de decisiones.
 
-La estimación se realiza utilizando Story Points con valores 1, 2, 3, 5 y 8, considerando complejidad funcional, esfuerzo técnico, validaciones requeridas, dependencias y riesgo de implementación.
+La estimación se realiza utilizando Story Points con valores **1, 2, 3, 5 y 8**, considerando complejidad funcional, esfuerzo técnico, validaciones requeridas, dependencias y riesgo de implementación.
 
-Product Backlog — PulseReport
+#### Criterios de priorización
 
-| # Orden | User Story Id | Título                                         | Descripción                                                                                                                                                         | Story Points |
-| ------: | ------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------: |
-|       1 | US-01         | Visualizar landing page                        | Como visitante, deseo visualizar la landing page de PulseReport para conocer rápidamente la solución propuesta.                                                     |            3 |
-|       2 | US-02         | Ver propuesta de valor                         | Como visitante, deseo conocer la propuesta de valor de PulseReport para entender qué problema clínico busca resolver.                                               |            3 |
-|       3 | US-03         | Consultar el problema que resuelve PulseReport | Como visitante, deseo entender por qué existe la necesidad de PulseReport para reconocer el problema actual de información clínica dispersa.                        |            3 |
-|       4 | US-04         | Revisar cómo funciona PulseReport              | Como visitante, deseo conocer cómo funciona PulseReport en pasos simples para comprender el flujo general de uso de la solución.                                    |            3 |
-|       5 | US-05         | Visualizar características clave               | Como visitante, deseo conocer las características principales de PulseReport para evaluar si la solución responde a necesidades del entorno clínico cardiovascular. |            3 |
-|       6 | US-06         | Visualizar beneficios                          | Como visitante, deseo revisar los beneficios de PulseReport para comprender el valor que aporta al entorno clínico.                                                 |            3 |
-|       7 | US-10         | Contactar al equipo de PulseReport             | Como visitante, deseo contactar al equipo de PulseReport para solicitar información adicional o una demostración.                                                   |            5 |
-|       8 | US-12         | Acceder desde dispositivos móviles             | Como visitante, deseo acceder al sitio web desde dispositivos móviles para revisar información de PulseReport desde cualquier lugar.                                |            5 |
-|       9 | US-11         | Cambiar idioma del sitio                       | Como visitante, deseo cambiar el idioma del sitio entre español e inglés para revisar la información en el idioma de mi preferencia.                                |            5 |
-|      10 | US-07         | Consultar preguntas frecuentes                 | Como visitante, deseo revisar preguntas frecuentes para resolver dudas básicas sobre alcance, uso y modelo de servicio de PulseReport.                              |            2 |
-|      11 | US-08         | Visualizar testimonios                         | Como visitante, deseo revisar testimonios sobre PulseReport para aumentar mi confianza en la solución.                                                              |            2 |
-|      12 | US-09         | Conocer al equipo                              | Como visitante, deseo conocer al equipo detrás de PulseReport para identificar quiénes desarrollan la solución.                                                     |            2 |
-|      13 | US-13         | Registrar traspaso SBAR                        | Como enfermera cardiovascular, deseo registrar un traspaso clínico usando SBAR para comunicar información relevante al siguiente turno.                             |            8 |
-|      14 | US-14         | Consultar traspaso de turno                    | Como enfermera entrante, deseo consultar el traspaso clínico del turno anterior para continuar la atención del paciente sin perder información relevante.           |            5 |
-|      15 | US-15         | Confirmar recepción de traspaso                | Como enfermera entrante, deseo confirmar que recibí el traspaso clínico para dejar constancia de continuidad de atención.                                           |            3 |
-|      16 | US-16         | Registrar signos vitales                       | Como enfermera cardiovascular, deseo registrar signos vitales del paciente para mantener actualizado el monitoreo clínico.                                          |            5 |
-|      17 | US-18         | Registrar administración de medicamento        | Como enfermera cardiovascular, deseo registrar la administración de medicamentos para dejar constancia del cumplimiento de indicaciones médicas.                    |            5 |
-|      18 | US-19         | Registrar evento clínico relevante             | Como enfermera cardiovascular, deseo registrar eventos clínicos relevantes para que el equipo pueda dar seguimiento oportuno al paciente.                           |            5 |
-|      19 | US-17         | Consultar evolución clínica                    | Como médico especialista cardiovascular, deseo consultar la evolución clínica reciente del paciente para tomar decisiones con información actualizada.              |            5 |
-|      20 | US-23         | Consultar resumen clínico del paciente         | Como médico especialista cardiovascular, deseo consultar un resumen clínico del paciente para comprender rápidamente su estado actual.                              |            8 |
-|      21 | US-20         | Consultar historial de eventos                 | Como médico especialista cardiovascular, deseo consultar el historial de eventos clínicos para reconstruir la evolución del paciente.                               |            5 |
-|      22 | US-21         | Identificar responsable de registro            | Como usuario clínico, deseo identificar quién registró una información clínica para asegurar trazabilidad y responsabilidad profesional.                            |            5 |
-|      23 | US-22         | Consultar cumplimiento de indicaciones         | Como médico especialista cardiovascular, deseo revisar el cumplimiento de indicaciones para verificar si el tratamiento fue ejecutado correctamente.                |            5 |
-|      24 | US-24         | Identificar cambios críticos                   | Como médico especialista cardiovascular, deseo identificar cambios críticos del paciente para responder oportunamente ante deterioros clínicos.                     |            8 |
-|      25 | US-25         | Validar información con enfermería             | Como médico especialista cardiovascular, deseo validar información relevante con enfermería para reducir incertidumbre antes de tomar una decisión clínica.         |            5 |
-|      26 | TS-02         | Gestión de pacientes mediante API              | Como Developer, deseo exponer endpoints de pacientes para crear, consultar y actualizar información básica del paciente cardiovascular.                             |            5 |
-|      27 | TS-03         | Gestión de registros clínicos mediante API     | Como Developer, deseo exponer endpoints de registros clínicos para permitir el registro y consulta de signos vitales, eventos e indicaciones.                       |            8 |
-|      28 | TS-04         | Gestión de traspasos SBAR mediante API         | Como Developer, deseo implementar endpoints de traspasos SBAR para registrar y consultar entregas de turno.                                                         |            5 |
-|      29 | TS-05         | Trazabilidad de acciones clínicas              | Como Developer, deseo registrar auditoría de acciones clínicas para conservar responsable, fecha y tipo de operación realizada.                                     |            5 |
-|      30 | TS-01         | Autenticación de usuarios                      | Como Developer, deseo implementar autenticación para proteger el acceso a recursos clínicos del sistema.                                                            |            5 |
-|      31 | TS-06         | Manejo consistente de errores del API          | Como Developer, deseo estandarizar las respuestas de error para facilitar el consumo del API por parte del frontend.                                                |            3 |
+| Criterio | Descripción |
+| -------- | ----------- |
+| **Valor para el negocio** | Se priorizan primero las historias que permiten comunicar la propuesta de valor, validar interés inicial y demostrar funcionalidad clínica central. |
+| **Relación con Business Goals** | Las historias se ordenan considerando su aporte a los objetivos definidos en el Impact Mapping. |
+| **Validación temprana** | Se colocan primero historias que permiten obtener retroalimentación de visitantes, usuarios clínicos y potenciales clientes institucionales. |
+| **Dependencias funcionales** | Algunas historias requieren que primero existan pacientes, registros, traspasos o recursos base del sistema. |
+| **Riesgo técnico** | Las Technical Stories se priorizan según su necesidad para soportar funcionalidades clínicas y no únicamente por seguridad o autenticación. |
+| **Alcance por sprints** | El backlog considera la evolución del producto desde Landing Page hasta Web Application, RESTful API, validación y cierre final. |
 
+#### Product Backlog — PulseReport
 
-Distribución por bloques funcionales
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| ------: | ------------- | ------ | ----------- | -----------: |
+| 1 | US-01 | Visualizar landing page | Como visitante, deseo visualizar la landing page de PulseReport para conocer rápidamente la solución propuesta. | 3 |
+| 2 | US-02 | Ver propuesta de valor | Como visitante, deseo conocer la propuesta de valor de PulseReport para entender qué problema clínico busca resolver. | 3 |
+| 3 | US-03 | Consultar el problema que resuelve PulseReport | Como visitante, deseo entender por qué existe la necesidad de PulseReport para reconocer el problema actual de información clínica dispersa. | 3 |
+| 4 | US-04 | Revisar cómo funciona PulseReport | Como visitante, deseo conocer cómo funciona PulseReport en pasos simples para comprender el flujo general de uso de la solución. | 3 |
+| 5 | US-05 | Visualizar características clave | Como visitante, deseo conocer las características principales de PulseReport para evaluar si la solución responde a necesidades del entorno clínico cardiovascular. | 3 |
+| 6 | US-06 | Visualizar beneficios | Como visitante, deseo revisar los beneficios de PulseReport para comprender el valor que aporta al entorno clínico. | 3 |
+| 7 | US-10 | Contactar al equipo de PulseReport | Como visitante, deseo contactar al equipo de PulseReport para solicitar información adicional o una demostración. | 5 |
+| 8 | US-12 | Acceder desde dispositivos móviles | Como visitante, deseo acceder al sitio web desde dispositivos móviles para revisar información de PulseReport desde cualquier lugar. | 5 |
+| 9 | US-11 | Cambiar idioma del sitio | Como visitante, deseo cambiar el idioma del sitio entre español e inglés para revisar la información en el idioma de mi preferencia. | 5 |
+| 10 | US-07 | Consultar preguntas frecuentes | Como visitante, deseo revisar preguntas frecuentes para resolver dudas básicas sobre alcance, uso y modelo de servicio de PulseReport. | 2 |
+| 11 | US-08 | Visualizar testimonios | Como visitante, deseo revisar testimonios sobre PulseReport para aumentar mi confianza en la solución. | 2 |
+| 12 | US-09 | Conocer al equipo | Como visitante, deseo conocer al equipo detrás de PulseReport para identificar quiénes desarrollan la solución. | 2 |
+| 13 | US-13 | Registrar traspaso SBAR | Como enfermera cardiovascular, deseo registrar un traspaso clínico usando SBAR para comunicar información relevante al siguiente turno. | 8 |
+| 14 | US-14 | Consultar traspaso de turno | Como enfermera entrante, deseo consultar el traspaso clínico del turno anterior para continuar la atención del paciente sin perder información relevante. | 5 |
+| 15 | US-15 | Confirmar recepción de traspaso | Como enfermera entrante, deseo confirmar que recibí el traspaso clínico para dejar constancia de continuidad de atención. | 3 |
+| 16 | US-16 | Registrar signos vitales | Como enfermera cardiovascular, deseo registrar signos vitales del paciente para mantener actualizado el monitoreo clínico. | 5 |
+| 17 | US-18 | Registrar administración de medicamento | Como enfermera cardiovascular, deseo registrar la administración de medicamentos para dejar constancia del cumplimiento de indicaciones médicas. | 5 |
+| 18 | US-19 | Registrar evento clínico relevante | Como enfermera cardiovascular, deseo registrar eventos clínicos relevantes para que el equipo pueda dar seguimiento oportuno al paciente. | 5 |
+| 19 | US-17 | Consultar evolución clínica | Como médico especialista cardiovascular, deseo consultar la evolución clínica reciente del paciente para tomar decisiones con información actualizada. | 5 |
+| 20 | US-23 | Consultar resumen clínico del paciente | Como médico especialista cardiovascular, deseo consultar un resumen clínico del paciente para comprender rápidamente su estado actual. | 8 |
+| 21 | US-20 | Consultar historial de eventos | Como médico especialista cardiovascular, deseo consultar el historial de eventos clínicos para reconstruir la evolución del paciente. | 5 |
+| 22 | US-21 | Identificar responsable de registro | Como usuario clínico, deseo identificar quién registró una información clínica para asegurar trazabilidad y responsabilidad profesional. | 5 |
+| 23 | US-22 | Consultar cumplimiento de indicaciones | Como médico especialista cardiovascular, deseo revisar el cumplimiento de indicaciones para verificar si el tratamiento fue ejecutado correctamente. | 5 |
+| 24 | US-24 | Identificar cambios críticos | Como médico especialista cardiovascular, deseo identificar cambios críticos del paciente para responder oportunamente ante deterioros clínicos. | 8 |
+| 25 | US-25 | Validar información con enfermería | Como médico especialista cardiovascular, deseo validar información relevante con enfermería para reducir incertidumbre antes de tomar una decisión clínica. | 5 |
+| 26 | TS-02 | Gestión de pacientes mediante API | Como Developer, deseo exponer endpoints de pacientes para crear, consultar y actualizar información básica del paciente cardiovascular. | 5 |
+| 27 | TS-03 | Gestión de registros clínicos mediante API | Como Developer, deseo exponer endpoints de registros clínicos para permitir el registro y consulta de signos vitales, eventos e indicaciones. | 8 |
+| 28 | TS-04 | Gestión de traspasos SBAR mediante API | Como Developer, deseo implementar endpoints de traspasos SBAR para registrar y consultar entregas de turno. | 5 |
+| 29 | TS-05 | Trazabilidad de acciones clínicas | Como Developer, deseo registrar auditoría de acciones clínicas para conservar responsable, fecha y tipo de operación realizada. | 5 |
+| 30 | TS-01 | Autenticación de usuarios | Como Developer, deseo implementar autenticación para proteger el acceso a recursos clínicos del sistema. | 5 |
+| 31 | TS-06 | Manejo consistente de errores del API | Como Developer, deseo estandarizar las respuestas de error para facilitar el consumo del API por parte del frontend. | 3 |
 
-| Bloque                        | Historias incluidas | Propósito                                                                                                |
-| ----------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------- |
-| Landing Page                  | US-01 a US-12       | Comunicar la propuesta de valor, captar interesados y validar interés inicial.                           |
-| Traspaso SBAR                 | US-13 a US-15       | Mejorar comunicación clínica durante cambios de turno.                                                   |
-| Registro clínico              | US-16, US-18, US-19 | Reducir duplicidad, registrar información relevante y disminuir dependencia de papel.                    |
-| Consulta clínica              | US-17, US-23        | Facilitar acceso rápido a evolución y estado actual del paciente.                                        |
-| Trazabilidad clínica          | US-20, US-21, US-22 | Reconstruir eventos, responsables, horarios y cumplimiento de indicaciones.                              |
-| Soporte a decisiones clínicas | US-24, US-25        | Identificar cambios críticos y validar información relevante con enfermería.                             |
-| RESTful API                   | TS-01 a TS-06       | Habilitar recursos técnicos para pacientes, registros, traspasos, trazabilidad, autenticación y errores. |
+#### Distribución por bloques funcionales
 
-Captura y URL del Product Backlog
+| Bloque | Historias incluidas | Propósito |
+| ------ | ------------------- | --------- |
+| **Landing Page** | US-01 a US-12 | Comunicar la propuesta de valor, captar interesados y validar interés inicial. |
+| **Traspaso SBAR** | US-13 a US-15 | Mejorar comunicación clínica durante cambios de turno. |
+| **Registro clínico** | US-16, US-18, US-19 | Reducir duplicidad, registrar información relevante y disminuir dependencia de papel. |
+| **Consulta clínica** | US-17, US-20, US-23 | Facilitar acceso rápido a evolución, historial y estado actual del paciente. |
+| **Trazabilidad clínica** | US-21, US-22 | Reconstruir responsables, horarios y cumplimiento de indicaciones. |
+| **Soporte a decisiones clínicas** | US-24, US-25 | Identificar cambios críticos y validar información relevante con enfermería. |
+| **RESTful API** | TS-01 a TS-06 | Habilitar recursos técnicos para pacientes, registros, traspasos, trazabilidad, autenticación y errores. |
 
-En el documento final se debe incluir una captura del Product Backlog elaborado en la herramienta indicada.
+#### Relación del Product Backlog con los Business Goals
 
-IMAGENN
+| Business Goal | Historias principales relacionadas | Justificación |
+| ------------- | ---------------------------------- | ------------- |
+| **BG-01** | US-01 a US-12 | Estas historias permiten comunicar el valor de PulseReport, generar confianza y facilitar contacto desde la Landing Page. |
+| **BG-02** | US-13, US-14, US-15, TS-04 | Estas historias permiten validar el flujo de traspaso SBAR digital con usuarios clínicos e instituciones. |
+| **BG-03** | US-16, US-17, US-20, US-23 | Estas historias reducen fricción al registrar y consultar información clínica relevante. |
+| **BG-04** | US-13, US-16, US-18, US-19, TS-02, TS-03, TS-04 | Estas historias permiten reemplazar registros físicos complementarios por flujos digitales funcionales. |
+| **BG-05** | US-20, US-21, US-22, US-24, US-25, TS-01, TS-05, TS-06 | Estas historias fortalecen trazabilidad clínica, seguridad, auditoría y soporte a decisiones clínicas. |
 
-También debe agregarse el enlace público al tablero:
+#### Relación del Product Backlog con los sprints
 
-URL del Product Backlog:
-https://docs.google.com/spreadsheets/d/1JWzVr2lEd1AoSZBmGx0D0B3Pd09Je_w_lRHvN-_5y40/edit?usp=sharing 
+| Sprint | Historias principales consideradas | Enfoque |
+| ------ | --------------------------------- | ------- |
+| **Sprint 1** | US-01, US-02, US-03, US-04, US-05, US-06, US-10, US-12 | Desarrollo inicial de Landing Page, comunicación de propuesta de valor, secciones principales, contacto y responsive design. |
+| **Sprint 2** | US-07, US-08, US-09, US-11, US-13, US-14, US-16, US-17 | Mejora de Landing Page, primeras vistas de Web Application, traspaso SBAR, signos vitales y consulta clínica inicial. |
+| **Sprint 3** | US-18, US-19, US-20, US-21, TS-02, TS-03, TS-04, TS-05 | Implementación de Web Services, registros clínicos, eventos, trazabilidad, endpoints REST y documentación de API. |
+| **Sprint 4** | US-15, US-22, US-23, US-24, US-25, TS-01, TS-06 | Cierre de funcionalidades, validación final, autenticación, manejo de errores, evidencias finales y mejoras del producto. |
+
+#### Captura y URL del Product Backlog
+
+La siguiente captura corresponde al Product Backlog elaborado en la herramienta de gestión utilizada por el equipo. En ella se evidencia la priorización de historias, estimación mediante Story Points y organización del backlog según valor para el negocio.
+
+<p align="center">
+  <img src="assets/assets/chapter-3/product-backlog.png" alt="Product Backlog PulseReport" width="850">
+</p>
+
+**URL del Product Backlog:**  
+https://docs.google.com/spreadsheets/d/1JWzVr2lEd1AoSZBmGx0D0B3Pd09Je_w_lRHvN-_5y40/edit?usp=sharing
+
+#### Conclusión del Product Backlog
+
+El Product Backlog de PulseReport prioriza primero las historias relacionadas con la Landing Page porque permiten comunicar la propuesta de valor, validar interés inicial y obtener contacto con visitantes interesados. Luego se priorizan funcionalidades clínicas centrales relacionadas con traspaso SBAR, registro de signos vitales, eventos clínicos, consulta de evolución, trazabilidad y soporte a decisiones clínicas.
+
+Las Technical Stories se ubican después de las historias funcionales principales porque su propósito es habilitar técnicamente los recursos necesarios para la Web Application y el RESTful API. Esta organización evita priorizar autenticación o seguridad al inicio sin una relación directa con valor de negocio visible, y mantiene coherencia con el enfoque solicitado para el Product Backlog.
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
