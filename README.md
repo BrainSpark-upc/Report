@@ -80,12 +80,12 @@ El objetivo de esta sección es resumir las modificaciones relevantes realizadas
 | **2.9** | 18/06/2026 | AdrianR16-C | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
 | **3.0** | 18/06/2026 | RoccaA4 | Se actualizaron evidencias visuales del producto, mock-ups, flujos de interacción y capturas relacionadas con la Web Application. |
 | **3.1** | 18/06/2026 | Johancuba | Se documentaron servicios RESTful API, despliegue de Web Services, configuración técnica y evidencias de implementación. |
-| **3.2** | 18/06/2026 | CarlosMansilla | Se revisó la coherencia general del informe de AV2, corrigiendo redacción, estructura, evidencias y alineación con la rúbrica. |
+| **3.2** | 18/06/2026 | CarlosMansilla | Se integró al equipo durante AV2 y desarrolló el bounded context de Vital Signs en el backend de PulseReport, incluyendo estructura por capas, lógica de dominio, persistencia, servicios de aplicación, endpoints REST para crear y consultar registros de signos vitales, validación mediante Swagger y documentación técnica correspondiente al Sprint 3. |
 | **3.3** | 01/07/2026 | AlexanderAliaga19 | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustes generales del documento. |
 | **3.4** | 01/07/2026 | AdrianR16-C | Se corrigieron secciones relacionadas con entrevistas, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación y requerimientos. |
 | **3.5** | 01/07/2026 | RoccaA4 | Se revisaron y actualizaron secciones relacionadas con UX/UI, wireframes, mock-ups, prototipos, user flows y coherencia visual de la Web Application. |
 | **3.6** | 01/07/2026 | Johancuba | Se revisaron y actualizaron secciones relacionadas con arquitectura de software, diseño orientado a objetos, base de datos, configuración técnica y despliegue. |
-| **3.7** | 01/07/2026 | CarlosMansilla | Se corrigió la coherencia general del informe final TB2, incluyendo Student Outcome, Sprint 4, evidencias de colaboración, redacción y alineación con el enunciado oficial. |
+| **3.7** | 01/07/2026 | CarlosMansilla | Participó en la revisión final del informe TB2, corrigiendo coherencia entre artefactos, actualización de Sprint 4, Student Outcome, evidencias de colaboración, documentación técnica, trazabilidad de endpoints y alineación general con el enunciado oficial del trabajo final. |
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
@@ -256,7 +256,6 @@ A continuación, se incluyen capturas de los analíticos de colaboración del re
 - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
-
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -265,7 +264,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del grupo, que permiten sustentar el cumplimiento del ABET – EAC - Student Outcome 3.
 
 <table>
   <tr>
@@ -278,45 +277,66 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td>
       <b>Aliaga Ocampo, Alexander Auden</b><br>
-      <b>AV1:</b> Participó en la explicación oral de la propuesta inicial de PulseReport, presentando la problemática identificada, el perfil de la startup y el enfoque general de la solución para una audiencia académica.<br>
-      <b>AV2:</b> Apoyó en la comunicación oral de los avances del producto, especialmente en la presentación de la Landing Page, sus secciones principales y la forma en que comunica la propuesta de valor a visitantes interesados.<br><br>
+      <b>AV1:</b> Participó en la explicación oral de la propuesta inicial de PulseReport, presentando la problemática identificada, el perfil de la startup, los segmentos objetivo y el enfoque general de la solución para una audiencia académica.<br>
+      <b>TB1:</b> Explicó avances relacionados con la Landing Page, la propuesta de valor, los primeros artefactos del producto y la forma en que la solución comunica sus beneficios a visitantes interesados y potenciales clientes institucionales.<br>
+      <b>AV2:</b> Apoyó en la comunicación oral de los avances del producto, especialmente en la presentación de evidencias de implementación, mejoras de la Landing Page, validación de la aplicación y organización general del informe.<br>
+      <b>TB2:</b> Participó en la preparación de la exposición final del proyecto, reforzando la explicación de la propuesta de valor, evidencias finales, Sprint 4, mejoras realizadas y coherencia general del producto PulseReport.<br><br>
       <b>Rios Cespedes, Adrian Matias</b><br>
-      <b>AV1:</b> Explicó oralmente los hallazgos obtenidos durante la etapa de entrevistas, relacionando las necesidades identificadas con los segmentos objetivo del proyecto.<br>
-      <b>AV2:</b> Participó en la exposición de avances relacionados con requisitos, documentación técnica y validación del producto, utilizando un lenguaje orientado tanto a la audiencia académica como a usuarios del dominio clínico.<br><br>
+      <b>AV1:</b> Explicó oralmente los hallazgos obtenidos durante la etapa de entrevistas, relacionando las necesidades identificadas con los segmentos objetivo y con la problemática clínica que PulseReport busca resolver.<br>
+      <b>TB1:</b> Comunicó avances relacionados con Requirements Elicitation & Analysis, Needfinding, User Stories, Product Backlog y la trazabilidad entre entrevistas, necesidades de usuarios y requisitos del producto.<br>
+      <b>AV2:</b> Participó en la exposición de avances relacionados con validación, entrevistas, documentación de requisitos y evidencias del producto, utilizando un lenguaje orientado tanto a la audiencia académica como a usuarios del dominio clínico.<br>
+      <b>TB2:</b> Apoyó en la comunicación final de los artefactos de investigación y requerimientos, explicando la relación entre entrevistas, User Personas, Needfinding, Impact Mapping, Product Backlog y funcionalidades priorizadas.<br><br>
       <b>Rocca Leon, Anhelo Rodrigo</b><br>
-      <b>AV1:</b> Comunicó oralmente decisiones relacionadas con la experiencia de usuario, flujos iniciales e interfaz propuesta para PulseReport, explicando cómo estas decisiones respondían a las necesidades del personal de salud.<br>
-      <b>AV2:</b> Apoyó en la presentación de mock-ups, wireflows y flujos de interacción de la Web Application, explicando de manera clara el recorrido de los usuarios dentro del producto.<br><br>
+      <b>AV1:</b> Comunicó oralmente decisiones relacionadas con experiencia de usuario, flujos iniciales e interfaz propuesta para PulseReport, explicando cómo estas decisiones respondían a las necesidades del personal de salud.<br>
+      <b>TB1:</b> Presentó avances relacionados con wireframes, mock-ups, prototipos y decisiones visuales de la Landing Page y Web Application, explicando la estructura de navegación y la experiencia propuesta para los usuarios.<br>
+      <b>AV2:</b> Apoyó en la presentación de mock-ups, wireflows, user flows y flujos de interacción de la Web Application, explicando de manera clara el recorrido de los usuarios dentro del producto.<br>
+      <b>TB2:</b> Participó en la explicación final de la experiencia UX/UI, evidencias visuales, prototipos, flujos de usuario, mejoras de interfaz y consistencia visual entre la Landing Page y la Web Application.<br><br>
       <b>Huamán Cuba, Johan Giovani</b><br>
-      <b>AV1:</b> Explicó oralmente elementos técnicos del diseño de la solución, incluyendo arquitectura, organización de componentes y relación entre los artefactos de diseño de software.<br>
-      <b>AV2:</b> Participó en la explicación de evidencias técnicas del producto, relacionando la arquitectura propuesta con la implementación y despliegue de los componentes desarrollados.<br><br>
+      <b>AV1:</b> Explicó oralmente elementos técnicos del diseño de la solución, incluyendo arquitectura inicial, organización de componentes y relación entre los artefactos de diseño de software.<br>
+      <b>TB1:</b> Presentó avances relacionados con arquitectura de información, diagramas técnicos, diseño de base de datos, configuración del entorno de desarrollo y gestión del código fuente.<br>
+      <b>AV2:</b> Participó en la explicación de evidencias técnicas del producto, relacionando la arquitectura propuesta con la implementación, servicios RESTful API, documentación técnica y despliegue de los componentes desarrollados.<br>
+      <b>TB2:</b> Apoyó en la comunicación final de arquitectura, diseño orientado a objetos, base de datos, configuración técnica, despliegue, evidencias de implementación y consistencia entre los componentes del sistema.<br><br>
       <b>Mansilla Rivero, Carlos Marcelo</b><br>
-      <b>AV2:</b> Se integró al equipo durante el segundo avance y apoyó en la preparación de la comunicación oral del proyecto, revisando que las explicaciones sobre mejoras, evidencias, validación y documentación fueran claras, coherentes y alineadas con la rúbrica.
+      <b>AV1:</b> No formaba parte del equipo durante esta entrega.<br>
+      <b>TB1:</b> No formaba parte del equipo durante esta entrega.<br>
+      <b>AV2:</b> Se integró al equipo y colaboró en la comunicación de avances técnicos del backend de PulseReport, explicando el bounded context de Vital Signs, su estructura por capas, los endpoints REST implementados para registros de signos vitales y su validación mediante Swagger.<br>
+      <b>TB2:</b> Participó en la preparación de la comunicación final del proyecto, reforzando la explicación de Sprint 4, documentación técnica, trazabilidad de endpoints, evidencias de implementación, actualización del informe y alineación del producto con el enunciado oficial.
     </td>
     <td>
-      Durante AV1, el equipo comunicó oralmente la problemática, la propuesta de solución y los primeros artefactos del ciclo de vida del producto. Para AV2, la comunicación oral se orientó a explicar avances de implementación, validación, despliegue y mejoras aplicadas sobre artefactos previos. Como resultado, el equipo fortaleció su capacidad para adaptar el mensaje a distintas audiencias: docente, evaluadores, visitantes del Landing Page, usuarios clínicos y miembros del equipo técnico.
+      Durante AV1, el equipo comunicó oralmente la problemática, la propuesta de solución, los segmentos objetivo y los primeros artefactos del ciclo de vida del producto. En TB1, la comunicación oral se orientó a explicar el avance del diseño del producto, requisitos, Sprint 2, arquitectura inicial y evidencias de la Landing Page y Web Application. En AV2, el equipo fortaleció la explicación de avances técnicos, validación, despliegue, documentación de servicios y mejoras aplicadas al producto. Finalmente, en TB2, la comunicación oral se enfocó en presentar el cierre del proyecto, Sprint 4, evidencias finales y coherencia entre investigación, diseño, implementación y validación. Como resultado, el equipo fortaleció su capacidad para adaptar el mensaje a distintas audiencias: docente, evaluadores, visitantes de la Landing Page, usuarios clínicos, clientes institucionales y miembros técnicos del proyecto.
     </td>
   </tr>
-
   <tr>
     <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
     <td>
       <b>Aliaga Ocampo, Alexander Auden</b><br>
-      <b>AV1:</b> Participó en la redacción inicial del informe, incluyendo estructura base, información del equipo, Startup Profile, Solution Profile y secciones relacionadas con la presentación del producto.<br>
-      <b>AV2:</b> Colaboró en la actualización escrita de evidencias de la Landing Page, descripción de avances del producto y mejora de secciones orientadas a explicar la propuesta de valor de PulseReport.<br><br>
+      <b>AV1:</b> Participó en la redacción inicial del informe, incluyendo estructura base, información del equipo, Startup Profile, Solution Profile, Lean UX Process y secciones relacionadas con la presentación inicial del producto.<br>
+      <b>TB1:</b> Colaboró en la actualización escrita de la Landing Page, documentación de Sprint 2, evidencias de avance, presentación del producto y mejora de secciones orientadas a comunicar la propuesta de valor de PulseReport.<br>
+      <b>AV2:</b> Colaboró en la actualización escrita de evidencias de implementación, validación de la Landing Page, documentación del producto y mejora de secciones relacionadas con la comunicación del valor de PulseReport.<br>
+      <b>TB2:</b> Participó en la revisión final del informe, corrigiendo estructura, presentación general, evidencias finales, redacción de secciones introductorias y coherencia de la propuesta de valor con el producto desarrollado.<br><br>
       <b>Rios Cespedes, Adrian Matias</b><br>
-      <b>AV1:</b> Redactó y organizó secciones relacionadas con entrevistas, análisis de usuarios, necesidad del producto y hallazgos obtenidos del proceso de investigación.<br>
-      <b>AV2:</b> Apoyó en la mejora escrita de secciones de requisitos, validación, documentación técnica y evidencias vinculadas al avance del producto.<br><br>
+      <b>AV1:</b> Redactó y organizó secciones relacionadas con entrevistas, análisis de usuarios, necesidad del producto, segmentos objetivo y hallazgos obtenidos durante el proceso inicial de investigación.<br>
+      <b>TB1:</b> Apoyó en la documentación escrita de Requirements Specification, User Stories, Impact Mapping, Product Backlog y la relación entre necesidades de usuarios y funcionalidades priorizadas.<br>
+      <b>AV2:</b> Apoyó en la mejora escrita de secciones de requisitos, entrevistas, validación, documentación técnica y evidencias vinculadas al avance del producto.<br>
+      <b>TB2:</b> Corrigió y actualizó secciones relacionadas con entrevistas, análisis de usuarios, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación, requerimientos y funcionalidades del producto.<br><br>
       <b>Rocca Leon, Anhelo Rodrigo</b><br>
-      <b>AV1:</b> Participó en la documentación de artefactos visuales, flujos de usuario y decisiones relacionadas con la experiencia de usuario de PulseReport.<br>
-      <b>AV2:</b> Colaboró en la revisión y actualización escrita de secciones relacionadas con wireframes, mock-ups, wireflows y evidencias visuales de la Web Application.<br><br>
+      <b>AV1:</b> Participó en la documentación de artefactos visuales, flujos de usuario, decisiones de interfaz y criterios iniciales de experiencia de usuario para PulseReport.<br>
+      <b>TB1:</b> Colaboró en la documentación de wireframes, mock-ups, prototipos, lineamientos visuales y evidencias UX/UI correspondientes a la Landing Page y Web Application.<br>
+      <b>AV2:</b> Colaboró en la revisión y actualización escrita de secciones relacionadas con wireframes, mock-ups, wireflows, user flows y evidencias visuales de la Web Application.<br>
+      <b>TB2:</b> Revisó y actualizó secciones relacionadas con UX/UI, prototipos, flujos de interacción, capturas de la Web Application, coherencia visual y consistencia entre diseño e implementación.<br><br>
       <b>Huamán Cuba, Johan Giovani</b><br>
-      <b>AV1:</b> Contribuyó en la documentación escrita de arquitectura, diseño de software, base de datos y organización técnica de la solución.<br>
-      <b>AV2:</b> Apoyó en la revisión de consistencia técnica del informe, especialmente en secciones relacionadas con implementación, arquitectura, despliegue y documentación de evidencias.<br><br>
+      <b>AV1:</b> Contribuyó en la documentación escrita de arquitectura, diseño de software, base de datos, organización técnica de la solución y configuración inicial del entorno de desarrollo.<br>
+      <b>TB1:</b> Documentó avances relacionados con arquitectura de software, diagramas técnicos, gestión de configuración, source code management, convenciones de desarrollo y despliegue inicial.<br>
+      <b>AV2:</b> Apoyó en la revisión de consistencia técnica del informe, especialmente en secciones relacionadas con implementación, arquitectura, servicios RESTful API, despliegue y documentación de evidencias.<br>
+      <b>TB2:</b> Revisó y actualizó secciones relacionadas con arquitectura de software, diseño orientado a objetos, base de datos, configuración técnica, despliegue, documentación de servicios y evidencias finales de implementación.<br><br>
       <b>Mansilla Rivero, Carlos Marcelo</b><br>
-      <b>AV2:</b> Se integró al equipo durante el segundo avance y colaboró en la corrección escrita del informe, revisión de consistencia, organización de evidencias, mejora de redacción y alineación de las secciones con el enunciado del trabajo final y la rúbrica de evaluación.
+      <b>AV1:</b> No formaba parte del equipo durante esta entrega.<br>
+      <b>TB1:</b> No formaba parte del equipo durante esta entrega.<br>
+      <b>AV2:</b> Se integró al equipo y documentó el bounded context de Vital Signs del backend de PulseReport, incluyendo endpoints REST para crear registros de signos vitales, consultar un registro por ID, listar registros por paciente y obtener el último registro de un paciente. También incorporó evidencias de Swagger y documentación técnica correspondiente al Sprint 3.<br>
+      <b>TB2:</b> Participó en la revisión y actualización final del informe, corrigiendo secciones relacionadas con Sprint 4, documentación técnica, trazabilidad de endpoints, evidencias de colaboración, Student Outcome, coherencia entre artefactos y alineación con el enunciado oficial del trabajo final.
     </td>
     <td>
-      El informe permitió al equipo comunicar por escrito el proceso de ingeniería aplicado durante el ciclo de vida del producto. En AV1 se documentaron la investigación inicial, el problema, la solución propuesta, los segmentos objetivo y los primeros artefactos de diseño. En AV2 se fortaleció la redacción mediante la incorporación de evidencias de implementación, validación, despliegue, documentación de servicios y mejoras producto de retroalimentación. La comunicación escrita del equipo busca mantener claridad, trazabilidad entre secciones y coherencia con el dominio clínico cardiovascular del producto.
+      El informe permitió al equipo comunicar por escrito el proceso de ingeniería aplicado durante el ciclo de vida del producto. En AV1 se documentaron la investigación inicial, el problema, la solución propuesta, los segmentos objetivo y los primeros artefactos de diseño. En TB1 se fortaleció la documentación de requisitos, diseño UX/UI, arquitectura, Sprint 2 y evidencias de despliegue de la Landing Page y Web Application. En AV2 se incorporaron evidencias de implementación, validación, despliegue, documentación de servicios RESTful API y mejoras derivadas de la retroalimentación. En TB2 se realizó la actualización final del informe, incorporando Sprint 4, mejoras de consistencia, corrección de artefactos, trazabilidad entre secciones, evidencias finales y alineación con el enunciado oficial. Como resultado, la comunicación escrita del equipo mantiene claridad, organización, coherencia técnica y adaptación a diferentes audiencias, incluyendo evaluadores académicos, usuarios clínicos, visitantes del producto y miembros técnicos del proyecto.
     </td>
   </tr>
 </table>
