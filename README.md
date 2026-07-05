@@ -5407,3 +5407,4 @@ Angular. (2026). Angular.dev. Retrieved from https://angular.dev/overview
 - Link del repositorio del frontend: https://github.com/BrainSpark-upc/Report
 - Link del frontend desplegado: https://front-pulsereport.vercel.app/sign-in
 - Link del repositorio del backend desplegado: https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html
+- Link del repositorio del backend: https://github.com/BrainSpark-upc/BackPulseReport
