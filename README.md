@@ -182,11 +182,11 @@ Trabajo Final
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
         - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
         - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
         - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
@@ -2217,7 +2217,7 @@ Las Technical Stories se ubican después de las historias funcionales principale
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
-El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesidad de transmitir profesionalismo, seguridad, claridad y confianza, valores fundamentales en una solución digital orientada al sector salud. La propuesta visual de la landing page busca reflejar una identidad moderna y ordenada, alineada con el propósito del producto: mejorar la comunicación clínica, la trazabilidad de la información y el seguimiento en tiempo real dentro de entornos asistenciales.
+El diseño de estilo general de **PulseReport** responde a la necesidad de transmitir profesionalismo, seguridad, claridad y confianza, valores fundamentales en una solución digital orientada al sector salud. La propuesta visual busca reflejar una identidad moderna y ordenada, alineada con el propósito del producto: mejorar la comunicación clínica, la trazabilidad de la información y el seguimiento de pacientes cardiovasculares dentro de entornos asistenciales.
 
 - **Colores**: la paleta seleccionada combina azul oscuro (#0F172A), teal oscuro (#0F766E), turquesa (#14B8A6), blanco (#FFFFFF) y tonos grises suaves (#E5E7EB y #1F2937). El azul transmite confianza, estabilidad y profesionalismo, cualidades importantes en plataformas relacionadas con procesos clínicos. El turquesa refuerza la idea de innovación, accesibilidad y tecnología en salud. Los tonos neutros equilibran la interfaz, mejoran el contraste y favorecen la lectura del contenido.
 
@@ -2251,7 +2251,7 @@ El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesi
 
 #### 4.1.2. Web Style Guidelines
 
-El diseño web de **Care-Labs / PulseReport** se implementará como una solución digital orientada al sector salud, buscando que tanto la Landing Page como la Web Application mantengan una experiencia uniforme, clara, responsiva y accesible. El objetivo es asegurar una interfaz confiable y profesional que facilite la interacción del usuario con el sistema y refuerce la identidad visual del producto.
+El diseño web de **PulseReport** se implementa como una solución digital orientada al sector salud, buscando que tanto la Landing Page como la Web Application mantengan una experiencia uniforme, clara, responsiva y accesible. El objetivo es asegurar una interfaz confiable y profesional que facilite la interacción de visitantes, personal de enfermería cardiovascular, médicos especialistas y clientes institucionales.
 
 - **Diseño adaptable**: la interfaz se ajusta a distintos dispositivos (desktop, tablet y móvil), manteniendo consistencia visual entre la Landing Page y la Web Application. Esto permite que los usuarios puedan acceder al sistema desde diferentes contextos, facilitando la consulta de información y el uso de la plataforma en distintos entornos de trabajo.
 
@@ -2395,7 +2395,7 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 
 **Objetivos**
 
-- Mejorar la visibilidad de la **Landing Page** de **Care-Labs / PulseReport** en motores de búsqueda.
+- Mejorar la visibilidad de la **Landing Page** de **PulseReport** en motores de búsqueda.
 - Aumentar el CTR en resultados de búsqueda mediante títulos y descripciones claras y atractivas.
 - Optimizar la vista previa al compartir enlaces en redes sociales usando **Open Graph** y **Twitter Cards**.
 - Controlar qué páginas deben indexarse y cuáles no, diferenciando entre la **Landing Page pública** y la **Web Application privada**.
@@ -2448,7 +2448,7 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
   "name": "PulseReport",
   "applicationCategory": "HealthApplication",
   "operatingSystem": "Web",
-  "description": "Plataforma web de Care-Labs orientada a mejorar la comunicación clínica, la trazabilidad y el seguimiento en tiempo real.",
+  "description": "Plataforma web de Pulse-Report orientada a mejorar la comunicación clínica, la trazabilidad y el seguimiento en tiempo real.",
   "publisher": {
     "@type": "Organization",
     "name": "Care-Labs"
@@ -2523,23 +2523,28 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 
 #### 4.2.5. Navigation Systems.
 
-A continuación, presentamos el sistema de navegación con el que contará **Care-Labs / PulseReport**, el cual permitirá al usuario desplazarse tanto en la **Landing Page** como en la **Web Application** de manera clara y ordenada.
+A continuación, se presenta el sistema de navegación de **PulseReport**, el cual permite al usuario desplazarse tanto en la **Landing Page** como en la **Web Application** de manera clara, ordenada y consistente.
+
+La navegación fue definida considerando los principales perfiles del producto: visitantes interesados en conocer la solución, personal de enfermería cardiovascular, médicos especialistas cardiovasculares y usuarios administradores de la plataforma. Esto permite diferenciar la navegación informativa de la Landing Page y la navegación operativa de la Web Application.
 
 Se implementará un sistema de navegación que facilite el acceso rápido a las principales secciones del producto, manteniendo consistencia visual y funcional en toda la experiencia web. Esto permitirá que los usuarios identifiquen fácilmente dónde se encuentran y hacia dónde pueden dirigirse dentro de la plataforma.
 
 **Estructura del Sistema de Navegación**
 
-- **Navegación global**: ubicada en el header principal, permite acceder a las secciones principales de la Landing Page y a los módulos centrales del sistema, como inicio, pacientes, traspasos SBAR, tratamientos, reportes y contacto.
+- **Navegación global**: ubicada en el header principal, permite acceder a las secciones principales de la Landing Page, como inicio, beneficios, características, planes, preguntas frecuentes, equipo y contacto. En la Web Application, permite acceder a módulos como dashboard, pacientes, signos vitales, traspasos SBAR, eventos clínicos, reportes, auditoría y suscripciones.
 
 - **Navegación local**: presente dentro de cada módulo de la Web Application, facilita el acceso a subsecciones específicas. Por ejemplo:
-  - Pacientes → Registrar, Historial clínico, Signos vitales.
-  - Traspasos SBAR → Pendientes, En revisión, Aprobados.
-  - Tratamientos → Activos, Seguimiento, Finalizados.
+  - Pacientes → listado, detalle del paciente, registros clínicos y signos vitales.
+  - Traspasos SBAR → creación de traspaso, consulta de traspasos y confirmación de recepción.
+  - Signos vitales → registro, historial y último registro del paciente.
+  - Suscripciones → visualización de planes, selección de plan y estado de suscripción.
 
 - **Navegación contextual**: integrada mediante botones y acciones dentro de cada flujo, permitiendo ejecutar tareas específicas como:
   - “Registrar paciente”
+  - “Registrar signos vitales”
   - “Guardar SBAR”
-  - “Actualizar signos vitales”
+  - “Ver historial”
+  - “Seleccionar plan”
   - “Generar reporte”
 
 - **Consistencia de navegación**: los menús, accesos y botones mantienen una ubicación y estilo uniforme, ayudando a que el usuario navegue de manera intuitiva y sin confusión entre las distintas secciones.
@@ -2549,12 +2554,15 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
 </p>
 
 ### 4.3. Landing Page UI Design.
+La Landing Page de PulseReport fue diseñada como el principal punto de entrada público al producto. Su objetivo es comunicar rápidamente la propuesta de valor, explicar el problema de información clínica dispersa, presentar beneficios, características, planes, preguntas frecuentes, equipo y canales de contacto.
+
+El diseño considera distintos perfiles de visitantes. Para usuarios recurrentes, se priorizan llamados a la acción visibles en la parte superior. Para visitantes emocionales, se utiliza una sección hero clara con mensaje directo sobre continuidad clínica y reducción de pérdida de información. Para visitantes racionales, se incluyen secciones de características, beneficios, planes, preguntas frecuentes y testimonios que permiten evaluar el valor de la solución.
   
 #### 4.3.1. Landing Page Wireframe.
 
-El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estructura clara y ordenada, diseñada para comunicar la propuesta de valor del producto de forma directa. La página incluye secciones estratégicas como hero section, funcionamiento, características, beneficios, preguntas frecuentes, contacto y llamados a la acción que orientan al usuario durante la navegación.
+El wireframe de la landing page de **PulseReport** presenta una estructura clara y ordenada, diseñada para comunicar la propuesta de valor del producto de forma directa. La página incluye secciones estratégicas como hero section, funcionamiento, características, beneficios, preguntas frecuentes, contacto y llamados a la acción que orientan al usuario durante la navegación.
 
-- **Inicio**: en la parte superior se ubica el logo principal de **Care-Labs / PulseReport** junto con la barra de navegación, que permite acceder a las principales secciones de la landing page. Además, se incluye un botón de **“Solicitar demo”** como llamado a la acción destacado, con el objetivo de captar rápidamente el interés del usuario.
+- **Inicio**: en la parte superior se ubica el logo principal de **PulseReport** junto con la barra de navegación, que permite acceder a las principales secciones de la landing page. Además, se incluye un botón de **“Solicitar demo”** como llamado a la acción destacado, con el objetivo de captar rápidamente el interés del usuario.
 
 <p align="center">
   <img src="assets/chapter 4/landing-page-ui-design/hero-wf.png" alt="hero wireframe" width="600">
@@ -2609,6 +2617,10 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 <p align="center"> <img src="assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
 
 ### 4.4. Web Applications UX/UI Design.
+La Web Application de PulseReport fue diseñada para apoyar flujos clínicos relacionados con registro, consulta y trazabilidad de información cardiovascular. La experiencia prioriza claridad, baja carga cognitiva y acceso rápido a las acciones principales, debido a que los usuarios trabajan en entornos clínicos donde el tiempo y la precisión son importantes.
+
+Los wireframes, wireflows, mock-ups y user flow diagrams se organizan alrededor de los módulos principales del producto: dashboard clínico, pacientes, signos vitales, traspasos SBAR, eventos clínicos, reportes, auditoría y suscripciones. Estos artefactos permiten evidenciar la relación entre las User Stories, los flujos de interacción y la implementación final de la Web Application.
+
 #### 4.4.1. Web Applications Wireframes.
 <img src="assets/chapter 4/Web Applications Wireframes/dashboardCarelabs-wf.png" alt="">
 
@@ -2732,19 +2744,19 @@ Los prototipos incluyen interacciones como botones de acción rápida, formulari
 
 El Design-Level Event Storming constituye una técnica colaborativa proveniente del marco Lean UX y Domain-Driven Design (DDD) que permite modelar el comportamiento interno de un sistema a nivel de diseño de software. A diferencia del Big Picture Event Storming —orientado a explorar el dominio de negocio de forma amplia—, el nivel de diseño desciende a la granularidad de los comandos, políticas, modelos de lectura y bounded contexts que estructuran la solución técnica.
 
-En el contexto del sistema MonIToRio para la UCI Cardiovascular, este ejercicio permitió identificar los flujos de eventos más críticos del proceso de atención, mapear los actores involucrados en cada contexto delimitado y detectar los puntos de fricción que generan riesgos clínicos o ineficiencias operativas.
+En el contexto del sistema pulsereport para la UCI Cardiovascular, este ejercicio permitió identificar los flujos de eventos más críticos del proceso de atención, mapear los actores involucrados en cada contexto delimitado y detectar los puntos de fricción que generan riesgos clínicos o ineficiencias operativas.
 
 
 #### Objetivo del Design-Level Event Storming
 
-El propósito de esta sesión fue descomponer el flujo clínico de la UCI Cardiovascular en eventos de dominio concretos, identificar los bounded contexts que agrupan responsabilidades cohesivas, y derivar los comandos e invariantes que debe respetar el diseño del sistema MonIToRio.
+El propósito de esta sesión fue descomponer el flujo clínico de la UCI Cardiovascular en eventos de dominio concretos, identificar los bounded contexts que agrupan responsabilidades cohesivas, y derivar los comandos e invariantes que debe respetar el diseño del sistema pulsereport.
 
 
 #### Paso 1: Recolección de Domain Events
 
 El primer paso consistió en identificar todos los eventos de dominio relevantes del proceso clínico, es decir, hechos concretos que ocurren en el sistema y que son significativos para el negocio. Siguiendo la convención de Event Storming, cada evento se expresa en pasado y se representa con una tarjeta de color naranja.
 
-Los domain events identificados para el sistema MonIToRio en la UCI Cardiovascular fueron:
+Los domain events identificados para el sistema pulsereport en la UCI Cardiovascular fueron:
 
 - Información clínica entregada al nuevo turno
 - Turno anterior finalizado
@@ -2795,12 +2807,12 @@ Centraliza la información base de los pacientes, alineado con el subdominio de 
 
 ##### BC-03: Clinical Monitoring Context — CORE DOMAIN
 
-Este es el corazón de MonIToRio y donde reside la mayor ventaja competitiva del sistema. Se alinea con el subdominio Service Execution and Monitoring. Concentra la lógica clínica crítica de monitoreo en tiempo real.
+Este es el corazón de pulsereport y donde reside la mayor ventaja competitiva del sistema. Se alinea con el subdominio Service Execution and Monitoring. Concentra la lógica clínica crítica de monitoreo en tiempo real.
 
 - **Domain Events clave:** Signos vitales registrados, Alerta crítica generada, Tratamiento actualizado, Medicamento administrado, Cumplimiento de indicación registrado
 - **Responsabilidades:** Registro y monitoreo de signos vitales (presión arterial, frecuencia cardíaca), seguimiento de tratamientos y gestión de alertas críticas en tiempo real
 - **Pain Point identificado:** Registro tardío de eventos críticos y duplicidad entre papel y sistema EHR
-- **Solución MonIToRio:** Dashboard de monitoreo en tiempo real con alertas automáticas y flujo de registro simplificado
+- **Solución pulsereport:** Dashboard de monitoreo en tiempo real con alertas automáticas y flujo de registro simplificado
 
 
 
@@ -2811,7 +2823,7 @@ Específico para la trazabilidad y comunicación clínica entre turnos. Garantiz
 - **Domain Events clave:** Entrega SBAR registrada, Turno finalizado, Log de auditoría creado, Cambio crítico documentado
 - **Responsabilidades:** Implementación del modelo SBAR para el traspaso de turnos y mantenimiento del log de auditoría inalterable
 - **Pain Point identificado:** Comunicación verbal no trazable durante cambios de turno y pérdida de información clínica
-- **Solución MonIToRio:** Protocolo SBAR estandarizado con resumen estructurado y registro inmutable de cada entrega de turno
+- **Solución pulsereport:** Protocolo SBAR estandarizado con resumen estructurado y registro inmutable de cada entrega de turno
 
 
 ##### BC-05: Appointments & Scheduling Context — Service Design and Planning
@@ -2878,14 +2890,14 @@ En este paso se identificaron los read models: las vistas que necesitan los acto
 
 #### Síntesis y Derivaciones de Diseño
 
-El Design-Level Event Storming del sistema MonIToRio reveló que el flujo clínico de la UCI Cardiovascular puede modelarse en seis bounded contexts con responsabilidades claramente delimitadas: IAM, Patient Administration, Clinical Monitoring (Core Domain), Clinical Documentation, Appointments & Scheduling y Health Analytics. Esta descomposición permite:
+El Design-Level Event Storming del sistema pulsereport reveló que el flujo clínico de la UCI Cardiovascular puede modelarse en seis bounded contexts con responsabilidades claramente delimitadas: IAM, Patient Administration, Clinical Monitoring (Core Domain), Clinical Documentation, Appointments & Scheduling y Health Analytics. Esta descomposición permite:
 
 - Diseñar módulos de software independientes y desacoplados para cada contexto
 - Priorizar el desarrollo iterativo según el impacto clínico de cada contexto
 - Establecer contratos claros entre contextos para garantizar la integridad del flujo de información
 - Validar el diseño directamente con los usuarios clave (enfermeras y médicos) usando el lenguaje del dominio
 
-Esta metodología, alineada con los principios de Lean UX de reducir el desperdicio y validar rápidamente con usuarios reales, garantiza que el diseño de MonIToRio responde a necesidades clínicas concretas y no a supuestos técnicos desconectados de la realidad del servicio.
+Esta metodología, alineada con los principios de Lean UX de reducir el desperdicio y validar rápidamente con usuarios reales, garantiza que el diseño de pulsereport responde a necesidades clínicas concretas y no a supuestos técnicos desconectados de la realidad del servicio.
 
 #### 4.6.2. Software Architecture Context Diagram.
 
@@ -4947,7 +4959,7 @@ A continuación, se presentan las principales vistas implementadas y validadas d
 
   ### Video de navegación y visualización del Sprint 4
 
-  <!-- TODO: agregar screenshot + URL del video en Microsoft Stream (nomenclatura: upc-pre-202610-1asi0729-NRC-carelabs-productnavigation-sprint-4) -->
+  <!-- TODO: agregar screenshot + URL del video en Microsoft Stream (nomenclatura: upc-pre-202610-1asi0729-NRC-pulsereport-productnavigation-sprint-4) -->
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
