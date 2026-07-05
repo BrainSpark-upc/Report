@@ -3186,8 +3186,9 @@ independiente utilizando plataformas especializadas en la nube, lo que permite m
 
 ### Componentes de Despliegue
 
-- **Landing Page**: desplegada en GitHub Pages
-- **Frontend Web Application (AngularJS)**: desplegada en Firebase Hosting
+- **Landing Page**: desplegada en GitHub Pages.
+- **Frontend Web Application (Angular)**: desplegada en Firebase Hosting.
+- **Web Services RESTful API (Backend)**: desplegado en un Cloud Provider (Render / Heroku).
 
 ### 1. Control de Versiones
 
@@ -3195,104 +3196,121 @@ El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** co
 
 ### Estrategia de ramas
 
-- `main`: contiene la versión estable lista para producción
-- `development`: integra las funcionalidades en desarrollo
-- `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades
+- `main`: contiene la versión estable lista para producción.
+- `develop`: integra las funcionalidades en desarrollo.
+- `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades.
 
+---
 
 ### 2. Despliegue de Landing Page (GitHub Pages)
 
-La Landing Page es una aplicación estática desarrollada con HTML, CSS y JavaScript.
+La Landing Page es un sitio web responsivo construido con HTML5, CSS3 y JS.
 
 ### Pasos de despliegue
 
 #### 1. Inicializar y preparar el repositorio
-
-- git init
-- git add .
-- git commit -m "deploy landing page"
-
+- `git init`
+- `git add .`
+- `git commit -m "deploy landing page"`
 
 #### 2. Conectar el repositorio con GitHub
-
-- git branch -M main
-- git remote add origin <repo-url>
-- git push -u origin main
-
+- `git branch -M main`
+- `git remote add origin <repo-url>`
+- `git push -u origin main`
 
 #### 3. Configurar GitHub Pages
-
-- Ir a **Settings** del repositorio
-- Acceder a la sección **Pages**
+- Ir a **Settings** del repositorio.
+- Acceder a la sección **Pages**.
 - Seleccionar:
     - **Source**: Deploy from branch
     - **Branch**: main
     - **Folder**: / (root)
 
-#### Resultado (ejemplo): https://username.github.io/repository-name/
+#### Resultado: 
+Publicación automática bajo un subdominio HTTPS gestionado por GitHub (ejemplo: `https://brainspark-upc.github.io/Landing-Page/`).
 
+---
 
-### 3. Despliegue del Frontend Web Application (AngularJS en Firebase Hosting)
+### 3. Despliegue del Frontend Web Application (Angular en Firebase Hosting)
 
-El frontend está desarrollado con AngularJS y se despliega utilizando Firebase Hosting.
+La aplicación es una *Single Page Application* (SPA) desarrollada en Angular 17+ y se despliega utilizando Firebase Hosting.
 
 ### Pasos de despliegue
 
 #### 1. Subir el proyecto al repositorio
-
-- git add .
-- git commit -m "deploy frontend"
-- git push origin main
-
+- `git add .`
+- `git commit -m "deploy frontend"`
+- `git push origin main`
 
 #### 2. Configurar en Firebase
-
 - Acceder a: https://firebase.google.com/
-- Iniciar Sesión y dirigirse a 'Ir a Consola'
-- Seleccionar **Crear un proyecto de Firebase nuevo → Escribir el nombre del proyecto → Crear Proyecto**
-- Instalar Firebase CLI: npm install -g firebase-tools
-- Iniciar sesión en Firebase CLI: firebase login
-- Inicializar el proyecto: firebase init
-    - Seleccionar **Hosting**
-    - Seleccionar el proyecto creado en Firebase
-    - Configurar el directorio público: dist/browser
-    - Configurar como SPA: Sí
-    - Por el momento decimos que no se configure GitHub Action para despliegue automático
+- Iniciar Sesión y dirigirse a 'Ir a Consola'.
+- Seleccionar **Crear un proyecto de Firebase nuevo → Escribir el nombre del proyecto (`pulsereport-frontend`) → Crear Proyecto**.
+- Instalar Firebase CLI: `npm install -g firebase-tools`
+- Iniciar sesión en Firebase CLI: `firebase login`
+- Inicializar el proyecto: `firebase init`
+    - Seleccionar **Hosting**.
+    - Seleccionar el proyecto creado en Firebase.
+    - Configurar el directorio público: `dist/browser` (o `dist/`).
+    - Configurar como SPA: Sí.
+    - Por el momento decimos que no se configure GitHub Action para despliegue automático.
 
-#### 3. Configurar el build
+#### 3. Configurar variables de entorno
+- Configurar el archivo `environment.prod.ts` para apuntar a la URL pública del RESTful API:
+  - `apiBaseUrl: 'https://<backend-url>'`
 
+#### 4. Configurar el build
 - **Build command**:
-
-- ng build
-
+  - `ng build`
 - **Publish directory**:
+  - `dist/browser`
 
-- dist/browser
+#### 5. Ejecutar Despliegue
+- Ejecutamos el comando de compilación: `ng build`
+- Ejecutamos el comando de publicación: `firebase deploy --only hosting`
+- Firebase genera una URL pública accesible.
 
-#### 4. Configurar variables de entorno
+---
 
-- apiBaseUrl: https://<backend-url>
+### 4. Despliegue de los Web Services RESTful API (Cloud Provider)
 
-#### 5. Despliegue
+El backend desarrollado en Spring Boot y documentado con OpenAPI (Swagger) ha sido configurado para su despliegue continuo en un servicio Platform as a Service (PaaS) como Render o Heroku.
 
-- Nos fijamos si el servidor db.json ha sido levantado.
-- Ejecutamos el comando: firebase deploy
-- Firebase genera una URL pública accesible
+### Pasos de despliegue
 
-### 6. Integración de Componentes
+#### 1. Configurar credenciales y entorno
+- Ajustar la configuración del archivo `application-prod.properties`.
+- Inyectar dinámicamente las credenciales de entorno para la conexión segura a la base de datos (MySQL gestionado en la nube).
+
+#### 2. Construcción del artefacto
+- Empaquetar y construir el archivo `.jar` usando Maven ejecutando el comando:
+  - `mvn clean package -DskipTests`
+
+#### 3. Publicación en el servicio Cloud
+- Vincular el repositorio (rama `main`) al servicio PaaS (ej. Render/Heroku) para disparar el despliegue de la imagen/artefacto.
+- El Cloud Provider asigna los recursos, levanta el servidor y genera una URL HTTPS pública.
+
+#### 4. Documentación desplegada
+- Una vez levantado el servidor, la documentación estandarizada Swagger UI queda expuesta públicamente.
+- **Ruta de acceso:** `https://<backend-url>/swagger-ui.html`
+
+---
+
+### 5. Integración de Componentes
 
 El sistema funciona de la siguiente manera:
 
-- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.
-- El **Frontend** consume los servicios del backend.
+- La **Landing Page** actúa como punto de entrada y promoción, redirigiendo al usuario mediante llamados a la acción (CTA) hacia el frontend.
+- El **Frontend** (SPA en Angular) gestiona la experiencia de usuario y consume los servicios expuestos por el backend.
+- El **Backend** (Spring Boot RESTful API) procesa la lógica de negocio, se conecta a la base de datos MySQL en la nube para persistir la información y devuelve las respuestas estructuradas al frontend.
 
-### 7. Consideraciones de Despliegue
+### 6. Consideraciones de Despliegue
 
-- Uso obligatorio de variables de entorno para configuración sensible.
+- Uso obligatorio de variables de entorno para configuraciones sensibles (credenciales de BD, tokens, URIs).
 - Separación de entornos (desarrollo y producción).
-- Evitar credenciales dentro del código fuente.
-- Verificación de URLs públicas después del despliegue.
-- Mantener compatibilidad entre versiones de frontend y backend.
+- Evitar exponer credenciales dentro del código fuente bajo ninguna circunstancia.
+- Verificación de URLs públicas y endpoints de Swagger después de cada despliegue.
+- Mantener compatibilidad entre versiones de frontend y backend, respetando el control de versiones semántico.
 
 
 #### 5.2. Landing Page, Services & Applications Implementation.
