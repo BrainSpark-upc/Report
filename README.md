@@ -3203,7 +3203,6 @@ El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** co
 - `develop`: integra las funcionalidades en desarrollo.
 - `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades.
 
----
 
 ### 2. Despliegue de Landing Page (GitHub Pages)
 
@@ -3232,7 +3231,6 @@ La Landing Page es un sitio web responsivo construido con HTML5, CSS3 y JS.
 #### Resultado: 
 Publicación automática bajo un subdominio HTTPS gestionado por GitHub (ejemplo: `https://brainspark-upc.github.io/Landing-Page/`).
 
----
 
 ### 3. Despliegue del Frontend Web Application (Angular en Firebase Hosting)
 
@@ -3273,7 +3271,6 @@ La aplicación es una *Single Page Application* (SPA) desarrollada en Angular 17
 - Ejecutamos el comando de publicación: `firebase deploy --only hosting`
 - Firebase genera una URL pública accesible.
 
----
 
 ### 4. Despliegue de los Web Services RESTful API (Cloud Provider)
 
@@ -3297,7 +3294,6 @@ El backend desarrollado en Spring Boot y documentado con OpenAPI (Swagger) ha si
 - Una vez levantado el servidor, la documentación estandarizada Swagger UI queda expuesta públicamente.
 - **Ruta de acceso:** `https://<backend-url>/swagger-ui.html`
 
----
 
 ### 5. Integración de Componentes
 
@@ -3328,12 +3324,11 @@ preguntas frecuentes, sección de contacto y testimonios, siguiendo los lineamie
 
 #### 5.2.1.1. Sprint Planning 1
 
-<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">15-04-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">9:30 AM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion presencial en el campus de la universidad</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Adrian Rios Cespedes</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Anhelo Rodrigo	Rocca
-, Johan Huaman Cuba, Alex Aliaga Ocampo</td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page for PulseReport, 
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">15-04-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">9:30 AM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion presencial en el campus de la universidad</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Rios Cespedes, Adrian Matias</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Aliaga Ocampo, Alexander Auden / Huamán Cuba, Johan Giovani / Rios Cespedes, Adrian Matias / Rocca Leon, Anhelo Rodrigo </td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page for PulseReport, 
 accompanied by complete and well-structured documentation. We believe this will provide an engaging first impression and clearly 
 communicate the value proposition of our solution for enhancing clinical processes in cardiovascular nursing. This will 
 be validated when the Landing Page is successfully deployed and accessible online, with all core sections (hero, how it works, 
-features, benefits, FAQs, and contact) working correctly, and all corresponding documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">6</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">8 story points</td> </tr> </table>
+features, benefits, FAQs, and contact) working correctly, and all corresponding documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">22 Story Points</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">22 Story Points</td> </tr> </table>
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -3394,23 +3389,27 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, 
 incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
 
+*Nota: Todas las tareas de ingeniería (Tasks) han sido estimadas rigurosamente en un rango de 4 a 8 horas como máximo, asegurando una descomposición granulada y manejable según los requerimientos del marco Scrum.*
+
 **Board del Sprint (Jira):**
 
 ![Jira Board](assets/chapter-5/jira-board.png)
 
 
+
 ###  Sprint Backlog
 
-| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To      | Status |
-|--------|--------------|------------------|---------|------------|-------------|--------------------|------------------|--------|
-| Sprint 1 | US-26 | Visualizar landing page | T-01 | Crear estructura HTML/CSS | Maquetar layout principal | 4 | Alexander Aliaga | Done   |
-| Sprint 1 | US-27 | Ver propuesta de valor | T-02 | Sección Hero | Diseñar sección principal con CTA | 3 | Alexander Aliaga | Done   |
-| Sprint 1 | US-29 | Visualizar características | T-03 | Sección features | Mostrar funcionalidades del sistema | 3 | Anhelo Rocca     | Done   |
-| Sprint 1 | US-28 | Navegar por secciones | T-04 | Implementar navbar | Navegación entre secciones | 2 | Johan Cuba       | Done   |
-| Sprint 1 | US-32 | Contactar a la empresa | T-05 | Formulario de contacto | Crear formulario funcional | 3 | Johan Cuba       | Done   |
-| Sprint 1 | US-33 | Visualizar testimonios | T-06 | Sección testimonios | Mostrar opiniones de usuarios | 2 | Anhelo Rocca     | Done   |
-| Sprint 1 | US-35 | Ver CTA | T-07 | Botones CTA | Implementar botones de acción | 2 | Alexander Aliaga | Done   |
-| Sprint 1 | US-34 | Acceder desde dispositivos móviles | T-08 | Responsive design | Adaptar a mobile | 4 | Alexander Aliaga | Done   |
+| User Story | Work-Item / Task | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US-01 | Visualizar landing page | T-01.1 | Layout General Responsive | Maquetar estructura base HTML5/CSS3 adaptativa para desktop, tablet y móvil. | 6 | Aliaga Ocampo, Alexander | Done |
+| US-02 | Ver propuesta de valor | T-02.1 | Sección Hero y Pitch | Diseñar e implementar sección principal con pitch interactivo y llamados a la acción. | 4 | Aliaga Ocampo, Alexander | Done |
+| US-05 | Visualizar características | T-03.1 | Módulo de Features | Programar cuadrícula responsive con assets gráficos detallando el funcionamiento del producto. | 5 | Rocca Leon, Anhelo | Done |
+| US-11 | Cambiar idioma del sitio | T-04.1 | Internacionalización | Configurar lógica de internacionalización (i18n) para soportar idiomas ES y EN en toda la navegación. | 6 | Huamán Cuba, Johan | Done |
+| US-10 | Contactar al equipo | T-05.1 | Formulario de Contacto | Desarrollar formulario de contacto con validaciones de campos y alertas visuales integradas. | 5 | Huamán Cuba, Johan | Done |
+| US-08 | Visualizar testimonios | T-06.1 | Sección Testimonios y Redes | Crear carrusel interactivo de testimonios y pie de página con accesos a social media accounts. | 5 | Rocca Leon, Anhelo | Done |
+| US-12 | Acceso móvil | T-07.1 | Ajustes Media Queries | Refactorización final de media queries para asegurar que no exista desbordamiento en vistas móviles. | 4 | Rios Cespedes, Adrian | Done |
+| US-04 | Despliegue Público | T-08.1 | GitFlow y GitHub Pages | Configurar repositorios, workflows de CI/CD básicos y desplegar la Landing Page de forma exitosa. | 4 | Rios Cespedes, Adrian | Done |
 
 ###  Estados de las tareas
 - **To-do**: Pendiente
@@ -3420,44 +3419,43 @@ incluyendo el registro de productos, visualización del inventario y la simulaci
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-| Repository                     | Branch      | Commit Id                                 | Commit Message                                                                | Commit Message Body                                                                                                                                | Commited on (Date) |
-|--------------------------------|-------------|-------------------------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-| AlexanderAliaga19/Landing-Page | Development | 9ff4a793ddf7ff1873134c071741c287ff50a4c8  | Resolve merge conflicts keeping local version                                 | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 55b09037de17a616ab3ed8665b8b6506849a3394  | Actualizar README y resolver conflictos restantes                             | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | c6e40f12a70340ac1c0e2566ec1df686a0536cd6  | Clean conflict markers from angular files                                     | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 541b310e8007861f3592d9f91685d80ef3d0aff1  | Trigger GitHub Pages deployment                                               | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 663bc7f2ca819a443b193750f644808035221969  | Fix GitHub Pages artifact path                                                | -                                                                                                                                                  | 17/04/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | 4ea13236773fc4bbf077099cab40c29f64344e04  | Fix logo path for GitHub Pages                                                | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 7d04f51cff7f222f8f4ca0f000b7782d84de3545  | Remove unused app.ts and keep bootstrap in main.ts                            | -                                                                                                                                                  | 17/04/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | ecf95865b356bb30db6c25c4907b5b392fdcb5dc  | Remove duplicated CSS rules                                                   | -                                                                                                                                                  | 17/04/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | b7a5d1e876657e069a3c867cddccc53f6dae48bb  | Remove duplicated HTML and CSS                                                | -                                                                                                                                                  | 17/04/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 9baa03f8bf6fce32ba693a0a5112aeb4d5189b9d  | Update favicon                                                                | -                                                                                                                                                  | 17/04/2026         | 
-| RoccaA4/Landing-Page           | Development | 99921715b9b5216afff51a55171bf845550ca0a8  | feat(landing): add testimonials section with styles and mock data             | Added testimonials section to landing page, Included sample testimonial data in component y Styled section with separators and highlighted ratings | 23/04/2026         |
-| RoccaA4/Landing-Page           | Development | 3159ea4356ed8fe07b91cd0c074548009b1fc8fc  | feat(team): add team section with member profiles and styles                  | -                                                                                                                                                  | 23/04/2026         | 
-| RoccaA4/Landing-Page           | Development | 283ac5e8519ed3e425bbfad5e8661bf58ef5e9cf  | fix: update favicon file name to match new naming convention. All in kebab-case | -                                                                                                                                                  | 23/04/2026         | 
-| RoccaA4/Landing-Page           | Development | d07dba9c161d526743692e87746f95333d637244  | refactor: update section IDs and links to use kebab-case for consistency      | -                                                                                                                                                  | 23/04/2026         |
-| Johancuba/Landing-Page         | Development | 6a5443642f334dc1c4aa91ff00d3ce47cbc08d25  | feat(ui): add header actions and improve navigation layout                    | -                                                                                                                                                  | 23/04/2026         |
-| Johancuba/Landing-Page         | Development | 00b0d5a842a06e24b8314a513447c84b15fc0ed0  | feat(i18n): implement internationalization for navigation and header components | -                                                                                                                                                  | 23/04/2026         | 
-| Johancuba/Landing-Page         | Development | d3d73e8eedf656ec4fb9fdf6ccd4cf050aac1ebb  | feat(i18n): integrate I18nService and LanguageSwitcher component              | -                                                                                                                                                  | 23/04/2026         | 
-| Johancuba/Landing-Page         | Development | 2da46c1213b6a28aebc3564cf0de5d6746c7d41c  | test(i18n): add unit tests for I18n service                                   | -                                                                                                                                                  | 23/04/2026         | 
-| Johancuba/Landing-Page         | Development | 64b091e281796d2243c96e7a9c0a5c7a4d7cf30d  | feat(i18n): create I18nService with Signal state and localStorage persistence | -                                                                                                                                                  | 23/04/2026         | 
-| Johancuba/Landing-Page         | Development | 6940588d45bb1a41d404277839b89bd0dc563343  | feat(i18n): create LanguageSwitcher component and toggle logic                | -                                                                                                                                                  | 23/04/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | bd0c467ec2e47510f2e09f1165dffcb5e340681c  | Delete .github/workflows directory                                            | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 8e27b36bf65f70792da689add050baeca363ea6e  | Delete .vscode directory                                                      | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 2b2e6f919a12325ceecba774ece0c465da0241af  | Delete public directory                                                       | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | ad2a49e391500a25ac18bdd7d61ebbd31e01cefe  | Delete src directory                                                          | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | cb0cd1dd35a8ca27a758c4f2527897095b0c3cf9  | Delete .editorconfig                                                          | -                                                                                                                                                  | 11/05/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | 714456b7713ffcdf30b51eb2f1d8bb616b68cee6  | Delete .gitignore                                                             | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | ee0ecb8ed16ca62fdfb9a289dfebcd05e7dbef82  | Delete .prettierrc                                                            | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | cc790fa7d47a027d667ed35876468c3c8d9e6eca  | Delete README.md                                                              | -                                                                                                                                                  | 11/05/2026         |
-| AlexanderAliaga19/Landing-Page | Development | 6c021310eae77681cb09e152b11cbc4d380efca5  | Delete angular.json                                                           | -                                                                                                                                                  | 11/05/2026         | 
-| AlexanderAliaga19/Landing-Page | Development | c1c2c99efa9a461733ea7497cddeb38ed89de71f  | Delete package-lock.json                                                      | -                                                                                                                                                  | 11/05/2026          |
-| AlexanderAliaga19/Landing-Page | Development | 7544d9392a8430c57f806755a5c9d0e561e42081  | Delete package.json                                                           | -                                                                                                                                                  | 11/05/2026           | 
-| AlexanderAliaga19/Landing-Page | Development | 2d6620d94abc89652f1f99f408a193de3267d5b6  | Delete tsconfig.app.json                                                      | -                                                                                                                                                  | 11/05/2026           |
-| AlexanderAliaga19/Landing-Page | Development | cd761a5c564e4408764f6e985a86e7076405f231  | Delete tsconfig.json                                                          | -                                                                                                                                                  | 11/05/2026           |
-| AlexanderAliaga19/Landing-Page | Development | 509148aa54b4ebaf08717e97b323b079c5fd386c  | Delete tsconfig.spec.json                                                     | -                                                                                                                                                  | 11/05/2026          |
-| AlexanderAliaga19/Landing-Page | Development | fac634067aca0bc95ad4471ecca765aa5a3338c0  | Add files via upload                                                         | -                                                                                                                                                  | 11/05/2026           | 
-
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| BrainSpark-upc/Landing-Page | Development | 9ff4a793ddf7ff1873134c071741c287ff50a4c8 | Resolve merge conflicts keeping local version | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 55b09037de17a616ab3ed8665b8b6506849a3394 | Actualizar README y resolver conflictos restantes | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | c6e40f12a70340ac1c0e2566ec1df686a0536cd6 | Clean conflict markers from angular files | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 541b310e8007861f3592d9f91685d80ef3d0aff1 | Trigger GitHub Pages deployment | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 663bc7f2ca819a443b193750f644808035221969 | Fix GitHub Pages artifact path | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 4ea13236773fc4bbf077099cab40c29f64344e04 | Fix logo path for GitHub Pages | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 7d04f51cff7f222f8f4ca0f000b7782d84de3545 | Remove unused app.ts and keep bootstrap in main.ts | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | ecf95865b356bb30db6c25c4907b5b392fdcb5dc | Remove duplicated CSS rules | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | b7a5d1e876657e069a3c867cddccc53f6dae48bb | Remove duplicated HTML and CSS | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 9baa03f8bf6fce32ba693a0a5112aeb4d5189b9d | Update favicon | - | 17/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 99921715b9b5216afff51a55171bf845550ca0a8 | feat(landing): add testimonials section with styles and mock data | Added testimonials section to landing page, Included sample testimonial data in component y Styled section with separators and highlighted ratings | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 3159ea4356ed8fe07b91cd0c074548009b1fc8fc | feat(team): add team section with member profiles and styles | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 283ac5e8519ed3e425bbfad5e8661bf58ef5e9cf | fix: update favicon file name to match new naming convention. All in kebab-case | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | d07dba9c161d526743692e87746f95333d637244 | refactor: update section IDs and links to use kebab-case for consistency | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 6a5443642f334dc1c4aa91ff00d3ce47cbc08d25 | feat(ui): add header actions and improve navigation layout | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 00b0d5a842a06e24b8314a513447c84b15fc0ed0 | feat(i18n): implement internationalization for navigation and header components | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | d3d73e8eedf656ec4fb9fdf6ccd4cf050aac1ebb | feat(i18n): integrate I18nService and LanguageSwitcher component | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 2da46c1213b6a28aebc3564cf0de5d6746c7d41c | test(i18n): add unit tests for I18n service | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 64b091e281796d2243c96e7a9c0a5c7a4d7cf30d | feat(i18n): create I18nService with Signal state and localStorage persistence | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | 6940588d45bb1a41d404277839b89bd0dc563343 | feat(i18n): create LanguageSwitcher component and toggle logic | - | 23/04/2026 |
+| BrainSpark-upc/Landing-Page | Development | bd0c467ec2e47510f2e09f1165dffcb5e340681c | Delete .github/workflows directory | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 8e27b36bf65f70792da689add050baeca363ea6e | Delete .vscode directory | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 2b2e6f919a12325ceecba774ece0c465da0241af | Delete public directory | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | ad2a49e391500a25ac18bdd7d61ebbd31e01cefe | Delete src directory | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | cb0cd1dd35a8ca27a758c4f2527897095b0c3cf9 | Delete .editorconfig | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 714456b7713ffcdf30b51eb2f1d8bb616b68cee6 | Delete .gitignore | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | ee0ecb8ed16ca62fdfb9a289dfebcd05e7dbef82 | Delete .prettierrc | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | cc790fa7d47a027d667ed35876468c3c8d9e6eca | Delete README.md | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 6c021310eae77681cb09e152b11cbc4d380efca5 | Delete angular.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | c1c2c99efa9a461733ea7497cddeb38ed89de71f | Delete package-lock.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 7544d9392a8430c57f806755a5c9d0e561e42081 | Delete package.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 2d6620d94abc89652f1f99f408a193de3267d5b6 | Delete tsconfig.app.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | cd761a5c564e4408764f6e985a86e7076405f231 | Delete tsconfig.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | 509148aa54b4ebaf08717e97b323b079c5fd386c | Delete tsconfig.spec.json | - | 11/05/2026 |
+| BrainSpark-upc/Landing-Page | Development | fac634067aca0bc95ad4471ecca765aa5a3338c0 | Add files via upload | - | 11/05/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
