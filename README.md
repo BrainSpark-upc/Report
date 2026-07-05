@@ -2960,7 +2960,7 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
-#### 5.1. Software Configuration Management.
+### 5.1. Software Configuration Management.
 
 En esta sección se describe la gestión de la configuración del software utilizado en el proyecto de PulseReport, la cual tiene como objetivo garantizar la trazabilidad y digitalización de procesos vitales durante la estadía de un paciente en un hospital cardiovascular.
 Desde registro de pacientes hasta generación de alertas y traspasos SBAR. Esta gestión permite mantener la integridad, trazabilidad y consistencia del código fuente, así como coordinar de manera eficiente el trabajo colaborativo del equipo.
@@ -3342,9 +3342,9 @@ El sistema funciona de la siguiente manera:
 - Mantener compatibilidad entre versiones de frontend y backend, respetando el control de versiones semántico.
 
 
-#### 5.2. Landing Page, Services & Applications Implementation.
+### 5.2. Landing Page, Services & Applications Implementation.
 
-### 5.2.1 Sprint 1
+#### 5.2.1 Sprint 1
 
 El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de PulseReport, la cual representa el primer punto de contacto entre la solución y los usuarios potenciales.
 Este sprint tuvo como objetivo establecer una presencia digital sólida que comunique de manera clara la propuesta de valor del producto.
@@ -3414,10 +3414,7 @@ features, benefits, FAQs, and contact) working correctly, and all corresponding 
 
 #### 5.2.1.3. Sprint Backlog 1
 
-
-El objetivo principal del Sprint 1 es implementar las funcionalidades base del sistema PulseReport, enfocadas en la gestión 
-de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, 
-incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
+El objetivo principal del Sprint 1 fue implementar la primera versión de la Landing Page de PulseReport, enfocada en comunicar la propuesta de valor, explicar la problemática de información clínica dispersa, presentar beneficios principales, incluir llamados a la acción, habilitar contacto inicial y asegurar una experiencia responsive. Este sprint permitió establecer el primer punto de entrada público del producto y validar la claridad inicial de la solución frente a visitantes interesados.
 
 *Nota: Todas las tareas de ingeniería (Tasks) han sido estimadas rigurosamente en un rango de 4 a 8 horas como máximo, asegurando una descomposición granulada y manejable según los requerimientos del marco Scrum.*
 
@@ -4219,7 +4216,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
       <td>T-25</td>
       <td>Crear endpoint latest vital signs</td>
       <td>Obtener último registro de signos vitales por paciente</td>
-      <td>3</td>
+      <td>4</td>
       <td>Carlos Marcelo Mansilla</td>
       <td>Done</td>
     </tr>
@@ -4229,7 +4226,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
       <td>T-26</td>
       <td>Crear endpoint audit logs</td>
       <td>Registro de acciones del sistema para trazabilidad</td>
-      <td>3</td>
+      <td>4</td>
       <td>Johan Cuba</td>
       <td>Done</td>
     </tr>
@@ -4269,7 +4266,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
       <td>T-30</td>
       <td>Merge y releases</td>
       <td>Integración de features en develop y generación de versiones</td>
-      <td>3</td>
+      <td>4</td>
       <td>Equipo</td>
       <td>Done</td>
     </tr>
@@ -4279,7 +4276,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
       <td>T-31</td>
       <td>Validación con Swagger</td>
       <td>Pruebas funcionales de endpoints desarrollados</td>
-      <td>3</td>
+      <td>4</td>
       <td>Equipo</td>
       <td>Done</td>
     </tr>
@@ -4289,7 +4286,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
       <td>T-32</td>
       <td>Elaborar documentación</td>
       <td>Redacción del informe y evidencias del sprint</td>
-      <td>2</td>
+      <td>4</td>
       <td>Equipo</td>
       <td>Done</td>
     </tr>
@@ -5028,9 +5025,9 @@ Durante el Sprint 4, el equipo completó el despliegue integral de la solución:
 
 | Producto | URL de producción |
 |----------|-------------------|
-| Landing Page | <!-- TODO: URL de GitHub Pages --> |
-| Web Application | https://pulsereport-frontend.web.app |
-| Web Service (Swagger UI) | <!-- TODO: URL pública de Railway + /swagger-ui/index.html --> |
+| Landing Page | https://brainspark-upc.github.io/Landing-Page/ |
+| Web Application | https://front-pulsereport.vercel.app/sign-in |
+| Web Service (Swagger UI) | https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html |
 
 ### Evidencia del despliegue
 
@@ -5080,7 +5077,7 @@ La comunicación se realizó mediante Discord con seguimiento en Jira, integrand
 El Sprint 4 permitió entregar la versión final integrada de PulseReport, con los tres productos desplegados, el API protegido mediante IAM y documentado con OpenAPI, y los flujos clínicos operando de extremo a extremo contra datos reales. Con ello se cerró el alcance del proyecto de forma estable, trazable y lista para su presentación final.
 
 
-## 5.3. Validation Interviews
+### 5.3. Validation Interviews
 
 En esta sección se describen las entrevistas de validación realizadas con usuarios pertenecientes a los segmentos objetivo de PulseReport. Estas entrevistas tuvieron como propósito evaluar la interacción de los usuarios con el Landing Page y con las funcionalidades del sistema, obteniendo retroalimentación sobre usabilidad, comprensión y valor percibido.
 
@@ -5289,7 +5286,7 @@ Las entrevistas permitieron validar que PulseReport cumple con comunicar su prop
 
 El sistema demuestra potencial de aplicación real, especialmente en la gestión de información clínica estructurada.
 
-## 5.4. Video About-the-Product
+### 5.4. Video About-the-Product
 
 En esta sección se presenta el video "About the Product", en el cual el equipo muestra el funcionamiento general del sistema PulseReport, explicando su propósito, principales funcionalidades y valor dentro del contexto clínico.
 
