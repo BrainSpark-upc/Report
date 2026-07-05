@@ -4023,6 +4023,9 @@ Durante el Sprint 3, el equipo se enfocó en la finalización del sistema backen
 
 #### 5.2.3.1. Sprint Planning 3
 
+Las Engineering Tasks del lado del Backend han sido segmentadas manteniendo el límite riguroso de esfuerzo técnico (4 a 8 horas).
+
+
 <table>
 <tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 3</th> </tr>
 
@@ -4032,7 +4035,7 @@ Durante el Sprint 3, el equipo se enfocó en la finalización del sistema backen
 <tr> <td colspan="5">Time</td> <td colspan="8">10:00 AM</td> </tr>
 <tr> <td colspan="5">Location</td> <td colspan="8">Reunión virtual (Google Meet)</td> </tr>
 
-<tr> <td colspan="5">Prepared By</td> <td colspan="8">Carlos Marcelo Mansilla Rivero</td> </tr>
+<tr> <td colspan="5">Prepared By</td> <td colspan="8">Mansilla Rivero, Carlos Marcelo</td> </tr>
 
 <tr> <td colspan="5">Attendees (to planning meeting)</td> 
 <td colspan="8">
@@ -4064,8 +4067,8 @@ This will be validated when all endpoints are fully operational, the system is t
 </strong>
 </td> </tr>
 
-<tr> <td colspan="5">Sprint 3 Velocity</td> <td colspan="8">8</td> </tr>
-<tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">10 story points</td> </tr>
+<tr> <td colspan="5">Sprint 3 Velocity</td> <td colspan="8">40 Story Points</td> </tr>
+<tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">40 Story Points</td> </tr>
 
 </table>
 
@@ -4218,20 +4221,130 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
 ![Jira Board Sprint 3](assets/chapter-5/jira-board-sprint3.png)
 
 ### Sprint Backlog
-
-| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| Sprint 3 | US-07 | Registrar signos vitales | T-23 | Crear endpoint POST vital signs | Endpoint para registrar signos vitales de pacientes | 5 | Carlos Marcelo Mansilla | Done |
-| Sprint 3 | US-08 | Consultar signos vitales | T-24 | Crear endpoint GET por paciente | Listado de signos vitales por paciente | 4 | Equipo | Done |
-| Sprint 3 | US-09 | Obtener último registro vital | T-25 | Crear endpoint latest vital signs | Obtener último registro de signos vitales por paciente | 3 | Carlos Marcelo Mansilla | Done |
-| Sprint 3 | US-10 | Registrar auditoría | T-26 | Crear endpoint audit logs | Registro de acciones del sistema para trazabilidad | 3 | Johan Cuba | Done |
-| Sprint 3 | US-11 | Gestionar pacientes | T-27 | Implementar endpoints patients | CRUD parcial de pacientes (listar, obtener, actualizar) | 5 | Alexander Aliaga | Done |
-| Sprint 3 | US-12 | Gestionar handover clínico | T-28 | Crear endpoints handover | Registro, consulta y confirmación de handover | 6 | Anhelo Rocca | Done |
-| Sprint 3 | US-13 | Gestionar eventos críticos | T-29 | Crear endpoints critical events | Listar, atender y cerrar alertas clínicas | 5 | Adrian Rios | Done |
-| Sprint 3 | - | Integración del sistema | T-30 | Merge y releases | Integración de features en develop y generación de versiones | 3 | Equipo | Done |
-| Sprint 3 | - | Pruebas de endpoints | T-31 | Validación con Swagger | Pruebas funcionales de endpoints desarrollados | 3 | Equipo | Done |
-| Sprint 3 | - | Documentación Sprint 3 | T-32 | Elaborar documentación | Redacción del informe y evidencias del sprint | 2 | Equipo | Done |
-
+<table>
+  <thead>
+    <tr>
+      <th align="left">Sprint #</th>
+      <th align="left" colspan="7">Sprint 3</th>
+    </tr>
+    <tr>
+      <th align="left" colspan="2">User Story</th>
+      <th align="left" colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Description</th>
+      <th align="left">Estimation<br>(Hours)</th>
+      <th align="left">Assigned To</th>
+      <th align="left">Status<br>(To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-07</td>
+      <td>Registrar signos vitales</td>
+      <td>T-23</td>
+      <td>Crear endpoint POST vital signs</td>
+      <td>Endpoint para registrar signos vitales de pacientes</td>
+      <td>5</td>
+      <td>Carlos Marcelo Mansilla</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-08</td>
+      <td>Consultar signos vitales</td>
+      <td>T-24</td>
+      <td>Crear endpoint GET por paciente</td>
+      <td>Listado de signos vitales por paciente</td>
+      <td>4</td>
+      <td>Equipo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-09</td>
+      <td>Obtener último registro vital</td>
+      <td>T-25</td>
+      <td>Crear endpoint latest vital signs</td>
+      <td>Obtener último registro de signos vitales por paciente</td>
+      <td>3</td>
+      <td>Carlos Marcelo Mansilla</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-10</td>
+      <td>Registrar auditoría</td>
+      <td>T-26</td>
+      <td>Crear endpoint audit logs</td>
+      <td>Registro de acciones del sistema para trazabilidad</td>
+      <td>3</td>
+      <td>Johan Cuba</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-11</td>
+      <td>Gestionar pacientes</td>
+      <td>T-27</td>
+      <td>Implementar endpoints patients</td>
+      <td>CRUD parcial de pacientes (listar, obtener, actualizar)</td>
+      <td>5</td>
+      <td>Alexander Aliaga</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-12</td>
+      <td>Gestionar handover clínico</td>
+      <td>T-28</td>
+      <td>Crear endpoints handover</td>
+      <td>Registro, consulta y confirmación de handover</td>
+      <td>6</td>
+      <td>Anhelo Rocca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-13</td>
+      <td>Gestionar eventos críticos</td>
+      <td>T-29</td>
+      <td>Crear endpoints critical events</td>
+      <td>Listar, atender y cerrar alertas clínicas</td>
+      <td>5</td>
+      <td>Adrian Rios</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Integración del sistema</td>
+      <td>T-30</td>
+      <td>Merge y releases</td>
+      <td>Integración de features en develop y generación de versiones</td>
+      <td>3</td>
+      <td>Equipo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Pruebas de endpoints</td>
+      <td>T-31</td>
+      <td>Validación con Swagger</td>
+      <td>Pruebas funcionales de endpoints desarrollados</td>
+      <td>3</td>
+      <td>Equipo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Documentación Sprint 3</td>
+      <td>T-32</td>
+      <td>Elaborar documentación</td>
+      <td>Redacción del informe y evidencias del sprint</td>
+      <td>2</td>
+      <td>Equipo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 ### Estados de las tareas
 - **To-do**: Pendiente  
 - **InProcess**: En desarrollo  
