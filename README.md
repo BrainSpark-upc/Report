@@ -5025,21 +5025,13 @@ Durante el Sprint 4, el equipo completó el despliegue integral de la solución:
 
 | Producto | URL de producción |
 |----------|-------------------|
-| Landing Page | https://brainspark-upc.github.io/Landing-Page/ |
-| Web Application | https://front-pulsereport.vercel.app/sign-in |
-| Web Service (Swagger UI) | https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html |
+| Landing Page | [landing](https://brainspark-upc.github.io/Landing-Page/) |
+| Web Application | [front](https://front-pulsereport.vercel.app/dashboard) |
+| Web Service (Swagger UI) | [back](https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html) |
 
 ### Evidencia del despliegue
 
-![Railway Deployment](assets/chapter-5/railway-deployment.png)
-<!-- TODO: agregar captura del panel de Railway con el servicio corriendo -->
-
-*Panel de Railway mostrando el Web Service de PulseReport desplegado y en ejecución.*
-
-![Swagger Production](assets/chapter-5/swagger-production.png)
-<!-- TODO: agregar captura del Swagger UI público en producción -->
-
-*Swagger UI accesible públicamente tras el despliegue del Web Service.*
+[back](https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html)
 
 ### Resultados del despliegue
 
