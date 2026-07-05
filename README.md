@@ -4869,21 +4869,26 @@ El Sprint 4 se enfocó en cerrar el alcance de la solución: autenticación y au
 
 En este Sprint, el equipo implementó el bounded context de IAM en el Web Service, estandarizó el manejo de errores, integró la Web Application con el API desplegado en producción y publicó la versión final del Landing Page. Se trabajó en los tres repositorios de la organización BrainSpark-upc mediante feature branches, pull requests y el release final v1.0.0.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------------------------|-------------------------------|------------------|------------------------------|---------------------------------------------|--------------------|
-| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): add sign-up and sign-in endpoints | Implemented authentication endpoints with user registration and credential validation | <!-- TODO --> |
-| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): add JWT token generation and validation | Configured JWT-based token service with expiration and signature validation | <!-- TODO --> |
-| BrainSpark-upc/BackPulseReport | feature/iam-authentication | <!-- TODO: id real --> | feat(iam): secure endpoints with Spring Security configuration | Protected clinical resources requiring a valid bearer token | <!-- TODO --> |
-| BrainSpark-upc/BackPulseReport | feature/error-handling | <!-- TODO: id real --> | feat(shared): add global exception handler with consistent error responses | Standardized error payloads for validation, authorization and not-found scenarios | <!-- TODO --> |
-| BrainSpark-upc/BackPulseReport | feature/openapi-docs | <!-- TODO: id real --> | docs(openapi): add operation descriptions and request/response examples | Completed OpenAPI annotations for all endpoints with summaries and examples | <!-- TODO --> |
-| BrainSpark-upc/BackPulseReport | release/1.0.0 | <!-- TODO: id real --> | chore(release): v1.0.0 | Final integrated release of the PulseReport Web Service | <!-- TODO --> |
-| BrainSpark-upc/FrontPulseReport | feature/iam-integration | <!-- TODO: id real --> | feat(iam): connect sign-in and sign-up views to production API | Replaced mock authentication with real IAM endpoints and token persistence | <!-- TODO --> |
-| BrainSpark-upc/FrontPulseReport | feature/iam-integration | <!-- TODO: id real --> | feat(iam): add auth interceptor and route guards | Attached bearer token to API requests and protected clinical routes | <!-- TODO --> |
-| BrainSpark-upc/FrontPulseReport | feature/api-integration | <!-- TODO: id real --> | refactor(services): replace fake API base url with production environment | Pointed HTTP services to the Web Service deployed on Railway | <!-- TODO --> |
-| BrainSpark-upc/FrontPulseReport | feature/dashboard-integration | <!-- TODO: id real --> | feat(dashboard): consume critical events endpoints for alerts | Integrated critical alerts into the clinical dashboard with real data | <!-- TODO --> |
-| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): embed About-the-Product and About-the-Team videos | Added video sections targeting the emotional visitor profile | <!-- TODO --> |
-| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): link call-to-action buttons to deployed web application | Connected segment-specific CTAs with the corresponding application views | <!-- TODO --> |
-| BrainSpark-upc/Landing-Page | feature/final-release | <!-- TODO: id real --> | feat(landing): add social media links and final responsive adjustments | Included social media accounts in footer and fixed responsive issues | <!-- TODO --> |
+| Repository | Branch / Scope | Evidence | Description |
+|------------|----------------|----------|-------------|
+| **BrainSpark-upc/BackPulseReport** | Sprint 4 backend final integration | GitHub commits, pull requests and backend repository history shown in Sprint 4 evidence screenshots. | Final backend adjustments for PulseReport, including authentication support, protected resources, standardized error handling, OpenAPI/Swagger documentation and production deployment preparation. |
+| **BrainSpark-upc/BackPulseReport** | IAM and security | GitHub commits and Swagger evidence shown in Sprint 4 screenshots. | Implementation and validation of authentication endpoints, JWT-based access control and authorization behavior for protected API resources. |
+| **BrainSpark-upc/BackPulseReport** | API documentation and error handling | Swagger UI screenshots and backend commits shown in Sprint 4 evidence. | Review of documented endpoints, request/response examples, HTTP status codes and consistent error responses for frontend integration. |
+| **BrainSpark-upc/FrontPulsereport** | Sprint 4 frontend final integration | GitHub commits, pull requests and frontend repository history shown in Sprint 4 evidence screenshots. | Final integration of the Web Application with the deployed RESTful API, including production environment configuration and validation of clinical modules. |
+| **BrainSpark-upc/FrontPulsereport** | IAM integration and route protection | GitHub commits and execution screenshots shown in Sprint 4 evidence. | Integration of sign-in, sign-up, token handling, route guards and role-based access to protected views such as dashboard, users, subscriptions and clinical modules. |
+| **BrainSpark-upc/FrontPulsereport** | Web Application execution | Screenshots of the deployed Web Application and module navigation. | Validation of final user-facing flows, including dashboard, patients, vital signs, clinical events, SBAR, alerts, reports, audit, users and subscriptions. |
+| **BrainSpark-upc/Landing-Page** | Final release | GitHub commits, deployment evidence and Landing Page screenshots shown in Sprint 4 evidence. | Final Landing Page updates, including value proposition, problem section, benefits, features, plans, testimonials, FAQ, contact form, videos, CTAs and responsive adjustments. |
+| **BrainSpark-upc/Landing-Page** | CTA and production navigation | Landing Page deployment screenshots and repository history. | Validation of public navigation from the Landing Page toward the Web Application through calls to action such as requesting a demo, accessing the platform or selecting a plan. |
+| **BrainSpark-upc/Report** | Final report update | GitHub commits and report repository history shown in Sprint 4 evidence screenshots. | Final update of the README report, including Sprint 4 documentation, validation interviews, deployment evidence, continuous improvement, bibliography, conclusions and annexes. |
+| **BrainSpark-upc/Report** | Documentation alignment | Report repository commits and final review evidence. | Review and correction of consistency between chapters, product scope, repositories, deployed URLs, screenshots, Sprint Backlog, Student Outcome and final delivery requirements. |
+
+<p align="center">
+  <img src="assets/chapter-5/sprint-4-development-evidence-1.png" alt="Sprint 4 Development Evidence 1" width="850">
+</p>
+
+<p align="center">
+  <img src="assets/chapter-5/sprint-4-development-evidence-2.png" alt="Sprint 4 Development Evidence 2" width="850">
+</p>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
