@@ -3002,7 +3002,7 @@ Las ramas principales utilizadas son:
 - **feature/**: ramas utilizadas para el desarrollo de funcionalidades específicas del sistema.
 - **release/** : Ramas utilizadas para preparar versiones finales para despliegue y corregir errores críticos en producción, respectivamente.
 
-### Feature Branches utilizados en el proyecto
+### Feature Branches utilizados en el proyecto  PENDIENTEE
 
 El desarrollo de la Landing Page de PulseReport se ha organizado mediante ramas feature específicas por componente funcional:
 
@@ -3061,10 +3061,12 @@ Para mantener un historial claro de cambios, el equipo utiliza Conventional Comm
 Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, el proyecto **PulseReport** adopta un conjunto de guías de estilo y convenciones estándar para todos los lenguajes utilizados en la solución. 
 Estas buenas prácticas permiten asegurar consistencia entre los miembros del equipo, mejorar la calidad del código y facilitar su escalabilidad en futuras iteraciones.
 
-Todas las variables, funciones, clases, componentes y archivos se nombran en inglés, siguiendo estándares internacionales de la industria del software.
+Como regla principal, **todas las variables, funciones, clases, componentes y archivos se nombran estrictamente en idioma inglés**, evitando el uso del "spanglish", traducciones incorrectas (como *deployar*, *aplicativo*) o nomenclatura en español en la lógica interna del software.
+
+Por lo que todas las variables, funciones, clases, componentes y archivos se nombran en inglés, siguiendo estándares internacionales de la industria del software.
 
 
-### HTML / CSS
+### HTML / CSS (Landing Page y vistas estáticas)
 
 **Guía adoptada:** Google HTML/CSS Style Guide y W3C Standards
 
@@ -3084,33 +3086,58 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Se organiza el CSS de forma modular por componentes o secciones.
 
 
-### AngularJS (Frontend)
+### AngularJS (Frontend Web Application)
 
-**Guías adoptadas:** Angular Coding Style Guide
+**Guías adoptadas:** *Angular Coding Style Guide* y *Google TypeScript Style Guide*.
 
 ### Nomenclatura
 - `camelCase` para variables, funciones, métodos y propiedades.
-- `PascalCase` para clases, interfaces, componentes y enums.
+- `PascalCase` para clases, interfaces, componentes y enumeraciones (`enums`).
 - `UPPER_SNAKE_CASE` para constantes globales.
-- `kebab-case` para nombres de archivos y carpetas.
-- Prefijo _ para propiedades privadas y signals privados.
+- `kebab-case` para nombres de archivos y carpetas (ej. `patient-list.component.ts`).
+- Prefijo `_` para propiedades privadas y *signals* privados.
 
 ### Buenas prácticas
-- Clean Architecture junto con Domain-Driven Design: Separación en capas application, domain, infrastructure y presentation.
-- Inyección de dependencias: Uso de @Injectable() y inject() para gestión de dependencias.
-- Patrón Assembler: Conversión de DTOs a entidades de dominio.
-- Uso de Signals para estado reactivo
-- Uso de `computed` signals para lógica derivada.
-- Guards de rutas para protección de acceso.
-
+- Clean Architecture junto con Domain-Driven Design (DDD): Separación lógica en capas (`application`, `domain`, `infrastructure` y `presentation`).
+- Inyección de dependencias: Uso de `@Injectable()` y la función `inject()` de Angular para la gestión ágil de dependencias.
+- Patrón Assembler/Mapper: Conversión de DTOs a entidades de dominio para no acoplar la respuesta del API directamente a la vista.
+- Manejo de estado reactivo: Uso de *Signals* nativos para el control del estado en los componentes.
+- Lógica derivada: Uso de `computed` *signals* para variables que dependen reactivamente de otros estados.
+- Seguridad en la navegación: Implementación de *Route Guards* para la protección de acceso a rutas privadas o clínicas.
 
 ### Estilo de código
-- Uso de `const` y `let` (no `var`).
-- Código modular y reutilizable.
-- Manejo de errores estructurado: `try/catch` o catchError con mensajes descriptivos.
-- Ternario y optional chaining para lógica simple.
-- Typescript Strict Mode: Máxima seguridad en compilación.
+- Declaración de variables: Uso estricto de `const` (por defecto) y `let` (solo si mutará). Prohibido el uso de `var`.
+- Reusabilidad: Código altamente modular, priorizando componentes "tontos" (Dumb/Presentational Components) y servicios "inteligentes" (Smart Services).
+- Manejo de errores estructurado: Uso de bloques `try/catch` o el operador `catchError` de RxJS con mensajes descriptivos y amigables para el usuario.
+- Sintaxis moderna: Uso de operadores ternarios y *optional chaining* (`?.`) para simplificar validaciones y evitar errores en consola.
+- Seguridad de tipos: Habilitación estricta de *TypeScript Strict Mode* para garantizar la máxima seguridad y detección de errores durante la compilación.
 
+
+### Java / Spring Boot (RESTful API Backend)
+
+**Guía adoptada:** *Google Java Style Guide* y convenciones de *Spring Boot Features*.
+
+### Nomenclatura
+- `camelCase` para variables, métodos, atributos y parámetros.
+- `PascalCase` para clases, interfaces, registros (*records*) y enumeraciones.
+- `UPPER_SNAKE_CASE` para constantes (`static final`).
+- `kebab-case` para las rutas (URLs) de los endpoints REST (ej. `/api/v1/vital-signs`).
+- Minúsculas (sin guiones ni mayúsculas) para la estructura de paquetes (ej. `com.carelabs.pulsereport.patient`).
+
+### Buenas prácticas
+- Domain-Driven Design (DDD): Organización del código fuente en paquetes alineados con *Bounded Contexts*.
+- Arquitectura en capas: Separación lógica estricta en `Controller` (Presentación), `Service` (Aplicación/Lógica de Negocio), `Repository` (Infraestructura) y `Domain Model`.
+- Inyección de dependencias: Uso de inyección por constructor mediante anotaciones estándar de Spring (`@RestController`, `@Service`, `@Repository`).
+- Patrón DTO y Assembler/Mapper: Conversión entre DTOs y Entidades para evitar exponer el modelo de dominio y la persistencia directamente en la API.
+- Persistencia Relacional: Uso de JPA/Hibernate para el mapeo objeto-relacional (ORM).
+- Respuestas estandarizadas: Uso consistente de `ResponseEntity` para manejar y estructurar los códigos de estado HTTP y el cuerpo de las respuestas.
+
+### Estilo de código
+- Inmutabilidad: Preferencia por variables `final` y uso de Java *Records* para la creación concisa de DTOs inmutables.
+- Código modular y aplicación de principios SOLID.
+- Manejo de errores estructurado: Excepciones centralizadas globales mediante `@ControllerAdvice` y `@ExceptionHandler` para retornar mensajes de error consistentes (400, 404, 500).
+- Seguridad contra nulos: Uso de `Optional<T>` en las consultas de base de datos y flujos lógicos para evitar `NullPointerException`.
+- Validación de datos: Implementación de *Jakarta Bean Validation* (`@Valid`, `@NotNull`, `@NotBlank`, etc.) para sanitizar el *request body* directamente en los controladores.
 
 ### Convenciones generales del proyecto PulseReport
 
