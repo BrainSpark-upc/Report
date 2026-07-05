@@ -124,7 +124,7 @@ Avance 2
 </p>
 Trabajo Final
 <p align="center">
-  <img src="assets/chapter-1/insights-4.png" alt="Commits del trabajo final" width="700">
+  <img src="assets/chapter-1/sprint4-commits-back.png" alt="Commits del trabajo final" width="700">
 </p>
 
 <div style="page-break-after: always;"></div>
