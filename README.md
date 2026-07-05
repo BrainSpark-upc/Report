@@ -3406,17 +3406,110 @@ incluyendo el registro de productos, visualización del inventario y la simulaci
 
 ###  Sprint Backlog
 
-| User Story | Work-Item / Task | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US-01 | Visualizar landing page | T-01.1 | Layout General Responsive | Maquetar estructura base HTML5/CSS3 adaptativa para desktop, tablet y móvil. | 6 | Aliaga Ocampo, Alexander | Done |
-| US-02 | Ver propuesta de valor | T-02.1 | Sección Hero y Pitch | Diseñar e implementar sección principal con pitch interactivo y llamados a la acción. | 4 | Aliaga Ocampo, Alexander | Done |
-| US-05 | Visualizar características | T-03.1 | Módulo de Features | Programar cuadrícula responsive con assets gráficos detallando el funcionamiento del producto. | 5 | Rocca Leon, Anhelo | Done |
-| US-11 | Cambiar idioma del sitio | T-04.1 | Internacionalización | Configurar lógica de internacionalización (i18n) para soportar idiomas ES y EN en toda la navegación. | 6 | Huamán Cuba, Johan | Done |
-| US-10 | Contactar al equipo | T-05.1 | Formulario de Contacto | Desarrollar formulario de contacto con validaciones de campos y alertas visuales integradas. | 5 | Huamán Cuba, Johan | Done |
-| US-08 | Visualizar testimonios | T-06.1 | Sección Testimonios y Redes | Crear carrusel interactivo de testimonios y pie de página con accesos a social media accounts. | 5 | Rocca Leon, Anhelo | Done |
-| US-12 | Acceso móvil | T-07.1 | Ajustes Media Queries | Refactorización final de media queries para asegurar que no exista desbordamiento en vistas móviles. | 4 | Rios Cespedes, Adrian | Done |
-| US-04 | Despliegue Público | T-08.1 | GitFlow y GitHub Pages | Configurar repositorios, workflows de CI/CD básicos y desplegar la Landing Page de forma exitosa. | 4 | Rios Cespedes, Adrian | Done |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Sprint #</th>
+      <th align="left" colspan="7">Sprint 1</th>
+    </tr>
+    <tr>
+      <th align="left" colspan="2">User Story</th>
+      <th align="left" colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Description</th>
+      <th align="left">Estimation<br>(Hours)</th>
+      <th align="left">Assigned To</th>
+      <th align="left">Status<br>(To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-01</td>
+      <td>Visualizar landing page</td>
+      <td>T-01.1</td>
+      <td>Layout General Responsive</td>
+      <td>Maquetar estructura base HTML5/CSS3 adaptativa para desktop, tablet y móvil.</td>
+      <td>6</td>
+      <td>Aliaga Ocampo, Alexander</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-02</td>
+      <td>Ver propuesta de valor</td>
+      <td>T-02.1</td>
+      <td>Sección Hero y Pitch</td>
+      <td>Diseñar e implementar sección principal con pitch interactivo y llamados a la acción.</td>
+      <td>4</td>
+      <td>Aliaga Ocampo, Alexander</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-05</td>
+      <td>Visualizar características clave</td>
+      <td>T-03.1</td>
+      <td>Módulo de Features</td>
+      <td>Programar cuadrícula responsive con assets gráficos detallando el funcionamiento del producto.</td>
+      <td>5</td>
+      <td>Rocca Leon, Anhelo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-11</td>
+      <td>Cambiar idioma del sitio</td>
+      <td>T-04.1</td>
+      <td>Internacionalización</td>
+      <td>Configurar lógica de internacionalización (i18n) para soportar idiomas ES y EN en toda la navegación.</td>
+      <td>6</td>
+      <td>Huamán Cuba, Johan</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-10</td>
+      <td>Contactar al equipo de PulseReport</td>
+      <td>T-05.1</td>
+      <td>Formulario de Contacto</td>
+      <td>Desarrollar formulario de contacto con validaciones de campos y alertas visuales integradas.</td>
+      <td>5</td>
+      <td>Huamán Cuba, Johan</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-08</td>
+      <td>Visualizar testimonios</td>
+      <td>T-06.1</td>
+      <td>Sección Testimonios y Redes</td>
+      <td>Crear carrusel interactivo de testimonios y pie de página con accesos a social media accounts.</td>
+      <td>5</td>
+      <td>Rocca Leon, Anhelo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-12</td>
+      <td>Acceder desde dispositivos móviles</td>
+      <td>T-07.1</td>
+      <td>Ajustes Media Queries</td>
+      <td>Refactorización final de media queries para asegurar que no exista desbordamiento en vistas móviles.</td>
+      <td>4</td>
+      <td>Rios Cespedes, Adrian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-04</td>
+      <td>Revisar cómo funciona PulseReport</td>
+      <td>T-08.1</td>
+      <td>GitFlow y GitHub Pages</td>
+      <td>Configurar repositorios, workflows de CI/CD básicos y desplegar la Landing Page de forma exitosa.</td>
+      <td>4</td>
+      <td>Rios Cespedes, Adrian</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 ###  Estados de las tareas
 - **To-do**: Pendiente
@@ -3656,23 +3749,140 @@ El Sprint 2 se enfocó en implementar las funcionalidades clínicas principales 
 ![Jira Board Sprint 2](assets/chapter-5/jira-board.png)
 
 ###  Sprint Backlog
-
-| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| Sprint 2 | US-13 | Registrar traspaso SBAR | T-10 | Crear componente SBAR form | Formulario de registro de traspasos SBAR | 8 | Anhelo Rocca | Done |
-| Sprint 2 | US-14 | Consultar traspaso de turno | T-11 | Crear vista de lista SBAR | Listado de traspasos por paciente | 5 | Adrian Rios | Done |
-| Sprint 2 | US-15 | Confirmar recepción de traspaso | T-12 | Confirmación de traspaso | Modal/formulario de confirmación | 3 | Alexander Aliaga | Done |
-| Sprint 2 | US-16 | Registrar signos vitales | T-13 | Crear componente vital signs | Formulario para registrar signos vitales | 5 | Adrian Rios | Done |
-| Sprint 2 | US-18 | Registrar administración medicamento | T-14 | Crear componente medication form | Formulario de administración de medicamentos | 5 | Anhelo Rocca | Done |
-| Sprint 2 | US-19 | Registrar evento clínico relevante | T-15 | Crear componente clinical event | Formulario para eventos clínicos significativos | 5 | Adrian Rios | Done |
-| Sprint 2 | US-17 | Consultar evolución clínica | T-16 | Crear vista clinical evolution | Visualización de evolución clínica reciente | 5 | Johan Cuba | Done |
-| Sprint 2 | US-23 | Consultar resumen clínico | T-17 | Crear dashboard clínico básico | Dashboard con resumen del paciente | 8 | Johan Cuba | Done |
-| Sprint 2 | US-20 | Consultar historial eventos | T-18 | Crear timeline de eventos | Visualización temporal de eventos clínicos | 5 | Johan Cuba | Done |
-| Sprint 2 | US-21 | Identificar responsable registro | T-19 | Implementar auditoría UI | Mostrar responsable y fecha de registro en vistas | 3 | Alexander Aliaga | Done |
-| Sprint 2 | - | Autenticación | T-20 | Crear servicio de autenticación | Implementar login y gestión de sesión | 6 | Alexander Aliaga | Done |
-| Sprint 2 | - | Arquitectura componentes | T-21 | Crear patrones base | Componentes reutilizables y servicios centrales | 4 | Adrian Rios | Done |
-| Sprint 2 | - | Integración API | T-22 | Conectar con backend | Servicios HTTP para consumir endpoints | 5 | Anhelo Rocca | Done |
-
+<table>
+  <thead>
+    <tr>
+      <th align="left">Sprint #</th>
+      <th align="left" colspan="7">Sprint 2</th>
+    </tr>
+    <tr>
+      <th align="left" colspan="2">User Story</th>
+      <th align="left" colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Id</th>
+      <th align="left">Title</th>
+      <th align="left">Description</th>
+      <th align="left">Estimation<br>(Hours)</th>
+      <th align="left">Assigned To</th>
+      <th align="left">Status<br>(To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-09.1</td>
+      <td>Login &amp; Session UI</td>
+      <td>Desarrollar interfaz de Login y servicio de sesión persistente (JWT simulado).</td>
+      <td>6</td>
+      <td>Aliaga Ocampo, Alexander</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS-01</td>
+      <td>Autenticación de usuarios</td>
+      <td>T-09.2</td>
+      <td>Route Guards Angular</td>
+      <td>Implementar la protección de rutas con AuthGuard para vistas médicas.</td>
+      <td>4</td>
+      <td>Aliaga Ocampo, Alexander</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-13</td>
+      <td>Registrar traspaso SBAR</td>
+      <td>T-10.1</td>
+      <td>Componente Formulario SBAR</td>
+      <td>Diseñar y maquetar formulario SBAR con validaciones de campos requeridos.</td>
+      <td>8</td>
+      <td>Rocca Leon, Anhelo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-14</td>
+      <td>Consultar traspaso de turno</td>
+      <td>T-11.1</td>
+      <td>SBAR List DataGrid</td>
+      <td>Desarrollar tabla (DataGrid) dinámica para consultar histórico SBAR filtrado por paciente.</td>
+      <td>6</td>
+      <td>Rios Cespedes, Adrian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-15</td>
+      <td>Confirmar recepción de traspaso</td>
+      <td>T-12.1</td>
+      <td>Acknowledge Dialog</td>
+      <td>Implementar lógica de confirmación (Modal Dialog) de recepción de traspaso clínico.</td>
+      <td>4</td>
+      <td>Aliaga Ocampo, Alexander</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-16</td>
+      <td>Registrar signos vitales</td>
+      <td>T-13.1</td>
+      <td>Formulario Vital Signs</td>
+      <td>Maquetación y lógica reactiva de captura (FC, FR, PA, Temperatura) con alertas visuales.</td>
+      <td>6</td>
+      <td>Rios Cespedes, Adrian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-18</td>
+      <td>Registrar administración de medicamento</td>
+      <td>T-14.1</td>
+      <td>Medication Form UI</td>
+      <td>Construir formulario de administración con listas desplegables y campo de dosis.</td>
+      <td>5</td>
+      <td>Rocca Leon, Anhelo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-19</td>
+      <td>Registrar evento clínico relevante</td>
+      <td>T-15.1</td>
+      <td>Event Tracker Layout</td>
+      <td>Desarrollo del registro de eventos con timestamps de auditoría.</td>
+      <td>5</td>
+      <td>Rios Cespedes, Adrian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-17</td>
+      <td>Consultar evolución clínica</td>
+      <td>T-16.1</td>
+      <td>Clinical Data View</td>
+      <td>Integrar visualización central de datos clínicos conectada a un JSON-Server (Fake API).</td>
+      <td>6</td>
+      <td>Huamán Cuba, Johan</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-23</td>
+      <td>Consultar resumen clínico del paciente</td>
+      <td>T-17.1</td>
+      <td>Dashboard Structure</td>
+      <td>Configurar vista "Home" del panel con contadores (widgets) para la supervisión.</td>
+      <td>8</td>
+      <td>Huamán Cuba, Johan</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US-20</td>
+      <td>Consultar historial de eventos</td>
+      <td>T-18.1</td>
+      <td>Timeline Component</td>
+      <td>Programar componente "Timeline" para renderizar el historial auditado de forma cronológica.</td>
+      <td>6</td>
+      <td>Huamán Cuba, Johan</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 ###  Estados de las tareas
 - **To-do**: Pendiente
 - **InProcess**: En desarrollo
@@ -3684,27 +3894,29 @@ El Sprint 2 se enfocó en implementar las funcionalidades clínicas principales 
 En este Sprint, el equipo implementó la mayoría de los componentes frontend necesarios para la funcionalidad clínica principal de PulseReport. Se priorizó la creación de formularios clínicos, visualizaciones de datos y servicios de integración con el backend.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---------------------------|-------------|-------------------------------------------|---|---|--------------------|
-| AlexanderAliaga19/FrontPulsereport | development | a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6 | feat(auth): implement authentication service with JWT | Implemented JWT-based authentication with login/logout functionality and token persistence in localStorage | 11/05/2026         |
-| AlexanderAliaga19/FrontPulsereport | development | b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7 | feat(auth): create login component and auth guard | Created login form component with validation and implemented route guards for protected pages | 11/05/2026         |
-| AdrianR16-C/FrontPulsereport | development | c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8 | feat(vital-signs): create vital signs registration form | Implemented form component for registering patient vital signs with validation and error handling | 11/05/2026         |
-| AdrianR16-C/FrontPulsereport | development | d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9 | feat(clinical-events): create clinical event tracking component | Developed component for registering and tracking clinical events with timestamps | 11/05/2026         |
-| RoccaA4/FrontPulsereport | development | e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0 | feat(sbar): create SBAR handover form and validation | Implemented SBAR-specific form with structured fields (Situation, Background, Assessment, Recommendation) | 11/05/2026         |
-| RoccaA4/FrontPulsereport | development | f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1 | feat(sbar): implement SBAR list view with filters | Created list view for SBAR handovers with filtering and search capabilities | 11/05/2026         |
-| Johancuba/FrontPulsereport | development | g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2 | feat(dashboard): create clinical dashboard with patient summary | Implemented main dashboard displaying patient overview, recent vital signs, and critical alerts | 11/05/2026         |
-| Johancuba/FrontPulsereport | development | h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3 | feat(timeline): add clinical events timeline visualization | Created interactive timeline component for viewing patient clinical history | 11/05/2026         |
-| AlexanderAliaga19/FrontPulsereport | development | i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4 | feat(services): implement HTTP client service for API integration | Developed centralized HTTP service for all backend API calls with interceptors for auth headers | 11/05/2026         |
-| AdrianR16-C/FrontPulsereport| development | j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5 | refactor(components): create reusable form components | Extracted common form patterns into reusable components to reduce code duplication | 11/05/2026         |
-| RoccaA4/FrontPulsereport| development | k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6 | feat(audit): add audit trail display in clinical views | Implemented audit information display showing who made changes and when | 11/05/2026         |
-| Johancuba/FrontPulsereport | development | l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7 | feat(medication): create medication administration tracking form | Built form component for recording medication administration with validation | 11/05/2026         |
-
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| BrainSpark-upc/FrontPulseReport | Development | a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6 | feat(auth): implement authentication service with JWT | Implemented JWT-based authentication with login/logout functionality and token persistence in localStorage | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7 | feat(auth): create login component and auth guard | Created login form component with validation and implemented route guards for protected pages | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8 | feat(vital-signs): create vital signs registration form | Implemented form component for registering patient vital signs with validation and error handling | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9 | feat(clinical-events): create clinical event tracking component | Developed component for registering and tracking clinical events with timestamps | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0 | feat(sbar): create SBAR handover form and validation | Implemented SBAR-specific form with structured fields (Situation, Background, Assessment, Recommendation) | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1 | feat(sbar): implement SBAR list view with filters | Created list view for SBAR handovers with filtering and search capabilities | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2 | feat(dashboard): create clinical dashboard with patient summary | Implemented main dashboard displaying patient overview, recent vital signs, and critical alerts | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3 | feat(timeline): add clinical events timeline visualization | Created interactive timeline component for viewing patient clinical history | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4 | feat(services): implement HTTP client service for API integration | Developed centralized HTTP service for all backend API calls with interceptors for auth headers | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5 | refactor(components): create reusable form components | Extracted common form patterns into reusable components to reduce code duplication | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6 | feat(audit): add audit trail display in clinical views | Implemented audit information display showing who made changes and when | 11/05/2026 |
+| BrainSpark-upc/FrontPulseReport | Development | l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7 | feat(medication): create medication administration tracking form | Built form component for recording medication administration with validation | 11/05/2026 |
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-## Resumen de Logros del Sprint 2
+**1. Resumen de Logros del Sprint 2**
 
 Durante el Sprint 2, el equipo desarrolló los componentes principales de la aplicación web frontend de PulseReport, enfocados en digitalizar procesos clínicos críticos para enfermería cardiovascular. Se implementaron exitosamente:
 
-**Hitos alcanzados:**
+*   **Gestión Clínica Responsiva:** Formulario *SBAR* y de *Signos Vitales* completamente operacionales en dispositivos de diferentes anchos.
+*   **Integración Fake API:** El código emplea servicios de cliente HTTP configurados (Angular `HttpClient`) permitiendo que la arquitectura en Sprints posteriores absorba el API real sin reestructuraciones drásticas.
+
+**2. Hitos alcanzados:**
 * **Autenticación**: Sistema de login seguro con JWT para proteger acceso a información clínica.
 * **Gestión de Pacientes**: Vistas para consultar información de pacientes con datos clínicos organizados.
 * **Registro Clínico Digital**: Formularios intuitivos para signos vitales, medicamentos y eventos clínicos.
@@ -3713,7 +3925,7 @@ Durante el Sprint 2, el equipo desarrolló los componentes principales de la apl
 * **Trazabilidad**: Registro de auditoría mostrando responsable y timestamp de cada acción.
 * **Integración Frontend-Backend**: Servicios HTTP para consumir APIs y sincronización de datos.
 
-## Screenshots de las Principales Vistas
+**3. Screenshots de la Aplicación Frontend**
 
 ### Vista General y url del Frontend desplegado
 URL del frontend desplegado en Firebase Hosting: [PulseReport Web App](https://pulsereport-frontend.web.app)
@@ -3752,18 +3964,18 @@ URL del frontend desplegado en Firebase Hosting: [PulseReport Web App](https://p
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 2, el equipo continuó el desarrollo de la arquitectura API iniciada previamente. Aunque la mayoría de endpoints aún se encontraban en fase de desarrollo en entorno local, se documentaron las estructuras de datos y contratos API esperados para las funcionalidades implementadas en el frontend.
+En este Sprint el desarrollo fue puramente de Frontend y se consumieron endpoints mediante la tecnología `json-server` a modo de *Fake API*. Por lo tanto, el Swagger y la documentación formal estandarizada OpenAPI se entregarán en el Sprint 3, una vez los Web Services estén implementados sobre Spring Boot en Java.
 
 **Endpoints documentados (Desarrollo Local):**
-Endpoints:
-   [0] http://localhost:3000/patients
-   [0] http://localhost:3000/vital-signs
-   [0] http://localhost:3000/clinical-events
-   [0] http://localhost:3000/sbar-transfers
-   [0] http://localhost:3000/alerts
-   [0] http://localhost:3000/reports
-   [0] http://localhost:3000/audit-logs
-   [0] http://localhost:3000/users
+
+* `http://localhost:3000/patients`
+* `http://localhost:3000/vital-signs`
+* `http://localhost:3000/clinical-events`
+* `http://localhost:3000/sbar-transfers`
+* `http://localhost:3000/alerts`
+* `http://localhost:3000/reports`
+* `http://localhost:3000/audit-logs`
+* `http://localhost:3000/users`
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
