@@ -4021,10 +4021,6 @@ Durante el Sprint 2, se realizó el despliegue de la aplicación web frontend de
     - Se ejecutó el comando `firebase deploy` para subir la aplicación compilada.
     - Se verificó la funcionalidad en el entorno de producción, incluyendo navegación, formularios y dashboard.
 
-<p align="center">
-  <img src="assets/chapter-5/firebase-console.png" alt="Firebase Console Project" width="1000">
-</p>
-*Consola de Firebase mostrando el proyecto "pulsereport-frontend" configurado con Hosting habilitado.*
 
 <p align="center">
   <img src="assets/chapter-5/deployed-frontend.png" alt="Deployed Frontend Screenshot" width="1000">
@@ -4882,13 +4878,6 @@ En este Sprint, el equipo implementó el bounded context de IAM en el Web Servic
 | **BrainSpark-upc/Report** | Final report update | GitHub commits and report repository history shown in Sprint 4 evidence screenshots. | Final update of the README report, including Sprint 4 documentation, validation interviews, deployment evidence, continuous improvement, bibliography, conclusions and annexes. |
 | **BrainSpark-upc/Report** | Documentation alignment | Report repository commits and final review evidence. | Review and correction of consistency between chapters, product scope, repositories, deployed URLs, screenshots, Sprint Backlog, Student Outcome and final delivery requirements. |
 
-<p align="center">
-  <img src="assets/chapter-5/sprint-4-development-evidence-1.png" alt="Sprint 4 Development Evidence 1" width="850">
-</p>
-
-<p align="center">
-  <img src="assets/chapter-5/sprint-4-development-evidence-2.png" alt="Sprint 4 Development Evidence 2" width="850">
-</p>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
