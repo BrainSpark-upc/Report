@@ -5368,16 +5368,40 @@ Esta sección contrasta los resultados obtenidos en las Validation Interviews (s
 2. También concluimos que la aplicación de Scrum en el proyecto ha permitido una entrega iterativa y colaborativa, adaptándose a los requerimientos cambiantes del dominio clínico y asegurando que el producto final se alinee con las necesidades reales de los usuarios finales, como enfermeras y médicos especialistas.
 3. Por último, a través del proyecto, el equipo ha fortalecido sus habilidades en desarrollo frontend con Angular, gestión de proyectos open-source y colaboración en entornos distribuidos, sentando las bases para futuras contribuciones en el ámbito de la salud digital y el software libre.
 
+### Video About-the-Team
+
+En esta sección se presenta el video About-the-Team de BrainSpark, donde los integrantes explican el proceso de trabajo realizado durante el desarrollo de PulseReport, la distribución de responsabilidades, las actividades desarrolladas en los sprints y la retrospectiva final del equipo.
+
+**URL del video About-the-Team:**  
+
+
+El video incluye la presentación del equipo, explicación de la colaboración en los repositorios, evidencias de trabajo en Landing Page, Web Application, RESTful API, documentación del informe, validación y despliegue. Asimismo, cada integrante participa explicando su aporte principal y los aprendizajes obtenidos durante el proyecto.
+
+| Integrante | Participación destacada |
+|-----------|--------------------------|
+| Alexander Aliaga | Landing Page, comunicación de propuesta de valor, evidencias y soporte en integración final. |
+| Adrian Rios | Requirements, entrevistas, validación, Product Backlog y apoyo en despliegue. |
+| Anhelo Rocca | UX/UI, prototipos, flujos de usuario, coordinación del equipo y ajustes finales. |
+| Johan Huamán | Arquitectura, base de datos, documentación técnica y soporte en despliegue. |
+| Carlos Mansilla | Backend, Vital Signs, documentación OpenAPI, Sprint 4 y revisión final del informe. |
+
 ## Bibliografía
 
-Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill Education.
-Angular. (2026). Angular.dev. Retrieved from https://angular.dev/overview
+- Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill Education.
+- Angular. (2026). Angular Documentation. Retrieved from https://angular.dev/
+- Spring. (2026). Spring Boot Documentation. Retrieved from https://docs.spring.io/spring-boot/
+- OpenAPI Initiative. (2026). OpenAPI Specification. Retrieved from https://spec.openapis.org/oas/latest.html
+- Swagger. (2026). Swagger UI Documentation. Retrieved from https://swagger.io/tools/swagger-ui/
+- GitHub Docs. (2026). GitHub Documentation. Retrieved from https://docs.github.com/
+- Vercel. (2026). Vercel Documentation. Retrieved from https://vercel.com/docs
+- Railway. (2026). Railway Documentation. Retrieved from https://docs.railway.com/
+- World Health Organization. (2025). Cardiovascular diseases. Retrieved from https://www.who.int/
 
 ## Anexos
 - Link de la organización de GitHub: https://github.com/BrainSpark-upc
 - Link del repositorio del reporte: https://github.com/BrainSpark-upc/Report
 - Link de la landing page desplegada: https://brainspark-upc.github.io/Landing-Page/#funciona
-- Link del repositorio del frontend: https://github.com/BrainSpark-upc/Report
+- Link del repositorio del frontend: https://github.com/BrainSpark-upc/FrontPulsereport
 - Link del frontend desplegado: https://front-pulsereport.vercel.app/sign-in
-- Link del repositorio del backend desplegado: https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html
+- Link del backend desplegado / Swagger UI: https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html
 - Link del repositorio del backend: https://github.com/BrainSpark-upc/BackPulseReport
