@@ -258,7 +258,8 @@ Avance 2
 
 ## Student Outcome
 
-El curso contribuye al cumplimiento del Student Outcome ABET:
+El curso contribuye al cumplimiento del Student Outcome ABET y el grupo de BrainSpark reflejo su cumplimiento en la siguiente tabla 
+que traza la vida del desarrollo de PulseReport:
 
 **ABET – EAC - Student Outcome 3**
 
