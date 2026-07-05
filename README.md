@@ -4390,55 +4390,54 @@ A continuación, se presentan las principales vistas implementadas y validadas d
 
   ### Video de navegación y visualización del Sprint 3
 
+**Repositorio de Web Services:**
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo completó la implementación de los servicios backend de PulseReport, exponiendo múltiples endpoints REST para la gestión de información clínica. A diferencia del Sprint anterior, en este caso los servicios fueron completamente funcionales y documentados utilizando Swagger UI, permitiendo su validación en tiempo real.
+Durante el Sprint 3, el equipo documentó los servicios backend de PulseReport usando OpenAPI/Swagger, alineando cada endpoint 
+con el alcance funcional definido para el sprint. La documentación permite consultar la sintaxis de llamada, parámetros de entrada, estructuras de respuesta y comportamiento esperado de cada operación. 
+Además, se validó la interacción con datos de muestra desde la interfaz Swagger, lo que facilitó verificar el contrato de la API por parte de los integrantes y su consistencia con la implementación.
 
-La documentación de servicios incluyó la definición de rutas, métodos HTTP, estructuras de request/response y pruebas directas desde la interfaz Swagger, facilitando la comprensión y uso de la API por parte de los integrantes del equipo.
+**URL de la documentación desplegada de Web Services:**
 
-**Documentación de endpoints (Swagger UI):**
+[URL del backend desplegado en Railway](https://backpulsereport-production-7576.up.railway.app/swagger-ui/index.html)
 
-Acceso local: http://localhost:8080/swagger-ui.html
-
-
-
-### Endpoints implementados
-
-**Pacientes (Patients)**
-
-GET /patients
-GET /patients/{id}
-POST /patients
-PUT /patients/{id}
-
-**Signos Vitales (Vital Signs)**
-POST /vital-sign-records
-GET /vital-sign-records/{patientId}
-GET /vital-sign-records/latest/{patientId}
-
-**Auditoría (Audit Logs)**
-POST /audit-logs
-
-**Handover Clínico**
-POST /handovers
-GET /handovers/{id}
-GET /handovers/patient/{patientId}
-PUT /handovers/{id}/acknowledge
-
-**Eventos Críticos (Critical Events)**
-GET /critical-events/patient/{patientId}
-PUT /critical-events/{id}/attend
-PUT /critical-events/{id}/close
+[URL del repositorio del backend de PulseReport](https://github.com/BrainSpark-upc/BackPulseReport)
 
 
 
-### Evidencia de documentación en Swagger
+### Evidencia de documentación 
 
 ![Swagger Endpoints](assets/chapter-5/swagger-endpoints.png)
 
-*Documentación de endpoints en Swagger UI mostrando los servicios organizados por bounded context.*
-
+| Bounded Context |                        Endpoint                        |                            Acción Implementada                             | Verbo HTTP |                                                   Response                                                    |
+|:---------------:|:------------------------------------------------------:|:--------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------:|
+|    Patients     |                    /api/v1/patients                    |                               Crear paciente                               |    POST    |                           Devuelve el paciente creado con su identificador asignado                           |
+|    Patients     |                    /api/v1/patients                    |                              Listar pacientes                              |    GET     |                          Devuelve una lista de pacientes registrados en el sistema.                           |
+|    Patients     |              /api/v1/patients/{patientId}              |                             Elimina pacientes                              |   DELETE   |                            Elimina un paciente de la lista de pacientes registrado                            |
+|    Patients     |              /api/v1/patients/{patientId}              |                            Actualiza pacientes                             |    PUT     |                          Devuelve el paciente actualizado con los datos modificados.                          |
+|    Patients     |              /api/v1/patients/{patientId}              |                          Obtener paciente por ID                           |    GET     |                   Devuelve la información del paciente solicitado o un error si no existe.                    |
+|   Audit Logs    |                   /api/v1/audit-logs                   |                       Registrar acción de auditoría                        |    POST    |                          Devuelve el log creado, útil para trazabilidad del sistema.                          |
+|   Audit Logs    |                   /api/v1/audit-logs                   |                        Listar entradas de auditoría                        |    GET     |                                    Devuelve una lista de logs de auditrpía                                    |
+|   Audit Logs    |            /api/v1/audit-logs/{auditLogId}             |       Obtener los detalles de una entrada del registro de auditoría        |    GET     |   Devuelve todos los detalles de una entrada concreta del registro de auditoría mediante su identificador.    |
+|   Audit Logs    |    /api/v1/audit-logs/patients/{patientId}/timeline    |             Consultar el calendario de auditorías de pacientes             |    GET     |               Devuelve el historial de auditoría cronológico completo de un paciente concreto.                |
+|   Audit Logs    |  /api/v1/audit-logs/entities/{entityType}/{entityId}   |              Obtener el historial de auditorías de la entidad              |    GET     |           Devuelve el historial de auditoría cronológico completo de una entidad clínica específica           |
+|    Handovers    |                   /api/v1/handovers                    |                          Crear un nuevo traspaso                           |    POST    |                               Crea un nuevo traspaso con título y descripción.                                |
+|    Handovers    |       /api/v1/handovers/{handoverId}/acknowledge       |                           Confirmar el traspaso                            |   PATCH    | Permite a la enfermera que toma el relevo confirmar que ha leído y comprendido el informe de cambio de turno. |
+|    Handovers    |             /api/v1/handovers/{handoverId}             |                Consulta los detalles concretos del traspaso                |    GET     |                         Obtiene la información completa de un traspaso SBAR concreto.                         |
+|    Handovers    |         /api/v1/handovers/patients/{patientId}         | Obtener los informes de traspaso por número de identificación del paciente |    GET     |        Recopila todos los traspasos de un paciente concreto, con la posibilidad de filtrar por fecha.         |
+|   Vital-Sign    |               /api/v1/vital-sign-records               |               Obtiene todos los registros de signos vitales.               |    GET     |                200 OK con la lista de registros; 400 Bad Request si la solicitud es inválida.                 |
+|   Vital-Sign    |               /api/v1/vital-sign-records               |               Registra un nuevo conjunto de signos vitales.                |    POST    |                200 OK si se crea correctamente; 400 Bad Request si los datos son incorrectos.                 |
+|   Vital-Sign    |     /api/v1/vital-sign-records/{vitalSignRecordId}     |                 Obtiene un registro específico por su ID.                  |    GET     |                200 OK con el registro; 400 Bad Request si el ID o la solicitud son inválidos.                 |
+|   Vital-Sign    |    /api/v1/vital-sign-records/patients/{patientId}     |           Lista los registros de signos vitales de un paciente.            |    GET     |                   200 OK con los registros del paciente; 400 Bad Request si hay error en la                   |
+|   Vital-Sign    | /api/v1/vital-sign-records/patients/{patientId}/latest |         Obtiene el último registro de signos vitales del paciente.         |    GET     |               200 OK con el registro más reciente; 400 Bad Request si la solicitud es inválida.               |
+| Clinical-events |                     /api/v1/alerts                     |                    Obtiene todas las alertas críticas.                     |    GET     |                 200 OK con la lista de alertas; 400 Bad Request si la solicitud es inválida.                  |
+| Clinical-events |                     /api/v1/alerts                     |                       Crea una nueva alerta crítica.                       |    POST    |               200 OK si se registra correctamente; 400 Bad Request si los datos son inválidos.                |
+| Clinical-events |             /api/v1/alerts/{alertId}/close             |                        Cierra una alerta existente.                        |   PATCH    |          200 OK si la alerta se cierra correctamente; 400 Bad Request si hay error en la solicitud.           |
+| Clinical-events |            /api/v1/alerts/{alertId}/attend             |                      Marca una alerta como atendida.                       |   PATCH    |              200 OK si se actualiza correctamente; 400 Bad Request si la solicitud es inválida.               |
+| Clinical-events |                /api/v1/alerts/{alertId}                |                  Obtiene una alerta específica por su ID.                  |    GET     |                   200 OK con el detalle de la alerta; 400 Bad Request si el ID es inválido                    |
+| Clinical-events |          /api/v1/alerts/patients/{patientId}           |                Obtiene las alertas asociadas a un paciente.                |    GET     |                 200 OK con la lista de alertas; 400 Bad Request si la solicitud es inválida.                  |
+ 
 
 ### Características de la documentación
 
@@ -4447,6 +4446,7 @@ PUT /critical-events/{id}/close
 * **Separación por módulos**: Endpoints organizados según bounded contexts del sistema.
 * **Validación en tiempo real**: Pruebas funcionales sin necesidad de herramientas externas.
 
+El proceso de despliegue se enfocó en asegurar que el backend pudiera ser consumido de forma estable por la Web Application y que la documentación de Swagger quedara disponible en un entorno desplegado. Las actividades principales realizadas fueron las siguientes:
 
 ### Beneficios obtenidos
 
@@ -4457,53 +4457,38 @@ PUT /critical-events/{id}/close
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo realizó el despliegue del backend de PulseReport en entorno local, permitiendo la ejecución y validación de todos los servicios REST desarrollados. Se utilizó Spring Boot como framework principal y MySQL como base de datos, asegurando la persistencia de la información clínica.
-
-El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que permitió validar todos los endpoints implementados en tiempo real.
+DDurante el Sprint 3, el equipo realizó el despliegue del backend de PulseReport en Railway, dejando atrás la ejecución únicamente local. Este proceso permitió publicar los servicios web en un entorno accesible desde la nube, validar la configuración de variables de entorno y comprobar que la API funcionara correctamente fuera del entorno de desarrollo.
 
 
-### Pasos realizados para el despliegue
+1. Creación y configuración del proyecto en Railway
+    - Se creó el proyecto de despliegue para el backend de PulseReport y se vinculó el repositorio correspondiente del servicio.
+2. Configuración de variables de entorno
+    - Se registraron las variables necesarias para la ejecución del backend en producción, incluyendo credenciales de base de datos, configuración del puerto y cualquier valor requerido por Spring Boot.
+3. Configuración de la base de datos para producción
+    - Se ajustó la conexión al motor de base de datos utilizado por el backend, asegurando persistencia en el entorno desplegado.
+4. Definición del proceso de build y start
+    - Se verificó que Railway pudiera compilar e iniciar correctamente la aplicación Spring Boot a partir del repositorio conectado.
+5. Validación del despliegue
+    - Se probó el acceso a la documentación Swagger y la ejecución de endpoints desde el entorno desplegado.
 
-1. **Configuración del entorno backend:**
-   - Se utilizó Java (JDK 17+) y Maven Wrapper (`mvnw`) para la ejecución del proyecto.
-   - Se configuraron perfiles de entorno (`application-dev.properties`) para manejar credenciales locales de base de datos.
-   - Se estableció conexión con MySQL en entorno local.
-
-2. **Ejecución del backend:**
-   - Se ejecutó el comando:
-     ```
-     ./mvnw spring-boot:run
-     ```
-   - El servidor se levantó en el puerto 8080 utilizando Tomcat embebido.
-
-3. **Configuración de base de datos:**
-   - Se utilizó MySQL con una base de datos local (`pulsereport_platform`).
-   - Hibernate se encargó de la generación automática de tablas.
-   - Se validó la persistencia de datos mediante pruebas de endpoints.
-
-4. **Validación mediante Swagger:**
-   - Se accedió a la documentación en:
-     ```
-     http://localhost:8080/swagger-ui.html
-     ```
-   - Se ejecutaron pruebas de endpoints como:
-     - Registro de signos vitales
-     - Consulta de pacientes
-     - Auditoría de acciones
-     - Gestión de eventos críticos
-
+*Creación o configuración inicial del proyecto de despliegue en Railway.*
 
 ### Evidencia del despliegue
 
-![Backend Running](assets/chapter-5/backend-running.png)
+![Account link with Github](assets/chapter-5/account-with-github.png)
+*Registración en railway con la cuenta de GitHub*
 
-*Aplicación backend ejecutándose correctamente en entorno local mostrando logs de Spring Boot.*
+![Add](assets/chapter-5/add-repository.png)
 
 
-![Swagger Deployment](assets/chapter-5/swagger-deployment.png)
+![variables](assets/chapter-5/include-variables.png)
+*Configuración de variables de entorno y parámetros necesarios para la ejecución del backend.*
 
-*Swagger UI mostrando los endpoints disponibles tras el despliegue del backend.*
+![conexión](assets/chapter-5/contact.png)
+*Proceso de despliegue y verificación de que el servicio quedó publicado correctamente en Railway junto con la base de datos*
 
+![deployment](assets/chapter-5/deployment.png)
+*Acceso a Swagger desde el entorno desplegado para validar la disponibilidad de los servicios web.*
 
 ### Resultados del despliegue
 
