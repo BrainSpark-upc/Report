@@ -1246,76 +1246,82 @@ Para evitar inconsistencias, esta versión del análisis considera únicamente l
 
 ##### Segmento objetivo 1: Personal de enfermería cardiovascular
 
-###### Entrevista analizada
+###### Entrevistas analizada
 
 - Andrea Salazar
+- Silvia León
 
-Total de entrevistas analizadas para el segmento: 1
+Total de entrevistas analizadas para el segmento: 2
 
 ###### Análisis de características objetivas
 
-| Característica objetiva                                     | Evidencia identificada               | Porcentaje |
-|-------------------------------------------------------------|--------------------------------------|------------|
-| Experiencia en entorno cardiovascular o UCI cardiovascular  | Presente en la entrevista registrada | 100%       |
-| Uso de sistemas digitales hospitalarios                     | Presente en la entrevista registrada | 100%       |
-| Uso complementario de anotaciones o registros físicos       | Presente en la entrevista registrada | 100%       |
-| Participación en procesos de cambio de turno                | Presente en la entrevista registrada | 100%       |
-| Necesidad de registrar información clínica durante el turno | Presente en la entrevista registrada | 100%       |
-| Familiaridad con herramientas digitales                     | Presente en la entrevista registrada | 100%       |
+| Característica objetiva                                     | Evidencia identificada                         | Porcentaje |
+|-------------------------------------------------------------|------------------------------------------------|------------|
+| Experiencia en entorno cardiovascular o UCI cardiovascular  | Presente en la entrevistas registradas         | 100%       |
+| Uso de sistemas digitales hospitalarios                     | Presente en 1 de las 2 entrevistas registradas | 50%        |
+| Uso complementario de anotaciones o registros físicos       | Presente en la entrevistas registradas             | 100%       |
+| Participación en procesos de cambio de turno                | Presente en la entrevistas registradas             | 100%       |
+| Implementación de algún SaaS en sus actividades laborales   | Presente en 1 de las 2 entrevistas registradas         | 50%        |
+| Necesidad de registrar información clínica durante el turno | Presente en la entrevistas registradas             | 100%       |
+| Familiaridad con herramientas digitales                     | Presente en 1 de las 2 entrevistas registradas          | 50%        |
 
 ###### Análisis de características subjetivas
 
 | Característica subjetiva                                           | Evidencia identificada               | Porcentaje |
 |--------------------------------------------------------------------|--------------------------------------|------------|
-| Frustración por complejidad de sistemas actuales                   | Presente en la entrevista registrada | 100%       |
-| Necesidad de rapidez operativa                                     | Presente en la entrevista registrada | 100%       |
-| Preocupación por pérdida u omisión de información                  | Presente en la entrevista registrada | 100%       |
-| Interés por comunicación estructurada mediante SBAR                | Presente en la entrevista registrada | 100%       |
-| Preferencia por una herramienta intuitiva y adaptada al flujo real | Presente en la entrevista registrada | 100%       |
-| Valoración de acceso móvil o registro rápido                       | Presente en la entrevista registrada | 100%       |
+| Frustración por complejidad de sistemas actuales                   | Presente en la entrevistas registradas   | 100%       |
+| Necesidad de rapidez operativa                                     | Presente en la entrevistas registradas   | 100%       |
+| Preocupación por pérdida u omisión de información                  | Presente en la entrevistas registradas   | 100%       |
+| Interés por comunicación estructurada mediante SBAR                | Presente en la entrevistas registradas   | 100%       |
+| Preferencia por una herramienta intuitiva y adaptada al flujo real | Presente en la entrevistas registradas   | 100%       |
+| Valoración de acceso móvil o registro rápido                       | Presente en la entrevistas registradas  | 100%       |
 
 ###### Interpretación del segmento
 
-La entrevista realizada al segmento de enfermería cardiovascular evidencia que el registro clínico y la comunicación entre turnos son actividades críticas dentro del flujo operativo. La entrevistada señaló que los sistemas actuales pueden requerir demasiados pasos, lo que genera fricción durante situaciones clínicas de alta presión.
+Las entrevistas realizadas al segmento de enfermería cardiovascular evidencia que el registro clínico y la comunicación entre turnos son 
+actividades críticas dentro del flujo operativo y, por lo tanto, requieren rapidez y seguridad. Las entrevistadas señalaron que los sistemas actuales pueden tomar mucho tiempo y estar anticuados, 
+lo que genera fricción durante situaciones clínicas de alta presión, comunicación entre turnos y capacidad de iniciar trabajos investigativos. 
 
-También se identificó que el uso de anotaciones físicas funciona como apoyo temporal cuando el sistema digital no responde al ritmo del trabajo clínico. Sin embargo, esta práctica puede generar duplicidad, omisiones y pérdida parcial de información. Esto confirma la importancia de una solución que reduzca la carga operativa y permita registrar información de manera rápida y estructurada.
+También se identificó dos ambientes distinct, uno el uso de anotaciones físicas funciona como apoyo temporal cuando el sistema digital no responde al ritmo del trabajo clínico y el otro donde se prioriza uso de registro manuales en papel y lapicero. 
+Sin embargo, esta práctica puede generar duplicidad, omisiones y pérdida parcial de información. Esto confirma la importancia de una solución que reduzca la carga operativa y 
+permita registrar información de manera rápida y estructurada.
 
-El cambio de turno aparece como un momento especialmente vulnerable, ya que la información puede transmitirse de forma desordenada o incompleta. Por ello, PulseReport debe priorizar flujos de traspaso estructurado mediante SBAR, registro rápido de información clínica y trazabilidad de eventos relevantes.
+El cambio de turno aparece como un momento especialmente vulnerable, ya que la información puede transmitirse de forma desordenada o incompleta. 
+Por ello, PulseReport debe priorizar flujos de traspaso estructurado mediante SBAR, registro rápido de información clínica y trazabilidad de eventos relevantes.
 
 ##### Segmento objetivo 2: Médicos especialistas cardiovasculares y profesionales médicos relacionados
 
 ###### Entrevistas analizadas
 
 - Luis Mendoza
-- Jorge Ramírez
 - Renato Paredes
 - Mark Alex Esquivel Cabrera
 
-Total de entrevistas analizadas para el segmento: 4
+Total de entrevistas analizadas para el segmento: 3
 
 ###### Análisis de características objetivas
 
 | Característica objetiva                                                          | Evidencia identificada         | Porcentaje |
 |----------------------------------------------------------------------------------|--------------------------------|------------|
-| Profesionales médicos entrevistados                                              | Presente en las 4 entrevistas  | 100%       |
-| Experiencia en atención clínica o procesos médicos                               | Presente en las 4 entrevistas  | 100%       |
-| Relación directa con áreas cardiovasculares, intensivas o cirugía cardiovascular | Presente en 3 de 4 entrevistas | 75%        |
-| Uso de sistemas digitales, registros físicos u hojas de cálculo                  | Presente en las 4 entrevistas  | 100%       |
-| Participación en consulta, validación o seguimiento de información clínica       | Presente en las 4 entrevistas  | 100%       |
-| Identificación de problemas de trazabilidad                                      | Presente en las 4 entrevistas  | 100%       |
-| Necesidad de información clínica organizada                                      | Presente en las 4 entrevistas  | 100%       |
+| Profesionales médicos entrevistados                                              | Presente en las 3 entrevistas  | 100%       |
+| Experiencia en atención clínica o procesos médicos                               | Presente en las 3 entrevistas  | 100%       |
+| Relación directa con áreas cardiovasculares, intensivas o cirugía cardiovascular | Presente en 2 de 3 entrevistas | 75%        |
+| Uso de sistemas digitales, registros físicos u hojas de cálculo                  | Presente en las 3 entrevistas  | 100%       |
+| Participación en consulta, validación o seguimiento de información clínica       | Presente en las 3 entrevistas  | 100%       |
+| Identificación de problemas de trazabilidad                                      | Presente en las 3 entrevistas  | 100%       |
+| Necesidad de información clínica organizada                                      | Presente en las 3 entrevistas  | 100%       |
 
 ###### Análisis de características subjetivas
 
 | Característica subjetiva                                   | Evidencia identificada         | Porcentaje |
 |------------------------------------------------------------|--------------------------------|------------|
-| Frustración por información clínica fragmentada            | Presente en las 4 entrevistas  | 100%       |
-| Necesidad de acceso rápido a información relevante         | Presente en 3 de 4 entrevistas | 75%        |
-| Importancia de trazabilidad clínica                        | Presente en las 4 entrevistas  | 100%       |
-| Rechazo a herramientas complejas o lentas                  | Presente en las 4 entrevistas  | 100%       |
-| Interés por soluciones digitales simples y seguras         | Presente en las 4 entrevistas  | 100%       |
-| Necesidad de comunicación estructurada entre profesionales | Presente en 3 de 4 entrevistas | 75%        |
-| Interés por dashboards, alertas o visualización resumida   | Presente en 3 de 4 entrevistas | 75%        |
+| Frustración por información clínica fragmentada            | Presente en las 3 entrevistas  | 100%       |
+| Necesidad de acceso rápido a información relevante         | Presente en 2 de 3 entrevistas | 75%        |
+| Importancia de trazabilidad clínica                        | Presente en las 3 entrevistas  | 100%       |
+| Rechazo a herramientas complejas o lentas                  | Presente en las 3 entrevistas  | 100%       |
+| Interés por soluciones digitales simples y seguras         | Presente en las 3 entrevistas  | 100%       |
+| Necesidad de comunicación estructurada entre profesionales | Presente en 2 de 3 entrevistas | 75%        |
+| Interés por dashboards, alertas o visualización resumida   | Presente en 2 de 3 entrevistas | 75%        |
 
 ###### Interpretación del segmento
 
@@ -1342,7 +1348,9 @@ En el caso de los profesionales vinculados a UCI o áreas cardiovasculares, se e
 
 Las entrevistas realizadas permiten identificar patrones comunes entre los segmentos analizados. Ambos grupos evidencian dificultades relacionadas con sistemas complejos, información dispersa, registros físicos complementarios, comunicación no estructurada y necesidad de trazabilidad clínica.
 
-En el caso del personal de enfermería cardiovascular, la prioridad se concentra en registrar información de forma rápida, reducir duplicidad y comunicar adecuadamente la información durante cambios de turno. En el caso de médicos especialistas y profesionales médicos relacionados, la prioridad se enfoca en consultar información consolidada, validar trazabilidad y tomar decisiones con datos confiables.
+En el caso del personal de enfermería cardiovascular, la prioridad se concentra en registrar información de forma rápida, 
+reducir duplicidad y comunicar adecuadamente la información durante cambios de turno. En el caso de médicos especialistas y 
+profesionales médicos relacionados, la prioridad se enfoca en consultar información consolidada, validar trazabilidad y tomar decisiones con datos confiables.
 
 Los hallazgos obtenidos validan la necesidad de una solución como PulseReport, enfocada en:
 
