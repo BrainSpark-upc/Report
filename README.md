@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/assets/chapter-1/UPC_logo_transparente.png" alt="UPC" width="110">
+  <img src="assets/chapter-1/UPC_logo_transparente.png" alt="UPC" width="110">
 </p>
 
 <div align="center">
@@ -110,21 +110,21 @@ A continuación, se incluyen capturas de los analíticos de colaboración del re
 
 Avance 1
 <p align="center">
-  <img src="assets/assets/chapter-1/insights-1.png" alt="Commits del avance 1" width="700">
+  <img src="assets/chapter-1/insights-1.png" alt="Commits del avance 1" width="700">
 </p>
 
 Trabajo Parcial
 <p align="center">
-  <img src="assets/assets/chapter-1/Insights-2.png" alt="Commits del trabajo parcial" width="700">
+  <img src="assets/chapter-1/Insights-2.png" alt="Commits del trabajo parcial" width="700">
 </p>
 Avance 2
 <p align="center">
-  <img src="assets/assets/chapter-1/insights-3.png" alt="Commits del avance 2" width="700">
+  <img src="assets/chapter-1/insights-3.png" alt="Commits del avance 2" width="700">
 </p>
 Trabajo Final
 Avance 2
 <p align="center">
-  <img src="assets/assets/chapter-1/insights-4.png" alt="Commits del trabajo final" width="700">
+  <img src="assets/chapter-1/insights-4.png" alt="Commits del trabajo final" width="700">
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -368,7 +368,7 @@ Como startup, BrainSpark busca construir un producto digital escalable, accesibl
   </tr>
   <tr>
     <td>
-      <img src="assets/assets/chapter-1/Alex.jpg" width="300px">
+      <img src="assets/chapter-1/Alex.jpg" width="300px">
     </td>
     <td>
       <b>Código:</b> u202417693<br>
@@ -382,7 +382,7 @@ Como startup, BrainSpark busca construir un producto digital escalable, accesibl
   </tr>
   <tr>
     <td>
-      <img src="assets/assets/chapter-1/adrian.jpg" width="300px">
+      <img src="assets/chapter-1/adrian.jpg" width="300px">
     </td>
     <td>
       <b>Código:</b> u202217893<br>
@@ -396,7 +396,7 @@ Como startup, BrainSpark busca construir un producto digital escalable, accesibl
   </tr>
   <tr>
     <td>
-      <img src="assets/assets/chapter-1/anhelo.jpg" width="300px">
+      <img src="assets/chapter-1/anhelo.jpg" width="300px">
     </td>
     <td>
       <b>Código:</b> u20221c803<br>
@@ -410,7 +410,7 @@ Como startup, BrainSpark busca construir un producto digital escalable, accesibl
   </tr>
   <tr>
     <td>
-      <img src="assets/assets/chapter-1/johan.png" width="300px">
+      <img src="assets/chapter-1/johan.png" width="300px">
     </td>
     <td>
       <b>Código:</b> u202417448<br>
@@ -424,7 +424,7 @@ Como startup, BrainSpark busca construir un producto digital escalable, accesibl
   </tr>
   <tr>
     <td>
-      <img src="assets/assets/chapter-1/carlos.png" width="300px">
+      <img src="assets/chapter-1/carlos.png" width="300px">
     </td>
     <td>
       <b>Código:</b> u202414510<br>
@@ -906,7 +906,7 @@ El objetivo de este análisis competitivo es comparar a PulseReport frente a com
 ¿Cómo puede PulseReport diferenciarse de las soluciones actuales de gestión clínica y monitoreo hospitalario para satisfacer de manera más eficiente las necesidades operativas y de comunicación del personal de enfermería cardiovascular?
 
 <p align="center">
-  <img src="assets/assets/chapter-2/2.1.1 Analisis Competidores-Competitive analysis landscape.png" alt="Competitive Analysis Landscape" width="850">
+  <img src="assets/chapter-2/2.1.1 Analisis Competidores-Competitive analysis landscape.png" alt="Competitive Analysis Landscape" width="850">
 </p>
 
 A partir del Competitive Analysis Landscape, se observa que PulseReport se diferencia por enfocarse en procesos específicos del área cardiovascular, especialmente en la comunicación entre turnos, trazabilidad clínica y documentación mediante SBAR. A diferencia de sistemas hospitalarios generales como Epic/Cerner o soluciones de monitoreo como Philips IntelliVue, PulseReport no busca cubrir toda la operación hospitalaria ni reemplazar dispositivos biomédicos, sino apoyar un flujo clínico concreto y frecuente.
@@ -1081,7 +1081,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
       <b>Duración:</b> 17:35
     </td>
     <td align="center">
-      <img src="assets/assets/chapter-2/ENTREVISTA1.png" alt="Entrevista Andrea Salazar" width="80%">
+      <img src="assets/chapter-2/ENTREVISTA1.png" alt="Entrevista Andrea Salazar" width="80%">
     </td>
   </tr>
   <tr>
@@ -1113,7 +1113,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
       <b>Duración:</b> 08:00
     </td>
     <td align="center">
-      <img src="assets/assets/chapter-2/ENTREVISTA2.png" alt="Entrevista Luis Mendoza" width="80%">
+      <img src="assets/chapter-2/ENTREVISTA2.png" alt="Entrevista Luis Mendoza" width="80%">
     </td>
   </tr>
   <tr>
@@ -1143,7 +1143,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
       <b>Duración:</b> 08:30
     </td>
     <td align="center">
-      <img src="assets/assets/chapter-2/ENTREVISTA3.png" alt="Entrevista Jorge Ramírez" width="80%">
+      <img src="assets/chapter-2/ENTREVISTA3.png" alt="Entrevista Jorge Ramírez" width="80%">
     </td>
   </tr>
   <tr>
@@ -1173,7 +1173,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
       <b>Duración:</b> 11:00
     </td>
     <td align="center">
-      <img src="assets/assets/chapter-2/ENTREVISTA 4.png" alt="Entrevista Renato Paredes" width="80%">
+      <img src="assets/chapter-2/ENTREVISTA 4.png" alt="Entrevista Renato Paredes" width="80%">
     </td>
   </tr>
   <tr>
@@ -1203,7 +1203,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
       <b>Duración:</b> 14:07
     </td>
     <td align="center">
-      <img src="assets/assets/chapter-2/segmento2entrevista2.png" alt="Entrevista Mark Alex Esquivel Cabrera" width="80%">
+      <img src="assets/chapter-2/segmento2entrevista2.png" alt="Entrevista Mark Alex Esquivel Cabrera" width="80%">
     </td>
   </tr>
   <tr>
@@ -1383,7 +1383,7 @@ Daniela Ríos representa al personal de enfermería cardiovascular que trabaja e
 Este perfil evidencia la necesidad de contar con herramientas rápidas, claras y de baja carga operativa, debido a que el personal de enfermería debe registrar información mientras atiende directamente al paciente. Sus principales frustraciones se relacionan con la duplicidad de registros, sistemas lentos, comunicación desordenada y riesgo de omisiones durante el cambio de turno.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/DANIELA RIOS - USERPSONA.png" alt="User Persona Daniela Ríos">
+  <img src="assets/chapter-2/DANIELA RIOS - USERPSONA.png" alt="User Persona Daniela Ríos">
 </p>
 
 ##### User Persona 2 — Dr. Alejandro Torres
@@ -1393,7 +1393,7 @@ El Dr. Alejandro Torres representa a médicos especialistas cardiovasculares o p
 Este perfil evidencia la necesidad de acceder rápidamente a información consolidada, confiable y trazable. Sus principales frustraciones están relacionadas con la información fragmentada, sistemas hospitalarios complejos, registros físicos complementarios y dificultad para reconstruir la evolución reciente del paciente.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Alejandro Torres - UserPersona.png" alt="User Persona Alejandro Torres">
+  <img src="assets/chapter-2/Alejandro Torres - UserPersona.png" alt="User Persona Alejandro Torres">
 </p>
 
 ##### Conclusión de User Personas
@@ -1570,7 +1570,7 @@ Actualmente, estas actividades se realizan mediante sistemas hospitalarios compl
 Identificar las dificultades actuales que enfrenta el personal de enfermería cardiovascular durante el monitoreo, registro clínico y transferencia de información entre turnos, con la finalidad de detectar oportunidades de mejora relacionadas con rapidez operativa, comunicación estructurada y trazabilidad.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/User Journey Map As-Is — Daniela Ríos (1).png" alt="User Journey Map Daniela Ríos">
+  <img src="assets/chapter-2/User Journey Map As-Is — Daniela Ríos (1).png" alt="User Journey Map Daniela Ríos">
 </p>
 
 **Resumen del Journey — Daniela Ríos:**  
@@ -1597,7 +1597,7 @@ Actualmente, la información del paciente se encuentra distribuida entre sistema
 Identificar las dificultades actuales que enfrenta el médico especialista cardiovascular al consultar, validar e interpretar información clínica para tomar decisiones médicas oportunas y seguras.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/User Journey Map As-Is — Dr. Alejandro Torres.png" alt="User Journey Map Dr. Alejandro Torres">
+  <img src="assets/chapter-2/User Journey Map As-Is — Dr. Alejandro Torres.png" alt="User Journey Map Dr. Alejandro Torres">
 </p>
 
 **Resumen del Journey — Dr. Alejandro Torres:**  
@@ -1668,7 +1668,7 @@ Daniela representa al personal de enfermería cardiovascular que trabaja bajo pr
 - Cumplir responsabilidades clínicas sin aumentar carga administrativa.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Empathy Map — Daniela Ríos.png" alt="Empathy Map Daniela Ríos">
+  <img src="assets/chapter-2/Empathy Map — Daniela Ríos.png" alt="Empathy Map Daniela Ríos">
 </p>
 
 ###### ¿Qué puede convencerla de que PulseReport es la alternativa correcta?
@@ -1708,7 +1708,7 @@ El Dr. Alejandro Torres representa a médicos especialistas que necesitan consul
 - Coordinar indicaciones con el equipo clínico.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Empathy map --- Alejandro.png" alt="Empathy Map Dr. Alejandro Torres">
+  <img src="assets/chapter-2/Empathy map --- Alejandro.png" alt="Empathy Map Dr. Alejandro Torres">
 </p>
 
 ###### ¿Qué puede convencerlo de que PulseReport es la alternativa correcta?
@@ -1747,7 +1747,7 @@ Los eventos identificados incluyen acciones relacionadas con recepción de turno
 Estos eventos permiten entender qué situaciones son relevantes para el negocio y qué información debe mantenerse trazable dentro del proceso clínico.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/STEP1 COLLECT DOMAIN EVENTS.png" alt="Step 1 Collect Domain Events">
+  <img src="assets/chapter-2/STEP1 COLLECT DOMAIN EVENTS.png" alt="Step 1 Collect Domain Events">
 </p>
 
 #### Step 2: Sort Domain Events
@@ -1759,7 +1759,7 @@ La secuencia inicia con la recepción de información del turno anterior, contin
 Este orden permite visualizar el recorrido general del dominio y detectar en qué momentos pueden aparecer interrupciones, duplicidad de registros, pérdida de información o falta de trazabilidad.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 2 Sort Domain Events.png" alt="Step 2 Sort Domain Events">
+  <img src="assets/chapter-2/Step 2 Sort Domain Events.png" alt="Step 2 Sort Domain Events">
 </p>
 
 #### Step 3: Add Actors and External Systems
@@ -1778,11 +1778,11 @@ Los principales actores identificados son el personal de enfermería cardiovascu
 | **Monitores biomédicos** | Proveen información fisiológica del paciente, como signos vitales y parámetros cardiovasculares. |
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="Step 3 Add Actors and External Systems 1">
+  <img src="assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="Step 3 Add Actors and External Systems 1">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport2.png" alt="Step 3 Add Actors and External Systems 2">
+  <img src="assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport2.png" alt="Step 3 Add Actors and External Systems 2">
 </p>
 
 #### Step 4: Add Problems and Opportunities
@@ -1818,7 +1818,7 @@ Las principales oportunidades identificadas son:
 - Diseñar flujos simples adaptados al contexto clínico real.
 
 <p align="center">
-  <img src="assets/assets/chapter-2/Step 4 Add Problems and Opportunities.png" alt="Step 4 Add Problems and Opportunities">
+  <img src="assets/chapter-2/Step 4 Add Problems and Opportunities.png" alt="Step 4 Add Problems and Opportunities">
 </p>
 
 #### Conclusión del Big Picture Event Storming
@@ -2054,15 +2054,15 @@ Para este proyecto se consideran Business Goals definidos bajo criterios SMART, 
 El Impact Mapping visual fue elaborado en una herramienta colaborativa y organizado en tres capturas para facilitar su lectura. Cada captura relaciona Business Goals, actores, impactos, entregables y User Stories asociadas.
 
 <p align="center">
-  <img src="assets/assets/chapter-3/impact-mapping-bg01-bg02.png" alt="Impact Mapping BG-01 y BG-02" width="850">
+  <img src="assets/chapter-3/impact-mapping-bg01-bg02.png" alt="Impact Mapping BG-01 y BG-02" width="850">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter-3/impact-mapping-bg03-bg04.png" alt="Impact Mapping BG-03 y BG-04" width="850">
+  <img src="assets/chapter-3/impact-mapping-bg03-bg04.png" alt="Impact Mapping BG-03 y BG-04" width="850">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter-3/impact-mapping-bg05.png" alt="Impact Mapping BG-05" width="850">
+  <img src="assets/chapter-3/impact-mapping-bg05.png" alt="Impact Mapping BG-05" width="850">
 </p>
 
 #### Impact Mapping detallado
@@ -2180,7 +2180,7 @@ La estimación se realiza utilizando Story Points con valores **1, 2, 3, 5 y 8**
 La siguiente captura corresponde al Product Backlog elaborado en la herramienta de gestión utilizada por el equipo. En ella se evidencia la priorización de historias, estimación mediante Story Points y organización del backlog según valor para el negocio.
 
 <p align="center">
-  <img src="assets/assets/chapter-3/product-backlog.png" alt="Product Backlog PulseReport" width="850">
+  <img src="assets/chapter-3/product-backlog.png" alt="Product Backlog PulseReport" width="850">
 </p>
 
 **URL del Product Backlog:**  
@@ -2200,31 +2200,31 @@ El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesi
 - **Colores**: la paleta seleccionada combina azul (#0F3D91), azul intenso (#0F4DB8), turquesa (#14B8A6), blanco (#FFFFFF) y tonos grises suaves (#E5E7EB y #1F2937). El azul transmite confianza, estabilidad y profesionalismo, cualidades importantes en plataformas relacionadas con procesos clínicos. El turquesa refuerza la idea de innovación, accesibilidad y tecnología en salud. Los tonos neutros equilibran la interfaz, mejoran el contraste y favorecen la lectura del contenido.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/style guidelines/colores.png" alt="colores" style="height:200px;">
+  <img src="assets/chapter 4/style guidelines/colores.png" alt="colores" style="height:200px;">
 </p>
 
 - **Tipografía**: se utiliza una tipografía sans serif como base visual por su claridad, legibilidad y apariencia profesional en entornos web. La elección de fuentes como Arial y Helvetica responde a la necesidad de mantener una lectura fluida en títulos, botones, menús y descripciones, además de proyectar una imagen moderna, limpia y confiable para el usuario.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/style guidelines/TIPOGRAFIA.png" alt="tipografia" style="height:300px;">
+  <img src="assets/chapter 4/style guidelines/TIPOGRAFIA.png" alt="tipografia" style="height:300px;">
 </p>
 
 - **Distribución y espaciado**: se adopta una estructura visual ordenada, con bloques bien definidos, espaciado consistente y una jerarquía clara entre secciones. La landing page organiza su contenido de manera progresiva, permitiendo que el usuario identifique fácilmente el propósito del producto, sus características, beneficios y medios de contacto. Esta distribución mejora la navegación y facilita una experiencia visual limpia y comprensible.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/distribucion.png" alt="distribucion" style="height:300px;">
+<img src="assets/chapter 4/style guidelines/distribucion.png" alt="distribucion" style="height:300px;">
 </p>
 
 - **Lenguaje y tono**: la comunicación es directa, clara y profesional, evitando tecnicismos innecesarios. Los textos de la interfaz emplean un tono formal y accesible para transmitir confianza y facilitar la comprensión de la propuesta de valor tanto a instituciones de salud como a usuarios interesados en la solución. Expresiones como “Solicitar demo”, “Ver cómo funciona” y “Contáctanos” refuerzan un lenguaje orientado a la acción y a la claridad informativa.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/lenguaje.png" alt="lenguaje" style="height:300px;">
+<img src="assets/chapter 4/style guidelines/lenguaje.png" alt="lenguaje" style="height:300px;">
 </p>
 
 - **Iconografía**: se emplean símbolos visuales vinculados al entorno médico y a la comunicación asistencial, como íconos relacionados con salud, registro clínico, monitoreo y comunicación entre usuarios. Esto permite reforzar visualmente el enfoque del producto, reducir la complejidad de interpretación y mejorar la usabilidad general de la landing page.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/iconografia.png" alt="iconografia" style="height:300px;">
+<img src="assets/chapter 4/style guidelines/iconografia.png" alt="iconografia" style="height:300px;">
 </p>
 
 #### 4.1.2. Web Style Guidelines
@@ -2234,31 +2234,31 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
 - **Diseño adaptable**: la interfaz se ajusta a distintos dispositivos (desktop, tablet y móvil), manteniendo consistencia visual entre la Landing Page y la Web Application. Esto permite que los usuarios puedan acceder al sistema desde diferentes contextos, facilitando la consulta de información y el uso de la plataforma en distintos entornos de trabajo.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/diseño.png" alt="diseño-adaptable" style="height:200px;">
+<img src="assets/chapter 4/style guidelines/diseño.png" alt="diseño-adaptable" style="height:200px;">
 </p>
 
 - **Componentes de interfaz**: los botones principales se presentan con colores más intensos para resaltar acciones relevantes como solicitar una demo, registrar información o confirmar procesos, mientras que los elementos secundarios mantienen un estilo más neutral. Esto establece jerarquía visual y permite que el usuario identifique con rapidez las acciones prioritarias dentro de la interfaz.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/componentes.png" alt="componentes" style="height:200px;">
+<img src="assets/chapter 4/style guidelines/componentes.png" alt="componentes" style="height:200px;">
 </p>
 
 - **Notificaciones y estados**: los mensajes del sistema utilizan convenciones visuales claras para comunicar el estado de una acción o proceso. Los estados positivos se muestran en verde para indicar confirmación o guardado exitoso, las advertencias en amarillo para señalar elementos pendientes o en revisión, y los errores en rojo para representar fallos o problemas de sincronización. Esta diferenciación mejora la comprensión y reduce la posibilidad de confusión por parte del usuario.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/notificaciones.png" alt="notificaciones" style="height:200px;">
+<img src="assets/chapter 4/style guidelines/notificaciones.png" alt="notificaciones" style="height:200px;">
 </p>
 
 - **Tablas y dashboards**: se prioriza una presentación clara y ordenada de la información dentro de tablas y paneles de control, facilitando la consulta y el análisis de datos relevantes. La organización visual de registros, métricas y estados permite que el usuario interprete rápidamente la información y pueda dar seguimiento a los procesos del sistema de manera más eficiente.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/tablas.png" alt="tablas" style="height:300px;">
+<img src="assets/chapter 4/style guidelines/tablas.png" alt="tablas" style="height:300px;">
 </p>
 
 - **Accesibilidad**: se consideran contrastes adecuados, una disposición clara del contenido y elementos visuales comprensibles para favorecer la interacción de distintos tipos de usuarios. Además, se busca mantener una navegación sencilla y una lectura legible en toda la interfaz, fortaleciendo la usabilidad general de la plataforma.
 
 <p align="center">
-<img src="assets/assets/chapter 4/style guidelines/accesibilidad.png" alt="accesibilidad" style="height:300px;">
+<img src="assets/chapter 4/style guidelines/accesibilidad.png" alt="accesibilidad" style="height:300px;">
 </p>
 
 ### 4.2. Information Architecture
@@ -2300,7 +2300,7 @@ El diseño web de **Care-Labs / PulseReport** se implementará como una solució
   - “Generar reporte”
 
 <p align="center">
-<img src="assets/assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
+<img src="assets/chapter 4/database-design/organization-diagram.png" alt="organization structure" style="height:300px;">
 </p>
 
 #### 4.2.2. Labeling Systems
@@ -2523,7 +2523,7 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
 - **Consistencia de navegación**: los menús, accesos y botones mantienen una ubicación y estilo uniforme, ayudando a que el usuario navegue de manera intuitiva y sin confusión entre las distintas secciones.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
+  <img src="assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
 </p>
 
 #### 4.3 Landing Page UI Design.
@@ -2535,73 +2535,73 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 - **Inicio**: en la parte superior se ubica el logo principal de **Care-Labs / PulseReport** junto con la barra de navegación, que permite acceder a las principales secciones de la landing page. Además, se incluye un botón de **“Solicitar demo”** como llamado a la acción destacado, con el objetivo de captar rápidamente el interés del usuario.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/hero-wf.png" alt="hero wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/hero-wf.png" alt="hero wireframe" width="600">
 </p>
 
 - **¿Cómo funciona?**: en esta sección se explica de forma breve y visual cómo funciona la solución, mostrando el flujo general del producto en pasos simples. Esto permite que el usuario comprenda rápidamente la lógica de uso de **PulseReport** dentro del entorno clínico.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/hdiw-wf.png" alt="hdiw wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/hdiw-wf.png" alt="hdiw wireframe" width="600">
 </p>
 
 - **Características**: se presentan las funcionalidades principales de la plataforma, como traspasos SBAR, gestión de pacientes, seguimiento de tratamientos, monitoreo de signos vitales, historial clínico digital y log de auditoría. Estas características se muestran en bloques simples con descripciones breves para facilitar la comprensión del producto.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/features-wf.png" alt="features wireframe" width="600">
 </p>
 
 - **Beneficios y FAQs**: esta sección destaca el valor agregado de la solución, resaltando beneficios como una mejor comunicación entre turnos, mayor trazabilidad clínica, organización de la información y atención más confiable. Además, se incluye una sección de preguntas frecuentes para resolver dudas comunes y reforzar la claridad de la propuesta.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/benefits-wf.png" alt="benefits wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/faqs-wf.png" alt=" faqs wireframe" width="600">
 </p>
 
 
 - **Contacto y Footer**: en la parte final se encuentra el formulario de contacto, que permite a los usuarios interesados enviar consultas o solicitar información adicional sobre la plataforma. Finalmente, el footer incluye información general de la marca y accesos complementarios a secciones relevantes de la landing page.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/contact-wf.png" alt="contact wireframe" width="600">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
+  <img src="assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
 </p>
 
 
 #### 4.3.2 Landing Page Mock-up.
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/features-mu.png" alt="features mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/features-mu.png" alt="features mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/benefits-mu.png" alt="benefits mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/benefits-mu.png" alt="benefits mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/faqs-mu.png" alt="faqs mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/faqs-mu.png" alt="faqs mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/contact-mu.png" alt="contact mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/contact-mu.png" alt="contact mock up" width="600"> </p>
 
-<p align="center"> <img src="assets/assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
+<p align="center"> <img src="assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
 
 #### 4.4 Web Applications UX/UI Design.
 #### 4.4.1 Web Application Wireframes.
-<img src="assets/assets/chapter 4/Web Applications Wireframes/dashboardCarelabs-wf.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/dashboardCarelabs-wf.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/monitereoCarelabs-wf.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/monitereoCarelabs-wf.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/traspasoSBAR-wf.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/traspasoSBAR-wf.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/registro-wf.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/registro-wf.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/W-Subscription Management.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management-1.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/W-Subscription Management-1.png" alt="">
 
-<img src="assets/assets/chapter 4/Web Applications Wireframes/W-Subscription Management-2.png" alt="">
+<img src="assets/chapter 4/Web Applications Wireframes/W-Subscription Management-2.png" alt="">
 
 #### 4.4.2 Web Application Wireflow Diagrams.
 
@@ -2611,7 +2611,7 @@ User Goal: Registrar signos vitales y evaluar la evolución clínica del pacient
 Explicación: El usuario ingresa al perfil del paciente y selecciona registrar signos vitales. En la ruta esperada (happy path), ingresa los valores, el sistema los valida, guarda el registro y actualiza la gráfica en tiempo real. Como flujos alternativos (unhappy paths), si el usuario ingresa valores incompletos o fuera de los rangos biológicos lógicos, el sistema detiene el flujo y muestra advertencias de validación para evitar errores médicos.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow01-wf.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Wireframes/flow01-wf.png" alt="Perfil">
 </p>
 
 #### User Goal 2
@@ -2620,11 +2620,11 @@ User Goal: Realizar el traspaso de información clínica entre turnos utilizando
 Explicación: El enfermero inicia un nuevo reporte SBAR. El flujo principal lo guía obligatoriamente por las 4 secciones (Situación, Antecedentes, Evaluación, Recomendación) hasta su publicación exitosa. En rutas alternativas, si el usuario intenta cancelar el proceso o cerrar la ventana, el sistema interrumpe la acción con un modal de confirmación para evitar la pérdida de documentación crítica.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow03-wf.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Wireframes/flow03-wf.png" alt="Perfil">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow02-wf.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Wireframes/flow02-wf.png" alt="Perfil">
 </p>
 
 #### User Goal 3
@@ -2633,11 +2633,11 @@ User Goal: Monitorear procesos críticos y revisar la trazabilidad del área car
 Explicación: El supervisor ingresa al Dashboard para revisar el estado general. El flujo ideal permite hacer clic en una métrica o alerta activa para ser redirigido al log de auditoría detallado del paciente involucrado. En un flujo alternativo, si el supervisor aplica filtros de búsqueda para fechas sin actividad registrada, el sistema le indica claramente que no existen eventos, permitiéndole reajustar su búsqueda rápidamente.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow05-wf.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Wireframes/flow05-wf.png" alt="Perfil">
 </p>
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Wireframes/flow04-wf.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Wireframes/flow04-wf.png" alt="Perfil">
 </p>
 
 #### 4.4.2 Web Application Mock-ups.
@@ -2645,56 +2645,56 @@ Explicación: El supervisor ingresa al Dashboard para revisar el estado general.
 Esta interfaz está dedicada a la gestión de la información personal y profesional del usuario, ya sea personal de enfermería o administrador. Permite la configuración de la cuenta, visualización de roles y administración de credenciales de acceso.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
+  <img src="assets/chapter 4/Web Applications Mock-ups/perfil.png" alt="Perfil">
 </p>
 
 #### Detalle Clínico
 Vista especializada que expone la información médica detallada de un paciente específico. Centraliza diagnósticos cardiovasculares, tratamientos activos, medicación y notas clínicas relevantes para asegurar la continuidad del cuidado.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/detalle-clinico.png" alt="Detalle Clínico">
+  <img src="assets/chapter 4/Web Applications Mock-ups/detalle-clinico.png" alt="Detalle Clínico">
 </p>
 
 #### Alertas
 Panel de notificaciones y advertencias críticas del sistema. Está diseñado para informar al personal de salud de manera inmediata sobre anomalías en los parámetros de los pacientes, garantizando un tiempo de respuesta rápido ante emergencias.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/alertas.png" alt="Alertas">
+  <img src="assets/chapter 4/Web Applications Mock-ups/alertas.png" alt="Alertas">
 </p>
 
 #### Eventos Clínicos
 Interfaz orientada al registro y visualización de sucesos médicos importantes ocurridos durante el turno. Facilita la trazabilidad de las intervenciones y apoya directamente la comunicación estructurada mediante el modelo SBAR.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/eventos-clinicos.png" alt="Eventos Clínicos">
+  <img src="assets/chapter 4/Web Applications Mock-ups/eventos-clinicos.png" alt="Eventos Clínicos">
 </p>
 
 #### Signos Vitales
 Módulo enfocado en el monitoreo y registro de los parámetros fisiológicos del paciente. Permite un seguimiento preciso de métricas clave en cardiología, como la presión arterial y la frecuencia cardíaca, mostrando su evolución temporal.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/signos-vitales.png" alt="Signos Vitales">
+  <img src="assets/chapter 4/Web Applications Mock-ups/signos-vitales.png" alt="Signos Vitales">
 </p>
 
 #### Paciente
 Sección general para la administración de los datos demográficos, información de contacto y estado de admisión de los pacientes dentro del centro de salud, sirviendo como punto de partida para acceder a su historial completo.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/paciente.png" alt="Paciente">
+  <img src="assets/chapter 4/Web Applications Mock-ups/paciente.png" alt="Paciente">
 </p>
 
 #### Dashboard
 Panel de control principal que ofrece una visión panorámica y resumida del entorno clínico. Muestra indicadores clave de rendimiento, el estado general del área cardiovascular y un resumen de las tareas y pacientes de mayor prioridad.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
+  <img src="assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
 </p>
 
 #### 4.4.3 Web Applications User Flow Diagrams.
 En esta sección se presentan los diagramas de flujo de usuario que detallan la lógica de navegación y los puntos de decisión dentro de Care-Labs. Estos flujos han sido diseñados para garantizar que el personal de enfermería y los administradores cumplan sus objetivos de manera eficiente, integrando rutas principales y alternativas para el manejo de datos críticos.  Los diagramas reflejan la interacción completa del sistema, asegurando la consistencia con los wireflows previos y validando cada paso del proceso clínico, desde el registro de signos vitales hasta la supervisión de alertas en el dashboard.  
 
 <p align="center">
-  <img src="assets/assets/chapter 4/software-architecture/user-flow.png" alt="Dashboard">
+  <img src="assets/chapter 4/software-architecture/user-flow.png" alt="Dashboard">
 </p>
 
 #### 4.5 Web Application Prototyping.
@@ -2871,7 +2871,7 @@ Esta metodología, alineada con los principios de Lean UX de reducir el desperdi
 Este diagrama presenta una vista general de la plataforma Care-Labs. En la imagen se identifican sus actores principales y los sistemas externos con los que se comunica directamente:
 
 <p align="center">
-  <img src="assets/assets/chapter 4/software-architecture/Context-diagram.png" alt="Diagrama de Contexto Care-Labs" width="600">
+  <img src="assets/chapter 4/software-architecture/Context-diagram.png" alt="Diagrama de Contexto Care-Labs" width="600">
 </p>
 
 #### 4.6.3 Software Architecture Container Diagram.
@@ -2879,7 +2879,7 @@ Este diagrama presenta una vista general de la plataforma Care-Labs. En la image
 Este diagrama de nivel C2 aplica un zoom al sistema para identificar sus contenedores internos. En esta estructura, la aplicación API funciona bajo una arquitectura de monolito.
 
 <p align="center">
-  <img src="assets/assets/chapter%204/software-architecture/Container-diagram.png" alt="Diagrama de Contenedores Care-Labs" width="600">
+  <img src="assets/hola/chapter%204/software-architecture/Container-diagram.png" alt="Diagrama de Contenedores Care-Labs" width="600">
 </p>
 
 #### 4.6.4 Software Architecture Components Diagram.
@@ -2890,7 +2890,7 @@ Frontend:
 La siguiente vista detalla los componentes internos de la aplicación web, donde se organiza la lógica de los servicios, los modelos de dominio y las interfaces de usuario.
 
 <p align="center">
-<img src="assets/assets/chapter 4/software-architecture/Components-diagrams.png" alt="Diagrama de Componentes Care-Labs" width="600">
+<img src="assets/chapter 4/software-architecture/Components-diagrams.png" alt="Diagrama de Componentes Care-Labs" width="600">
 </p>
 
 ### 4.7 Software Object-Oriented Design.
@@ -2915,14 +2915,14 @@ El diagrama expone un alto nivel de detalle técnico para cada contexto, incluye
 A continuación, se presenta el diagrama general modelado con la herramienta PlantUML:
 
 <p align="center">
-  <img src="assets/assets/chapter 4/software-architecture/Diagram-class.png" alt="UML Class Diagram - Care-Labs" width="100%">
+  <img src="assets/chapter 4/software-architecture/Diagram-class.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
 
 #### 4.8 Database Design.
 #### 4.8.1 Database Diagrams.
 
 <p align="center">
-  <img src="assets/assets/chapter 4/software-architecture/database.png" alt="UML Class Diagram - Care-Labs" width="100%">
+  <img src="assets/chapter 4/software-architecture/database.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
 
 ### Capítulo V: Product Implementation, Validation & Deployment
@@ -3344,7 +3344,7 @@ incluyendo el registro de productos, visualización del inventario y la simulaci
 
 **Board del Sprint (Jira):**
 
-![Jira Board](assets/assets/chapter-5/jira-board.png)
+![Jira Board](assets/chapter-5/jira-board.png)
 
 
 ###  Sprint Backlog
@@ -3424,51 +3424,51 @@ Se ha logrado consolidar la identidad visual de la marca y la arquitectura de in
 A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
 
 ### A. Portada y Propuesta de Valor
-![Hero Section](assets/assets/chapter-5/image_hero.png)
+![Hero Section](assets/chapter-5/image_hero.png)
 *Esta sección presenta la propuesta de valor central de la plataforma: una solución digital diseñada específicamente para 
 mejorar los procesos de enfermería cardiovascular mediante la centralización de información clínica, facilitación de comunicación 
 entre turnos y garantía de trazabilidad en eventos críticos.*
 
-![Proposal & Sectors Benefiting](assets/assets/chapter-5/proposal-sectors-benefited.png)
+![Proposal & Sectors Benefiting](assets/chapter-5/proposal-sectors-benefited.png)
 *En esta sección, se visualiza cómo PulseReport impacta directamente en instituciones de salud como hospitales, clínicas 
 privadas y centros especializados en cardiología, proporcionando soluciones concretas para optimizar la gestión de procesos críticos en 
 enfermería cardiovascular.*
 
 ### B. Funcionalidades, Operatividad y Beneficios
 
-![How it works](assets/assets/chapter-5/how-it-works.png)
+![How it works](assets/chapter-5/how-it-works.png)
 *Se describe el flujo integral de la plataforma, mostrando cómo el personal de enfermería cardiovascular puede registrar 
 signos vitales, documentar traspasos SBAR (Situación, Antecedentes, Baremo, Recomendaciones), consultar historiales clínicos 
 y mantener trazabilidad de eventos para mejorar la comunicación entre turnos.*
 
-![Features](assets/assets/chapter-5/main-features.png)
+![Features](assets/chapter-5/main-features.png)
 
 *Detalla las funcionalidades clave como registro de pacientes y citas, monitoreo de signos vitales, gestión de traspasos 
 SBAR, seguimiento de tratamientos, registro de eventos críticos, alertas automáticas ante fluctuaciones cardiovasculares anormales 
 y sistema de auditoría inalterable*
 
-![Benefits](assets/assets/chapter-5/main-benefits.png)
+![Benefits](assets/chapter-5/main-benefits.png)
 *Ilustra cómo PulseReport reduce errores en documentación clínica, optimiza el tiempo del personal de salud en tareas de 
 registro, mejora la continuidad del cuidado del paciente y fortalece la eficiencia operativa mediante digitalización y 
 trazabilidad de procesos críticos.*
 
 ### C. Preguntas Mas Frecuentes y Confianza
 
-![FAQ](assets/assets/chapter-5/faq.png)
+![FAQ](assets/chapter-5/faq.png)
 *Aborda las consultas comunes del personal de enfermería cardiovascular y administradores de instituciones de salud sobre 
 seguridad de datos, facilidad de acceso, integración con sistemas existentes, escalabilidad de la plataforma y soporte técnico disponible.*
 
-![Testimonials](assets/assets/chapter-5/testimonials.png)
+![Testimonials](assets/chapter-5/testimonials.png)
 *Presenta experiencias y perspectivas del personal de salud e instituciones que han validado PulseReport, destacando 
 mejoras en eficiencia operativa, reducción de errores, mejor comunicación entre turnos y fortalecimiento de la continuidad clínica.*
 
 ### D. Equipo y Contacto con Care-Labs
 
-![Team](assets/assets/chapter-5/dev-team.png)
+![Team](assets/chapter-5/dev-team.png)
 *Presenta los integrantes del equipo responsable del diseño, desarrollo e implementación de PulseReport, 
 demostrando el compromiso académico y profesional en la creación de soluciones innovadoras para la salud cardiovascular.*
 
-![Contact](assets/assets/chapter-5/contact.png)
+![Contact](assets/chapter-5/contact.png)
 *Proporciona los canales de comunicación disponibles para hospitales, clínicas, centros especializados y profesionales de salud 
 interesados en conocer más sobre PulseReport, solicitar demostraciones, consultar precios o gestionar suscripciones a la plataforma.*
 
@@ -3493,28 +3493,28 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://github.com
 
 1. Para la Landing Page, nuestro equipo creó una rama denominada “develop” dentro del repositorio, en la cual se organizaron y almacenaron todos los archivos correspondientes al desarrollo de la Landing Page.
 <p align="center">
-  <img src="assets/assets/chapter-5/deployment-landing-page-1.png" alt="deployment1" width="1000">
+  <img src="assets/chapter-5/deployment-landing-page-1.png" alt="deployment1" width="1000">
 </p>
 
 2. Posteriormente, nos dirigimos a configuración y empleamos GitHub Pages, el servicio de alojamiento para sitios estáticos de GitHub, para publicar y poner en línea nuestra Landing Page.
 <p align="center">
-  <img src="assets/assets/chapter-5/deployment-landing-page2.png" alt="deployment2" width="1000">
+  <img src="assets/chapter-5/deployment-landing-page2.png" alt="deployment2" width="1000">
 </p>
 
 3. Se seleccionó la rama previamente configurada y se procedió con el despliegue de la página.
 <p align="center">
-  <img src="assets/assets/chapter-5/deployment-landing-page-3.png" alt="deployment3" width="1000">
+  <img src="assets/chapter-5/deployment-landing-page-3.png" alt="deployment3" width="1000">
 </p>
 
 
 4. Finalmente, obtuvimos el enlace de publicación, que nos permite acceder y visualizar la Landing Page en línea.
 <p align="center">
-  <img src="assets/assets/chapter-5/deployment-landing-page-4.png" alt="deployment4" width="1000">
+  <img src="assets/chapter-5/deployment-landing-page-4.png" alt="deployment4" width="1000">
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 <p align="center">
-  <img src="assets/assets/chapter-5/members-commit.png" alt="deployment4" width="1000">
+  <img src="assets/chapter-5/members-commit.png" alt="deployment4" width="1000">
 </p>
 
 ### 5.2.2 Sprint 2
@@ -3586,7 +3586,7 @@ El Sprint 2 se enfocó en implementar las funcionalidades clínicas principales 
 
 **Board del Sprint (Jira):**
 
-![Jira Board Sprint 2](assets/assets/chapter-5/jira-board.png)
+![Jira Board Sprint 2](assets/chapter-5/jira-board.png)
 
 ###  Sprint Backlog
 
@@ -3650,37 +3650,37 @@ Durante el Sprint 2, el equipo desarrolló los componentes principales de la apl
 
 ### Vista General y url del Frontend desplegado
 URL del frontend desplegado en Firebase Hosting: [PulseReport Web App](https://pulsereport-frontend.web.app)
-![Deployed Frontend](assets/assets/chapter-5/deployed-frontend.png)
+![Deployed Frontend](assets/chapter-5/deployed-frontend.png)
 *Vista general del frontend desplegado - Muestra la interfaz principal de PulseReport con navegación y acceso a funcionalidades clínicas.*
 
 ### A. Autenticación y Acceso
 
-![Login Screen](assets/assets/chapter-5/login.png)
+![Login Screen](assets/chapter-5/login.png)
 *Pantalla de autenticación - Permite al personal de salud acceder de forma segura a PulseReport mediante credenciales y JWT.*
 
 ### B. Gestión de Pacientes
 
-![Patient List View](assets/assets/chapter-5/pacientes.png)
+![Patient List View](assets/chapter-5/pacientes.png)
 *Vista de listado de pacientes - Muestra lista de pacientes bajo cuidado con búsqueda rápida y acceso a detalles clínicos.*
 
 ### C. Registro de Signos Vitales
 
-![Vital Signs Form](assets/assets/chapter-5/signos-vitales.png)
+![Vital Signs Form](assets/chapter-5/signos-vitales.png)
 *Formulario de signos vitales - Permite registrar rápidamente presión arterial, frecuencia cardíaca, saturación de oxígeno y otros parámetros críticos.*
 
 ### D. Traspasos SBAR
 
-![SBAR Handover Form](assets/assets/chapter-5/sbar.png)
+![SBAR Handover Form](assets/chapter-5/sbar.png)
 *Formulario SBAR - Estructura la documentación de traspasos de turno con campos claros para Situación, Antecedentes, Valoración y Recomendaciones.*
 
 ### E. Dashboard Clínico
 
-![Clinical Dashboard](assets/assets/chapter-5/dashboard-pulsereport.png)
+![Clinical Dashboard](assets/chapter-5/dashboard-pulsereport.png)
 *Dashboard principal - Proporciona vista resumida del paciente, signos vitales recientes, eventos críticos y recomendaciones médicas pendientes.*
 
 ### F. Timeline de Eventos Clínicos
 
-![Clinical Timeline](assets/assets/chapter-5/auditoria.png)
+![Clinical Timeline](assets/chapter-5/auditoria.png)
 *Timeline de eventos - Visualización cronológica de todos los eventos clínicos registrados permitiendo trazabilidad completa.*
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
@@ -3718,22 +3718,22 @@ Durante el Sprint 2, se realizó el despliegue de la aplicación web frontend de
     - Se verificó la funcionalidad en el entorno de producción, incluyendo navegación, formularios y dashboard.
 
 <p align="center">
-  <img src="assets/assets/chapter-5/firebase-console.png" alt="Firebase Console Project" width="1000">
+  <img src="assets/chapter-5/firebase-console.png" alt="Firebase Console Project" width="1000">
 </p>
 *Consola de Firebase mostrando el proyecto "pulsereport-frontend" configurado con Hosting habilitado.*
 
 <p align="center">
-  <img src="assets/assets/chapter-5/deployed-frontend.png" alt="Deployed Frontend Screenshot" width="1000">
+  <img src="assets/chapter-5/deployed-frontend.png" alt="Deployed Frontend Screenshot" width="1000">
 </p>
 **Capturas de pantalla del despliegue:**
 <p align="center">
-  <img src="assets/assets/chapter-5/frontend-branch.png" alt="development-branch" width="1000">
+  <img src="assets/chapter-5/frontend-branch.png" alt="development-branch" width="1000">
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <p align="center">
-  <img src="assets/assets/chapter-5/members-commit-2.png" alt="sprint2-commits" width="1000">
+  <img src="assets/chapter-5/members-commit-2.png" alt="sprint2-commits" width="1000">
 </p>
 
 El equipo del Sprint 2 mantuvo una comunicación constante mediante Discord, realizando daily standups virtuales para alinear esfuerzos y resolver bloqueos técnicos. Se observó colaboración equilibrada entre miembros, con roles claros de liderazgo en diferentes aspectos arquitecturales. Los commits muestran participación activa de los cuatro integrantes en diferentes componentes, evidenciando trabajo coordinado en paralelo sin conflictos significativos de merge.
@@ -3936,7 +3936,7 @@ El equipo utilizó Spring Boot como framework principal, aplicando una arquitect
 
 **Board del Sprint (Jira):**
 
-![Jira Board Sprint 3](assets/assets/chapter-5/jira-board-sprint3.png)
+![Jira Board Sprint 3](assets/chapter-5/jira-board-sprint3.png)
 
 ### Sprint Backlog
 
@@ -3982,9 +3982,9 @@ Durante el desarrollo se trabajó con ramas por funcionalidad (feature branches)
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-## Resumen de Logros del Sprint 3
-
-Durante el Sprint 3, el equipo desarrolló e integró exitosamente el backend de PulseReport, implementando los principales servicios REST necesarios para la gestión de información clínica. Se logró construir una arquitectura robusta basada en Spring Boot, aplicando buenas prácticas de diseño por capas y principios de Domain-Driven Design (DDD).
+Durante el Sprint 3, el equipo desarrolló e integró exitosamente el backend de PulseReport, implementando los principales servicios REST 
+necesarios para la gestión de información clínica. Se logró construir una arquitectura robusta basada en Spring Boot, aplicando 
+buenas prácticas de diseño por capas y principios de Domain-Driven Design (DDD).
 
 El sistema permite registrar, consultar y gestionar información crítica del paciente en tiempo real, asegurando trazabilidad, consistencia y escalabilidad del backend.
 
@@ -3993,75 +3993,62 @@ El sistema permite registrar, consultar y gestionar información crítica del pa
 * **Gestión de Pacientes**: Creación, consulta y actualización de información de pacientes.
 * **Auditoría del Sistema**: Registro de acciones realizadas para garantizar trazabilidad.
 * **Handover Clínico**: Registro, consulta y confirmación de traspasos entre personal de salud.
-* **Eventos Críticos**: Gestión de alertas clínicas (listar, atender y cerrar eventos).
+* **Eventos Clinicos Críticos**: Gestión de alertas clínicas (listar, atender y cerrar eventos).
 * **Arquitectura Backend**: Implementación de patrón por capas (Controller, Service, Repository).
 * **Pruebas de API**: Validación completa de endpoints mediante Swagger UI.
 
 ---
 
-  ## Evidencia de ejecución de endpoints
+  ### Evidencia de ejecución de endpoints
   
   ### A. Swagger UI Backend
   
-  ![Swagger UI](assets/assets/chapter-5/swagger-backend.png)
+  ![Swagger UI](assets/chapter-5/swagger-backend.png)
   
-  *Interfaz Swagger UI mostrando todos los endpoints disponibles del backend de PulseReport para pruebas y validación.*
-  
-  ---
-  
-  ### B. Registro de signos vitales (POST)
-  
-  ![POST Vital Signs](assets/assets/chapter-5/post-vital-signs.png)
-  
-  *Ejecución del endpoint POST /vital-sign-records permitiendo registrar signos vitales de un paciente.*
+  *Interfaz Swagger UI donde se encuentran todos los endpoints disponibles del backend de PulseReport para pruebas y validación.*
   
   ---
   
-  ### C. Consulta de signos vitales por paciente (GET)
+  ### B. Bounded Context Patients
   
-  ![GET Vital Signs](assets/assets/chapter-5/get-vital-signs.png)
+  ![Patients](assets/chapter-5/patients-swagger.png)
   
-  *Consulta de registros de signos vitales asociados a un paciente específico mediante su ID.*
-  
-  ---
-  
-  ### D. Obtención del último registro clínico
-  
-  ![Latest Vital Sign](assets/assets/chapter-5/latest-vital.png)
-  
-  *Endpoint que permite obtener el último registro de signos vitales basado en la fecha más reciente.*
+  *Primer bounded context con 5 endpoints permitiendo gestionar pacientes en PulseReport.*
   
   ---
   
-  ### E. Registro de auditoría
+  ### C. Bounded Context Audit Logs
   
-  ![Audit Logs](assets/assets/chapter-5/audit-log.png)
+  ![Audit Logs](assets/chapter-5/audit-logs-swagger.png)
   
-  *Ejecución del endpoint POST /audit-logs para registrar acciones dentro del sistema.*
-  
-  ---
-  
-  ### F. Gestión de pacientes
-  
-  ![Patients Endpoint](assets/assets/chapter-5/patients.png)
-  
-  *Endpoints de pacientes permitiendo crear, consultar y actualizar información clínica.*
+  *Segundo bounded context con 5 endpoints para registrar y gestionar acciones médicas dentro del sistema de PulseReport.*
   
   ---
   
-  ### G. Gestión de handover
+  ### D. Bounded Context Handovers
   
-  ![Handover](assets/assets/chapter-5/handover.png)
+  ![SBAR Handovers](assets/chapter-5/handovers-swagger.png)
   
-  *Endpoints de handover clínico que permiten registrar y confirmar traspasos entre turnos.*
+  *Tercer bounded context con 4 endpoints que gestionan la transferencia de responsabilidades entre turnos.*
   
   ---
   
-  ### H. Eventos críticos
+  ### E. Bounded Context Vital Signs
   
-  ![Critical Events](assets/assets/chapter-5/critical-events.png)
+  ![Audit Logs](assets/chapter-5/vital-signs-swagger.png)
   
-  *Endpoints para gestionar alertas clínicas, incluyendo listar, atender y cerrar eventos críticos.*
+  *Cuarto bounded context con 5 endpoints que gestionan el registro de signos vitales de pacientes, permitiendo crear, 
+  consultar y actualizar mediciones para el monitoreo continuo de la salud.*
+  
+  ---
+  
+  ### F. Bounded Context Alerts
+  
+  ![Clinical-Events-Alerts](assets/chapter-5/clinical-events-alerts-swagger.png)
+  
+  *Quinto bounded context con 6 endpoints gestionar alertas clínicas, incluyendo crear, listar, actualizar y cerrar eventos clinico críticos.*
+
+  
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4109,7 +4096,7 @@ PUT /critical-events/{id}/close
 
 ### Evidencia de documentación en Swagger
 
-![Swagger Endpoints](assets/assets/chapter-5/swagger-endpoints.png)
+![Swagger Endpoints](assets/chapter-5/swagger-endpoints.png)
 
 *Documentación de endpoints en Swagger UI mostrando los servicios organizados por bounded context.*
 
@@ -4173,13 +4160,13 @@ El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que perm
 
 ### Evidencia del despliegue
 
-![Backend Running](assets/assets/chapter-5/backend-running.png)
+![Backend Running](assets/chapter-5/backend-running.png)
 
 *Aplicación backend ejecutándose correctamente en entorno local mostrando logs de Spring Boot.*
 
 ---
 
-![Swagger Deployment](assets/assets/chapter-5/swagger-deployment.png)
+![Swagger Deployment](assets/chapter-5/swagger-deployment.png)
 
 *Swagger UI mostrando los endpoints disponibles tras el despliegue del backend.*
 
@@ -4202,7 +4189,7 @@ El despliegue del backend en entorno local permitió validar el correcto funcion
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 <p align="center">
-  <img src="assets/assets/chapter-5/backend-commits.png" alt="sprint3-commits" width="1000">
+  <img src="assets/chapter-5/backend-commits.png" alt="sprint3-commits" width="1000">
 </p>
 
 Durante el Sprint 3, el equipo mantuvo una colaboración activa y organizada enfocada en el desarrollo del backend de PulseReport. Se trabajó utilizando ramas por funcionalidad (feature branches), lo que permitió a cada integrante desarrollar su bounded context de manera independiente sin afectar el trabajo de los demás.
