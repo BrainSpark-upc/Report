@@ -3582,58 +3582,63 @@ Se ha logrado consolidar la identidad visual de la marca y la arquitectura de in
 * **Navegación:** Configuración de una experiencia de usuario fluida y orientada a la conversión (CTAs).
 
 ## 2. Screenshots de las Principales Vistas
-A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
 
-### A. Portada y Propuesta de Valor
+A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio. Las vistas se organizan según las secciones de navegación del Landing Page (Plataforma, El problema, ¿Cómo funciona?, Características, Beneficios, Planes, Nosotros y Preguntas frecuentes), indicando el propósito de cada una y el perfil de visitante al que atiende (racional, emocional o recurrente).
+
+### A. Plataforma (Portada y Propuesta de Valor)
+
 ![Hero Section](assets/chapter-5/image_hero.png)
-*Esta sección presenta la propuesta de valor central de la plataforma: una solución digital diseñada específicamente para 
-mejorar los procesos de enfermería cardiovascular mediante la centralización de información clínica, facilitación de comunicación 
-entre turnos y garantía de trazabilidad en eventos críticos.*
+*Sección de portada que presenta la propuesta de valor central de la plataforma: una solución digital diseñada específicamente para mejorar los procesos de enfermería cardiovascular mediante la centralización de información clínica, la facilitación de la comunicación entre turnos y la garantía de trazabilidad en eventos críticos. Incluye los Call-To-Action principales que dirigen al visitante recurrente hacia la aplicación desplegada, así como el selector de idioma (ES/EN) y el acceso a "Iniciar sesión".*
+
+### B. El Problema
+
+![The Problem](assets/chapter-5/problem.png)
+<!-- TODO: agregar la captura real de la sección "El problema" (assets/chapter-5/problem.png) -->
+*Explica la problemática que da origen a PulseReport: la información clínica dispersa y el registro manual dificultan la continuidad asistencial y la trazabilidad de eventos críticos en enfermería cardiovascular. Esta sección atiende al perfil de visitante racional, ayudándole a reconocer la necesidad que resuelve la plataforma.*
 
 ![Proposal & Sectors Benefiting](assets/chapter-5/proposal-sectors-benefited.png)
-*En esta sección, se visualiza cómo PulseReport impacta directamente en instituciones de salud como hospitales, clínicas 
-privadas y centros especializados en cardiología, proporcionando soluciones concretas para optimizar la gestión de procesos críticos en 
-enfermería cardiovascular.*
+*Complementa la sección del problema mostrando cómo PulseReport impacta directamente en instituciones de salud como hospitales, clínicas privadas y centros especializados en cardiología, proporcionando soluciones concretas para optimizar la gestión de procesos críticos.*
 
-### B. Funcionalidades, Operatividad y Beneficios
+### C. ¿Cómo Funciona?
 
 ![How it works](assets/chapter-5/how-it-works.png)
-*Se describe el flujo integral de la plataforma, mostrando cómo el personal de enfermería cardiovascular puede registrar 
-signos vitales, documentar traspasos SBAR (Situación, Antecedentes, Baremo, Recomendaciones), consultar historiales clínicos 
-y mantener trazabilidad de eventos para mejorar la comunicación entre turnos.*
+*Describe el flujo integral de la plataforma, mostrando cómo el personal de enfermería cardiovascular puede registrar signos vitales, documentar traspasos SBAR (Situación, Antecedentes, Evaluación y Recomendaciones), consultar historiales clínicos y mantener trazabilidad de eventos para mejorar la comunicación entre turnos.*
+
+### D. Características
 
 ![Features](assets/chapter-5/main-features.png)
+*Detalla las funcionalidades clave como registro de pacientes y citas, monitoreo de signos vitales, gestión de traspasos SBAR, seguimiento de tratamientos, registro de eventos críticos, alertas automáticas ante fluctuaciones cardiovasculares anormales y sistema de auditoría inalterable.*
 
-*Detalla las funcionalidades clave como registro de pacientes y citas, monitoreo de signos vitales, gestión de traspasos 
-SBAR, seguimiento de tratamientos, registro de eventos críticos, alertas automáticas ante fluctuaciones cardiovasculares anormales 
-y sistema de auditoría inalterable*
+### E. Beneficios
 
 ![Benefits](assets/chapter-5/main-benefits.png)
-*Ilustra cómo PulseReport reduce errores en documentación clínica, optimiza el tiempo del personal de salud en tareas de 
-registro, mejora la continuidad del cuidado del paciente y fortalece la eficiencia operativa mediante digitalización y 
-trazabilidad de procesos críticos.*
+*Ilustra cómo PulseReport reduce errores en documentación clínica, optimiza el tiempo del personal de salud en tareas de registro, mejora la continuidad del cuidado del paciente y fortalece la eficiencia operativa mediante la digitalización y trazabilidad de procesos críticos.*
 
-### C. Preguntas Mas Frecuentes y Confianza
+### F. Planes
 
-![FAQ](assets/chapter-5/faq.png)
-*Aborda las consultas comunes del personal de enfermería cardiovascular y administradores de instituciones de salud sobre 
-seguridad de datos, facilidad de acceso, integración con sistemas existentes, escalabilidad de la plataforma y soporte técnico disponible.*
+![Plans](assets/chapter-5/plans.png)
+<!-- TODO: agregar la captura real de la sección "Planes" (assets/chapter-5/plans.png) -->
+*Presenta los planes y precios disponibles de PulseReport para las instituciones de salud, detallando las características incluidas en cada nivel de servicio. Esta sección atiende al perfil de visitante racional, ya que le entrega la información necesaria para comparar opciones y facilitar la decisión de contratación de la plataforma.*
 
-![Testimonials](assets/chapter-5/testimonials.png)
-*Presenta experiencias y perspectivas del personal de salud e instituciones que han validado PulseReport, destacando 
-mejoras en eficiencia operativa, reducción de errores, mejor comunicación entre turnos y fortalecimiento de la continuidad clínica.*
-
-### D. Equipo y Contacto con Care-Labs
+### G. Nosotros (Equipo)
 
 ![Team](assets/chapter-5/dev-team.png)
-*Presenta los integrantes del equipo responsable del diseño, desarrollo e implementación de PulseReport, 
-demostrando el compromiso académico y profesional en la creación de soluciones innovadoras para la salud cardiovascular.*
+*Presenta a los integrantes del equipo responsable del diseño, desarrollo e implementación de PulseReport, incluyendo sus perfiles y motivaciones. Esta sección atiende al perfil de visitante emocional, generando confianza al mostrar quiénes están detrás de la solución.*
+
+### H. Preguntas Frecuentes
+
+![FAQ](assets/chapter-5/faq.png)
+*Aborda las consultas comunes del personal de enfermería cardiovascular y administradores de instituciones de salud sobre seguridad de datos, facilidad de acceso, integración con sistemas existentes, escalabilidad de la plataforma y soporte técnico disponible.*
+
+### I. Testimonios
+
+![Testimonials](assets/chapter-5/testimonials.png)
+*Presenta experiencias y perspectivas del personal de salud e instituciones que han validado PulseReport, destacando mejoras en eficiencia operativa, reducción de errores, mejor comunicación entre turnos y fortalecimiento de la continuidad clínica. Esta sección atiende al perfil de visitante emocional, generando confianza a través de la experiencia de terceros y permitiendo conocer los beneficios del producto sin haberlo usado.*
+
+### J. Contacto con Care-Labs
 
 ![Contact](assets/chapter-5/contact.png)
-*Proporciona los canales de comunicación disponibles para hospitales, clínicas, centros especializados y profesionales de salud 
-interesados en conocer más sobre PulseReport, solicitar demostraciones, consultar precios o gestionar suscripciones a la plataforma.*
-
-
+*Proporciona los canales de comunicación disponibles para hospitales, clínicas, centros especializados y profesionales de salud interesados en conocer más sobre PulseReport, solicitar demostraciones, consultar precios o gestionar suscripciones a la plataforma.*
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 En esta sección se presenta la documentación relacionada con los servicios que serán ofrecidos a través de la plataforma web de PulseReport. 
