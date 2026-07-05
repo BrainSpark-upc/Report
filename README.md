@@ -255,6 +255,7 @@ Avance 2
 - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
+
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -287,9 +288,9 @@ En el siguiente cuadro se describen las acciones realizadas y los enunciados de 
       <b>TB2:</b> Apoyó en la comunicación final de los artefactos de investigación y requerimientos, explicando la relación entre entrevistas, User Personas, Needfinding, Impact Mapping, Product Backlog y funcionalidades priorizadas.<br><br>
       <b>Rocca Leon, Anhelo Rodrigo</b><br>
       <b>AV1:</b> Comunicó oralmente decisiones relacionadas con experiencia de usuario, flujos iniciales e interfaz propuesta para PulseReport, explicando cómo estas decisiones respondían a las necesidades del personal de salud.<br>
-      <b>TB1:</b> Presentó avances relacionados con wireframes, mock-ups, prototipos y decisiones visuales de la Landing Page y Web Application, explicando la estructura de navegación y la experiencia propuesta para los usuarios.<br>
-      <b>AV2:</b> Apoyó en la presentación de mock-ups, wireflows, user flows y flujos de interacción de la Web Application, explicando de manera clara el recorrido de los usuarios dentro del producto.<br>
-      <b>TB2:</b> Participó en la explicación final de la experiencia UX/UI, evidencias visuales, prototipos, flujos de usuario, mejoras de interfaz y consistencia visual entre la Landing Page y la Web Application.<br><br>
+      <b>TB1:</b> Presentó avances relacionados con wireframes, mock-ups, prototipos y decisiones visuales de la Landing Page y Web Application, explicando la estructura de navegación y la experiencia propuesta para los usuarios. Asimismo, comunico los avances en la sección Sprint 2 del reporte<br>
+      <b>AV2:</b> Tomo participación en el liderazgo del equipo, coordino tareas y comunico avances en el backend del producto<br>
+      <b>TB2:</b> Participó en la explicación final de la experiencia UX/UI, evidencias visuales, prototipos, flujos de usuario, mejoras de interfaz y consistencia visual. Asimismo, asumió liderazgo y comunico a todo el equipo sus tareas a cumplir en los productos y reporte.<br><br>
       <b>Huamán Cuba, Johan Giovani</b><br>
       <b>AV1:</b> Explicó oralmente elementos técnicos del diseño de la solución, incluyendo arquitectura inicial, organización de componentes y relación entre los artefactos de diseño de software.<br>
       <b>TB1:</b> Presentó avances relacionados con arquitectura de información, diagramas técnicos, diseño de base de datos, configuración del entorno de desarrollo y gestión del código fuente.<br>
@@ -319,10 +320,10 @@ En el siguiente cuadro se describen las acciones realizadas y los enunciados de 
       <b>AV2:</b> Apoyó en la mejora escrita de secciones de requisitos, entrevistas, validación, documentación técnica y evidencias vinculadas al avance del producto.<br>
       <b>TB2:</b> Corrigió y actualizó secciones relacionadas con entrevistas, análisis de usuarios, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación, requerimientos y funcionalidades del producto.<br><br>
       <b>Rocca Leon, Anhelo Rodrigo</b><br>
-      <b>AV1:</b> Participó en la documentación de artefactos visuales, flujos de usuario, decisiones de interfaz y criterios iniciales de experiencia de usuario para PulseReport.<br>
-      <b>TB1:</b> Colaboró en la documentación de wireframes, mock-ups, prototipos, lineamientos visuales y evidencias UX/UI correspondientes a la Landing Page y Web Application.<br>
-      <b>AV2:</b> Colaboró en la revisión y actualización escrita de secciones relacionadas con wireframes, mock-ups, wireflows, user flows y evidencias visuales de la Web Application.<br>
-      <b>TB2:</b> Revisó y actualizó secciones relacionadas con UX/UI, prototipos, flujos de interacción, capturas de la Web Application, coherencia visual y consistencia entre diseño e implementación.<br><br>
+      <b>AV1:</b> Programo reuniones presenciales y comunicación mediante mensajería de texto. Participó en la documentación de artefactos visuales, flujos de usuario, decisiones de interfaz y criterios iniciales de experiencia de usuario para PulseReport.<br>
+      <b>TB1:</b> Mantuvo una comunicación grupal de confianza y respeto. Colaboró en la documentación de wireframes, mock-ups, prototipos, lineamientos visuales y evidencias UX/UI correspondientes a la Landing Page y Web Application.<br>
+      <b>AV2:</b> Asumió co-liderazgo del grupo, programo reuniones presenciales y distribuyo tareas para el desarrollo del backend. Colaboró en la revisión y actualización escrita de secciones relacionadas con wireframes, mock-ups, wireflows, user flows y evidencias visuales de la Web Application.<br>
+      <b>TB2:</b> Asumio total liderazgo del grupo, comunico tareas y estuvo pendiente de los últimos avances de los productos, en especial, el reporte. Revisó y actualizó secciones relacionadas con el reporte entero, el UX/UI, prototipos, flujos de interacción, capturas de la Web Application, coherencia visual y consistencia entre diseño e implementación del proyecto PulseReport.<br><br>
       <b>Huamán Cuba, Johan Giovani</b><br>
       <b>AV1:</b> Contribuyó en la documentación escrita de arquitectura, diseño de software, base de datos, organización técnica de la solución y configuración inicial del entorno de desarrollo.<br>
       <b>TB1:</b> Documentó avances relacionados con arquitectura de software, diagramas técnicos, gestión de configuración, source code management, convenciones de desarrollo y despliegue inicial.<br>
@@ -2388,6 +2389,7 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
 </p>
 
 #### 4.3 Landing Page UI Design.
+  
 #### 4.3.1 Landing Page Wireframes.
 
 El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estructura clara y ordenada, diseñada para comunicar la propuesta de valor del producto de forma directa. La página incluye secciones estratégicas como hero section, funcionamiento, características, beneficios, preguntas frecuentes, contacto y llamados a la acción que orientan al usuario durante la navegación.
