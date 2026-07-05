@@ -34,12 +34,12 @@
 
 <div align="center">
 
-| Código | Apellidos y Nombres |
-|:------:| :----: |
-| u202417693 | Aliaga Ocampo, Alexander Auden |
-| u202217893 | Rios Cespedes, Adrian Matias |
-| u20221c803 | Rocca Leon, Anhelo Rodrigo |
-| u202417448 | Huamán Cuba, Johan Giovani |
+|   Código   |       Apellidos y Nombres       |
+|:----------:|:-------------------------------:|
+| u202417693 | Aliaga Ocampo, Alexander Auden  |
+| u202217893 |  Rios Cespedes, Adrian Matias   |
+| u20221c803 |   Rocca Leon, Anhelo Rodrigo    |
+| u202417448 |   Huamán Cuba, Johan Giovani    |
 | u202414510 | Mansilla Rivero, Carlos Marcelo |
 
 </div>
@@ -56,36 +56,37 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes realizadas al informe durante el ciclo de vida del proyecto. Se consideran modificaciones relevantes la adición de secciones, eliminación de secciones, correcciones o mejoras producto de la retroalimentación recibida del docente o de la autocrítica del equipo.
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| ------- | ----- | ----- | --------------------------- |
-| **1.0** | 07/04/2026 | AlexanderAliaga19 | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto. |
-| **1.1** | 07/04/2026 | AlexanderAliaga19 | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md. |
-| **1.2** | 07/04/2026 | AlexanderAliaga19 | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento. |
-| **1.3** | 16/04/2026 | AlexanderAliaga19 | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo. |
-| **1.4** | 17/04/2026 | AdrianR16-C | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto. |
-| **1.5** | 18/04/2026 | AdrianR16-C | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios. |
-| **1.6** | 19/04/2026 | AdrianR16-C | Se documentaron hallazgos obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix. |
-| **1.7** | 19/04/2026 | AlexanderAliaga19 | Se agregaron lineamientos visuales, correcciones de rutas de imágenes y ajustes de presentación en los assets del capítulo 2. |
-| **1.8** | 19/04/2026 | AdrianR16-C | Se actualizaron perfiles de usuarios, User Personas, User Task Matrix y análisis asociado al proceso de investigación de usuarios. |
-| **1.9** | 20/04/2026 | RoccaA4 | Se agregaron detalles de Event Storming, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto. |
-| **2.0** | 21/04/2026 | Johancuba | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, diagramas de base de datos, diagramas de clase y configuración técnica del proyecto. |
-| **2.1** | 22/04/2026 | AlexanderAliaga19 | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, planificación y evidencias de desarrollo de la Landing Page. |
-| **2.2** | 22/04/2026 | RoccaA4 | Se agregaron wireframes, mock-ups, user flows y evidencias visuales correspondientes al diseño UX/UI del producto. |
-| **2.3** | 23/04/2026 | Johancuba | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software y estrategia de control de versiones. |
-| **2.4** | 10/05/2026 | AdrianR16-C | Se actualizó el análisis competitivo, estrategias frente a competidores y claridad estructural del informe a partir de revisión del contenido existente. |
-| **2.5** | 11/05/2026 | AdrianR16-C | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming y Ubiquitous Language. |
-| **2.6** | 11/05/2026 | RoccaA4 | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron secciones de UX/UI y prototipos. |
-| **2.7** | 11/05/2026 | Johancuba | Se añadieron diagramas y evidencias técnicas, se corrigieron nombres de archivos, rutas de imágenes y secciones relacionadas con arquitectura y despliegue. |
-| **2.8** | 18/06/2026 | AlexanderAliaga19 | Se incorporó documentación del Sprint 3, incluyendo planificación, alcance, evidencias de desarrollo y actualización de secciones generales del informe. |
-| **2.9** | 18/06/2026 | AdrianR16-C | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos. |
-| **3.0** | 18/06/2026 | RoccaA4 | Se actualizaron evidencias visuales del producto, mock-ups, flujos de interacción y capturas relacionadas con la Web Application. |
-| **3.1** | 18/06/2026 | Johancuba | Se documentaron servicios RESTful API, despliegue de Web Services, configuración técnica y evidencias de implementación. |
-| **3.2** | 18/06/2026 | CarlosMansilla | Se integró al equipo durante AV2 y desarrolló el bounded context de Vital Signs en el backend de PulseReport, incluyendo estructura por capas, lógica de dominio, persistencia, servicios de aplicación, endpoints REST para crear y consultar registros de signos vitales, validación mediante Swagger y documentación técnica correspondiente al Sprint 3. |
-| **3.3** | 01/07/2026 | AlexanderAliaga19 | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustes generales del documento. |
-| **3.4** | 01/07/2026 | AdrianR16-C | Se corrigieron secciones relacionadas con entrevistas, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación y requerimientos. |
-| **3.5** | 01/07/2026 | RoccaA4 | Se revisaron y actualizaron secciones relacionadas con UX/UI, wireframes, mock-ups, prototipos, user flows y coherencia visual de la Web Application. |
-| **3.6** | 01/07/2026 | Johancuba | Se revisaron y actualizaron secciones relacionadas con arquitectura de software, diseño orientado a objetos, base de datos, configuración técnica y despliegue. |
-| **3.7** | 01/07/2026 | CarlosMansilla | Participó en la revisión final del informe TB2, corrigiendo coherencia entre artefactos, actualización de Sprint 4, Student Outcome, evidencias de colaboración, documentación técnica, trazabilidad de endpoints y alineación general con el enunciado oficial del trabajo final. |
+| Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                                                                                                                                                                  |
+|---------|------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1.0** | 07/04/2026 | AlexanderAliaga19 | Se creó la primera versión del informe en README.md, incluyendo estructura inicial, información del curso, NRC, datos del equipo y contenido base del proyecto.                                                                                                                                                                                              |
+| **1.1** | 07/04/2026 | AlexanderAliaga19 | Se agregó la tabla de contenidos, detalles de integrantes del equipo, misión de la startup, introducción del proyecto y se corrigió el formato general del README.md.                                                                                                                                                                                        |
+| **1.2** | 07/04/2026 | AlexanderAliaga19 | Se incorporó la sección de Solution Profile y se mejoró la presentación de perfiles de integrantes, imágenes, detalles personales y formato visual del documento.                                                                                                                                                                                            |
+| **1.3** | 16/04/2026 | AlexanderAliaga19 | Se agregaron secciones de Lean UX, incluyendo Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas y definición de segmentos objetivo.                                                                                                                                                                                                     |
+| **1.4** | 17/04/2026 | AdrianR16-C       | Se incorporó la sección de Requirements Elicitation & Analysis, incluyendo el análisis inicial de competidores y la sección de entrevistas para validación del proyecto.                                                                                                                                                                                     |
+| **1.5** | 18/04/2026 | AdrianR16-C       | Se agregó el registro de entrevistas al informe, incorporando evidencias y contenido relacionado con la validación de usuarios.                                                                                                                                                                                                                              |
+| **1.6** | 19/04/2026 | AdrianR16-C       | Se documentaron hallazgos obtenidos de entrevistas sobre procesos clínicos, y se ampliaron las secciones relacionadas con entrevistas, User Personas y User Task Matrix.                                                                                                                                                                                     |
+| **1.7** | 19/04/2026 | AlexanderAliaga19 | Se agregaron lineamientos visuales, correcciones de rutas de imágenes y ajustes de presentación en los assets del capítulo 2.                                                                                                                                                                                                                                |
+| **1.8** | 19/04/2026 | AdrianR16-C       | Se actualizaron perfiles de usuarios, User Personas, User Task Matrix y análisis asociado al proceso de investigación de usuarios.                                                                                                                                                                                                                           |
+| **1.9** | 20/04/2026 | RoccaA4           | Se agregaron detalles de Event Storming, navegación del documento y secciones adicionales solicitadas por el enunciado del proyecto.                                                                                                                                                                                                                         |
+| **2.0** | 21/04/2026 | Johancuba         | Se incorporaron secciones del capítulo 4, incluyendo arquitectura de información, diagramas de base de datos, diagramas de clase y configuración técnica del proyecto.                                                                                                                                                                                       |
+| **2.1** | 22/04/2026 | AlexanderAliaga19 | Se actualizó la documentación del Sprint 1, incluyendo objetivos, alcance, planificación y evidencias de desarrollo de la Landing Page.                                                                                                                                                                                                                      |
+| **2.2** | 22/04/2026 | RoccaA4           | Se agregaron wireframes, mock-ups, user flows y evidencias visuales correspondientes al diseño UX/UI del producto.                                                                                                                                                                                                                                           |
+| **2.3** | 23/04/2026 | Johancuba         | Se agregaron y corrigieron diagramas de contexto, arquitectura de software, diseño de base de datos, gestión de configuración de software y estrategia de control de versiones.                                                                                                                                                                              |
+| **2.4** | 10/05/2026 | AdrianR16-C       | Se actualizó el análisis competitivo, estrategias frente a competidores y claridad estructural del informe a partir de revisión del contenido existente.                                                                                                                                                                                                     |
+| **2.5** | 11/05/2026 | AdrianR16-C       | Se revisaron y ampliaron las secciones de entrevistas, User Journey Mapping, Empathy Mapping, Big Picture Event Storming y Ubiquitous Language.                                                                                                                                                                                                              |
+| **2.6** | 11/05/2026 | RoccaA4           | Se mejoró el Product Backlog con nuevas User Stories, prioridades y relación con Sprint 2. También se actualizaron secciones de UX/UI y prototipos.                                                                                                                                                                                                          |
+| **2.7** | 11/05/2026 | Johancuba         | Se añadieron diagramas y evidencias técnicas, se corrigieron nombres de archivos, rutas de imágenes y secciones relacionadas con arquitectura y despliegue.                                                                                                                                                                                                  |
+| **2.8** | 18/06/2026 | AlexanderAliaga19 | Se incorporó documentación del Sprint 3, incluyendo planificación, alcance, evidencias de desarrollo y actualización de secciones generales del informe.                                                                                                                                                                                                     |
+| **2.9** | 18/06/2026 | AdrianR16-C       | Se agregaron evidencias de validación de la aplicación y Landing Page mediante entrevistas, tareas asignadas a usuarios y evaluación heurística de hallazgos.                                                                                                                                                                                                |
+| **3.0** | 18/06/2026 | RoccaA4           | Se actualizaron evidencias visuales del producto, mock-ups, flujos de interacción y capturas relacionadas con la Web Application.                                                                                                                                                                                                                            |
+| **3.1** | 18/06/2026 | Johancuba         | Se documentaron servicios RESTful API, despliegue de Web Services, configuración técnica y evidencias de implementación.                                                                                                                                                                                                                                     |
+| **3.2** | 18/06/2026 | CarlosMansilla    | Se integró al equipo durante AV2 y desarrolló el bounded context de Vital Signs en el backend de PulseReport, incluyendo estructura por capas, lógica de dominio, persistencia, servicios de aplicación, endpoints REST para crear y consultar registros de signos vitales, validación mediante Swagger y documentación técnica correspondiente al Sprint 3. |
+| **3.3** | 01/07/2026 | AlexanderAliaga19 | Se actualizó la estructura del informe para la entrega final TB2, incorporando la sección Sprint 4 y ajustes generales del documento.                                                                                                                                                                                                                        |
+| **3.4** | 01/07/2026 | AdrianR16-C       | Se corrigieron secciones relacionadas con entrevistas, Needfinding, User Stories, Impact Mapping y Product Backlog para mejorar la trazabilidad entre investigación y requerimientos.                                                                                                                                                                        |
+| **3.5** | 01/07/2026 | RoccaA4           | Se revisaron y actualizaron secciones relacionadas con UX/UI, wireframes, mock-ups, prototipos, user flows y coherencia visual de la Web Application.                                                                                                                                                                                                        |
+| **3.6** | 01/07/2026 | Johancuba         | Se revisaron y actualizaron secciones relacionadas con arquitectura de software, diseño orientado a objetos, base de datos, configuración técnica y despliegue.                                                                                                                                                                                              |
+| **3.7** | 01/07/2026 | CarlosMansilla    | Participó en la revisión final del informe TB2, corrigiendo coherencia entre artefactos, actualización de Sprint 4, Student Outcome, evidencias de colaboración, documentación técnica, trazabilidad de endpoints y alineación general con el enunciado oficial del trabajo final.                                                                           |
+
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
@@ -96,11 +97,11 @@ https://github.com/BrainSpark-upc/Report/blob/main/README.md
 
 Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de acuerdo con los avances de cada entrega. Las actividades realizadas incluyen redacción de secciones, incorporación de capturas, corrección de rutas de imágenes, actualización de evidencias, mejora de redacción, documentación de sprints y ajustes derivados de la retroalimentación recibida.
 
-| Entrega | Actividades de colaboración realizadas | Evidencia considerada |
-| ------- | -------------------------------------- | --------------------- |
-| **AV1** | Se creó la estructura inicial del informe, se documentó el perfil de la startup, la problemática, Lean UX Process, entrevistas, primeros artefactos de análisis, requisitos iniciales, diseño de producto y Sprint 1. | Commits iniciales del README, historial de cambios del repositorio y capturas de colaboración en GitHub. |
-| **TB1** | Se actualizaron artefactos previamente entregados, se mejoró la documentación de requisitos, diseño UX/UI, arquitectura, Sprint 2 y evidencias de despliegue de la Landing Page y primera versión de la Web Application. | Commits asociados a correcciones, capturas de GitHub Insights y evidencias de actualización del informe. |
-| **AV2** | Se incorporó la documentación del Sprint 3, evidencias de implementación, validación, documentación de servicios RESTful API, despliegue de Web Services, Video About-the-Product y avance del Video About-the-Team. Además, Carlos Marcelo Mansilla Rivero se integró al equipo y colaboró en la revisión y mejora del informe. | Commits de actualización del informe, capturas de colaboración, historial de ramas y evidencias de corrección posterior a retroalimentación. |
+| Entrega | Actividades de colaboración realizadas                                                                                                                                                                                                                                                                                                            | Evidencia considerada                                                                                                                                                                         |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **AV1** | Se creó la estructura inicial del informe, se documentó el perfil de la startup, la problemática, Lean UX Process, entrevistas, primeros artefactos de análisis, requisitos iniciales, diseño de producto y Sprint 1.                                                                                                                             | Commits iniciales del README, historial de cambios del repositorio y capturas de colaboración en GitHub.                                                                                      |
+| **TB1** | Se actualizaron artefactos previamente entregados, se mejoró la documentación de requisitos, diseño UX/UI, arquitectura, Sprint 2 y evidencias de despliegue de la Landing Page y primera versión de la Web Application.                                                                                                                          | Commits asociados a correcciones, capturas de GitHub Insights y evidencias de actualización del informe.                                                                                      |
+| **AV2** | Se incorporó la documentación del Sprint 3, evidencias de implementación, validación, documentación de servicios RESTful API, despliegue de Web Services, Video About-the-Product y avance del Video About-the-Team. Además, Carlos Marcelo Mansilla Rivero se integró al equipo y colaboró en la revisión y mejora del informe.                  | Commits de actualización del informe, capturas de colaboración, historial de ramas y evidencias de corrección posterior a retroalimentación.                                                  |
 | **TB2** | Se realizó la revisión final del informe, incorporando Sprint 4, actualización de Student Outcome, corrección de secciones pendientes, mejora de trazabilidad entre artefactos, revisión de nombres del producto, actualización de evidencias finales, validación de despliegues y alineación general con el enunciado oficial del trabajo final. | Commits finales del README, capturas actualizadas de GitHub Insights, contributors, historial de commits por integrante, evidencias de Sprint 4 y revisión final del repositorio del informe. |
 
 
@@ -110,19 +111,18 @@ A continuación, se incluyen capturas de los analíticos de colaboración del re
 
 Avance 1
 <p align="center">
-  <img src="assets/chapter-1/insights-1.png" alt="Commits del avance 1" width="700">
+  <img src="assets/chapter-1/insights-1.png" alt="Commits del avance 1" width="823">
 </p>
 
 Trabajo Parcial
 <p align="center">
-  <img src="assets/chapter-1/Insights-2.png" alt="Commits del trabajo parcial" width="700">
+  <img src="assets/chapter-1/Insights-2.png" alt="Commits del trabajo parcial" width="818">
 </p>
 Avance 2
 <p align="center">
-  <img src="assets/chapter-1/insights-3.png" alt="Commits del avance 2" width="700">
+  <img src="assets/chapter-1/insights-3.png" alt="Commits del avance 2" width="412">
 </p>
 Trabajo Final
-Avance 2
 <p align="center">
   <img src="assets/chapter-1/insights-4.png" alt="Commits del trabajo final" width="700">
 </p>
@@ -572,7 +572,7 @@ Para este proyecto se consideran dos grupos principales de usuarios directos: pe
 Además, se reconoce a hospitales, clínicas privadas y centros especializados en cardiología como clientes institucionales, 
 debido a que pueden adoptar o implementar la solución dentro de sus procesos.
 
-##### 1.2.2.1. Lean UX Problem Statements
+###### Business Outcomes y User Outcomes
 
 **Business Outcomes**
 
@@ -590,7 +590,7 @@ debido a que pueden adoptar o implementar la solución dentro de sus procesos.
 - Los usuarios identifican con facilidad eventos críticos, alertas y acciones registradas.
 - Los visitantes comprenden rápidamente qué resuelve PulseReport y cómo acceder a la solución.
 
-##### 1.2.2.2. Lean UX Problem Statements
+##### 1.2.2.1. Lean UX Problem Statements
 
 ###### Problem Statement 1 — Personal de enfermería cardiovascular
 
@@ -652,7 +652,7 @@ Las instituciones de salud necesitan una solución complementaria que ayude a or
 **Pregunta clave:**  
 ¿Cómo podríamos ofrecer una plataforma especializada que mejore la comunicación, trazabilidad y seguimiento clínico en áreas cardiovasculares?
 
-##### 1.2.2.3. Lean UX Assumptions
+##### 1.2.2.2. Lean UX Assumptions
 
 ###### Supuestos sobre los usuarios
 
@@ -685,7 +685,7 @@ Las instituciones de salud necesitan una solución complementaria que ayude a or
 - La adopción del producto dependerá de que la solución sea percibida como útil, simple y alineada al flujo real del personal clínico.
 - La validación con usuarios representativos permitirá identificar mejoras antes de escalar el producto.
 
-###### 1.2.2.4. Lean UX Assumption Prioritization
+###### Lean UX Assumption Prioritization
 
 Las suposiciones se priorizan según dos criterios: riesgo e incertidumbre. Se trabaja primero sobre aquello que, si resulta falso, tendría mayor impacto sobre el valor del producto.
 
@@ -699,7 +699,7 @@ Las suposiciones se priorizan según dos criterios: riesgo e incertidumbre. Se t
 | Las instituciones aceptarían una herramienta complementaria.                   |  	Alto	  |      Alto	      |    Alta     |
 | Una interfaz simple mejora la disposición de uso.                              |  Medio   |      Medio      |    Media    |
 
-##### 1.2.2.5. Lean UX Hypothesis Statements
+##### 1.2.2.3. Lean UX Hypothesis Statements
 
 Las hipótesis se redactan como afirmaciones comprobables. Cada hipótesis conecta una solución propuesta, un segmento de usuarios, un resultado esperado y una señal de validación.
 
@@ -750,7 +750,7 @@ Creemos que presentar PulseReport como una **herramienta complementaria para com
 
 Sabremos que esto es verdadero cuando un responsable clínico o usuario con experiencia hospitalaria considere viable usar PulseReport como apoyo para registrar traspasos, consultar eventos y mejorar seguimiento clínico.
 
-##### 1.2.2.6. Lean UX Experiments and Learning
+###### Lean UX Experiments and Learning
 
 Cada hipótesis debe validarse con un experimento breve, concreto y orientado al aprendizaje.
 
@@ -768,7 +768,7 @@ Los experimentos se ejecutan en ciclos cortos, y cada resultado alimenta una dec
 Si una hipótesis se confirma, se refuerza el enfoque del producto. 
 Si se invalida, la solución se ajusta o se redefine antes de continuar.
 
-##### 1.2.2.7. Lean UX Canvas
+##### 1.2.2.4. Lean UX Canvas
 
 | Sección                    | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -885,18 +885,21 @@ Esta separación permite mantener coherencia entre el análisis del problema, la
 
 ### 2.1. Competidores
 
-En esta sección se identifican y analizan los principales competidores directos e indirectos de PulseReport. Debido a que PulseReport se enfoca en la gestión de información clínica cardiovascular, la comunicación entre turnos, el registro de eventos y la trazabilidad, la comparación se realiza frente a soluciones digitales que cubren parcial o totalmente necesidades similares dentro del sector salud.
+En esta sección se identifican y analizan los principales competidores directos e indirectos de PulseReport. 
+Debido a que PulseReport se enfoca en la gestión de información clínica cardiovascular, la comunicación entre turnos, 
+el registro de eventos y la trazabilidad, la comparación se realiza frente a soluciones digitales que cubren parcial o totalmente 
+necesidades similares dentro del sector salud.
 
 PulseReport no busca reemplazar por completo un sistema hospitalario integral. Su propuesta se plantea como una solución complementaria, especializada y más ligera para apoyar procesos clínicos cardiovasculares relacionados con registro, consulta, traspasos SBAR y seguimiento de eventos relevantes.
 
 Los competidores seleccionados son:
 
-| Competidor | Tipo de competencia | Justificación |
-| ---------- | ------------------- | ------------- |
-| **Epic** | Competidor indirecto | Es una solución EHR/HIS ampliamente orientada a la gestión integral de información clínica del paciente. Compite de forma indirecta porque cubre registro y consulta de información médica, aunque con un enfoque más amplio que PulseReport. |
-| **Oracle Health EHR** | Competidor indirecto | Es una solución de historia clínica electrónica orientada a organizaciones de salud. Compite de forma indirecta porque permite gestionar datos clínicos, pero no se enfoca específicamente en flujos cardiovasculares ligeros ni traspasos SBAR como eje principal. |
-| **Philips Patient Monitoring** | Competidor indirecto | Es una solución de monitoreo clínico de pacientes, con dispositivos y sistemas orientados al seguimiento de signos vitales. Compite parcialmente porque aborda monitoreo clínico, aunque su enfoque principal está en dispositivos y vigilancia fisiológica, no en documentación de traspasos ni gestión operativa del turno. |
-| **Métodos tradicionales** | Sustituto actual | Incluyen registros físicos, hojas de cálculo, reportes verbales y documentos internos. No son productos digitales competidores, pero representan la forma actual en la que muchos usuarios gestionan parte del problema que PulseReport busca resolver. |
+| Competidor                        | Tipo de competencia  | Justificación                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Epic Electronic Health Record** | Competidor indirecto | Es una solución EHR/HIS ampliamente orientada a la gestión integral de información clínica del paciente. Compite de forma indirecta, porque cubre registro y consulta de información médica, aunque con un enfoque más amplio que PulseReport y sin enfocarse específicamente en flujos cardiovasculares ligeros ni en traspasos SBAR como eje principal.          |
+| **Oracle Health EHR**             | Competidor indirecto | Es una solución de historia clínica electrónica orientada a organizaciones de salud. Compite de forma indirecta, porque permite gestionar datos clínicos, pero no se enfoca específicamente en flujos cardiovasculares ligeros ni traspasos SBAR como eje principal.                                                                                               |
+| **MEDITECH Expanse**              | Competidor indirecto | Es una plataforma digital de historia clínica electrónica orientada a hospitales y centros de salud. Compite de forma indirecta, porque soporta gestión clínica, documentación y consulta de información del paciente, pero su enfoque es más general que el de PulseReport y no está centrado en los procesos específicos de comunicación clínica cardiovascular. |
+| **Métodos tradicionales**         | Sustituto actual     | Incluyen registros físicos, hojas de cálculo, reportes verbales y documentos internos. No son productos digitales competidores, pero representan la forma actual en la que muchos usuarios gestionan parte del problema que PulseReport busca resolver.                                                                                                            |
 
 #### 2.1.1. Análisis competitivo
 
@@ -917,16 +920,16 @@ Asimismo, los métodos tradicionales como Excel, registros físicos o reportes m
 
 A partir del análisis competitivo, BrainSpark plantea estrategias orientadas a diferenciar PulseReport sin competir directamente contra sistemas hospitalarios integrales. La solución se posiciona como una herramienta complementaria, especializada y enfocada en procesos clínicos cardiovasculares específicos.
 
-| Estrategia | Tácticas propuestas | Relación con el análisis competitivo |
-| ---------- | ------------------ | ------------------------------------ |
-| **Diferenciación por especialización cardiovascular** | Enfocar la comunicación del producto en procesos cardiovasculares, signos vitales, eventos clínicos y continuidad de atención. | Epic y Oracle Health ofrecen soluciones amplias, mientras que PulseReport puede destacar por atender un flujo más específico y concreto. |
-| **Uso de SBAR como elemento diferenciador** | Incorporar formularios y flujos de traspaso de turno basados en Situation, Background, Assessment y Recommendation. | Los sistemas generales pueden registrar información clínica, pero no siempre priorizan una estructura simple para comunicación entre turnos. |
-| **Complementariedad frente a sistemas hospitalarios** | Presentar PulseReport como una herramienta que puede apoyar procesos internos sin reemplazar por completo el EHR/HIS institucional. | Esto reduce la resistencia frente a competidores grandes y posiciona la solución como apoyo operativo. |
-| **Simplicidad de uso** | Diseñar flujos con pocos pasos, lenguaje claro, vistas resumidas y navegación adaptable a distintos dispositivos. | Los sistemas empresariales pueden ser robustos, pero también complejos para tareas rápidas del turno clínico. |
-| **Trazabilidad clínica visible** | Mostrar responsable, fecha, hora y tipo de acción en registros clínicos relevantes. | Frente a métodos tradicionales, PulseReport ofrece mayor control y evidencia sobre lo ocurrido durante la atención. |
-| **Validación con usuarios representativos** | Realizar entrevistas, pruebas de navegación y evaluación heurística con personal relacionado al dominio clínico. | La validación permite ajustar el producto según necesidades reales y no solo según supuestos del equipo. |
-| **Comunicación clara desde la Landing Page** | Presentar problema, solución, beneficios, características, testimonios, contacto y llamados a la acción dirigidos a los segmentos objetivo. | Permite que visitantes y clientes institucionales comprendan rápidamente el valor de PulseReport. |
-| **Escalabilidad gradual del producto** | Iniciar con un MVP funcional y luego ampliar módulos según retroalimentación: reportes, alertas, auditoría avanzada e integración con otros sistemas. | Permite competir desde un alcance realista frente a soluciones consolidadas y reducir el riesgo de sobredimensionar el producto. |
+| Estrategia                                            | Tácticas propuestas                                                                                                                                   | Relación con el análisis competitivo                                                                                                         |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Diferenciación por especialización cardiovascular** | Enfocar la comunicación del producto en procesos cardiovasculares, signos vitales, eventos clínicos y continuidad de atención.                        | Epic y Oracle Health ofrecen soluciones amplias, mientras que PulseReport puede destacar por atender un flujo más específico y concreto.     |
+| **Uso de SBAR como elemento diferenciador**           | Incorporar formularios y flujos de traspaso de turno basados en Situation, Background, Assessment y Recommendation.                                   | Los sistemas generales pueden registrar información clínica, pero no siempre priorizan una estructura simple para comunicación entre turnos. |
+| **Complementariedad frente a sistemas hospitalarios** | Presentar PulseReport como una herramienta que puede apoyar procesos internos sin reemplazar por completo el EHR/HIS institucional.                   | Esto reduce la resistencia frente a competidores grandes y posiciona la solución como apoyo operativo.                                       |
+| **Simplicidad de uso**                                | Diseñar flujos con pocos pasos, lenguaje claro, vistas resumidas y navegación adaptable a distintos dispositivos.                                     | Los sistemas empresariales pueden ser robustos, pero también complejos para tareas rápidas del turno clínico.                                |
+| **Trazabilidad clínica visible**                      | Mostrar responsable, fecha, hora y tipo de acción en registros clínicos relevantes.                                                                   | Frente a métodos tradicionales, PulseReport ofrece mayor control y evidencia sobre lo ocurrido durante la atención.                          |
+| **Validación con usuarios representativos**           | Realizar entrevistas, pruebas de navegación y evaluación heurística con personal relacionado al dominio clínico.                                      | La validación permite ajustar el producto según necesidades reales y no solo según supuestos del equipo.                                     |
+| **Comunicación clara desde la Landing Page**          | Presentar problema, solución, beneficios, características, testimonios, contacto y llamados a la acción dirigidos a los segmentos objetivo.           | Permite que visitantes y clientes institucionales comprendan rápidamente el valor de PulseReport.                                            |
+| **Escalabilidad gradual del producto**                | Iniciar con un MVP funcional y luego ampliar módulos según retroalimentación: reportes, alertas, auditoría avanzada e integración con otros sistemas. | Permite competir desde un alcance realista frente a soluciones consolidadas y reducir el riesgo de sobredimensionar el producto.             |
 
 En conclusión, PulseReport compite principalmente por especialización, simplicidad, trazabilidad y enfoque en continuidad clínica cardiovascular. Su principal oportunidad no está en sustituir sistemas hospitalarios completos, sino en cubrir de forma clara un conjunto de necesidades operativas que pueden quedar dispersas entre EHR, monitoreo de dispositivos y métodos tradicionales.
 
@@ -964,18 +967,18 @@ Debido a la naturaleza crítica de sus actividades, este segmento requiere herra
 
 ###### Información complementaria para arquetipos
 
-| Característica | Información a recolectar |
-| -------------- | ------------------------ |
-| Edad | Rango de edad del entrevistado. |
-| Género | Masculino / Femenino / Prefiere no indicar. |
-| Distrito | Lugar de residencia o referencia geográfica. |
-| Ocupación | Rol profesional dentro del entorno clínico. |
-| Experiencia laboral | Años de experiencia en el sector salud. |
-| Área de trabajo | UCI, hospitalización, emergencia u otra área clínica. |
-| Nivel tecnológico | Básico, intermedio o avanzado. |
-| Dispositivos utilizados | Computadora, tablet, smartphone u otros. |
-| Objetivos | Optimizar tiempos, reducir errores y mejorar comunicación. |
-| Frustraciones | Sistemas complejos, registros duplicados o procesos lentos. |
+| Característica               | Información a recolectar                                                               |
+|------------------------------|----------------------------------------------------------------------------------------|
+| Edad                         | Rango de edad del entrevistado.                                                        |
+| Género                       | Masculino / Femenino / Prefiere no indicar.                                            |
+| Distrito                     | Lugar de residencia o referencia geográfica.                                           |
+| Ocupación                    | Rol profesional dentro del entorno clínico.                                            |
+| Experiencia laboral          | Años de experiencia en el sector salud.                                                |
+| Área de trabajo              | UCI, hospitalización, emergencia u otra área clínica.                                  |
+| Nivel tecnológico            | Básico, intermedio o avanzado.                                                         |
+| Dispositivos utilizados      | Computadora, tablet, smartphone u otros.                                               |
+| Objetivos                    | Optimizar tiempos, reducir errores y mejorar comunicación.                             |
+| Frustraciones                | Sistemas complejos, registros duplicados o procesos lentos.                            |
 | Canales digitales utilizados | Sistemas hospitalarios, hojas de cálculo, aplicaciones móviles o comunicación digital. |
 
 ###### Preguntas principales
@@ -1019,17 +1022,17 @@ Este segmento está conformado por médicos especialistas cardiovasculares, méd
 
 ###### Información complementaria para arquetipos
 
-| Característica | Información a recolectar |
-| -------------- | ------------------------ |
-| Edad | Rango de edad del entrevistado. |
-| Distrito | Lugar de residencia o referencia geográfica. |
-| Ocupación | Rol médico o especialidad. |
-| Experiencia laboral | Años de experiencia profesional. |
-| Área de trabajo | UCI, cirugía, hospitalización, emergencia, centro de salud u otra área clínica. |
-| Nivel tecnológico | Básico, intermedio o avanzado. |
-| Dispositivos utilizados | Laptop, computadora institucional, tablet o smartphone. |
-| Objetivos | Acceso rápido a información clínica y toma de decisiones con datos confiables. |
-| Frustraciones | Información fragmentada, sistemas lentos, registros físicos y falta de trazabilidad. |
+| Característica               | Información a recolectar                                                              |
+|------------------------------|---------------------------------------------------------------------------------------|
+| Edad                         | Rango de edad del entrevistado.                                                       |
+| Distrito                     | Lugar de residencia o referencia geográfica.                                          |
+| Ocupación                    | Rol médico o especialidad.                                                            |
+| Experiencia laboral          | Años de experiencia profesional.                                                      |
+| Área de trabajo              | UCI, cirugía, hospitalización, emergencia, centro de salud u otra área clínica.       |
+| Nivel tecnológico            | Básico, intermedio o avanzado.                                                        |
+| Dispositivos utilizados      | Laptop, computadora institucional, tablet o smartphone.                               |
+| Objetivos                    | Acceso rápido a información clínica y toma de decisiones con datos confiables.        |
+| Frustraciones                | Información fragmentada, sistemas lentos, registros físicos y falta de trazabilidad.  |
 | Canales digitales utilizados | Sistemas hospitalarios, hojas de cálculo, documentos internos o comunicación digital. |
 
 ###### Preguntas principales
@@ -1228,11 +1231,11 @@ Para evitar inconsistencias, esta versión del análisis considera únicamente l
 
 ##### Resumen de entrevistas analizadas
 
-| Segmento | Entrevistas analizadas | Cantidad |
-| -------- | ---------------------- | -------- |
-| Personal de enfermería cardiovascular | Andrea Salazar | 1 |
-| Médicos especialistas cardiovasculares y profesionales médicos relacionados | Luis Mendoza, Jorge Ramírez, Renato Paredes, Mark Alex Esquivel Cabrera | 4 |
-| **Total** | — | **5** |
+| Segmento                                                                    | Entrevistas analizadas                                                  | Cantidad |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|----------|
+| Personal de enfermería cardiovascular                                       | Andrea Salazar                                                          | 1        |
+| Médicos especialistas cardiovasculares y profesionales médicos relacionados | Luis Mendoza, Jorge Ramírez, Renato Paredes, Mark Alex Esquivel Cabrera | 4        |
+| **Total**                                                                   | —                                                                       | **5**    |
 
 ##### Segmento objetivo 1: Personal de enfermería cardiovascular
 
@@ -1244,25 +1247,25 @@ Total de entrevistas analizadas para el segmento: 1
 
 ###### Análisis de características objetivas
 
-| Característica objetiva | Evidencia identificada | Porcentaje |
-| ----------------------- | ---------------------- | ---------- |
-| Experiencia en entorno cardiovascular o UCI cardiovascular | Presente en la entrevista registrada | 100% |
-| Uso de sistemas digitales hospitalarios | Presente en la entrevista registrada | 100% |
-| Uso complementario de anotaciones o registros físicos | Presente en la entrevista registrada | 100% |
-| Participación en procesos de cambio de turno | Presente en la entrevista registrada | 100% |
-| Necesidad de registrar información clínica durante el turno | Presente en la entrevista registrada | 100% |
-| Familiaridad con herramientas digitales | Presente en la entrevista registrada | 100% |
+| Característica objetiva                                     | Evidencia identificada               | Porcentaje |
+|-------------------------------------------------------------|--------------------------------------|------------|
+| Experiencia en entorno cardiovascular o UCI cardiovascular  | Presente en la entrevista registrada | 100%       |
+| Uso de sistemas digitales hospitalarios                     | Presente en la entrevista registrada | 100%       |
+| Uso complementario de anotaciones o registros físicos       | Presente en la entrevista registrada | 100%       |
+| Participación en procesos de cambio de turno                | Presente en la entrevista registrada | 100%       |
+| Necesidad de registrar información clínica durante el turno | Presente en la entrevista registrada | 100%       |
+| Familiaridad con herramientas digitales                     | Presente en la entrevista registrada | 100%       |
 
 ###### Análisis de características subjetivas
 
-| Característica subjetiva | Evidencia identificada | Porcentaje |
-| ------------------------ | ---------------------- | ---------- |
-| Frustración por complejidad de sistemas actuales | Presente en la entrevista registrada | 100% |
-| Necesidad de rapidez operativa | Presente en la entrevista registrada | 100% |
-| Preocupación por pérdida u omisión de información | Presente en la entrevista registrada | 100% |
-| Interés por comunicación estructurada mediante SBAR | Presente en la entrevista registrada | 100% |
-| Preferencia por una herramienta intuitiva y adaptada al flujo real | Presente en la entrevista registrada | 100% |
-| Valoración de acceso móvil o registro rápido | Presente en la entrevista registrada | 100% |
+| Característica subjetiva                                           | Evidencia identificada               | Porcentaje |
+|--------------------------------------------------------------------|--------------------------------------|------------|
+| Frustración por complejidad de sistemas actuales                   | Presente en la entrevista registrada | 100%       |
+| Necesidad de rapidez operativa                                     | Presente en la entrevista registrada | 100%       |
+| Preocupación por pérdida u omisión de información                  | Presente en la entrevista registrada | 100%       |
+| Interés por comunicación estructurada mediante SBAR                | Presente en la entrevista registrada | 100%       |
+| Preferencia por una herramienta intuitiva y adaptada al flujo real | Presente en la entrevista registrada | 100%       |
+| Valoración de acceso móvil o registro rápido                       | Presente en la entrevista registrada | 100%       |
 
 ###### Interpretación del segmento
 
@@ -1285,27 +1288,27 @@ Total de entrevistas analizadas para el segmento: 4
 
 ###### Análisis de características objetivas
 
-| Característica objetiva | Evidencia identificada | Porcentaje |
-| ----------------------- | ---------------------- | ---------- |
-| Profesionales médicos entrevistados | Presente en las 4 entrevistas | 100% |
-| Experiencia en atención clínica o procesos médicos | Presente en las 4 entrevistas | 100% |
-| Relación directa con áreas cardiovasculares, intensivas o cirugía cardiovascular | Presente en 3 de 4 entrevistas | 75% |
-| Uso de sistemas digitales, registros físicos u hojas de cálculo | Presente en las 4 entrevistas | 100% |
-| Participación en consulta, validación o seguimiento de información clínica | Presente en las 4 entrevistas | 100% |
-| Identificación de problemas de trazabilidad | Presente en las 4 entrevistas | 100% |
-| Necesidad de información clínica organizada | Presente en las 4 entrevistas | 100% |
+| Característica objetiva                                                          | Evidencia identificada         | Porcentaje |
+|----------------------------------------------------------------------------------|--------------------------------|------------|
+| Profesionales médicos entrevistados                                              | Presente en las 4 entrevistas  | 100%       |
+| Experiencia en atención clínica o procesos médicos                               | Presente en las 4 entrevistas  | 100%       |
+| Relación directa con áreas cardiovasculares, intensivas o cirugía cardiovascular | Presente en 3 de 4 entrevistas | 75%        |
+| Uso de sistemas digitales, registros físicos u hojas de cálculo                  | Presente en las 4 entrevistas  | 100%       |
+| Participación en consulta, validación o seguimiento de información clínica       | Presente en las 4 entrevistas  | 100%       |
+| Identificación de problemas de trazabilidad                                      | Presente en las 4 entrevistas  | 100%       |
+| Necesidad de información clínica organizada                                      | Presente en las 4 entrevistas  | 100%       |
 
 ###### Análisis de características subjetivas
 
-| Característica subjetiva | Evidencia identificada | Porcentaje |
-| ------------------------ | ---------------------- | ---------- |
-| Frustración por información clínica fragmentada | Presente en las 4 entrevistas | 100% |
-| Necesidad de acceso rápido a información relevante | Presente en 3 de 4 entrevistas | 75% |
-| Importancia de trazabilidad clínica | Presente en las 4 entrevistas | 100% |
-| Rechazo a herramientas complejas o lentas | Presente en las 4 entrevistas | 100% |
-| Interés por soluciones digitales simples y seguras | Presente en las 4 entrevistas | 100% |
-| Necesidad de comunicación estructurada entre profesionales | Presente en 3 de 4 entrevistas | 75% |
-| Interés por dashboards, alertas o visualización resumida | Presente en 3 de 4 entrevistas | 75% |
+| Característica subjetiva                                   | Evidencia identificada         | Porcentaje |
+|------------------------------------------------------------|--------------------------------|------------|
+| Frustración por información clínica fragmentada            | Presente en las 4 entrevistas  | 100%       |
+| Necesidad de acceso rápido a información relevante         | Presente en 3 de 4 entrevistas | 75%        |
+| Importancia de trazabilidad clínica                        | Presente en las 4 entrevistas  | 100%       |
+| Rechazo a herramientas complejas o lentas                  | Presente en las 4 entrevistas  | 100%       |
+| Interés por soluciones digitales simples y seguras         | Presente en las 4 entrevistas  | 100%       |
+| Necesidad de comunicación estructurada entre profesionales | Presente en 3 de 4 entrevistas | 75%        |
+| Interés por dashboards, alertas o visualización resumida   | Presente en 3 de 4 entrevistas | 75%        |
 
 ###### Interpretación del segmento
 
@@ -1319,14 +1322,14 @@ En el caso de los profesionales vinculados a UCI o áreas cardiovasculares, se e
 
 ##### Comparación entre segmentos
 
-| Hallazgo | Personal de enfermería cardiovascular | Médicos especialistas y profesionales médicos relacionados | Implicancia para PulseReport |
-| -------- | ------------------------------------- | --------------------------------------------------------- | ---------------------------- |
-| Registro de información clínica | Alta necesidad de registrar durante el turno. | Necesidad de consultar y validar información registrada. | El sistema debe soportar registro rápido y consulta clara. |
-| Comunicación entre turnos | Punto crítico para evitar omisiones. | Relevante para validar información antes de decidir. | Se debe incorporar estructura SBAR. |
-| Información fragmentada | Aparece como causa de duplicidad y uso de apuntes físicos. | Aparece como causa de retrasos y dificultad para tomar decisiones. | PulseReport debe centralizar información relevante. |
-| Trazabilidad | Necesaria para identificar responsables y eventos del turno. | Necesaria para validar decisiones, eventos y registros. | Se debe registrar responsable, fecha, hora y tipo de acción. |
-| Complejidad de sistemas actuales | Genera carga operativa durante situaciones críticas. | Genera demora al consultar información. | La experiencia debe ser simple, rápida y con pocos pasos. |
-| Apertura a solución digital | Existe interés si reduce carga y facilita el trabajo. | Existe interés si es segura, intuitiva y útil. | El MVP debe priorizar valor operativo real. |
+| Hallazgo                         | Personal de enfermería cardiovascular                        | Médicos especialistas y profesionales médicos relacionados         | Implicancia para PulseReport                                 |
+|----------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------|
+| Registro de información clínica  | Alta necesidad de registrar durante el turno.                | Necesidad de consultar y validar información registrada.           | El sistema debe soportar registro rápido y consulta clara.   |
+| Comunicación entre turnos        | Punto crítico para evitar omisiones.                         | Relevante para validar información antes de decidir.               | Se debe incorporar estructura SBAR.                          |
+| Información fragmentada          | Aparece como causa de duplicidad y uso de apuntes físicos.   | Aparece como causa de retrasos y dificultad para tomar decisiones. | PulseReport debe centralizar información relevante.          |
+| Trazabilidad                     | Necesaria para identificar responsables y eventos del turno. | Necesaria para validar decisiones, eventos y registros.            | Se debe registrar responsable, fecha, hora y tipo de acción. |
+| Complejidad de sistemas actuales | Genera carga operativa durante situaciones críticas.         | Genera demora al consultar información.                            | La experiencia debe ser simple, rápida y con pocos pasos.    |
+| Apertura a solución digital      | Existe interés si reduce carga y facilita el trabajo.        | Existe interés si es segura, intuitiva y útil.                     | El MVP debe priorizar valor operativo real.                  |
 
 ##### Conclusiones generales del análisis
 
@@ -1354,12 +1357,12 @@ El propósito de esta sección es comprender con mayor profundidad cómo trabaja
 
 Los artefactos desarrollados en esta sección son:
 
-| Artefacto | Propósito |
-| --------- | --------- |
-| **User Personas** | Representar arquetipos de usuarios basados en los segmentos objetivo y hallazgos de entrevistas. |
-| **User Task Matrix** | Identificar tareas reales, frecuencia e importancia para cada User Persona. |
-| **User Journey Mapping** | Representar el recorrido actual As-Is de los usuarios antes de utilizar PulseReport. |
-| **Empathy Mapping** | Comprender lo que los usuarios piensan, sienten, ven, escuchan, dicen, hacen, necesitan y esperan. |
+| Artefacto                | Propósito                                                                                          |
+|--------------------------|----------------------------------------------------------------------------------------------------|
+| **User Personas**        | Representar arquetipos de usuarios basados en los segmentos objetivo y hallazgos de entrevistas.   |
+| **User Task Matrix**     | Identificar tareas reales, frecuencia e importancia para cada User Persona.                        |
+| **User Journey Mapping** | Representar el recorrido actual As-Is de los usuarios antes de utilizar PulseReport.               |
+| **Empathy Mapping**      | Comprender lo que los usuarios piensan, sienten, ven, escuchan, dicen, hacen, necesitan y esperan. |
 
 #### 2.3.1. User Personas
 
@@ -1371,10 +1374,10 @@ Los User Personas permiten orientar las decisiones posteriores de requisitos, di
 
 En este proyecto se consideran dos User Personas principales:
 
-| User Persona | Segmento objetivo | Descripción |
-| ------------ | ----------------- | ----------- |
-| **Daniela Ríos** | Personal de enfermería cardiovascular | Representa al personal encargado del registro clínico, monitoreo del paciente, administración de medicamentos y comunicación durante cambios de turno. |
-| **Dr. Alejandro Torres** | Médico especialista cardiovascular | Representa al profesional médico que consulta, valida e interpreta información clínica para tomar decisiones oportunas sobre pacientes cardiovasculares. |
+| User Persona             | Segmento objetivo                     | Descripción                                                                                                                                              |
+|--------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Daniela Ríos**         | Personal de enfermería cardiovascular | Representa al personal encargado del registro clínico, monitoreo del paciente, administración de medicamentos y comunicación durante cambios de turno.   |
+| **Dr. Alejandro Torres** | Médico especialista cardiovascular    | Representa al profesional médico que consulta, valida e interpreta información clínica para tomar decisiones oportunas sobre pacientes cardiovasculares. |
 
 ##### User Persona 1 — Daniela Ríos
 
@@ -1412,67 +1415,67 @@ Es importante precisar que las tareas incluidas en esta matriz no representan bo
 
 Los User Personas considerados son:
 
-| User Persona | Segmento objetivo |
-| ------------ | ----------------- |
-| Daniela Ríos | Personal de enfermería cardiovascular |
-| Dr. Alejandro Torres | Médico especialista cardiovascular |
+| User Persona         | Segmento objetivo                     |
+|----------------------|---------------------------------------|
+| Daniela Ríos         | Personal de enfermería cardiovascular |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    |
 
 Para cada tarea se evalúan dos criterios:
 
-| Criterio | Descripción |
-| -------- | ----------- |
-| **Frecuencia** | Qué tan seguido realiza el User Persona dicha tarea dentro de su jornada laboral. |
+| Criterio        | Descripción                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Frecuencia**  | Qué tan seguido realiza el User Persona dicha tarea dentro de su jornada laboral.                                             |
 | **Importancia** | Nivel de impacto que tiene la tarea en la continuidad clínica, seguridad del paciente y cumplimiento del trabajo profesional. |
 
 ##### User Task Matrix — PulseReport
 
-| Tarea identificada | Daniela Ríos — Frecuencia | Daniela Ríos — Importancia | Dr. Alejandro Torres — Frecuencia | Dr. Alejandro Torres — Importancia |
-| ------------------ | ------------------------: | -------------------------: | --------------------------------: | ---------------------------------: |
-| Registrar signos vitales del paciente | Muy alta | Crítica | Media | Alta |
-| Registrar administración de medicamentos | Muy alta | Crítica | Baja | Alta |
-| Consultar evolución clínica reciente del paciente | Alta | Crítica | Muy alta | Crítica |
-| Comunicar información relevante durante cambio de turno | Muy alta | Crítica | Alta | Crítica |
-| Revisar indicaciones médicas actualizadas | Alta | Crítica | Muy alta | Crítica |
-| Reportar eventos clínicos relevantes del paciente | Alta | Crítica | Alta | Crítica |
-| Confirmar evolución y registros previos del paciente | Media | Alta | Alta | Crítica |
-| Coordinar acciones clínicas con otros profesionales de salud | Alta | Alta | Alta | Crítica |
-| Priorizar pacientes según su estado clínico | Alta | Crítica | Alta | Crítica |
-| Reunir información clínica desde diferentes fuentes | Alta | Alta | Muy alta | Crítica |
-| Validar información registrada por otros miembros del equipo | Media | Alta | Alta | Alta |
-| Identificar cambios críticos en el estado del paciente | Alta | Crítica | Muy alta | Crítica |
-| Preparar información para rondas o evaluación médica | Media | Alta | Alta | Alta |
-| Actualizar información clínica luego de una intervención | Alta | Crítica | Media | Alta |
-| Consultar reportes físicos o registros complementarios | Alta | Media | Media | Media |
-| Completar información pendiente después de una emergencia | Alta | Alta | Baja | Media |
-| Revisar balance general del paciente | Media | Alta | Alta | Crítica |
-| Confirmar cumplimiento de indicaciones clínicas | Alta | Crítica | Alta | Crítica |
+| Tarea identificada                                           | Daniela Ríos — Frecuencia | Daniela Ríos — Importancia | Dr. Alejandro Torres — Frecuencia | Dr. Alejandro Torres — Importancia |
+|--------------------------------------------------------------|--------------------------:|---------------------------:|----------------------------------:|-----------------------------------:|
+| Registrar signos vitales del paciente                        |                  Muy alta |                    Crítica |                             Media |                               Alta |
+| Registrar administración de medicamentos                     |                  Muy alta |                    Crítica |                              Baja |                               Alta |
+| Consultar evolución clínica reciente del paciente            |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Comunicar información relevante durante cambio de turno      |                  Muy alta |                    Crítica |                              Alta |                            Crítica |
+| Revisar indicaciones médicas actualizadas                    |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Reportar eventos clínicos relevantes del paciente            |                      Alta |                    Crítica |                              Alta |                            Crítica |
+| Confirmar evolución y registros previos del paciente         |                     Media |                       Alta |                              Alta |                            Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud |                      Alta |                       Alta |                              Alta |                            Crítica |
+| Priorizar pacientes según su estado clínico                  |                      Alta |                    Crítica |                              Alta |                            Crítica |
+| Reunir información clínica desde diferentes fuentes          |                      Alta |                       Alta |                          Muy alta |                            Crítica |
+| Validar información registrada por otros miembros del equipo |                     Media |                       Alta |                              Alta |                               Alta |
+| Identificar cambios críticos en el estado del paciente       |                      Alta |                    Crítica |                          Muy alta |                            Crítica |
+| Preparar información para rondas o evaluación médica         |                     Media |                       Alta |                              Alta |                               Alta |
+| Actualizar información clínica luego de una intervención     |                      Alta |                    Crítica |                             Media |                               Alta |
+| Consultar reportes físicos o registros complementarios       |                      Alta |                      Media |                             Media |                              Media |
+| Completar información pendiente después de una emergencia    |                      Alta |                       Alta |                              Baja |                              Media |
+| Revisar balance general del paciente                         |                     Media |                       Alta |                              Alta |                            Crítica |
+| Confirmar cumplimiento de indicaciones clínicas              |                      Alta |                    Crítica |                              Alta |                            Crítica |
 
 ##### Tareas con mayor frecuencia e importancia
 
 A partir del User Task Matrix se identifican tareas que presentan alta frecuencia e importancia crítica para ambos segmentos objetivo. Estas tareas representan actividades esenciales dentro del flujo clínico cardiovascular, debido a que tienen impacto directo en la seguridad del paciente, la continuidad de atención y la coordinación entre profesionales de salud.
 
-| Tarea crítica | Justificación |
-| ------------- | ------------- |
-| Consultar evolución clínica reciente del paciente | Permite comprender rápidamente el estado actual del paciente y tomar decisiones adecuadas. |
-| Comunicar información relevante durante cambio de turno | Reduce el riesgo de pérdida de información entre equipos clínicos. |
-| Revisar indicaciones médicas actualizadas | Permite ejecutar tratamientos correctamente y evitar acciones desactualizadas. |
-| Reportar eventos clínicos relevantes del paciente | Facilita el seguimiento de situaciones críticas y mejora la trazabilidad del caso. |
-| Identificar cambios críticos en el estado del paciente | Permite responder oportunamente ante deterioros clínicos. |
-| Confirmar cumplimiento de indicaciones clínicas | Reduce riesgos asociados a omisiones, duplicidad de acciones o errores de coordinación. |
+| Tarea crítica                                           | Justificación                                                                              |
+|---------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Consultar evolución clínica reciente del paciente       | Permite comprender rápidamente el estado actual del paciente y tomar decisiones adecuadas. |
+| Comunicar información relevante durante cambio de turno | Reduce el riesgo de pérdida de información entre equipos clínicos.                         |
+| Revisar indicaciones médicas actualizadas               | Permite ejecutar tratamientos correctamente y evitar acciones desactualizadas.             |
+| Reportar eventos clínicos relevantes del paciente       | Facilita el seguimiento de situaciones críticas y mejora la trazabilidad del caso.         |
+| Identificar cambios críticos en el estado del paciente  | Permite responder oportunamente ante deterioros clínicos.                                  |
+| Confirmar cumplimiento de indicaciones clínicas         | Reduce riesgos asociados a omisiones, duplicidad de acciones o errores de coordinación.    |
 
 ##### Tareas más relevantes para Daniela Ríos
 
 Daniela Ríos representa al personal de enfermería cardiovascular. Sus tareas se concentran principalmente en el registro, monitoreo, ejecución de indicaciones y comunicación operativa durante el turno.
 
-| Tarea | Frecuencia | Importancia |
-| ----- | ---------: | ----------: |
-| Registrar signos vitales del paciente | Muy alta | Crítica |
-| Registrar administración de medicamentos | Muy alta | Crítica |
-| Comunicar información relevante durante cambio de turno | Muy alta | Crítica |
-| Actualizar información clínica luego de una intervención | Alta | Crítica |
-| Confirmar cumplimiento de indicaciones clínicas | Alta | Crítica |
-| Completar información pendiente después de una emergencia | Alta | Alta |
-| Consultar reportes físicos o registros complementarios | Alta | Media |
+| Tarea                                                     | Frecuencia | Importancia |
+|-----------------------------------------------------------|-----------:|------------:|
+| Registrar signos vitales del paciente                     |   Muy alta |     Crítica |
+| Registrar administración de medicamentos                  |   Muy alta |     Crítica |
+| Comunicar información relevante durante cambio de turno   |   Muy alta |     Crítica |
+| Actualizar información clínica luego de una intervención  |       Alta |     Crítica |
+| Confirmar cumplimiento de indicaciones clínicas           |       Alta |     Crítica |
+| Completar información pendiente después de una emergencia |       Alta |        Alta |
+| Consultar reportes físicos o registros complementarios    |       Alta |       Media |
 
 El perfil de Daniela evidencia que el personal de enfermería cardiovascular realiza tareas operativas de alta frecuencia y alta precisión. El registro de signos vitales, administración de medicamentos y actualización de información clínica son actividades recurrentes que deben ejecutarse con rapidez para mantener continuidad en la atención del paciente.
 
@@ -1484,15 +1487,15 @@ Desde la perspectiva de requerimientos, PulseReport debe priorizar flujos que pe
 
 El Dr. Alejandro Torres representa a médicos especialistas cardiovasculares. Sus tareas se enfocan principalmente en consultar, interpretar, validar y utilizar información clínica para la toma de decisiones médicas.
 
-| Tarea | Frecuencia | Importancia |
-| ----- | ---------: | ----------: |
-| Consultar evolución clínica reciente del paciente | Muy alta | Crítica |
-| Revisar indicaciones médicas actualizadas | Muy alta | Crítica |
-| Reunir información clínica desde diferentes fuentes | Muy alta | Crítica |
-| Identificar cambios críticos en el estado del paciente | Muy alta | Crítica |
-| Confirmar evolución y registros previos del paciente | Alta | Crítica |
-| Revisar balance general del paciente | Alta | Crítica |
-| Coordinar acciones clínicas con otros profesionales de salud | Alta | Crítica |
+| Tarea                                                        | Frecuencia | Importancia |
+|--------------------------------------------------------------|-----------:|------------:|
+| Consultar evolución clínica reciente del paciente            |   Muy alta |     Crítica |
+| Revisar indicaciones médicas actualizadas                    |   Muy alta |     Crítica |
+| Reunir información clínica desde diferentes fuentes          |   Muy alta |     Crítica |
+| Identificar cambios críticos en el estado del paciente       |   Muy alta |     Crítica |
+| Confirmar evolución y registros previos del paciente         |       Alta |     Crítica |
+| Revisar balance general del paciente                         |       Alta |     Crítica |
+| Coordinar acciones clínicas con otros profesionales de salud |       Alta |     Crítica |
 
 El perfil del Dr. Alejandro evidencia que los médicos especialistas cardiovasculares requieren información centralizada, precisa y disponible de forma inmediata. A diferencia del personal de enfermería, sus tareas no se concentran principalmente en registrar información, sino en revisarla, interpretarla y tomar decisiones clínicas a partir de ella.
 
@@ -1502,25 +1505,25 @@ Desde la perspectiva de requerimientos, PulseReport debe priorizar vistas clíni
 
 ##### Coincidencias entre ambos User Personas
 
-| Coincidencia identificada | Explicación | Implicancia para PulseReport |
-| ------------------------- | ----------- | ---------------------------- |
-| Ambos necesitan acceder rápidamente a información clínica | Tanto enfermería como médicos dependen de información actualizada para cumplir sus tareas. | El sistema debe priorizar navegación simple y visualización resumida. |
-| Ambos participan en continuidad de atención | Ambos perfiles intervienen en procesos de cambio de turno, seguimiento y coordinación clínica. | Debe incorporarse comunicación estructurada mediante SBAR. |
-| Ambos requieren trazabilidad de información | Necesitan conocer qué ocurrió, cuándo ocurrió y quién registró determinada información. | El sistema debe registrar responsables, horarios y cambios relevantes. |
-| Ambos enfrentan información dispersa | Las entrevistas evidencian uso de sistemas, registros físicos y comunicación verbal. | PulseReport debe centralizar datos relevantes del paciente. |
-| Ambos rechazan procesos complejos | Los usuarios priorizan rapidez y simplicidad en contextos clínicos. | La interfaz debe reducir pasos operativos y carga cognitiva. |
-| Ambos trabajan bajo presión clínica | Las tareas se realizan en contextos donde el tiempo tiene impacto directo en la atención. | El sistema debe estar optimizado para rapidez, claridad y mínima fricción. |
+| Coincidencia identificada                                 | Explicación                                                                                    | Implicancia para PulseReport                                               |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Ambos necesitan acceder rápidamente a información clínica | Tanto enfermería como médicos dependen de información actualizada para cumplir sus tareas.     | El sistema debe priorizar navegación simple y visualización resumida.      |
+| Ambos participan en continuidad de atención               | Ambos perfiles intervienen en procesos de cambio de turno, seguimiento y coordinación clínica. | Debe incorporarse comunicación estructurada mediante SBAR.                 |
+| Ambos requieren trazabilidad de información               | Necesitan conocer qué ocurrió, cuándo ocurrió y quién registró determinada información.        | El sistema debe registrar responsables, horarios y cambios relevantes.     |
+| Ambos enfrentan información dispersa                      | Las entrevistas evidencian uso de sistemas, registros físicos y comunicación verbal.           | PulseReport debe centralizar datos relevantes del paciente.                |
+| Ambos rechazan procesos complejos                         | Los usuarios priorizan rapidez y simplicidad en contextos clínicos.                            | La interfaz debe reducir pasos operativos y carga cognitiva.               |
+| Ambos trabajan bajo presión clínica                       | Las tareas se realizan en contextos donde el tiempo tiene impacto directo en la atención.      | El sistema debe estar optimizado para rapidez, claridad y mínima fricción. |
 
 ##### Diferencias entre ambos User Personas
 
-| Diferencia | Daniela Ríos | Dr. Alejandro Torres | Implicancia para PulseReport |
-| ---------- | ------------ | -------------------- | ---------------------------- |
-| Tipo de tarea principal | Registro, ejecución y comunicación operativa | Consulta, análisis y decisión clínica | Se requieren flujos diferenciados según rol. |
-| Frecuencia de registro | Muy alta | Media o baja | El flujo de enfermería debe minimizar pasos para ingresar datos. |
-| Uso principal de la información | Registrar y comunicar información clínica | Interpretar y validar información clínica | El sistema debe incluir tanto registro rápido como visualización clínica resumida. |
-| Riesgo principal | Omisión o retraso en registro clínico | Decisión con información incompleta | Se requieren alertas, trazabilidad y centralización de información. |
-| Momento crítico | Cambio de turno y atención directa al paciente | Evaluación clínica y toma de decisiones | El sistema debe soportar continuidad y análisis clínico. |
-| Necesidad dominante | Agilidad operativa | Acceso rápido a información consolidada | Deben existir vistas y prioridades adaptadas a cada perfil. |
+| Diferencia                      | Daniela Ríos                                   | Dr. Alejandro Torres                      | Implicancia para PulseReport                                                       |
+|---------------------------------|------------------------------------------------|-------------------------------------------|------------------------------------------------------------------------------------|
+| Tipo de tarea principal         | Registro, ejecución y comunicación operativa   | Consulta, análisis y decisión clínica     | Se requieren flujos diferenciados según rol.                                       |
+| Frecuencia de registro          | Muy alta                                       | Media o baja                              | El flujo de enfermería debe minimizar pasos para ingresar datos.                   |
+| Uso principal de la información | Registrar y comunicar información clínica      | Interpretar y validar información clínica | El sistema debe incluir tanto registro rápido como visualización clínica resumida. |
+| Riesgo principal                | Omisión o retraso en registro clínico          | Decisión con información incompleta       | Se requieren alertas, trazabilidad y centralización de información.                |
+| Momento crítico                 | Cambio de turno y atención directa al paciente | Evaluación clínica y toma de decisiones   | El sistema debe soportar continuidad y análisis clínico.                           |
+| Necesidad dominante             | Agilidad operativa                             | Acceso rápido a información consolidada   | Deben existir vistas y prioridades adaptadas a cada perfil.                        |
 
 ##### Conclusión del User Task Matrix
 
@@ -1546,20 +1549,20 @@ Los Journey Maps se elaboran a partir de los hallazgos obtenidos en entrevistas,
 
 Cada mapa representa un recorrido end-to-end, desde el inicio hasta el cierre de una actividad clínica relevante. En este caso, se desarrollan dos User Journey Maps As-Is:
 
-| User Persona | Segmento objetivo | Journey Map As-Is |
-| ------------ | ----------------- | ----------------- |
-| Daniela Ríos | Personal de enfermería cardiovascular | Desde la recepción del turno hasta la entrega de información al siguiente equipo. |
-| Dr. Alejandro Torres | Médico especialista cardiovascular | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
+| User Persona         | Segmento objetivo                     | Journey Map As-Is                                                                                   |
+|----------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Daniela Ríos         | Personal de enfermería cardiovascular | Desde la recepción del turno hasta la entrega de información al siguiente equipo.                   |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
 
 ##### User Journey Map 1 — Daniela Ríos
 
-| Campo | Información |
-| ----- | ----------- |
-| **User Persona** | Daniela Ríos |
-| **Segmento objetivo** | Personal de enfermería cardiovascular |
-| **Rol** | Enfermera cardiovascular |
-| **Área** | UCI cardiovascular |
-| **Journey As-Is** | Desde la recepción del turno hasta la entrega de información al siguiente equipo. |
+| Campo                 | Información                                                                       |
+|-----------------------|-----------------------------------------------------------------------------------|
+| **User Persona**      | Daniela Ríos                                                                      |
+| **Segmento objetivo** | Personal de enfermería cardiovascular                                             |
+| **Rol**               | Enfermera cardiovascular                                                          |
+| **Área**              | UCI cardiovascular                                                                |
+| **Journey As-Is**     | Desde la recepción del turno hasta la entrega de información al siguiente equipo. |
 
 **Escenario As-Is:**  
 Daniela inicia su turno en UCI cardiovascular. Debe recibir información del equipo anterior, revisar el estado de sus pacientes, monitorear signos vitales, administrar medicamentos, registrar eventos clínicos y finalmente entregar información clara y completa al siguiente turno.
@@ -1580,13 +1583,13 @@ Asimismo, se observa que los registros físicos complementarios surgen como una 
 
 ##### User Journey Map 2 — Dr. Alejandro Torres
 
-| Campo | Información |
-| ----- | ----------- |
-| **User Persona** | Dr. Alejandro Torres |
-| **Segmento objetivo** | Médico especialista cardiovascular |
-| **Rol** | Cardiólogo intensivista |
-| **Área** | UCI cardiovascular |
-| **Journey As-Is** | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
+| Campo                 | Información                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| **User Persona**      | Dr. Alejandro Torres                                                                                |
+| **Segmento objetivo** | Médico especialista cardiovascular                                                                  |
+| **Rol**               | Cardiólogo intensivista                                                                             |
+| **Área**              | UCI cardiovascular                                                                                  |
+| **Journey As-Is**     | Desde la identificación de un paciente crítico hasta la toma y seguimiento de una decisión clínica. |
 
 **Escenario As-Is:**  
 El Dr. Alejandro Torres debe identificar pacientes críticos, consultar su evolución reciente, revisar signos vitales, validar medicamentos administrados, confirmar indicaciones, coordinar con enfermería y tomar decisiones clínicas oportunas.
@@ -1607,13 +1610,13 @@ A diferencia del personal de enfermería, su recorrido se concentra menos en reg
 
 ##### Comparación entre User Journey Maps
 
-| Aspecto | Daniela Ríos | Dr. Alejandro Torres | Implicancia para PulseReport |
-| ------- | ------------ | -------------------- | ---------------------------- |
-| Enfoque principal del recorrido | Registro, monitoreo y comunicación operativa | Consulta, validación y toma de decisiones | Se requieren flujos diferenciados según rol. |
-| Momento más crítico | Evento clínico y cambio de turno | Identificación de cambios críticos y decisión médica | El sistema debe priorizar rapidez y claridad en momentos críticos. |
-| Principal fuente de frustración | Exceso de pasos y duplicidad de registros | Información dispersa y difícil de consolidar | PulseReport debe reducir fricción operativa y centralizar datos. |
-| Riesgo principal | Omisión o registro tardío | Decisión con información incompleta | Se requiere trazabilidad y visualización resumida. |
-| Necesidad dominante | Registro rápido y comunicación estructurada | Acceso rápido a información consolidada | Deben existir vistas adaptadas a cada perfil. |
+| Aspecto                         | Daniela Ríos                                 | Dr. Alejandro Torres                                 | Implicancia para PulseReport                                       |
+|---------------------------------|----------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------|
+| Enfoque principal del recorrido | Registro, monitoreo y comunicación operativa | Consulta, validación y toma de decisiones            | Se requieren flujos diferenciados según rol.                       |
+| Momento más crítico             | Evento clínico y cambio de turno             | Identificación de cambios críticos y decisión médica | El sistema debe priorizar rapidez y claridad en momentos críticos. |
+| Principal fuente de frustración | Exceso de pasos y duplicidad de registros    | Información dispersa y difícil de consolidar         | PulseReport debe reducir fricción operativa y centralizar datos.   |
+| Riesgo principal                | Omisión o registro tardío                    | Decisión con información incompleta                  | Se requiere trazabilidad y visualización resumida.                 |
+| Necesidad dominante             | Registro rápido y comunicación estructurada  | Acceso rápido a información consolidada              | Deben existir vistas adaptadas a cada perfil.                      |
 
 ##### Conclusión del User Journey Mapping
 
@@ -1637,22 +1640,22 @@ El proceso de elaboración consistió en colocar a cada User Persona en el centr
 
 Los Empathy Maps desarrollados corresponden a los dos User Personas del proyecto:
 
-| User Persona | Segmento objetivo | Propósito del Empathy Map |
-| ------------ | ----------------- | ------------------------- |
-| Daniela Ríos | Personal de enfermería cardiovascular | Comprender sus necesidades durante el registro clínico, monitoreo de pacientes y cambio de turno. |
-| Dr. Alejandro Torres | Médico especialista cardiovascular | Comprender sus necesidades durante la consulta, validación e interpretación de información clínica para la toma de decisiones. |
+| User Persona         | Segmento objetivo                     | Propósito del Empathy Map                                                                                                      |
+|----------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Daniela Ríos         | Personal de enfermería cardiovascular | Comprender sus necesidades durante el registro clínico, monitoreo de pacientes y cambio de turno.                              |
+| Dr. Alejandro Torres | Médico especialista cardiovascular    | Comprender sus necesidades durante la consulta, validación e interpretación de información clínica para la toma de decisiones. |
 
 ##### Empathy Map 1 — Daniela Ríos
 
 ###### ¿Con quién estamos empatizando?
 
-| Campo | Información |
-| ----- | ----------- |
-| **User Persona** | Daniela Ríos |
-| **Segmento objetivo** | Personal de enfermería cardiovascular |
-| **Rol** | Enfermera cardiovascular |
-| **Área** | UCI cardiovascular |
-| **Nivel tecnológico** | Intermedio – Alto |
+| Campo                  | Información                                                                                |
+|------------------------|--------------------------------------------------------------------------------------------|
+| **User Persona**       | Daniela Ríos                                                                               |
+| **Segmento objetivo**  | Personal de enfermería cardiovascular                                                      |
+| **Rol**                | Enfermera cardiovascular                                                                   |
+| **Área**               | UCI cardiovascular                                                                         |
+| **Nivel tecnológico**  | Intermedio – Alto                                                                          |
 | **Contexto principal** | Registro clínico, monitoreo de pacientes críticos y comunicación durante cambios de turno. |
 
 Daniela representa al personal de enfermería cardiovascular que trabaja bajo presión operativa constante. Debe monitorear pacientes críticos, administrar medicamentos, registrar información clínica y transferir datos relevantes al siguiente turno sin omitir información importante.
@@ -1685,13 +1688,13 @@ Daniela representa al personal de enfermería cardiovascular que trabaja bajo pr
 
 ###### ¿Con quién estamos empatizando?
 
-| Campo | Información |
-| ----- | ----------- |
-| **User Persona** | Dr. Alejandro Torres |
-| **Segmento objetivo** | Médico especialista cardiovascular |
-| **Rol** | Cardiólogo intensivista |
-| **Área** | UCI cardiovascular |
-| **Nivel tecnológico** | Alto |
+| Campo                  | Información                                                                           |
+|------------------------|---------------------------------------------------------------------------------------|
+| **User Persona**       | Dr. Alejandro Torres                                                                  |
+| **Segmento objetivo**  | Médico especialista cardiovascular                                                    |
+| **Rol**                | Cardiólogo intensivista                                                               |
+| **Área**               | UCI cardiovascular                                                                    |
+| **Nivel tecnológico**  | Alto                                                                                  |
 | **Contexto principal** | Consulta, validación e interpretación de información clínica para toma de decisiones. |
 
 El Dr. Alejandro Torres representa a médicos especialistas que necesitan consultar información crítica del paciente de manera rápida, confiable y trazable. Su principal responsabilidad es interpretar datos clínicos para tomar decisiones oportunas y coordinar acciones con otros profesionales de salud.
@@ -1768,14 +1771,14 @@ En esta tercera etapa se agregaron los actores y sistemas externos que participa
 
 Los principales actores identificados son el personal de enfermería cardiovascular, médicos especialistas cardiovasculares, médicos intensivistas, supervisores clínicos y personal administrativo o institucional. Asimismo, se consideran sistemas externos como sistemas hospitalarios EHR/HIS, registros físicos, hojas de cálculo, monitores biomédicos y canales de comunicación verbal o digital.
 
-| Elemento | Descripción |
-| -------- | ----------- |
-| **Personal de enfermería cardiovascular** | Registra signos vitales, administra medicamentos, reporta eventos clínicos y comunica información durante cambios de turno. |
-| **Médico especialista cardiovascular** | Consulta información clínica, valida evolución del paciente, emite indicaciones y toma decisiones clínicas. |
-| **Supervisor o responsable clínico** | Revisa procesos, continuidad de atención y trazabilidad de eventos relevantes. |
-| **Sistema hospitalario EHR/HIS** | Almacena información clínica general del paciente, aunque puede no estar optimizado para flujos cardiovasculares específicos. |
-| **Registros físicos u hojas de cálculo** | Funcionan como apoyo temporal o sustituto cuando los sistemas digitales son lentos o poco prácticos. |
-| **Monitores biomédicos** | Proveen información fisiológica del paciente, como signos vitales y parámetros cardiovasculares. |
+| Elemento                                  | Descripción                                                                                                                   |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Personal de enfermería cardiovascular** | Registra signos vitales, administra medicamentos, reporta eventos clínicos y comunica información durante cambios de turno.   |
+| **Médico especialista cardiovascular**    | Consulta información clínica, valida evolución del paciente, emite indicaciones y toma decisiones clínicas.                   |
+| **Supervisor o responsable clínico**      | Revisa procesos, continuidad de atención y trazabilidad de eventos relevantes.                                                |
+| **Sistema hospitalario EHR/HIS**          | Almacena información clínica general del paciente, aunque puede no estar optimizado para flujos cardiovasculares específicos. |
+| **Registros físicos u hojas de cálculo**  | Funcionan como apoyo temporal o sustituto cuando los sistemas digitales son lentos o poco prácticos.                          |
+| **Monitores biomédicos**                  | Proveen información fisiológica del paciente, como signos vitales y parámetros cardiovasculares.                              |
 
 <p align="center">
   <img src="assets/chapter-2/Step 3 Add Actors and External Systems — PulseReport1.png" alt="Step 3 Add Actors and External Systems 1">
@@ -1789,13 +1792,13 @@ Los principales actores identificados son el personal de enfermería cardiovascu
 
 En esta cuarta etapa se identificaron los principales problemas y oportunidades asociados al flujo clínico cardiovascular actual. Los problemas representan fricciones, riesgos o limitaciones detectadas durante el proceso As-Is. Las oportunidades permiten reconocer posibles mejoras que PulseReport puede considerar en su propuesta de solución.
 
-| Elemento | Color recomendado | Ejemplo |
-| -------- | ----------------- | ------- |
-| **Eventos de dominio** | Naranja | “Signos vitales registrados” |
-| **Actores** | Amarillo | “Enfermera cardiovascular” |
-| **Sistemas externos** | Azul | “Sistema hospitalario EHR/HIS” |
-| **Problemas / Pain Points** | Rojo o rosado | “Duplicidad de registros” |
-| **Oportunidades** | Verde | “Reducir registro manual” |
+| Elemento                    | Color recomendado | Ejemplo                        |
+|-----------------------------|-------------------|--------------------------------|
+| **Eventos de dominio**      | Naranja           | “Signos vitales registrados”   |
+| **Actores**                 | Amarillo          | “Enfermera cardiovascular”     |
+| **Sistemas externos**       | Azul              | “Sistema hospitalario EHR/HIS” |
+| **Problemas / Pain Points** | Rojo o rosado     | “Duplicidad de registros”      |
+| **Oportunidades**           | Verde             | “Reducir registro manual”      |
 
 Los principales problemas identificados son:
 
@@ -1849,97 +1852,97 @@ Los términos fueron seleccionados considerando los siguientes criterios:
 
 #### Ubiquitous Language — PulseReport
 
-| Term | Equivalent in Spanish | Definition |
-| ---- | --------------------- | ---------- |
-| **Cardiovascular Patient** | Paciente cardiovascular | Paciente que presenta una condición relacionada con el sistema cardiovascular y que requiere monitoreo, seguimiento clínico o intervención especializada. |
-| **Cardiovascular Care Unit** | Unidad de cuidado cardiovascular | Área hospitalaria especializada en la atención, monitoreo y seguimiento de pacientes con condiciones cardiovasculares. |
-| **Clinical Shift** | Turno clínico | Periodo de trabajo asignado al personal de salud durante el cual se realiza atención, monitoreo, registro y seguimiento de pacientes. |
-| **Incoming Shift** | Turno entrante | Equipo de profesionales que inicia su periodo de atención y recibe información clínica del turno anterior. |
-| **Outgoing Shift** | Turno saliente | Equipo de profesionales que finaliza su periodo de atención y entrega información clínica al siguiente equipo. |
-| **Shift Handover** | Traspaso de turno | Proceso mediante el cual el equipo saliente comunica al equipo entrante la información clínica relevante del paciente. |
-| **SBAR Report** | Reporte SBAR | Formato estructurado de comunicación clínica basado en Situación, Antecedentes, Evaluación y Recomendación. |
-| **Situation** | Situación | Primer componente del SBAR que describe el problema actual o motivo principal de comunicación. |
-| **Background** | Antecedentes | Segundo componente del SBAR que resume información previa relevante del paciente. |
-| **Assessment** | Evaluación | Tercer componente del SBAR que describe la valoración actual del paciente. |
-| **Recommendation** | Recomendación | Cuarto componente del SBAR que indica la acción sugerida o siguiente paso clínico. |
-| **Clinical Information** | Información clínica | Conjunto de datos relevantes sobre el estado del paciente, evolución, signos vitales, medicamentos, indicaciones, eventos y observaciones. |
-| **Clinical Record** | Registro clínico | Documentación formal de información relevante del paciente durante la atención médica o de enfermería. |
-| **Nursing Record** | Registro de enfermería | Registro elaborado por el personal de enfermería sobre cuidados, signos vitales, medicamentos, eventos y observaciones del paciente. |
-| **Physical Record** | Registro físico | Documento en papel utilizado para anotar información clínica, usualmente como respaldo o apoyo temporal. |
-| **Digital Record** | Registro digital | Información clínica registrada en un sistema informático hospitalario. |
-| **Duplicate Record** | Registro duplicado | Información registrada en más de un medio, como papel y sistema digital, generando doble trabajo o riesgo de inconsistencia. |
-| **Pending Documentation** | Documentación pendiente | Información clínica que aún no ha sido registrada formalmente en el sistema correspondiente. |
-| **Information Regularization** | Regularización de información | Proceso de completar o actualizar registros clínicos que quedaron pendientes durante el turno. |
-| **Patient Status** | Estado del paciente | Condición clínica actual del paciente, considerando signos vitales, evolución, síntomas, riesgos y respuesta al tratamiento. |
-| **Vital Signs** | Signos vitales | Indicadores fisiológicos básicos del paciente, como frecuencia cardíaca, presión arterial, frecuencia respiratoria, temperatura y saturación de oxígeno. |
-| **Cardiac Monitoring** | Monitoreo cardíaco | Observación continua o periódica de parámetros cardiovasculares para detectar cambios relevantes en el estado del paciente. |
-| **Patient Monitoring** | Monitoreo del paciente | Observación sistemática del estado del paciente para detectar cambios o riesgos clínicos. |
-| **Clinical Evolution** | Evolución clínica | Secuencia de cambios observados en el estado del paciente durante un periodo determinado. |
-| **Recent Evolution** | Evolución reciente | Cambios clínicos ocurridos en un periodo cercano al momento de consulta o evaluación médica. |
-| **Clinical Event** | Evento clínico | Situación relevante ocurrida durante la atención del paciente que debe ser registrada, comunicada o evaluada. |
-| **Relevant Clinical Event** | Evento clínico relevante | Evento que puede afectar la evolución del paciente o requerir una acción clínica, comunicación inmediata o seguimiento posterior. |
-| **Critical Change** | Cambio crítico | Variación significativa en el estado del paciente que puede requerir atención inmediata o decisión médica urgente. |
-| **Clinical Deterioration** | Deterioro clínico | Empeoramiento del estado del paciente evidenciado por signos vitales, síntomas, evolución o respuesta al tratamiento. |
-| **Clinical Alert** | Alerta clínica | Aviso relacionado con un cambio, riesgo o evento relevante en el estado del paciente. |
-| **Medical Indication** | Indicación médica | Orden emitida por el médico para realizar una acción clínica, administrar un medicamento, solicitar seguimiento o modificar un tratamiento. |
-| **Updated Indication** | Indicación actualizada | Indicación médica modificada o añadida luego de una nueva evaluación clínica. |
-| **Pending Indication** | Indicación pendiente | Indicación médica que aún no ha sido ejecutada o cuyo cumplimiento no ha sido confirmado. |
-| **Indication Compliance** | Cumplimiento de indicación | Confirmación de que una indicación médica fue ejecutada correctamente. |
-| **Medication Administration** | Administración de medicamento | Acción de suministrar un medicamento al paciente según la indicación médica correspondiente. |
-| **Medication Record** | Registro de medicación | Constancia del medicamento administrado, incluyendo horario, dosis, responsable y observaciones relevantes. |
-| **Clinical Traceability** | Trazabilidad clínica | Capacidad de identificar qué ocurrió, cuándo ocurrió, quién registró la información y qué cambios se realizaron. |
-| **Event Traceability** | Trazabilidad de eventos | Seguimiento de los eventos clínicos relevantes ocurridos durante la atención del paciente. |
-| **Responsible Staff** | Responsable clínico | Profesional de salud que ejecuta, registra o valida una acción clínica. |
-| **Clinical Validation** | Validación clínica | Confirmación de que la información registrada o comunicada es correcta y útil para la toma de decisiones. |
-| **Clinical Decision** | Decisión clínica | Determinación tomada por un profesional de salud respecto al diagnóstico, tratamiento, seguimiento o intervención del paciente. |
-| **Clinical Follow-up** | Seguimiento clínico | Observación y evaluación continua del paciente después de una indicación, evento o intervención médica. |
-| **Clinical Communication** | Comunicación clínica | Intercambio de información relevante entre profesionales de salud para coordinar la atención del paciente. |
-| **Verbal Communication** | Comunicación verbal | Transmisión oral de información clínica entre profesionales de salud. |
-| **Structured Communication** | Comunicación estructurada | Comunicación organizada bajo un formato definido para reducir ambigüedad y omisiones. |
-| **Clinical Summary** | Resumen clínico | Síntesis de información relevante del paciente para facilitar comprensión rápida del caso. |
-| **Patient Handover Summary** | Resumen de traspaso del paciente | Información organizada que se entrega al siguiente turno para asegurar continuidad de atención. |
-| **Continuity of Care** | Continuidad de atención | Mantenimiento coherente y seguro del cuidado del paciente entre turnos, profesionales y etapas clínicas. |
-| **Care Coordination** | Coordinación de atención | Organización de acciones clínicas entre médicos, enfermería y otros profesionales de salud. |
-| **Clinical Workload** | Carga clínica | Cantidad de tareas asistenciales, administrativas y de registro que debe realizar el personal de salud. |
-| **Operational Burden** | Carga operativa | Esfuerzo adicional generado por procesos manuales, duplicidad de registros o sistemas complejos. |
-| **Clinical Risk** | Riesgo clínico | Posibilidad de que una omisión, retraso, error o falta de información afecte la seguridad del paciente. |
-| **Omission** | Omisión | Información o acción clínica que no fue registrada, comunicada o ejecutada oportunamente. |
-| **Delayed Record** | Registro tardío | Registro realizado después del momento en que ocurrió la acción o evento clínico. |
-| **Information Fragmentation** | Fragmentación de información | Situación en la que la información clínica se encuentra distribuida en múltiples fuentes, dificultando su consulta completa. |
-| **Biomedical Monitor** | Monitor biomédico | Equipo médico que mide y muestra variables fisiológicas del paciente, como signos vitales o parámetros cardiovasculares. |
-| **Hospital Information System** | Sistema de información hospitalaria | Plataforma utilizada por la institución para registrar, consultar y administrar información clínica y hospitalaria. |
-| **Clinical Dashboard** | Panel clínico | Vista organizada de información clínica relevante para facilitar interpretación rápida del estado del paciente. |
+| Term                            | Equivalent in Spanish               | Definition                                                                                                                                                |
+|---------------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Cardiovascular Patient**      | Paciente cardiovascular             | Paciente que presenta una condición relacionada con el sistema cardiovascular y que requiere monitoreo, seguimiento clínico o intervención especializada. |
+| **Cardiovascular Care Unit**    | Unidad de cuidado cardiovascular    | Área hospitalaria especializada en la atención, monitoreo y seguimiento de pacientes con condiciones cardiovasculares.                                    |
+| **Clinical Shift**              | Turno clínico                       | Periodo de trabajo asignado al personal de salud durante el cual se realiza atención, monitoreo, registro y seguimiento de pacientes.                     |
+| **Incoming Shift**              | Turno entrante                      | Equipo de profesionales que inicia su periodo de atención y recibe información clínica del turno anterior.                                                |
+| **Outgoing Shift**              | Turno saliente                      | Equipo de profesionales que finaliza su periodo de atención y entrega información clínica al siguiente equipo.                                            |
+| **Shift Handover**              | Traspaso de turno                   | Proceso mediante el cual el equipo saliente comunica al equipo entrante la información clínica relevante del paciente.                                    |
+| **SBAR Report**                 | Reporte SBAR                        | Formato estructurado de comunicación clínica basado en Situación, Antecedentes, Evaluación y Recomendación.                                               |
+| **Situation**                   | Situación                           | Primer componente del SBAR que describe el problema actual o motivo principal de comunicación.                                                            |
+| **Background**                  | Antecedentes                        | Segundo componente del SBAR que resume información previa relevante del paciente.                                                                         |
+| **Assessment**                  | Evaluación                          | Tercer componente del SBAR que describe la valoración actual del paciente.                                                                                |
+| **Recommendation**              | Recomendación                       | Cuarto componente del SBAR que indica la acción sugerida o siguiente paso clínico.                                                                        |
+| **Clinical Information**        | Información clínica                 | Conjunto de datos relevantes sobre el estado del paciente, evolución, signos vitales, medicamentos, indicaciones, eventos y observaciones.                |
+| **Clinical Record**             | Registro clínico                    | Documentación formal de información relevante del paciente durante la atención médica o de enfermería.                                                    |
+| **Nursing Record**              | Registro de enfermería              | Registro elaborado por el personal de enfermería sobre cuidados, signos vitales, medicamentos, eventos y observaciones del paciente.                      |
+| **Physical Record**             | Registro físico                     | Documento en papel utilizado para anotar información clínica, usualmente como respaldo o apoyo temporal.                                                  |
+| **Digital Record**              | Registro digital                    | Información clínica registrada en un sistema informático hospitalario.                                                                                    |
+| **Duplicate Record**            | Registro duplicado                  | Información registrada en más de un medio, como papel y sistema digital, generando doble trabajo o riesgo de inconsistencia.                              |
+| **Pending Documentation**       | Documentación pendiente             | Información clínica que aún no ha sido registrada formalmente en el sistema correspondiente.                                                              |
+| **Information Regularization**  | Regularización de información       | Proceso de completar o actualizar registros clínicos que quedaron pendientes durante el turno.                                                            |
+| **Patient Status**              | Estado del paciente                 | Condición clínica actual del paciente, considerando signos vitales, evolución, síntomas, riesgos y respuesta al tratamiento.                              |
+| **Vital Signs**                 | Signos vitales                      | Indicadores fisiológicos básicos del paciente, como frecuencia cardíaca, presión arterial, frecuencia respiratoria, temperatura y saturación de oxígeno.  |
+| **Cardiac Monitoring**          | Monitoreo cardíaco                  | Observación continua o periódica de parámetros cardiovasculares para detectar cambios relevantes en el estado del paciente.                               |
+| **Patient Monitoring**          | Monitoreo del paciente              | Observación sistemática del estado del paciente para detectar cambios o riesgos clínicos.                                                                 |
+| **Clinical Evolution**          | Evolución clínica                   | Secuencia de cambios observados en el estado del paciente durante un periodo determinado.                                                                 |
+| **Recent Evolution**            | Evolución reciente                  | Cambios clínicos ocurridos en un periodo cercano al momento de consulta o evaluación médica.                                                              |
+| **Clinical Event**              | Evento clínico                      | Situación relevante ocurrida durante la atención del paciente que debe ser registrada, comunicada o evaluada.                                             |
+| **Relevant Clinical Event**     | Evento clínico relevante            | Evento que puede afectar la evolución del paciente o requerir una acción clínica, comunicación inmediata o seguimiento posterior.                         |
+| **Critical Change**             | Cambio crítico                      | Variación significativa en el estado del paciente que puede requerir atención inmediata o decisión médica urgente.                                        |
+| **Clinical Deterioration**      | Deterioro clínico                   | Empeoramiento del estado del paciente evidenciado por signos vitales, síntomas, evolución o respuesta al tratamiento.                                     |
+| **Clinical Alert**              | Alerta clínica                      | Aviso relacionado con un cambio, riesgo o evento relevante en el estado del paciente.                                                                     |
+| **Medical Indication**          | Indicación médica                   | Orden emitida por el médico para realizar una acción clínica, administrar un medicamento, solicitar seguimiento o modificar un tratamiento.               |
+| **Updated Indication**          | Indicación actualizada              | Indicación médica modificada o añadida luego de una nueva evaluación clínica.                                                                             |
+| **Pending Indication**          | Indicación pendiente                | Indicación médica que aún no ha sido ejecutada o cuyo cumplimiento no ha sido confirmado.                                                                 |
+| **Indication Compliance**       | Cumplimiento de indicación          | Confirmación de que una indicación médica fue ejecutada correctamente.                                                                                    |
+| **Medication Administration**   | Administración de medicamento       | Acción de suministrar un medicamento al paciente según la indicación médica correspondiente.                                                              |
+| **Medication Record**           | Registro de medicación              | Constancia del medicamento administrado, incluyendo horario, dosis, responsable y observaciones relevantes.                                               |
+| **Clinical Traceability**       | Trazabilidad clínica                | Capacidad de identificar qué ocurrió, cuándo ocurrió, quién registró la información y qué cambios se realizaron.                                          |
+| **Event Traceability**          | Trazabilidad de eventos             | Seguimiento de los eventos clínicos relevantes ocurridos durante la atención del paciente.                                                                |
+| **Responsible Staff**           | Responsable clínico                 | Profesional de salud que ejecuta, registra o valida una acción clínica.                                                                                   |
+| **Clinical Validation**         | Validación clínica                  | Confirmación de que la información registrada o comunicada es correcta y útil para la toma de decisiones.                                                 |
+| **Clinical Decision**           | Decisión clínica                    | Determinación tomada por un profesional de salud respecto al diagnóstico, tratamiento, seguimiento o intervención del paciente.                           |
+| **Clinical Follow-up**          | Seguimiento clínico                 | Observación y evaluación continua del paciente después de una indicación, evento o intervención médica.                                                   |
+| **Clinical Communication**      | Comunicación clínica                | Intercambio de información relevante entre profesionales de salud para coordinar la atención del paciente.                                                |
+| **Verbal Communication**        | Comunicación verbal                 | Transmisión oral de información clínica entre profesionales de salud.                                                                                     |
+| **Structured Communication**    | Comunicación estructurada           | Comunicación organizada bajo un formato definido para reducir ambigüedad y omisiones.                                                                     |
+| **Clinical Summary**            | Resumen clínico                     | Síntesis de información relevante del paciente para facilitar comprensión rápida del caso.                                                                |
+| **Patient Handover Summary**    | Resumen de traspaso del paciente    | Información organizada que se entrega al siguiente turno para asegurar continuidad de atención.                                                           |
+| **Continuity of Care**          | Continuidad de atención             | Mantenimiento coherente y seguro del cuidado del paciente entre turnos, profesionales y etapas clínicas.                                                  |
+| **Care Coordination**           | Coordinación de atención            | Organización de acciones clínicas entre médicos, enfermería y otros profesionales de salud.                                                               |
+| **Clinical Workload**           | Carga clínica                       | Cantidad de tareas asistenciales, administrativas y de registro que debe realizar el personal de salud.                                                   |
+| **Operational Burden**          | Carga operativa                     | Esfuerzo adicional generado por procesos manuales, duplicidad de registros o sistemas complejos.                                                          |
+| **Clinical Risk**               | Riesgo clínico                      | Posibilidad de que una omisión, retraso, error o falta de información afecte la seguridad del paciente.                                                   |
+| **Omission**                    | Omisión                             | Información o acción clínica que no fue registrada, comunicada o ejecutada oportunamente.                                                                 |
+| **Delayed Record**              | Registro tardío                     | Registro realizado después del momento en que ocurrió la acción o evento clínico.                                                                         |
+| **Information Fragmentation**   | Fragmentación de información        | Situación en la que la información clínica se encuentra distribuida en múltiples fuentes, dificultando su consulta completa.                              |
+| **Biomedical Monitor**          | Monitor biomédico                   | Equipo médico que mide y muestra variables fisiológicas del paciente, como signos vitales o parámetros cardiovasculares.                                  |
+| **Hospital Information System** | Sistema de información hospitalaria | Plataforma utilizada por la institución para registrar, consultar y administrar información clínica y hospitalaria.                                       |
+| **Clinical Dashboard**          | Panel clínico                       | Vista organizada de información clínica relevante para facilitar interpretación rápida del estado del paciente.                                           |
 
 #### Términos priorizados del dominio
 
 Aunque el glosario incluye diversos conceptos del entorno clínico cardiovascular, algunos términos son especialmente importantes para PulseReport porque se relacionan directamente con la propuesta de valor del producto.
 
-| Term | Reason for prioritization |
-| ---- | ------------------------- |
-| **Shift Handover** | Representa uno de los momentos críticos donde puede perderse información clínica durante el cambio de turno. |
-| **SBAR Report** | Es la estructura principal propuesta para mejorar la comunicación clínica entre turnos. |
-| **Clinical Traceability** | Permite conocer qué ocurrió, cuándo ocurrió y quién registró una acción clínica. |
-| **Relevant Clinical Event** | Permite identificar situaciones que deben registrarse y comunicarse oportunamente. |
-| **Vital Signs** | Constituyen información esencial para monitorear el estado cardiovascular del paciente. |
-| **Medical Indication** | Conecta la decisión médica con la ejecución operativa del personal de enfermería. |
-| **Indication Compliance** | Permite verificar si una orden clínica fue ejecutada correctamente. |
-| **Clinical Evolution** | Es necesaria para comprender el estado actual y reciente del paciente. |
-| **Information Fragmentation** | Representa uno de los principales problemas identificados en entrevistas. |
-| **Continuity of Care** | Representa el resultado esperado de una mejor comunicación, trazabilidad y organización clínica. |
+| Term                          | Reason for prioritization                                                                                    |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Shift Handover**            | Representa uno de los momentos críticos donde puede perderse información clínica durante el cambio de turno. |
+| **SBAR Report**               | Es la estructura principal propuesta para mejorar la comunicación clínica entre turnos.                      |
+| **Clinical Traceability**     | Permite conocer qué ocurrió, cuándo ocurrió y quién registró una acción clínica.                             |
+| **Relevant Clinical Event**   | Permite identificar situaciones que deben registrarse y comunicarse oportunamente.                           |
+| **Vital Signs**               | Constituyen información esencial para monitorear el estado cardiovascular del paciente.                      |
+| **Medical Indication**        | Conecta la decisión médica con la ejecución operativa del personal de enfermería.                            |
+| **Indication Compliance**     | Permite verificar si una orden clínica fue ejecutada correctamente.                                          |
+| **Clinical Evolution**        | Es necesaria para comprender el estado actual y reciente del paciente.                                       |
+| **Information Fragmentation** | Representa uno de los principales problemas identificados en entrevistas.                                    |
+| **Continuity of Care**        | Representa el resultado esperado de una mejor comunicación, trazabilidad y organización clínica.             |
 
 #### Relación del Ubiquitous Language con el diseño del producto
 
 El Ubiquitous Language se conecta con otros artefactos del proyecto de la siguiente manera:
 
-| Artefacto | Relación con el Ubiquitous Language |
-| --------- | ----------------------------------- |
-| **Entrevistas** | Permiten identificar términos utilizados por usuarios o relacionados con sus problemas reales. |
-| **User Personas** | Ayudan a asociar términos del dominio con necesidades específicas de cada segmento objetivo. |
-| **User Task Matrix** | Permite relacionar términos con tareas reales realizadas por los usuarios. |
-| **User Journey Mapping** | Ubica los términos dentro del flujo As-Is del usuario. |
-| **Big Picture Event Storming** | Usa los términos para describir eventos, actores, problemas y oportunidades del dominio. |
-| **User Stories** | Convierte términos del dominio en necesidades funcionales comprensibles para el equipo. |
-| **Software Architecture** | Permite definir bounded contexts y responsabilidades con lenguaje consistente. |
+| Artefacto                      | Relación con el Ubiquitous Language                                                            |
+|--------------------------------|------------------------------------------------------------------------------------------------|
+| **Entrevistas**                | Permiten identificar términos utilizados por usuarios o relacionados con sus problemas reales. |
+| **User Personas**              | Ayudan a asociar términos del dominio con necesidades específicas de cada segmento objetivo.   |
+| **User Task Matrix**           | Permite relacionar términos con tareas reales realizadas por los usuarios.                     |
+| **User Journey Mapping**       | Ubica los términos dentro del flujo As-Is del usuario.                                         |
+| **Big Picture Event Storming** | Usa los términos para describir eventos, actores, problemas y oportunidades del dominio.       |
+| **User Stories**               | Convierte términos del dominio en necesidades funcionales comprensibles para el equipo.        |
+| **Software Architecture**      | Permite definir bounded contexts y responsabilidades con lenguaje consistente.                 |
 
 #### Conclusión del Ubiquitous Language
 
@@ -2000,14 +2003,14 @@ Cuadro de Epics, User Stories y Technical Stories
 
 #### Resumen de Epics, User Stories y Technical Stories
 
-| Epic ID | Bloque | Historias relacionadas | Propósito |
-| ------- | ------ | ---------------------- | --------- |
-| **EP-01** | Landing Page informativa | US-01 a US-12 | Comunicar la propuesta de valor de PulseReport, explicar el problema, presentar beneficios, generar confianza y facilitar contacto con visitantes interesados. |
-| **EP-02** | Gestión de traspaso clínico SBAR | US-13 a US-15 | Estructurar la comunicación clínica durante cambios de turno mediante el modelo SBAR. |
-| **EP-03** | Registro y seguimiento clínico del paciente | US-16 a US-19 | Registrar información clínica relevante como signos vitales, administración de medicamentos y eventos clínicos. |
-| **EP-04** | Trazabilidad clínica | US-20 a US-22 | Consultar historial, responsables y cumplimiento de indicaciones para fortalecer seguimiento, auditoría y continuidad clínica. |
-| **EP-05** | Soporte a la toma de decisiones clínicas | US-23 a US-25 | Facilitar consulta de información consolidada, identificación de cambios críticos y validación de información con enfermería. |
-| **EP-06** | RESTful API de PulseReport | TS-01 a TS-06 | Implementar recursos técnicos del backend necesarios para exponer pacientes, registros clínicos, traspasos, trazabilidad, autenticación y manejo de errores. |
+| Epic ID   | Bloque                                      | Historias relacionadas | Propósito                                                                                                                                                      |
+|-----------|---------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **EP-01** | Landing Page informativa                    | US-01 a US-12          | Comunicar la propuesta de valor de PulseReport, explicar el problema, presentar beneficios, generar confianza y facilitar contacto con visitantes interesados. |
+| **EP-02** | Gestión de traspaso clínico SBAR            | US-13 a US-15          | Estructurar la comunicación clínica durante cambios de turno mediante el modelo SBAR.                                                                          |
+| **EP-03** | Registro y seguimiento clínico del paciente | US-16 a US-19          | Registrar información clínica relevante como signos vitales, administración de medicamentos y eventos clínicos.                                                |
+| **EP-04** | Trazabilidad clínica                        | US-20 a US-22          | Consultar historial, responsables y cumplimiento de indicaciones para fortalecer seguimiento, auditoría y continuidad clínica.                                 |
+| **EP-05** | Soporte a la toma de decisiones clínicas    | US-23 a US-25          | Facilitar consulta de información consolidada, identificación de cambios críticos y validación de información con enfermería.                                  |
+| **EP-06** | RESTful API de PulseReport                  | TS-01 a TS-06          | Implementar recursos técnicos del backend necesarios para exponer pacientes, registros clínicos, traspasos, trazabilidad, autenticación y manejo de errores.   |
 
 La distribución de Epics, User Stories y Technical Stories permite mantener trazabilidad entre la investigación de usuarios, los Business Goals, el Impact Mapping, el Product Backlog y las funcionalidades implementadas en los sprints del proyecto.
 
