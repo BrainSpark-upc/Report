@@ -906,7 +906,7 @@ Los competidores seleccionados son:
 El objetivo de este análisis competitivo es comparar a PulseReport frente a competidores directos e indirectos relacionados con la gestión clínica, monitoreo hospitalario y registro de información médica. Para ello, se evalúan aspectos de perfil, marketing, producto, costos, canales de distribución y análisis SWOT.
 
 **Pregunta guía del análisis:**  
-¿Cómo puede PulseReport diferenciarse de las soluciones actuales de gestión clínica y monitoreo hospitalario para satisfacer de manera más eficiente las necesidades operativas y de comunicación del personal de enfermería cardiovascular?
+¿Cómo puede PulseReport diferenciarse de las soluciones actuales de gestión clínica y monitoreo para satisfacer de manera más eficiente las necesidades operativas y de comunicación del personal médico cardiovascular?
 
 | Perfil | Criterio | PulseReport | Epic Electronic Health Record | Oracle Health EHR | MEDITECH Expanse | Excel / Registros Clínicos |
 |---|---|---|---|---|---|---|
@@ -1108,6 +1108,36 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
   </tr>
 </table>
 
+###### Entrevista 2 — Silvia León
+
+<table border="1">
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Silvia León<br>
+      <b>Edad:</b> 52 años<br>
+      <b>Distrito:</b> Jesus María<br>
+      <b>Ocupación:</b> Enfermera intensivista cardiovascular pediátrica<br>
+      <b>Timing:</b> 00:30 - 20:25<br>
+      <b>Duración:</b> 20:37
+    </td>
+    <td align="center">
+      <img src="assets/chapter-2/interview-n2.png" alt="Entrevista Silvia León" width="80%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Enlace:</b>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQBdvt-iNKPxSZQx1f7ZS8CyAYZ8WD_d_TT-VZfquEspVO8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qMurqv">Link</a>
+      <br><br>
+      <b>Resumen:</b> Silvia leon, enfermera intensivista cardiovascular pediátrica con 25 años de experiencia en procesos clínicos cardiovasculares, comentó que uno de los principales problemas dentro del entorno hospitalario es la dificultad para acceder rápidamente a información clínica relevante debido a que esta se encuentra distribuida entre múltiples sistemas y registros. Resalto que desería no perder mucho tiempo y que ya es hora de una modernización tecnologica en su campo laboral por el bien de los pacientes.
+      <br><br>
+      Asimismo, señaló que los sistemas actuales están muy orientados a un registro manual con papel y lapicero, y no están optimizados para la rapidez operativa requerida durante los cambios de turno. También destacó la importancia de mejorar la comunicación entre equipos médicos y garantizar trazabilidad clara de la información clínica.
+      <br><br>
+      Finalmente, indicó que una solución tecnologica en dispositivos como computadoras o tablets mejorarían significativamente la eficiencia operativa dentro del área cardiovascular, incluso para trabajos de investigación.
+    </td>
+  </tr>
+</table>
+
 ##### Segmento objetivo 2: Médicos especialistas cardiovasculares y profesionales médicos relacionados
 
 ###### Entrevista 1 — Luis Mendoza
@@ -1140,37 +1170,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
   </tr>
 </table>
 
-###### Entrevista 2 — Jorge Ramírez
-
-<table border="1">
-  <tr>
-    <td>
-      <b>Nombres y apellidos:</b> Jorge Ramírez<br>
-      <b>Edad:</b> 33 años<br>
-      <b>Distrito:</b> Santiago de Surco<br>
-      <b>Ocupación:</b> Cirujano cardiovascular<br>
-      <b>Timing:</b> 25:35 - 34:05<br>
-      <b>Duración:</b> 08:30
-    </td>
-    <td align="center">
-      <img src="assets/chapter-2/ENTREVISTA3.png" alt="Entrevista Jorge Ramírez" width="80%">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Enlace:</b>
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217893_upc_edu_pe/IQDR_SdJ70vjR7DzCrIjJTj3AcYw3zJJ9isFESxUbn2yjmk?e=kAZghE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link</a>
-      <br><br>
-      <b>Resumen:</b> Jorge Ramírez, cirujano cardiovascular con experiencia en procesos clínicos cardiovasculares, comentó que uno de los principales problemas dentro del entorno hospitalario es la dificultad para acceder rápidamente a información clínica relevante debido a que esta se encuentra distribuida entre múltiples sistemas y registros.
-      <br><br>
-      Asimismo, señaló que los sistemas actuales poseen demasiada orientación administrativa y no están optimizados para la rapidez operativa requerida en cirugía cardiovascular. También destacó la importancia de mejorar la comunicación entre equipos médicos y garantizar trazabilidad clara de la información clínica.
-      <br><br>
-      Finalmente, indicó que una solución con dashboards resumidos, alertas visuales y acceso rápido a datos críticos podría mejorar significativamente la eficiencia operativa dentro del área cardiovascular.
-    </td>
-  </tr>
-</table>
-
-###### Entrevista 3 — Renato Paredes
+###### Entrevista 2 — Renato Paredes
 
 <table border="1">
   <tr>
@@ -1200,7 +1200,7 @@ Las entrevistas fueron registradas en video y se organizaron según el segmento 
   </tr>
 </table>
 
-###### Entrevista 4 — Mark Alex Esquivel Cabrera
+###### Entrevista 3 — Mark Alex Esquivel Cabrera
 
 <table border="1">
   <tr>
@@ -1238,11 +1238,11 @@ Para evitar inconsistencias, esta versión del análisis considera únicamente l
 
 ##### Resumen de entrevistas analizadas
 
-| Segmento                                                                    | Entrevistas analizadas                                                  | Cantidad |
-|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|----------|
-| Personal de enfermería cardiovascular                                       | Andrea Salazar                                                          | 1        |
-| Médicos especialistas cardiovasculares y profesionales médicos relacionados | Luis Mendoza, Jorge Ramírez, Renato Paredes, Mark Alex Esquivel Cabrera | 4        |
-| **Total**                                                                   | —                                                                       | **5**    |
+| Segmento                                                                    | Entrevistas analizadas                                   | Cantidad |
+|-----------------------------------------------------------------------------|----------------------------------------------------------|----------|
+| Personal de enfermería cardiovascular                                       | Andrea Salazar, Silvia León                              | 2        |
+| Médicos especialistas cardiovasculares y profesionales médicos relacionados | Luis Mendoza, Renato Paredes, Mark Alex Esquivel Cabrera | 3        |
+| **Total**                                                                   | —                                                        | **5**    |
 
 ##### Segmento objetivo 1: Personal de enfermería cardiovascular
 
@@ -4263,24 +4263,22 @@ Durante el desarrollo se trabajó con ramas por funcionalidad (feature branches)
 
 Durante el Sprint 3, el equipo desarrolló e integró exitosamente el backend de PulseReport, implementando los principales servicios REST 
 necesarios para la gestión de información clínica. Se logró construir una arquitectura robusta basada en Spring Boot, aplicando 
-buenas prácticas de diseño por capas y principios de Domain-Driven Design (DDD).
+buenas prácticas de diseño por capas y principios de Domain-Driven Design (DDD). En este sprint se avanzó en la integración de los bounded 
+contexts vinculados a la gestión clínica cardiovascular.
 
 El sistema permite registrar, consultar y gestionar información crítica del paciente en tiempo real, asegurando trazabilidad, consistencia y escalabilidad del backend.
 
-**Hitos alcanzados:**
-* **Gestión de Signos Vitales**: Registro, consulta por paciente y obtención del último registro clínico.
-* **Gestión de Pacientes**: Creación, consulta y actualización de información de pacientes.
-* **Auditoría del Sistema**: Registro de acciones realizadas para garantizar trazabilidad.
-* **Handover Clínico**: Registro, consulta y confirmación de traspasos entre personal de salud.
-* **Eventos Clinicos Críticos**: Gestión de alertas clínicas (listar, atender y cerrar eventos).
-* **Arquitectura Backend**: Implementación de patrón por capas (Controller, Service, Repository).
-* **Pruebas de API**: Validación completa de endpoints mediante Swagger UI.
+Los principales resultados alcanzados en este sprint fueron los siguientes:
 
----
+- Implementación y validación de los servicios backend para **Patients**, **Vital Signs**, **Audit Logs**, **Handovers** y **Clinical Events**.
+- Exposición de los endpoints mediante Swagger UI para pruebas funcionales y documentación interactiva.
+- Verificación del flujo completo de consulta y registro de datos usando información de muestra.
+- Preparación del backend para su despliegue correspondiente en entorno cloud mediante la plataforma **Railway**.
 
-  ### Evidencia de ejecución de endpoints
+
+A continuación, se presentan las principales vistas implementadas y validadas durante el sprint:
   
-  ### A. Swagger UI Backend
+  ### A. Swagger UI general del Backend
   
   ![Swagger UI](assets/chapter-5/swagger-backend.png)
   
@@ -4327,7 +4325,8 @@ El sistema permite registrar, consultar y gestionar información crítica del pa
   
   *Quinto bounded context con 6 endpoints gestionar alertas clínicas, incluyendo crear, listar, actualizar y cerrar eventos clinico críticos.*
 
-  
+  ### Video de navegación y visualización del Sprint 3
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
