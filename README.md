@@ -4347,7 +4347,6 @@ A continuación, se presentan las principales vistas implementadas y validadas d
   
   *Interfaz Swagger UI donde se encuentran todos los endpoints disponibles del backend de PulseReport para pruebas y validación.*
   
-  ---
   
   ### B. Bounded Context Patients
   
@@ -4355,23 +4354,20 @@ A continuación, se presentan las principales vistas implementadas y validadas d
   
   *Primer bounded context con 5 endpoints permitiendo gestionar pacientes en PulseReport.*
   
-  ---
   
   ### C. Bounded Context Audit Logs
   
   ![Audit Logs](assets/chapter-5/audit-logs-swagger.png)
   
   *Segundo bounded context con 5 endpoints para registrar y gestionar acciones médicas dentro del sistema de PulseReport.*
-  
-  ---
+ 
   
   ### D. Bounded Context Handovers
   
   ![SBAR Handovers](assets/chapter-5/handovers-swagger.png)
   
   *Tercer bounded context con 4 endpoints que gestionan la transferencia de responsabilidades entre turnos.*
-  
-  ---
+
   
   ### E. Bounded Context Vital Signs
   
@@ -4379,8 +4375,7 @@ A continuación, se presentan las principales vistas implementadas y validadas d
   
   *Cuarto bounded context con 5 endpoints que gestionan el registro de signos vitales de pacientes, permitiendo crear, 
   consultar y actualizar mediciones para el monitoreo continuo de la salud.*
-  
-  ---
+
   
   ### F. Bounded Context Alerts
   
@@ -4408,7 +4403,6 @@ Además, se validó la interacción con datos de muestra desde la interfaz Swagg
 
 ### Evidencia de documentación 
 
-![Swagger Endpoints](assets/chapter-5/swagger-endpoints.png)
 
 | Bounded Context |                        Endpoint                        |                            Acción Implementada                             | Verbo HTTP |                                                   Response                                                    |
 |:---------------:|:------------------------------------------------------:|:--------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------------------:|
@@ -4906,53 +4900,11 @@ Los principales resultados alcanzados en este sprint fueron los siguientes:
 - Cierre de los flujos clínicos pendientes: confirmación de traspaso, cumplimiento de indicaciones, resumen clínico con datos reales, alertas críticas y validación médico-enfermería.
 - Publicación de la **versión final del Landing Page** con videos incrustados, CTAs por segmento y redes sociales.
 
-A continuación, se presentan las principales vistas implementadas y validadas durante el sprint:
-
-  ### A. Landing Page final con videos y CTAs por segmento
-
-  ![Landing Final](assets/chapter-5/landing-final.png)
-  <!-- TODO: agregar captura real -->
-
-  *Versión final del Landing Page mostrando la sección de video y los call-to-action vinculados a la Web Application desplegada.*
-
-  ---
-
-  ### B. Registro e inicio de sesión (IAM) integrados
-
-  ![Sign In](assets/chapter-5/sign-in-integrated.png)
-  <!-- TODO: agregar captura real -->
-
-  *Autenticación funcionando de extremo a extremo contra el API en producción, con emisión de token JWT.*
-
-  ---
-
-  ### C. Dashboard clínico con datos reales y alertas críticas
-
-  ![Dashboard Final](assets/chapter-5/dashboard-final.png)
-  <!-- TODO: agregar captura real -->
-
-  *Dashboard clínico consumiendo el Web Service desplegado, mostrando signos vitales recientes y alertas de eventos críticos.*
-
-  ---
-
-  ### D. Confirmación de traspaso y cumplimiento de indicaciones
-
-  ![Handover Acknowledge](assets/chapter-5/handover-acknowledge.png)
-  <!-- TODO: agregar captura real -->
-
-  *Flujo de confirmación de recepción de traspaso y vista de cumplimiento de indicaciones integrados con el API.*
-
-  ### Video de navegación y visualización del Sprint 4
-
-  <!-- TODO: agregar screenshot + URL del video en Microsoft Stream (nomenclatura: upc-pre-202610-1asi0729-NRC-pulsereport-productnavigation-sprint-4) -->
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 4 se completó la documentación OpenAPI del Web Service: cada endpoint incluye la descripción de la operación, sus parámetros, un ejemplo de request y la explicación del response, generada con springdoc-openapi y publicada junto con el despliegue del API en Railway. Asimismo, con la incorporación de IAM, los recursos clínicos quedaron protegidos y requieren un token válido para su consumo.
 
-**Documentación de endpoints (Swagger UI):**
-
-Acceso público: <!-- TODO: URL pública, p. ej. https://pulsereport-api.up.railway.app/swagger-ui/index.html -->
 
 ### Endpoints implementados (versión final v1.0.0)
 
@@ -4991,7 +4943,6 @@ GET /critical-events/patient/{patientId}
 PUT /critical-events/{id}/attend
 PUT /critical-events/{id}/close
 
-<!-- TODO: verificar rutas exactas contra el Swagger real (por ejemplo, si el proyecto usa el prefijo /api/v1) -->
 
 ### Ejemplos de request y response
 
@@ -5040,13 +4991,6 @@ PUT /critical-events/{id}/close
   "path": "/vital-sign-records"
 }
 ```
-
-### Evidencia de documentación en Swagger
-
-![Swagger Final Docs](assets/chapter-5/swagger-final-docs.png)
-<!-- TODO: agregar captura del Swagger UI final mostrando descripciones y ejemplos por endpoint -->
-
-*Documentación OpenAPI publicada mostrando la descripción y los ejemplos de cada operación, organizada por bounded context e incluyendo el esquema de autenticación Bearer.*
 
 ### Características de la documentación
 
