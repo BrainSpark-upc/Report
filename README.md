@@ -4131,84 +4131,6 @@ This will be validated when all endpoints are fully operational, the system is t
   </table>
 </div>
 
-#### 5.2.3.3. Sprint Backlog 3
-
-<div align="center">
-  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
-    <thead>
-      <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">User Story</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Task</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Responsible</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Story Points</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">US-07</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Como enfermero, quiero registrar signos vitales de un paciente para mantener su información actualizada.
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Implementar endpoint POST /vital-sign-records
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">US-08</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Como médico, quiero consultar los signos vitales de un paciente para evaluar su estado de salud.
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Implementar endpoint GET por patientId
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">US-09</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Como usuario, quiero obtener el último registro de signos vitales para acceder rápidamente a la información más reciente.
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Implementar endpoint GET latest/{patientId}
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Mansilla Rivero, Carlos Marcelo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">US-10</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Como equipo, queremos validar el sistema con usuarios reales para obtener retroalimentación.
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Realizar entrevistas de validación
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">US-11</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Como equipo, queremos documentar el sistema para su correcta presentación y evaluación.
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">
-          Elaborar documentación del Sprint 3
-        </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Equipo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">1</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">Done</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
 #### 5.2.3.3 Sprint Backlog 3
 
@@ -4452,7 +4374,6 @@ La documentación de servicios incluyó la definición de rutas, métodos HTTP, 
 Acceso local: http://localhost:8080/swagger-ui.html
 
 
----
 
 ### Endpoints implementados
 
@@ -4483,7 +4404,6 @@ PUT /critical-events/{id}/attend
 PUT /critical-events/{id}/close
 
 
----
 
 ### Evidencia de documentación en Swagger
 
@@ -4491,7 +4411,6 @@ PUT /critical-events/{id}/close
 
 *Documentación de endpoints en Swagger UI mostrando los servicios organizados por bounded context.*
 
----
 
 ### Características de la documentación
 
@@ -4500,7 +4419,6 @@ PUT /critical-events/{id}/close
 * **Separación por módulos**: Endpoints organizados según bounded contexts del sistema.
 * **Validación en tiempo real**: Pruebas funcionales sin necesidad de herramientas externas.
 
----
 
 ### Beneficios obtenidos
 
@@ -4515,7 +4433,6 @@ Durante el Sprint 3, el equipo realizó el despliegue del backend de PulseReport
 
 El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que permitió validar todos los endpoints implementados en tiempo real.
 
----
 
 ### Pasos realizados para el despliegue
 
@@ -4547,7 +4464,6 @@ El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que perm
      - Auditoría de acciones
      - Gestión de eventos críticos
 
----
 
 ### Evidencia del despliegue
 
@@ -4555,13 +4471,11 @@ El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que perm
 
 *Aplicación backend ejecutándose correctamente en entorno local mostrando logs de Spring Boot.*
 
----
 
 ![Swagger Deployment](assets/chapter-5/swagger-deployment.png)
 
 *Swagger UI mostrando los endpoints disponibles tras el despliegue del backend.*
 
----
 
 ### Resultados del despliegue
 
@@ -4571,9 +4485,6 @@ El despliegue se orientó a pruebas funcionales mediante Swagger UI, lo que perm
 * Se validó la integración entre múltiples bounded contexts.
 * El sistema quedó listo para integración con frontend en futuros sprints.
 
----
-
-### Conclusión
 
 El despliegue del backend en entorno local permitió validar el correcto funcionamiento de todos los servicios desarrollados durante el Sprint 3. Esta etapa fue clave para asegurar la estabilidad del sistema y preparar la base para futuras integraciones y despliegues en entornos productivos.
 
@@ -4597,7 +4508,6 @@ Esto permitió avanzar en paralelo y cubrir múltiples funcionalidades en el mis
 
 Los commits reflejan participación activa de todos los integrantes, con múltiples integraciones y releases progresivos (v0.15.0, v0.16.0, v0.17.0), lo que demuestra un flujo de trabajo continuo y bien estructurado.
 
----
 
 ### Principales aprendizajes del equipo
 
@@ -4606,7 +4516,6 @@ Los commits reflejan participación activa de todos los integrantes, con múltip
 * **Comunicación efectiva**: Resolución rápida de problemas mediante coordinación constante.
 * **Buenas prácticas de desarrollo**: Uso de commits descriptivos, separación de responsabilidades y estructura clara del proyecto.
 
----
 
 ### Conclusión
 
