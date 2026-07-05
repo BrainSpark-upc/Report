@@ -180,7 +180,7 @@ Trabajo Final
         - [4.2.4. Searching Systems](#424-searching-systems)
         - [4.2.5. Navigation Systems](#425-navigation-systems)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+        - [4.3.1. Landing Page Wireframes](#431-landing-page-wireframes)
         - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
         - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
@@ -2215,7 +2215,7 @@ Las Technical Stories se ubican después de las historias funcionales principale
 #### 4.1.1. General Style Guidelines
 El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesidad de transmitir profesionalismo, seguridad, claridad y confianza, valores fundamentales en una solución digital orientada al sector salud. La propuesta visual de la landing page busca reflejar una identidad moderna y ordenada, alineada con el propósito del producto: mejorar la comunicación clínica, la trazabilidad de la información y el seguimiento en tiempo real dentro de entornos asistenciales.
 
-- **Colores**: la paleta seleccionada combina azul (#0F3D91), azul intenso (#0F4DB8), turquesa (#14B8A6), blanco (#FFFFFF) y tonos grises suaves (#E5E7EB y #1F2937). El azul transmite confianza, estabilidad y profesionalismo, cualidades importantes en plataformas relacionadas con procesos clínicos. El turquesa refuerza la idea de innovación, accesibilidad y tecnología en salud. Los tonos neutros equilibran la interfaz, mejoran el contraste y favorecen la lectura del contenido.
+- **Colores**: la paleta seleccionada combina azul oscuro (#0F172A), teal oscuro (#0F766E), turquesa (#14B8A6), blanco (#FFFFFF) y tonos grises suaves (#E5E7EB y #1F2937). El azul transmite confianza, estabilidad y profesionalismo, cualidades importantes en plataformas relacionadas con procesos clínicos. El turquesa refuerza la idea de innovación, accesibilidad y tecnología en salud. Los tonos neutros equilibran la interfaz, mejoran el contraste y favorecen la lectura del contenido.
 
 <p align="center">
   <img src="assets/chapter 4/style guidelines/colores.png" alt="colores" style="height:200px;">
@@ -2233,7 +2233,7 @@ El diseño de estilo general de **Care-Labs / PulseReport** responde a la necesi
 <img src="assets/chapter 4/style guidelines/distribucion.png" alt="distribucion" style="height:300px;">
 </p>
 
-- **Lenguaje y tono**: la comunicación es directa, clara y profesional, evitando tecnicismos innecesarios. Los textos de la interfaz emplean un tono formal y accesible para transmitir confianza y facilitar la comprensión de la propuesta de valor tanto a instituciones de salud como a usuarios interesados en la solución. Expresiones como “Solicitar demo”, “Ver cómo funciona” y “Contáctanos” refuerzan un lenguaje orientado a la acción y a la claridad informativa.
+- **Lenguaje y tono**: la comunicación es directa, clara y profesional, evitando tecnicismos innecesarios. Los textos de la interfaz emplean un tono formal y accesible para transmitir confianza y facilitar la comprensión de la propuesta de valor tanto a instituciones de salud como a usuarios interesados en la solución. Expresiones como “Solicitar demo”, “Ver cómo funciona” y “¡Hablemos!” refuerzan un lenguaje orientado a la acción y a la claridad informativa.
 
 <p align="center">
 <img src="assets/chapter 4/style guidelines/lenguaje.png" alt="lenguaje" style="height:300px;">
@@ -2544,9 +2544,9 @@ Se implementará un sistema de navegación que facilite el acceso rápido a las 
   <img src="assets/chapter 4/database-design/navigation-system-structure.png" alt="navigation systems" style="height:300px;">
 </p>
 
-#### 4.3 Landing Page UI Design.
+### 4.3. Landing Page UI Design.
   
-#### 4.3.1 Landing Page Wireframes.
+#### 4.3.1. Landing Page Wireframes.
 
 El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estructura clara y ordenada, diseñada para comunicar la propuesta de valor del producto de forma directa. La página incluye secciones estratégicas como hero section, funcionamiento, características, beneficios, preguntas frecuentes, contacto y llamados a la acción que orientan al usuario durante la navegación.
 
@@ -2589,8 +2589,7 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
   <img src="assets/chapter 4/landing-page-ui-design/footer-wf.png" alt="footer wireframe" width="600">
 </p>
 
-
-#### 4.3.2 Landing Page Mock-up.
+#### 4.3.2. Landing Page Mock-up.
 <p align="center"> <img src="assets/chapter 4/landing-page-ui-design/hero-mu.png" alt="hero mock up" width="600"> </p>
 
 <p align="center"> <img src="assets/chapter 4/landing-page-ui-design/hdiw-mu.png" alt="hdiw mock up" width="600"> </p>
@@ -2605,8 +2604,8 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 <p align="center"> <img src="assets/chapter 4/landing-page-ui-design/footer-mu.png" alt="footer mock up" width="600"> </p>
 
-#### 4.4 Web Applications UX/UI Design.
-#### 4.4.1 Web Application Wireframes.
+### 4.4. Web Applications UX/UI Design.
+#### 4.4.1. Web Applications Wireframes.
 <img src="assets/chapter 4/Web Applications Wireframes/dashboardCarelabs-wf.png" alt="">
 
 <img src="assets/chapter 4/Web Applications Wireframes/monitereoCarelabs-wf.png" alt="">
@@ -2621,7 +2620,7 @@ El wireframe de la landing page de **Care-Labs / PulseReport** presenta una estr
 
 <img src="assets/chapter 4/Web Applications Wireframes/W-Subscription Management-2.png" alt="">
 
-#### 4.4.2 Web Application Wireflow Diagrams.
+#### 4.4.2. Web Applications Wireflow Diagrams.
 
 #### User Goal 1
 Segmento: Personal de enfermería cardiovascular
@@ -2658,7 +2657,7 @@ Explicación: El supervisor ingresa al Dashboard para revisar el estado general.
   <img src="assets/chapter 4/Web Applications Wireframes/flow04-wf.png" alt="Perfil">
 </p>
 
-#### 4.4.2 Web Application Mock-ups.
+#### 4.4.3. Web Applications Mock-ups.
 #### Perfil
 Esta interfaz está dedicada a la gestión de la información personal y profesional del usuario, ya sea personal de enfermería o administrador. Permite la configuración de la cuenta, visualización de roles y administración de credenciales de acceso.
 
@@ -2708,14 +2707,14 @@ Panel de control principal que ofrece una visión panorámica y resumida del ent
   <img src="assets/chapter 4/Web Applications Mock-ups/dashboard.png" alt="Dashboard">
 </p>
 
-#### 4.4.3 Web Applications User Flow Diagrams.
+#### 4.4.4. Web Applications User Flow Diagrams.
 En esta sección se presentan los diagramas de flujo de usuario que detallan la lógica de navegación y los puntos de decisión dentro de Care-Labs. Estos flujos han sido diseñados para garantizar que el personal de enfermería y los administradores cumplan sus objetivos de manera eficiente, integrando rutas principales y alternativas para el manejo de datos críticos.  Los diagramas reflejan la interacción completa del sistema, asegurando la consistencia con los wireflows previos y validando cada paso del proceso clínico, desde el registro de signos vitales hasta la supervisión de alertas en el dashboard.  
 
 <p align="center">
   <img src="assets/chapter 4/software-architecture/user-flow.png" alt="Dashboard">
 </p>
 
-#### 4.5 Web Application Prototyping.
+### 4.5. Web Applications Prototyping.
 
 En esta sección se presentan los prototipos de interfaz web de Care-Labs, desarrollados para simular los principales flujos de interacción de la plataforma en navegador web. Los prototipos fueron diseñados considerando una arquitectura de información organizada por perfiles de usuario: personal de enfermería cardiovascular y administración o supervisión clínica.
 
@@ -2723,8 +2722,8 @@ Las decisiones de interacción se enfocan en facilitar una navegación rápida, 
 
 Los prototipos incluyen interacciones como botones de acción rápida, formularios clínicos especializados, tarjetas de pacientes seleccionables, filtros de búsqueda, indicadores de estado visuales, notificaciones de alertas en tiempo real y transiciones fluidas entre pantallas. Estas decisiones están estrictamente alineadas con los User Flow Diagrams y con las User Stories definidas para Care-Labs.
 
-#### 4.6 Domain-Driven Software Architecture.
-#### 4.6.1 Design-Level Event Storming.
+### 4.6. Domain-Driven Software Architecture.
+#### 4.6.1. Design-Level Event Storming.
 
 
 El Design-Level Event Storming constituye una técnica colaborativa proveniente del marco Lean UX y Domain-Driven Design (DDD) que permite modelar el comportamiento interno de un sistema a nivel de diseño de software. A diferencia del Big Picture Event Storming —orientado a explorar el dominio de negocio de forma amplia—, el nivel de diseño desciende a la granularidad de los comandos, políticas, modelos de lectura y bounded contexts que estructuran la solución técnica.
@@ -2884,7 +2883,7 @@ El Design-Level Event Storming del sistema MonIToRio reveló que el flujo clíni
 
 Esta metodología, alineada con los principios de Lean UX de reducir el desperdicio y validar rápidamente con usuarios reales, garantiza que el diseño de MonIToRio responde a necesidades clínicas concretas y no a supuestos técnicos desconectados de la realidad del servicio.
 
-#### 4.6.2 Software Architecture Context Diagram.
+#### 4.6.2. Software Architecture Context Diagram.
 
 Este diagrama presenta una vista general de la plataforma Care-Labs. En la imagen se identifican sus actores principales y los sistemas externos con los que se comunica directamente:
 
@@ -2892,15 +2891,15 @@ Este diagrama presenta una vista general de la plataforma Care-Labs. En la image
   <img src="assets/chapter 4/software-architecture/Context-diagram.png" alt="Diagrama de Contexto Care-Labs" width="600">
 </p>
 
-#### 4.6.3 Software Architecture Container Diagram.
+#### 4.6.3. Software Architecture Container Diagrams.
 
 Este diagrama de nivel C2 aplica un zoom al sistema para identificar sus contenedores internos. En esta estructura, la aplicación API funciona bajo una arquitectura de monolito.
 
 <p align="center">
-  <img src="assets/hola/chapter%204/software-architecture/Container-diagram.png" alt="Diagrama de Contenedores Care-Labs" width="600">
+  <img src="assets/chapter 4/software-architecture/Container-diagram.png" alt="Diagrama de Contenedores Care-Labs" width="600">
 </p>
 
-#### 4.6.4 Software Architecture Components Diagram.
+#### 4.6.4. Software Architecture Components Diagrams.
 
 El nivel C3 permite explorar a detalle cada uno de los contenedores del sistema. En esta sección, el análisis incluye la estructura de los bounded contexts para representar la arquitectura de forma clara y precisa.
 
@@ -2911,7 +2910,7 @@ La siguiente vista detalla los componentes internos de la aplicación web, donde
 <img src="assets/chapter 4/software-architecture/Components-diagrams.png" alt="Diagrama de Componentes Care-Labs" width="600">
 </p>
 
-### 4.7 Software Object-Oriented Design.
+### 4.7. Software Object-Oriented Design.
 
 
 #### 4.7.1. Class Diagrams
@@ -2936,14 +2935,14 @@ A continuación, se presenta el diagrama general modelado con la herramienta Pla
   <img src="assets/chapter 4/software-architecture/Diagram-class.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
 
-#### 4.8 Database Design.
-#### 4.8.1 Database Diagrams.
+### 4.8. Database Design.
+#### 4.8.1. Database Diagrams.
 
 <p align="center">
   <img src="assets/chapter 4/software-architecture/database.png" alt="UML Class Diagram - Care-Labs" width="100%">
 </p>
 
-### Capítulo V: Product Implementation, Validation & Deployment
+## Capítulo V: Product Implementation, Validation & Deployment
 
 #### 5.1. Software Configuration Management.
 
