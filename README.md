@@ -108,24 +108,23 @@ Durante el ciclo de vida del proyecto, el equipo fue actualizando el informe de 
 
 A continuación, se incluyen capturas de los analíticos de colaboración del repositorio del informe, incluyendo commits por integrante, contribuciones y actividad del repositorio.
 
+Avance 1
 <p align="center">
-  <img src="assets/assets/project-report-collaboration-insights/report-repository-url.png" alt="URL del repositorio del informe" width="700">
+  <img src="assets/assets/chapter-1/insights-1.png" alt="Commits del avance 1" width="700">
 </p>
 
+Trabajo Parcial
 <p align="center">
-  <img src="assets/assets/project-report-collaboration-insights/github-commits-av2.png" alt="Commits realizados para AV2" width="700">
+  <img src="assets/assets/chapter-1/Insights-2.png" alt="Commits del trabajo parcial" width="700">
 </p>
-
+Avance 2
 <p align="center">
-  <img src="assets/assets/project-report-collaboration-insights/github-contributors-av2.png" alt="Contribuciones de integrantes en el informe" width="700">
+  <img src="assets/assets/chapter-1/insights-3.png" alt="Commits del avance 2" width="700">
 </p>
-
+Trabajo Final
+Avance 2
 <p align="center">
-  <img src="assets/assets/project-report-collaboration-insights/github-commits-tb2.png" alt="Commits realizados para TB2" width="700">
-</p>
-
-<p align="center">
-  <img src="assets/assets/project-report-collaboration-insights/github-contributors-tb2.png" alt="Contribuciones de integrantes en TB2" width="700">
+  <img src="assets/assets/chapter-1/insights-4.png" alt="Commits del trabajo final" width="700">
 </p>
 
 <div style="page-break-after: always;"></div>
